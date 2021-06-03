@@ -1,0 +1,64 @@
+
+import 'example.grm' as tk;
+import 'exclamation.grm' as exclamation;
+
+CONTACTS= StringFile['resources/medical_attendant.txt'];
+CONTACTS_REWRITTEN = Optimize[CONTACTS @ tk.TOKENIZER];
+CONTACT_PERSON = " <contact-person> " CONTACTS_REWRITTEN " </contact-person> ";
+
+
+
+FIRST_NAMES = StringFile['resources/names/chinesefirstnames.txt'];
+FIRST_NAMES_REWRITTEN = Optimize[FIRST_NAMES @ tk.TOKENIZER];
+FIRST_NAME = " <first-name>" FIRST_NAMES_REWRITTEN "</first-name> ";
+
+LAST_NAMES = StringFile['resources/names/chineselastnames.txt'];
+LAST_NAMES_REWRITTEN = Optimize[LAST_NAMES @ tk.TOKENIZER];
+LAST_NAME = " <last-name>" LAST_NAMES_REWRITTEN "</last-name> ";
+
+EXCLAMATION = " <exclamation>" exclamation.EXCLAMATION "</exclamation> ";
+
+
+
+export CONTACTPERSONSENT = 	("<O> Can i talk to </O>" CONTACT_PERSON )|
+															("<O> Transfer my call to </O>" CONTACT_PERSON )|
+															("<O> Need to speak to </O>" CONTACT_PERSON )|
+															(EXCLAMATION "<O> Need to speak to </O>" CONTACT_PERSON )|
+															(EXCLAMATION "<O> Transfer my call to  </O>" CONTACT_PERSON )| 														
+															("<O> Transfer my call to </O>" CONTACT_PERSON ) |
+															(CONTACT_PERSON )|
+															("<O> Is there another number for </O>" CONTACT_PERSON "<O> on call </O>") |
+															("<O> Is there another number for </O>" CONTACT_PERSON )|
+															(CONTACT_PERSON "<O> on call </O>") |
+															("<O> Let me talk to </O>" CONTACT_PERSON "<O> on-call </O>") |
+															("<O> Can you call </O>" CONTACT_PERSON )|
+															(CONTACT_PERSON "<O> is not picking up </O>") | 
+															("<O> Get me </O>" CONTACT_PERSON )|
+															("<O> I cannot seem to reach </O>" CONTACT_PERSON) |
+															("<O> I wish to talk to </O>" CONTACT_PERSON )|
+															(EXCLAMATION "<O> Looking for </O>" CONTACT_PERSON )|
+															(EXCLAMATION "<O> Looking for </O>" CONTACT_PERSON "<O> on call </O>") |
+															("<O> Trying to reach </O>" CONTACT_PERSON )|
+															("<O> Are you able to give me the number of </O>" CONTACT_PERSON )|
+															("<O> Give me the number of </O>" CONTACT_PERSON  )|
+															("<O> Connect me to </O>" CONTACT_PERSON )|
+															("<O> Could you connect me to </O>" CONTACT_PERSON )|
+															("<O> Could you connect me to </O>" CONTACT_PERSON "<O> on call </O>") |
+															(EXCLAMATION EXCLAMATION "<O> my name is </O>" FIRST_NAME LAST_NAME "<O> calling for </O>"CONTACT_PERSON )|
+															("<O> Want to speak to </O>" CONTACT_PERSON )|
+															("<O> Is there any way I can speak to </O>" CONTACT_PERSON  )|
+															("<O> So the number of </O>" CONTACT_PERSON )|
+															("<O> The number of the </O>" CONTACT_PERSON )|
+															("<O> Trying to reach </O>" CONTACT_PERSON )|
+															("<O> Put me through </O>" CONTACT_PERSON "<O> on-call </O>") |
+															("<O> Do you have the number of </O>" CONTACT_PERSON )|
+															(EXCLAMATION "<O> Trying to reach </O>" CONTACT_PERSON );
+															
+															
+															
+															
+															
+															
+															
+							
+															

@@ -1,0 +1,49 @@
+import 'numbers.grm' as numbers;
+import 'example.grm' as tk;
+
+export numbers_to_999 = Optimize[numbers.numbers_to_100 | numbers.numbers_101_to_999_dig_by_dig];
+
+ADDRESS_OPEN_TAG = "<Address> ".utf8 ;
+ADDRESS_CLOSE_TAG = "</Address> ".utf8;
+
+export BLOCK = "<Addr-Block> " ("Blk ": "block ") numbers_to_999 " </Addr-Block> ";
+export BUILDING_NO = "<Addr-Building-Number> " numbers_to_999 " </Addr-Building-Number> ";
+
+
+STREETS = StringFile['resources/roads_and_streets.txt'];
+STREET_REWRITTEN = Optimize[STREETS @ tk.TOKENIZER];
+STREET_NAME = "<Addr-Street> " STREET_REWRITTEN " </Addr-Street> ";
+
+
+BUSINESS_NAME = StringFile['resources/venues-filtered.txt'] ;
+BUSINESS_REWRITTEN = Optimize[BUSINESS_NAME @ tk.TOKENIZER];
+
+
+
+BUILDING_NAME = " <Addr-Building-Name> " BUSINESS_REWRITTEN "</Addr-Building-Name> ";
+UNIT_NO = "<Addr-UnitNo> "  ("#" : "hash ") (("B" : "b ") | "") (numbers.units_with_zero | numbers.teens | ("20": "twenty")) (("-" : " " ) | ("-" : " dash " )) numbers.numbers_to_999 " </Addr-UnitNo> ";
+
+
+REGION = StringFile['resources/regions.txt'] ;
+REGION_REWRITTEN = Optimize[REGION @ tk.TOKENIZER];
+
+
+POSTALCODE = "<PostCode> " (("S" : "s ") | ("S" : "singapore post code ") | ("" : ""))  (numbers.units_with_zero_trailing_spaces numbers.units_with_zero_trailing_spaces numbers.units_with_zero_trailing_spaces numbers.units_with_zero_trailing_spaces numbers.units_with_zero_trailing_spaces numbers.units_with_zero_trailing_spaces) " </PostCode> ";
+
+
+#export PUBLIC_HOUSING = (BLOCK | "") STREET_NAME UNIT_NO POSTALCODE ("<Addr-city> Singapore </Addr-city>" | "");
+
+export OFFICE_BUILDING = BUILDING_NO BUILDING_NAME STREET_NAME UNIT_NO POSTALCODE ("<Addr-city> Singapore </Addr-city>" | "");
+
+export CONDOMIUM_RESIDENTIAL = BUILDING_NO STREET_NAME UNIT_NO POSTALCODE ("<Addr-city> Singapore </Addr-city>" | "");
+
+export LANDED_RESIDENTIAL  = (BUILDING_NO | "") STREET_NAME POSTALCODE ("<Addr-city> Singapore </Addr-city>" | "");
+
+export FACILITY = BUILDING_NAME BUILDING_NO STREET_NAME POSTALCODE ("<Addr-city> Singapore </Addr-city>" | "");
+
+
+
+export ADDRESS = (OFFICE_BUILDING | CONDOMIUM_RESIDENTIAL | LANDED_RESIDENTIAL | FACILITY) ;
+#export LOCATION = " <O> i am at </O> " ADDRESS " <O> near </O> " LANDMARKS | " <O> i am at </O> " ADDRESS | " <O> there is a </O> " LANDMARKS " <O> here </O> " | " <O> he was found injured at </O> " ADDRESS | " <O> he was found injured at </O> " LANDMARKS ;
+
+#PUBLIC_HOUSING | 

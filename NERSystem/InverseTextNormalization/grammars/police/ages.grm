@@ -1,0 +1,6 @@
+import 'numbers.grm' as numbers;
+import 'time.grm' as time;
+
+export AGES= Optimize[" <AGE> " ((numbers.units_with_zero | numbers.teens)) time.YEAR " old ".utf8 "</AGE> "];
+
+export AGESEXAMPLE = "<O> i think he looks around </O> " AGES | " <O> i believe her age is </O>" AGES | AGES ;

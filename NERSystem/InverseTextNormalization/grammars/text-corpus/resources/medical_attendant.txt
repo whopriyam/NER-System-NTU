@@ -1,0 +1,108 @@
+paediatrician
+General paediatrician
+General Obstetrician
+General Gynaecologist
+Gynaecologist
+Obstetrician
+General Psychiatrist
+Psychiatrist
+Medical group of specialist
+Surgical group of specialist
+Medical doctor
+Therapist
+Medical doctor
+Medical officer
+Medical resident 
+Clinical officer
+Surgical specialist
+Feldscher
+Dental practitioner
+Dental surgeons
+Oral surgeon
+maxillofacial surgeon
+Stomatologist
+Psychologist
+Cardiologist 
+Gastroenterologist 
+Oncologist
+Immunologist 
+Oto-rhino-laryngologist
+Oto-rhino-Radiologist 
+Radiologist
+Radiotherapist
+Radio-oncologist 
+Microbiologist
+bacteriologist 
+Pathologist
+General surgeon
+Neurological surgeon 
+Plastic surgeon 
+Ophthalmologist
+Pharmacist 
+Orthopaedic
+Cardiac surgeon 
+Thoracic surgeon 
+Vascular surgeon 
+anaesthesiologist
+Urologist 
+Nephrologist
+Ophthalmic surgeon
+Oculoplastic surgeon
+Pediatric surgeon
+Colon and rectal surgeon
+Orthopedic surgeon
+Trauma surgeon
+Urological surgeon
+Vascular surgeon
+Bariatric surgeon
+Podiatric surgeon
+Orthopedic hand surgeon
+Transplant surgeon
+Endocrine surgeon
+Allergist
+Immunologist
+Anesthesiologist
+Critical Care Medicine Specialist
+Dermatologist
+Endocrinologist
+Emergency Medicine Specialist
+Gastroenterologist
+Geriatric Medicine Specialist
+Hematologist
+Hospice and Palliative Medicine Specialist
+Infectious Disease Specialist
+Medical Geneticist
+Nephrologist
+Neurologist
+Podiatrist
+Preventive Medicine Specialists
+Pulmonologists
+Radiologists
+Rheumatologists
+Sleep Medicine Specialists
+Radiographer
+ambulance coordinator
+Mammographer
+night manager
+TSSU
+business office cashier
+eye centre
+GDI
+laboratory client service officer
+ICU MRO
+chef
+AVP operations
+IPS
+Nurse
+Operating Officer
+Administrator
+Counseller
+speech therapist
+Consultant
+respiratory therapist
+Dietician
+healing POD
+consultant 
+anaesthetist 
+Physiotherapist
+midwife 

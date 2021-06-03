@@ -1,0 +1,1 @@
+{"Addr-Building-Number": "#be855e", "Addr-Street": "#bf55f2", "PostCode": "#650ee7", "Addr-Building-Name": "#4b2373", "Addr-UnitNo": "#68c0ed", "Addr-city": "#3c351a", "AGE": "#905d78", "INJURY": "#958a29", "Addr-Block": "#e13fef", "IC": "#715201", "COUNT": "#c4e479"}

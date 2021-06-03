@@ -1,0 +1,18337 @@
+-DOCSTART- O
+
+my O
+number O
+is O
+six B-PHONENO
+five I-PHONENO
+six I-PHONENO
+four I-PHONENO
+eight I-PHONENO
+eight I-PHONENO
+zero I-PHONENO
+eight L-PHONENO
+
+-DOCSTART- O
+
+the O
+ic O
+number O
+is O
+t B-IC
+nine I-IC
+one I-IC
+five I-IC
+seven I-IC
+two I-IC
+two I-IC
+nine I-IC
+r L-IC
+
+-DOCSTART- O
+
+i O
+think O
+he O
+looks O
+around O
+16 B-AGE
+years I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+there O
+are O
+7 B-COUNT
+injured L-COUNT
+13 B-COUNT
+dead L-COUNT
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+okay L-CONDITION
+
+-DOCSTART- O
+
+i O
+think O
+he O
+looks O
+around O
+10 B-AGE
+years I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+he O
+was O
+found O
+injured O
+at O
+
+-DOCSTART- O
+
+on O
+the O
+right B-BODYLOCATION
+liver L-BODYLOCATION
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+okay L-CONDITION
+
+-DOCSTART- O
+
+he O
+is O
+diagnosed O
+ischemic B-INJURY
+heart I-INJURY
+disease L-INJURY
+
+-DOCSTART- O
+
+i O
+am O
+at O
+block B-Addr-Block
+forty L-Addr-Block
+circuit B-Addr-Street
+road L-Addr-Street
+hash B-Addr-UnitNo
+zero I-Addr-UnitNo
+dash I-Addr-UnitNo
+six I-Addr-UnitNo
+hundred I-Addr-UnitNo
+fifty L-Addr-UnitNo
+three B-PostCode
+two I-PostCode
+eight I-PostCode
+four I-PostCode
+three I-PostCode
+nine L-PostCode
+singapore U-Addr-city
+
+-DOCSTART- O
+
+9 B-COUNT
+dead L-COUNT
+and O
+6 B-COUNT
+injured L-COUNT
+
+-DOCSTART- O
+
+15 B-AGE
+years I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+i O
+think O
+he O
+looks O
+around O
+6 B-AGE
+years I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+13 B-AGE
+years I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+12 B-COUNT
+dead L-COUNT
+and O
+13 B-COUNT
+dead L-COUNT
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+is I-CONDITION
+normal L-CONDITION
+
+-DOCSTART- O
+
+he O
+is O
+having O
+embolism U-INJURY
+
+-DOCSTART- O
+
+there O
+is O
+a O
+group B-INJURY
+of I-INJURY
+people I-INJURY
+beat I-INJURY
+up L-INJURY
+
+-DOCSTART- O
+
+on O
+the O
+lower B-BODYLOCATION
+lymph L-BODYLOCATION
+
+-DOCSTART- O
+
+my O
+number O
+is O
+nine B-PHONENO
+seven I-PHONENO
+four I-PHONENO
+two I-PHONENO
+nine I-PHONENO
+seven I-PHONENO
+five I-PHONENO
+seven L-PHONENO
+
+-DOCSTART- O
+
+i O
+think O
+he O
+looks O
+around O
+five B-AGE
+months I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+he O
+was O
+found O
+injured O
+at O
+
+-DOCSTART- O
+
+person O
+has O
+slow B-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+there O
+are O
+1 B-COUNT
+dead L-COUNT
+
+-DOCSTART- O
+
+on O
+the O
+left B-BODYLOCATION
+testes L-BODYLOCATION
+
+-DOCSTART- O
+
+one B-DURATION
+to I-DURATION
+zero I-DURATION
+years L-DURATION
+
+-DOCSTART- O
+
+i O
+think O
+he O
+looks O
+around O
+fifteen B-AGE
+years I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+he O
+is O
+injured O
+on O
+left B-BODYLOCATION
+shin L-BODYLOCATION
+
+-DOCSTART- O
+
+sprains B-INJURY
+and I-INJURY
+other I-INJURY
+injuries L-INJURY
+on O
+upper B-BODYLOCATION
+toenail L-BODYLOCATION
+
+-DOCSTART- O
+
+there O
+is O
+a O
+vehicle B-INJURY
+over I-INJURY
+turn L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+diagnosed O
+with O
+paraplegia U-INJURY
+
+-DOCSTART- O
+
+there O
+is O
+a O
+vehicle B-INJURY
+over I-INJURY
+turn L-INJURY
+
+-DOCSTART- O
+
+6 B-COUNT
+dead L-COUNT
+and O
+7 B-COUNT
+injured L-COUNT
+
+-DOCSTART- O
+
+person O
+is O
+having O
+traumatic B-INJURY
+injuries I-INJURY
+and I-INJURY
+disorders L-INJURY
+
+-DOCSTART- O
+
+person O
+stopped B-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+person O
+can B-STATUS
+respond L-STATUS
+
+-DOCSTART- O
+
+person O
+has O
+quite B-STATUS
+drowsy L-STATUS
+
+-DOCSTART- O
+
+there O
+is O
+a O
+vehicle B-INJURY
+and I-INJURY
+bike I-INJURY
+accident L-INJURY
+
+-DOCSTART- O
+
+patient O
+is O
+diagnosed O
+with O
+anaphylaxis U-INJURY
+
+-DOCSTART- O
+
+i O
+think O
+he O
+looks O
+around O
+thirteen B-AGE
+years I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+person O
+is O
+diagnosed O
+with O
+traumatic B-INJURY
+injuries I-INJURY
+to I-INJURY
+nerves L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+fainted U-STATUS
+
+-DOCSTART- O
+
+patient O
+is O
+having O
+enucleations U-INJURY
+
+-DOCSTART- O
+
+3 B-COUNT
+injured L-COUNT
+and O
+14 B-COUNT
+injured L-COUNT
+
+-DOCSTART- O
+
+person O
+stopped B-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+person O
+is O
+diagnosed O
+with O
+metabolic U-INJURY
+
+-DOCSTART- O
+
+person O
+can B-STATUS
+speak L-STATUS
+
+-DOCSTART- O
+
+this O
+is O
+the O
+7 B-DURATION
+mins L-DURATION
+
+-DOCSTART- O
+
+lightheadedness U-INJURY
+on O
+lower B-BODYLOCATION
+adenoids L-BODYLOCATION
+
+-DOCSTART- O
+
+person O
+cannot B-INJURY
+pee L-INJURY
+
+-DOCSTART- O
+
+he O
+is O
+injured O
+on O
+right B-BODYLOCATION
+vein L-BODYLOCATION
+
+-DOCSTART- O
+
+person O
+has O
+slow B-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+my O
+number O
+is O
+90058978 U-PHONENO
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+is I-CONDITION
+normal L-CONDITION
+
+-DOCSTART- O
+
+six B-COUNT
+injured L-COUNT
+and O
+nine B-COUNT
+dead L-COUNT
+
+-DOCSTART- O
+
+person O
+is O
+having O
+prostration U-INJURY
+
+-DOCSTART- O
+
+person O
+vomit B-INJURY
+blood L-INJURY
+
+-DOCSTART- O
+
+he O
+is O
+injured O
+on O
+left B-BODYLOCATION
+spine L-BODYLOCATION
+
+-DOCSTART- O
+
+there O
+are O
+thirteen B-COUNT
+dead L-COUNT
+four B-COUNT
+injured L-COUNT
+
+-DOCSTART- O
+
+he O
+is O
+injured O
+on O
+right B-BODYLOCATION
+nose L-BODYLOCATION
+
+-DOCSTART- O
+
+the O
+ic O
+number O
+is O
+g7404461p U-IC
+
+-DOCSTART- O
+
+there O
+are O
+seventeen B-COUNT
+dead L-COUNT
+
+-DOCSTART- O
+
+there O
+are O
+17 B-COUNT
+dead L-COUNT
+
+-DOCSTART- O
+
+she O
+is O
+having O
+frostbite U-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+having O
+convulsions U-INJURY
+
+-DOCSTART- O
+
+i O
+believe O
+her O
+age O
+is O
+8 B-AGE
+years I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+person O
+has O
+a B-INJURY
+lot I-INJURY
+of I-INJURY
+bleeding L-INJURY
+
+-DOCSTART- O
+
+person O
+cannot B-CONDITION
+breathe I-CONDITION
+properly L-CONDITION
+
+-DOCSTART- O
+
+i O
+think O
+he O
+looks O
+around O
+eight B-AGE
+years I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+ic O
+number O
+is O
+f B-IC
+eight I-IC
+seven I-IC
+three I-IC
+zero I-IC
+two I-IC
+four I-IC
+nine I-IC
+b L-IC
+
+-DOCSTART- O
+
+i O
+am O
+at O
+two U-Addr-Building-Number
+transit B-Addr-Street
+road L-Addr-Street
+hash B-Addr-UnitNo
+twelve I-Addr-UnitNo
+twenty L-Addr-UnitNo
+zero B-PostCode
+four I-PostCode
+five I-PostCode
+nine I-PostCode
+four I-PostCode
+eight L-PostCode
+singapore U-Addr-city
+near O
+
+-DOCSTART- O
+
+person O
+is O
+finger B-INJURY
+amputated L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+okay L-CONDITION
+
+-DOCSTART- O
+
+patient O
+is O
+diagnosed O
+with O
+caisson B-INJURY
+disease L-INJURY
+
+-DOCSTART- O
+
+hernias B-INJURY
+due I-INJURY
+to I-INJURY
+traumatic I-INJURY
+incidents L-INJURY
+on O
+upper B-BODYLOCATION
+white I-BODYLOCATION
+blood I-BODYLOCATION
+cells L-BODYLOCATION
+
+-DOCSTART- O
+
+multiple B-INJURY
+traumatic I-INJURY
+injuries I-INJURY
+and I-INJURY
+disorders L-INJURY
+on O
+right B-BODYLOCATION
+sole L-BODYLOCATION
+
+-DOCSTART- O
+
+he O
+is O
+diagnosed O
+asphyxiations U-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+no B-STATUS
+movement L-STATUS
+
+-DOCSTART- O
+
+person O
+is O
+having O
+anaphylaxis U-INJURY
+
+-DOCSTART- O
+
+patient O
+is O
+diagnosed O
+with O
+first B-INJURY
+degree I-INJURY
+electrical I-INJURY
+burns L-INJURY
+
+-DOCSTART- O
+
+he O
+is O
+injured O
+on O
+upper B-BODYLOCATION
+ligament L-BODYLOCATION
+
+-DOCSTART- O
+
+there O
+are O
+eighteen B-COUNT
+dead L-COUNT
+and O
+eight B-COUNT
+injured L-COUNT
+
+-DOCSTART- O
+
+i O
+am O
+at O
+19 U-Addr-Building-Number
+joan B-Addr-Street
+road L-Addr-Street
+#4-40 U-Addr-UnitNo
+494640 U-PostCode
+near O
+
+-DOCSTART- O
+
+fourteen B-COUNT
+dead L-COUNT
+and O
+seventeen B-COUNT
+injured L-COUNT
+
+-DOCSTART- O
+
+18 B-AGE
+years I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+he O
+is O
+injured O
+on O
+lower B-BODYLOCATION
+respiratory L-BODYLOCATION
+
+-DOCSTART- O
+
+person O
+is O
+not B-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+patient O
+is O
+having O
+influenza-common U-INJURY
+
+-DOCSTART- O
+
+this O
+is O
+the O
+six B-DURATION
+hours L-DURATION
+
+-DOCSTART- O
+
+person O
+is O
+no B-STATUS
+movement L-STATUS
+
+-DOCSTART- O
+
+i O
+think O
+he O
+looks O
+around O
+one B-AGE
+years I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+i O
+think O
+he O
+looks O
+around O
+eight B-AGE
+years I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+there O
+are O
+seven B-COUNT
+injured L-COUNT
+
+-DOCSTART- O
+
+there O
+are O
+17 B-COUNT
+injured L-COUNT
+12 B-COUNT
+dead L-COUNT
+
+-DOCSTART- O
+
+i O
+think O
+he O
+looks O
+around O
+four B-AGE
+years I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+there O
+is O
+a O
+here O
+
+-DOCSTART- O
+
+she O
+is O
+diagnosed O
+with O
+methicillin-resistant B-INJURY
+staphylococcus I-INJURY
+aureus I-INJURY
+infection L-INJURY
+
+-DOCSTART- O
+
+9 B-DURATION
+mins L-DURATION
+
+-DOCSTART- O
+
+i O
+think O
+he O
+looks O
+around O
+0 B-AGE
+months I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+the O
+ic O
+number O
+is O
+g8521389j U-IC
+
+-DOCSTART- O
+
+i O
+think O
+he O
+looks O
+around O
+13 B-AGE
+years I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+on O
+the O
+right B-BODYLOCATION
+adrenal I-BODYLOCATION
+gland L-BODYLOCATION
+
+-DOCSTART- O
+
+cuts U-INJURY
+on O
+lower B-BODYLOCATION
+teeth L-BODYLOCATION
+
+-DOCSTART- O
+
+11 B-COUNT
+injured L-COUNT
+and O
+6 B-COUNT
+dead L-COUNT
+
+-DOCSTART- O
+
+the O
+ic O
+number O
+is O
+g4240314x U-IC
+
+-DOCSTART- O
+
+there O
+are O
+11 B-COUNT
+injured L-COUNT
+
+-DOCSTART- O
+
+my O
+number O
+is O
+five B-PHONENO
+nine I-PHONENO
+zero I-PHONENO
+two I-PHONENO
+nine I-PHONENO
+one I-PHONENO
+eight I-PHONENO
+two L-PHONENO
+
+-DOCSTART- O
+
+my O
+number O
+is O
+one B-PHONENO
+nine I-PHONENO
+nine I-PHONENO
+four I-PHONENO
+seven I-PHONENO
+seven I-PHONENO
+four I-PHONENO
+four L-PHONENO
+
+-DOCSTART- O
+
+he O
+was O
+found O
+injured O
+at O
+ifly U-Addr-Building-Name
+19 U-Addr-Building-Number
+gilstead B-Addr-Street
+road L-Addr-Street
+854521 U-PostCode
+singapore U-Addr-city
+
+-DOCSTART- O
+
+she O
+is O
+diagnosed O
+with O
+metabolic U-INJURY
+
+-DOCSTART- O
+
+6 B-DURATION
+to I-DURATION
+8 I-DURATION
+hours L-DURATION
+
+-DOCSTART- O
+
+person O
+has O
+drowsy U-STATUS
+
+-DOCSTART- O
+
+there O
+are O
+9 B-COUNT
+dead L-COUNT
+
+-DOCSTART- O
+
+he O
+was O
+found O
+injured O
+at O
+
+-DOCSTART- O
+
+1 B-COUNT
+injured L-COUNT
+and O
+16 B-COUNT
+injured L-COUNT
+
+-DOCSTART- O
+
+person O
+has O
+no B-CONDITION
+chest I-CONDITION
+pain L-CONDITION
+
+-DOCSTART- O
+
+i O
+think O
+he O
+looks O
+around O
+2 B-AGE
+years I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+person O
+has O
+blood B-INJURY
+near I-INJURY
+bites L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+collapse U-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+hanging U-INJURY
+
+-DOCSTART- O
+
+patient O
+is O
+having O
+toxic U-INJURY
+
+-DOCSTART- O
+
+i O
+am O
+at O
+68 U-Addr-Building-Number
+lutheran B-Addr-Building-Name
+church I-Addr-Building-Name
+of I-Addr-Building-Name
+our I-Addr-Building-Name
+redeemer L-Addr-Building-Name
+leedon B-Addr-Street
+park L-Addr-Street
+#14-30 U-Addr-UnitNo
+s318422 U-PostCode
+near O
+
+-DOCSTART- O
+
+person O
+has O
+bruises U-INJURY
+
+-DOCSTART- O
+
+his O
+ic O
+number O
+is O
+t B-IC
+seven I-IC
+three I-IC
+one I-IC
+zero I-IC
+zero I-IC
+eight I-IC
+eight I-IC
+b L-IC
+
+-DOCSTART- O
+
+person O
+vomit B-INJURY
+blood L-INJURY
+
+-DOCSTART- O
+
+person O
+stopped B-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+ic O
+number O
+is O
+f B-IC
+one I-IC
+six I-IC
+zero I-IC
+five I-IC
+zero I-IC
+six I-IC
+nine I-IC
+e L-IC
+
+-DOCSTART- O
+
+my O
+number O
+is O
+two B-PHONENO
+four I-PHONENO
+nine I-PHONENO
+two I-PHONENO
+four I-PHONENO
+zero I-PHONENO
+two I-PHONENO
+two L-PHONENO
+
+-DOCSTART- O
+
+there O
+are O
+1 B-COUNT
+injured L-COUNT
+and O
+9 B-COUNT
+injured L-COUNT
+
+-DOCSTART- O
+
+internal B-INJURY
+injuries I-INJURY
+to I-INJURY
+organs I-INJURY
+and I-INJURY
+blood I-INJURY
+vessels I-INJURY
+of I-INJURY
+the I-INJURY
+trunk L-INJURY
+on O
+lower B-BODYLOCATION
+navel L-BODYLOCATION
+
+-DOCSTART- O
+
+there O
+is O
+a O
+vehicle B-INJURY
+over I-INJURY
+turn L-INJURY
+
+-DOCSTART- O
+
+person O
+did B-STATUS
+not I-STATUS
+faint L-STATUS
+
+-DOCSTART- O
+
+person O
+is O
+diagnosed O
+with O
+lacerations U-INJURY
+
+-DOCSTART- O
+
+i O
+think O
+he O
+looks O
+around O
+17 B-AGE
+months I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+person O
+is O
+finger B-INJURY
+amputated L-INJURY
+
+-DOCSTART- O
+
+he O
+is O
+having O
+tendons U-INJURY
+
+-DOCSTART- O
+
+i O
+think O
+he O
+looks O
+around O
+thirteen B-AGE
+months I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+on O
+the O
+right B-BODYLOCATION
+vertebra L-BODYLOCATION
+
+-DOCSTART- O
+
+i O
+am O
+at O
+6 U-Addr-Building-Number
+telok B-Addr-Building-Name
+paku I-Addr-Building-Name
+circus L-Addr-Building-Name
+upper B-Addr-Street
+aljunied I-Addr-Street
+lane L-Addr-Street
+#9-19 U-Addr-UnitNo
+302461 U-PostCode
+near O
+
+-DOCSTART- O
+
+he O
+is O
+having O
+bruises U-INJURY
+
+-DOCSTART- O
+
+i O
+am O
+at O
+block B-Addr-Block
+thirty L-Addr-Block
+whampoa B-Addr-Street
+drive L-Addr-Street
+hash B-Addr-UnitNo
+one I-Addr-UnitNo
+fourteen L-Addr-UnitNo
+two B-PostCode
+one I-PostCode
+five I-PostCode
+one I-PostCode
+six I-PostCode
+seven L-PostCode
+near O
+
+-DOCSTART- O
+
+person O
+slipped U-INJURY
+
+-DOCSTART- O
+
+person O
+stopped B-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+ic O
+number O
+is O
+s1103892v U-IC
+
+-DOCSTART- O
+
+person O
+is O
+diagnosed O
+with O
+anaphylaxis U-INJURY
+
+-DOCSTART- O
+
+person O
+has O
+vaginal B-INJURY
+bleeding L-INJURY
+
+-DOCSTART- O
+
+his O
+ic O
+number O
+is O
+f B-IC
+five I-IC
+zero I-IC
+one I-IC
+seven I-IC
+nine I-IC
+four I-IC
+nine I-IC
+p L-IC
+
+-DOCSTART- O
+
+he O
+is O
+injured O
+on O
+left B-BODYLOCATION
+back L-BODYLOCATION
+
+-DOCSTART- O
+
+person O
+has O
+slow B-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+patient O
+is O
+having O
+effects B-INJURY
+of I-INJURY
+heat I-INJURY
+and I-INJURY
+light L-INJURY
+
+-DOCSTART- O
+
+i O
+am O
+at O
+nine B-Addr-Building-Number
+six I-Addr-Building-Number
+four L-Addr-Building-Number
+gilstead B-Addr-Street
+road L-Addr-Street
+hash B-Addr-UnitNo
+fifteen I-Addr-UnitNo
+dash I-Addr-UnitNo
+eight L-Addr-UnitNo
+one B-PostCode
+two I-PostCode
+two I-PostCode
+eight I-PostCode
+zero I-PostCode
+nine L-PostCode
+singapore U-Addr-city
+
+-DOCSTART- O
+
+he O
+was O
+found O
+injured O
+at O
+fourteen U-Addr-Building-Number
+78 B-Addr-Building-Name
+shenton I-Addr-Building-Name
+way L-Addr-Building-Name
+10a U-Addr-Street
+hash B-Addr-UnitNo
+seven I-Addr-UnitNo
+dash I-Addr-UnitNo
+twenty I-Addr-UnitNo
+four L-Addr-UnitNo
+eight B-PostCode
+four I-PostCode
+zero I-PostCode
+zero I-PostCode
+three I-PostCode
+five L-PostCode
+
+-DOCSTART- O
+
+person O
+is O
+right B-INJURY
+arm I-INJURY
+fractured L-INJURY
+
+-DOCSTART- O
+
+person O
+has O
+blood B-INJURY
+near I-INJURY
+bites L-INJURY
+
+-DOCSTART- O
+
+the O
+ic O
+number O
+is O
+g4601192q U-IC
+
+-DOCSTART- O
+
+his O
+ic O
+number O
+is O
+f6980186c U-IC
+
+-DOCSTART- O
+
+he O
+is O
+diagnosed O
+transient B-INJURY
+ischemia I-INJURY
+attacks L-INJURY
+
+-DOCSTART- O
+
+he O
+is O
+diagnosed O
+avulsions U-INJURY
+
+-DOCSTART- O
+
+i O
+believe O
+her O
+age O
+is O
+eleven B-AGE
+months I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+person O
+fell B-INJURY
+from I-INJURY
+a I-INJURY
+height L-INJURY
+
+-DOCSTART- O
+
+there O
+are O
+10 B-COUNT
+dead L-COUNT
+and O
+15 B-COUNT
+dead L-COUNT
+
+-DOCSTART- O
+
+he O
+is O
+injured O
+on O
+right B-BODYLOCATION
+glands L-BODYLOCATION
+
+-DOCSTART- O
+
+i O
+am O
+at O
+pipit B-Addr-Street
+road L-Addr-Street
+355311 U-PostCode
+singapore U-Addr-city
+
+-DOCSTART- O
+
+person O
+stopped B-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+i O
+am O
+at O
+8 U-Addr-Building-Number
+defu B-Addr-Street
+avenue I-Addr-Street
+1 L-Addr-Street
+#19-102 U-Addr-UnitNo
+503453 U-PostCode
+
+-DOCSTART- O
+
+person O
+has O
+feeling B-STATUS
+giddy L-STATUS
+
+-DOCSTART- O
+
+person O
+is O
+diagnosed O
+with O
+influenza-novel U-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+right B-INJURY
+arm I-INJURY
+fractured L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+bleeding U-INJURY
+
+-DOCSTART- O
+
+person O
+has O
+vaginal B-INJURY
+bleeding L-INJURY
+
+-DOCSTART- O
+
+person O
+has O
+drowsy U-STATUS
+
+-DOCSTART- O
+
+five B-DURATION
+years L-DURATION
+
+-DOCSTART- O
+
+person O
+cannot B-INJURY
+feel I-INJURY
+his I-INJURY
+hands L-INJURY
+
+-DOCSTART- O
+
+there O
+are O
+eight B-COUNT
+injured L-COUNT
+and O
+twelve B-COUNT
+dead L-COUNT
+
+-DOCSTART- O
+
+she O
+is O
+having O
+headache-toxic U-INJURY
+
+-DOCSTART- O
+
+person O
+cannot B-INJURY
+feel I-INJURY
+his I-INJURY
+hands L-INJURY
+
+-DOCSTART- O
+
+i O
+believe O
+her O
+age O
+is O
+seventeen B-AGE
+years I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+there O
+are O
+13 B-COUNT
+injured L-COUNT
+and O
+16 B-COUNT
+dead L-COUNT
+
+-DOCSTART- O
+
+he O
+is O
+diagnosed O
+asphyxiations U-INJURY
+
+-DOCSTART- O
+
+i O
+am O
+at O
+16 U-Addr-Building-Number
+queen B-Addr-Street
+astrid I-Addr-Street
+park L-Addr-Street
+#7-18 U-Addr-UnitNo
+s490849 U-PostCode
+singapore U-Addr-city
+near O
+
+-DOCSTART- O
+
+person O
+want B-INJURY
+to I-INJURY
+give I-INJURY
+birth L-INJURY
+
+-DOCSTART- O
+
+she O
+is O
+diagnosed O
+with O
+first B-INJURY
+degree I-INJURY
+chemical I-INJURY
+burns I-INJURY
+and I-INJURY
+corrosions L-INJURY
+
+-DOCSTART- O
+
+there O
+are O
+11 B-COUNT
+injured L-COUNT
+
+-DOCSTART- O
+
+person O
+is O
+no B-STATUS
+movement L-STATUS
+
+-DOCSTART- O
+
+this O
+is O
+the O
+0 B-DURATION
+to I-DURATION
+5 I-DURATION
+seconds L-DURATION
+
+-DOCSTART- O
+
+person O
+can B-STATUS
+talk L-STATUS
+
+-DOCSTART- O
+
+there O
+is O
+a O
+here O
+
+-DOCSTART- O
+
+there O
+are O
+3 B-COUNT
+dead L-COUNT
+and O
+16 B-COUNT
+injured L-COUNT
+
+-DOCSTART- O
+
+there O
+is O
+a O
+here O
+
+-DOCSTART- O
+
+there O
+are O
+4 B-COUNT
+dead L-COUNT
+8 B-COUNT
+dead L-COUNT
+
+-DOCSTART- O
+
+he O
+is O
+diagnosed O
+myocardial B-INJURY
+infarction L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+having O
+dislocation B-INJURY
+of I-INJURY
+joints L-INJURY
+
+-DOCSTART- O
+
+there O
+is O
+a O
+here O
+
+-DOCSTART- O
+
+there O
+is O
+a O
+here O
+
+-DOCSTART- O
+
+his O
+ic O
+number O
+is O
+f B-IC
+six I-IC
+one I-IC
+four I-IC
+four I-IC
+zero I-IC
+eight I-IC
+zero I-IC
+r L-IC
+
+-DOCSTART- O
+
+person O
+has O
+cut B-INJURY
+herself L-INJURY
+
+-DOCSTART- O
+
+the O
+ic O
+number O
+is O
+s B-IC
+six I-IC
+six I-IC
+six I-IC
+six I-IC
+four I-IC
+eight I-IC
+nine I-IC
+c L-IC
+
+-DOCSTART- O
+
+i O
+am O
+at O
+blk B-Addr-Block
+100 L-Addr-Block
+compassvale B-Addr-Street
+link L-Addr-Street
+#20-17 U-Addr-UnitNo
+066765 U-PostCode
+
+-DOCSTART- O
+
+second B-INJURY
+degree I-INJURY
+heat I-INJURY
+burns L-INJURY
+on O
+right B-BODYLOCATION
+circulatory I-BODYLOCATION
+system L-BODYLOCATION
+
+-DOCSTART- O
+
+he O
+is O
+injured O
+on O
+upper B-BODYLOCATION
+testes L-BODYLOCATION
+
+-DOCSTART- O
+
+person O
+is O
+fainted U-STATUS
+
+-DOCSTART- O
+
+person O
+stopped B-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+person O
+has O
+a B-STATUS
+bit I-STATUS
+giddy L-STATUS
+
+-DOCSTART- O
+
+he O
+is O
+having O
+blisters U-INJURY
+
+-DOCSTART- O
+
+i O
+am O
+at O
+5footway.inn U-Addr-Building-Name
+one B-Addr-Building-Number
+nine I-Addr-Building-Number
+zero L-Addr-Building-Number
+gymkhana B-Addr-Street
+avenue L-Addr-Street
+three B-PostCode
+five I-PostCode
+two I-PostCode
+eight I-PostCode
+four I-PostCode
+nine L-PostCode
+singapore U-Addr-city
+
+-DOCSTART- O
+
+there O
+is O
+a O
+vehicle B-INJURY
+and I-INJURY
+bike I-INJURY
+accident L-INJURY
+
+-DOCSTART- O
+
+my O
+number O
+is O
+59923178 U-PHONENO
+
+-DOCSTART- O
+
+person O
+is O
+having O
+sprains B-INJURY
+and I-INJURY
+bruises L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+diagnosed O
+with O
+heat B-INJURY
+stroke L-INJURY
+
+-DOCSTART- O
+
+patient O
+is O
+having O
+electrical B-INJURY
+burns L-INJURY
+
+-DOCSTART- O
+
+he O
+was O
+found O
+injured O
+at O
+
+-DOCSTART- O
+
+he O
+is O
+injured O
+on O
+lower B-BODYLOCATION
+gums L-BODYLOCATION
+
+-DOCSTART- O
+
+person O
+smell B-INJURY
+toxic I-INJURY
+gas L-INJURY
+
+-DOCSTART- O
+
+i O
+am O
+at O
+100 U-Addr-Building-Number
+oxford B-Addr-Building-Name
+hotel L-Addr-Building-Name
+dafne B-Addr-Street
+street L-Addr-Street
+#b11-16 U-Addr-UnitNo
+207191 U-PostCode
+near O
+
+-DOCSTART- O
+
+person O
+is O
+diagnosed O
+with O
+electrical B-INJURY
+burns L-INJURY
+
+-DOCSTART- O
+
+his O
+ic O
+number O
+is O
+t1335648o U-IC
+
+-DOCSTART- O
+
+i O
+am O
+at O
+swettenham B-Addr-Building-Name
+green L-Addr-Building-Name
+18 U-Addr-Building-Number
+sembawang B-Addr-Street
+road L-Addr-Street
+711521 U-PostCode
+near O
+
+-DOCSTART- O
+
+six B-AGE
+months I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+person O
+is O
+having O
+burns B-INJURY
+and I-INJURY
+other I-INJURY
+injuries L-INJURY
+
+-DOCSTART- O
+
+my O
+number O
+is O
+four B-PHONENO
+zero I-PHONENO
+five I-PHONENO
+seven I-PHONENO
+nine I-PHONENO
+one I-PHONENO
+two I-PHONENO
+two L-PHONENO
+
+-DOCSTART- O
+
+i O
+believe O
+her O
+age O
+is O
+1 B-AGE
+years I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+other B-INJURY
+burns L-INJURY
+on O
+left B-BODYLOCATION
+tissue L-BODYLOCATION
+
+-DOCSTART- O
+
+there O
+are O
+two B-COUNT
+dead L-COUNT
+eleven B-COUNT
+dead L-COUNT
+
+-DOCSTART- O
+
+this O
+is O
+the O
+five B-DURATION
+to I-DURATION
+three I-DURATION
+years L-DURATION
+
+-DOCSTART- O
+
+there O
+are O
+five B-COUNT
+injured L-COUNT
+ten B-COUNT
+dead L-COUNT
+
+-DOCSTART- O
+
+he O
+was O
+found O
+injured O
+at O
+2 U-Addr-Building-Number
+nim B-Addr-Street
+drive L-Addr-Street
+584202 U-PostCode
+
+-DOCSTART- O
+
+person O
+has O
+bleeding B-INJURY
+disorder L-INJURY
+
+-DOCSTART- O
+
+i O
+am O
+at O
+block B-Addr-Block
+hundred L-Addr-Block
+turf B-Addr-Street
+club I-Addr-Street
+road L-Addr-Street
+hash B-Addr-UnitNo
+eight I-Addr-UnitNo
+dash I-Addr-UnitNo
+two L-Addr-UnitNo
+zero B-PostCode
+two I-PostCode
+three I-PostCode
+six I-PostCode
+three I-PostCode
+six L-PostCode
+singapore U-Addr-city
+near O
+
+-DOCSTART- O
+
+she O
+is O
+diagnosed O
+with O
+internal B-INJURY
+injuries L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+is I-CONDITION
+normal L-CONDITION
+
+-DOCSTART- O
+
+there O
+are O
+0 B-COUNT
+injured L-COUNT
+and O
+6 B-COUNT
+dead L-COUNT
+
+-DOCSTART- O
+
+i O
+am O
+at O
+636b U-Addr-Street
+three B-PostCode
+seven I-PostCode
+zero I-PostCode
+two I-PostCode
+one I-PostCode
+eight L-PostCode
+singapore U-Addr-city
+near O
+
+-DOCSTART- O
+
+he O
+is O
+having O
+sprains B-INJURY
+and I-INJURY
+bruises L-INJURY
+
+-DOCSTART- O
+
+he O
+is O
+having O
+paraplegia U-INJURY
+
+-DOCSTART- O
+
+ic O
+number O
+is O
+g1840557j U-IC
+
+-DOCSTART- O
+
+person O
+swallowed B-INJURY
+fish I-INJURY
+bone L-INJURY
+
+-DOCSTART- O
+
+the O
+ic O
+number O
+is O
+s B-IC
+three I-IC
+zero I-IC
+three I-IC
+nine I-IC
+seven I-IC
+five I-IC
+eight I-IC
+j L-IC
+
+-DOCSTART- O
+
+eighteen B-AGE
+months I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+there O
+are O
+seventeen B-COUNT
+injured L-COUNT
+
+-DOCSTART- O
+
+there O
+is O
+a O
+vehicle B-INJURY
+roll I-INJURY
+over L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+having O
+nausea U-INJURY
+
+-DOCSTART- O
+
+i O
+believe O
+her O
+age O
+is O
+eleven B-AGE
+months I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+i O
+think O
+he O
+looks O
+around O
+four B-AGE
+months I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+this O
+is O
+the O
+3 B-DURATION
+hours L-DURATION
+
+-DOCSTART- O
+
+he O
+is O
+injured O
+on O
+lower B-BODYLOCATION
+anus L-BODYLOCATION
+
+-DOCSTART- O
+
+person O
+is O
+not B-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+my O
+number O
+is O
+six B-PHONENO
+three I-PHONENO
+three I-PHONENO
+nine I-PHONENO
+six I-PHONENO
+six I-PHONENO
+zero I-PHONENO
+three L-PHONENO
+
+-DOCSTART- O
+
+ten B-COUNT
+dead L-COUNT
+and O
+ten B-COUNT
+dead L-COUNT
+
+-DOCSTART- O
+
+person O
+is O
+diagnosed O
+with O
+symptoms B-INJURY
+involving I-INJURY
+cardiovascular I-INJURY
+system L-INJURY
+
+-DOCSTART- O
+
+ic O
+number O
+is O
+f9769166t U-IC
+
+-DOCSTART- O
+
+there O
+is O
+a O
+here O
+
+-DOCSTART- O
+
+patient O
+is O
+having O
+scratches U-INJURY
+
+-DOCSTART- O
+
+person O
+has O
+chest B-CONDITION
+pain L-CONDITION
+
+-DOCSTART- O
+
+person O
+has O
+chest B-INJURY
+pain L-INJURY
+
+-DOCSTART- O
+
+person O
+has O
+a B-CONDITION
+bit I-CONDITION
+of I-CONDITION
+difficulty I-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+person O
+is O
+arms B-INJURY
+are I-INJURY
+blue L-INJURY
+
+-DOCSTART- O
+
+i O
+believe O
+her O
+age O
+is O
+2 B-AGE
+months I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+person O
+has O
+right B-INJURY
+hand I-INJURY
+burn L-INJURY
+
+-DOCSTART- O
+
+i O
+am O
+at O
+teck B-Addr-Street
+whye I-Addr-Street
+lane L-Addr-Street
+hash B-Addr-UnitNo
+seven I-Addr-UnitNo
+dash I-Addr-UnitNo
+nine L-Addr-UnitNo
+three B-PostCode
+six I-PostCode
+five I-PostCode
+nine I-PostCode
+three I-PostCode
+zero L-PostCode
+singapore U-Addr-city
+near O
+
+-DOCSTART- O
+
+he O
+is O
+having O
+prostration U-INJURY
+
+-DOCSTART- O
+
+he O
+is O
+diagnosed O
+irritation-nonspecified B-INJURY
+injury L-INJURY
+
+-DOCSTART- O
+
+zero B-AGE
+months I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+his O
+ic O
+number O
+is O
+f5675073l U-IC
+
+-DOCSTART- O
+
+person O
+has O
+blood U-INJURY
+
+-DOCSTART- O
+
+the O
+ic O
+number O
+is O
+g B-IC
+nine I-IC
+zero I-IC
+seven I-IC
+one I-IC
+five I-IC
+six I-IC
+six I-IC
+s L-IC
+
+-DOCSTART- O
+
+he O
+is O
+having O
+soreness U-INJURY
+
+-DOCSTART- O
+
+patient O
+is O
+having O
+burns B-INJURY
+and I-INJURY
+corrosions L-INJURY
+
+-DOCSTART- O
+
+i O
+believe O
+her O
+age O
+is O
+seventeen B-AGE
+years I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+person O
+is O
+having O
+burns B-INJURY
+and I-INJURY
+corrosions L-INJURY
+
+-DOCSTART- O
+
+person O
+stopped B-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+he O
+was O
+found O
+injured O
+at O
+
+-DOCSTART- O
+
+he O
+is O
+injured O
+on O
+upper B-BODYLOCATION
+adrenal I-BODYLOCATION
+gland L-BODYLOCATION
+
+-DOCSTART- O
+
+person O
+has O
+unconscious U-STATUS
+
+-DOCSTART- O
+
+ic O
+number O
+is O
+f B-IC
+two I-IC
+one I-IC
+two I-IC
+two I-IC
+five I-IC
+nine I-IC
+six I-IC
+k L-IC
+
+-DOCSTART- O
+
+i O
+think O
+he O
+looks O
+around O
+4 B-AGE
+years I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+this O
+is O
+the O
+one B-DURATION
+hours L-DURATION
+
+-DOCSTART- O
+
+person O
+is O
+having O
+bends U-INJURY
+
+-DOCSTART- O
+
+person O
+has O
+chest B-INJURY
+pain L-INJURY
+
+-DOCSTART- O
+
+there O
+are O
+four B-COUNT
+dead L-COUNT
+and O
+fourteen B-COUNT
+injured L-COUNT
+
+-DOCSTART- O
+
+person O
+has O
+problems B-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+i O
+think O
+he O
+looks O
+around O
+five B-AGE
+years I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+patient O
+is O
+diagnosed O
+with O
+nausea U-INJURY
+
+-DOCSTART- O
+
+she O
+is O
+diagnosed O
+with O
+dizziness U-INJURY
+
+-DOCSTART- O
+
+three B-COUNT
+dead L-COUNT
+and O
+fourteen B-COUNT
+dead L-COUNT
+
+-DOCSTART- O
+
+person O
+is O
+diagnosed O
+with O
+cerebral B-INJURY
+and I-INJURY
+other I-INJURY
+intracranial I-INJURY
+hemorrhages L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+having O
+cuts U-INJURY
+
+-DOCSTART- O
+
+this O
+is O
+the O
+8 B-DURATION
+to I-DURATION
+9 I-DURATION
+months L-DURATION
+
+-DOCSTART- O
+
+she O
+is O
+diagnosed O
+with O
+nerves U-INJURY
+
+-DOCSTART- O
+
+person O
+has O
+no B-CONDITION
+difficulty I-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+person O
+is O
+having O
+sprains B-INJURY
+and I-INJURY
+cuts L-INJURY
+
+-DOCSTART- O
+
+i O
+am O
+at O
+blk B-Addr-Block
+13 L-Addr-Block
+kensington B-Addr-Street
+park I-Addr-Street
+drive L-Addr-Street
+#16-19 U-Addr-UnitNo
+824654 U-PostCode
+singapore U-Addr-city
+near O
+
+-DOCSTART- O
+
+there O
+are O
+three B-COUNT
+injured L-COUNT
+
+-DOCSTART- O
+
+there O
+are O
+three B-COUNT
+dead L-COUNT
+eleven B-COUNT
+injured L-COUNT
+
+-DOCSTART- O
+
+person O
+stopped B-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+he O
+is O
+diagnosed O
+paraplegia U-INJURY
+
+-DOCSTART- O
+
+the O
+ic O
+number O
+is O
+t6487699o U-IC
+
+-DOCSTART- O
+
+there O
+is O
+a O
+vehicle B-INJURY
+over I-INJURY
+turn L-INJURY
+
+-DOCSTART- O
+
+12 B-AGE
+months I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+i O
+am O
+at O
+hundred U-Addr-Building-Number
+thai B-Addr-Building-Name
+good I-Addr-Building-Name
+news I-Addr-Building-Name
+centre L-Addr-Building-Name
+hougang U-Addr-Street
+hash B-Addr-UnitNo
+thirteen I-Addr-UnitNo
+dash I-Addr-UnitNo
+three I-Addr-UnitNo
+hundred L-Addr-UnitNo
+five B-PostCode
+five I-PostCode
+seven I-PostCode
+five I-PostCode
+one I-PostCode
+zero L-PostCode
+singapore U-Addr-city
+near O
+
+-DOCSTART- O
+
+on O
+the O
+upper B-BODYLOCATION
+sacrum L-BODYLOCATION
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+very I-CONDITION
+fast L-CONDITION
+
+-DOCSTART- O
+
+there O
+is O
+a O
+vehicle B-INJURY
+over I-INJURY
+turn L-INJURY
+
+-DOCSTART- O
+
+ic O
+number O
+is O
+f B-IC
+seven I-IC
+nine I-IC
+six I-IC
+two I-IC
+nine I-IC
+four I-IC
+nine I-IC
+t L-IC
+
+-DOCSTART- O
+
+i O
+am O
+at O
+bishopsgate U-Addr-Building-Name
+six B-Addr-Building-Number
+nine I-Addr-Building-Number
+six L-Addr-Building-Number
+verde B-Addr-Street
+grove L-Addr-Street
+six B-PostCode
+zero I-PostCode
+eight I-PostCode
+four I-PostCode
+nine I-PostCode
+eight L-PostCode
+singapore U-Addr-city
+near O
+
+-DOCSTART- O
+
+she O
+is O
+having O
+multiple B-INJURY
+traumatic I-INJURY
+injuries I-INJURY
+and I-INJURY
+disorders L-INJURY
+
+-DOCSTART- O
+
+there O
+is O
+a O
+here O
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+is I-CONDITION
+normal L-CONDITION
+
+-DOCSTART- O
+
+patient O
+is O
+having O
+intracranial B-INJURY
+injuries I-INJURY
+and I-INJURY
+injuries I-INJURY
+to I-INJURY
+internal I-INJURY
+organs L-INJURY
+
+-DOCSTART- O
+
+this O
+is O
+the O
+four B-DURATION
+to I-DURATION
+two I-DURATION
+seconds L-DURATION
+
+-DOCSTART- O
+
+i O
+am O
+at O
+stone B-Addr-Street
+bridge L-Addr-Street
+522579 U-PostCode
+near O
+
+-DOCSTART- O
+
+he O
+was O
+found O
+injured O
+at O
+
+-DOCSTART- O
+
+there O
+are O
+0 B-COUNT
+dead L-COUNT
+11 B-COUNT
+injured L-COUNT
+
+-DOCSTART- O
+
+he O
+is O
+diagnosed O
+other B-INJURY
+burns L-INJURY
+
+-DOCSTART- O
+
+he O
+is O
+injured O
+on O
+left B-BODYLOCATION
+abdomen L-BODYLOCATION
+
+-DOCSTART- O
+
+this O
+is O
+the O
+five B-DURATION
+months L-DURATION
+
+-DOCSTART- O
+
+person O
+is O
+having O
+headache-toxic U-INJURY
+
+-DOCSTART- O
+
+i O
+believe O
+her O
+age O
+is O
+eight B-AGE
+months I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+he O
+is O
+diagnosed O
+first B-INJURY
+degree I-INJURY
+electrical I-INJURY
+burns L-INJURY
+
+-DOCSTART- O
+
+nineteen B-AGE
+years I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+person O
+never B-STATUS
+faint L-STATUS
+
+-DOCSTART- O
+
+3 B-COUNT
+dead L-COUNT
+and O
+8 B-COUNT
+injured L-COUNT
+
+-DOCSTART- O
+
+there O
+is O
+a O
+vehicle B-INJURY
+and I-INJURY
+bike I-INJURY
+accident L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+having B-CONDITION
+some I-CONDITION
+problems I-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+six B-COUNT
+injured L-COUNT
+and O
+seven B-COUNT
+injured L-COUNT
+
+-DOCSTART- O
+
+she O
+is O
+having O
+electrocutions U-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+right B-INJURY
+arm I-INJURY
+fractured L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+is I-CONDITION
+normal L-CONDITION
+
+-DOCSTART- O
+
+there O
+are O
+five B-COUNT
+dead L-COUNT
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+okay L-CONDITION
+
+-DOCSTART- O
+
+ic O
+number O
+is O
+g B-IC
+eight I-IC
+eight I-IC
+nine I-IC
+zero I-IC
+one I-IC
+three I-IC
+zero I-IC
+l L-IC
+
+-DOCSTART- O
+
+there O
+are O
+19 B-COUNT
+injured L-COUNT
+
+-DOCSTART- O
+
+she O
+is O
+diagnosed O
+with O
+paralysis U-INJURY
+
+-DOCSTART- O
+
+16 B-COUNT
+dead L-COUNT
+and O
+1 B-COUNT
+dead L-COUNT
+
+-DOCSTART- O
+
+person O
+cannot B-INJURY
+feel I-INJURY
+his I-INJURY
+hands L-INJURY
+
+-DOCSTART- O
+
+patient O
+is O
+diagnosed O
+with O
+tears U-INJURY
+
+-DOCSTART- O
+
+he O
+was O
+found O
+injured O
+at O
+three B-Addr-Building-Number
+four I-Addr-Building-Number
+zero L-Addr-Building-Number
+78 B-Addr-Building-Name
+shenton I-Addr-Building-Name
+way L-Addr-Building-Name
+towner B-Addr-Street
+road L-Addr-Street
+hash B-Addr-UnitNo
+fourteen I-Addr-UnitNo
+twenty L-Addr-UnitNo
+four B-PostCode
+zero I-PostCode
+nine I-PostCode
+nine I-PostCode
+zero I-PostCode
+five L-PostCode
+
+-DOCSTART- O
+
+there O
+are O
+four B-COUNT
+injured L-COUNT
+twelve B-COUNT
+dead L-COUNT
+
+-DOCSTART- O
+
+person O
+has O
+no B-CONDITION
+difficulty I-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+there O
+are O
+3 B-COUNT
+injured L-COUNT
+6 B-COUNT
+injured L-COUNT
+
+-DOCSTART- O
+
+person O
+is O
+fainted U-STATUS
+
+-DOCSTART- O
+
+there O
+is O
+a O
+vehicle B-INJURY
+over I-INJURY
+turn L-INJURY
+
+-DOCSTART- O
+
+his O
+ic O
+number O
+is O
+f B-IC
+seven I-IC
+zero I-IC
+three I-IC
+one I-IC
+two I-IC
+nine I-IC
+seven I-IC
+e L-IC
+
+-DOCSTART- O
+
+4 B-DURATION
+years L-DURATION
+
+-DOCSTART- O
+
+there O
+are O
+11 B-COUNT
+dead L-COUNT
+7 B-COUNT
+dead L-COUNT
+
+-DOCSTART- O
+
+on O
+the O
+upper B-BODYLOCATION
+torso L-BODYLOCATION
+
+-DOCSTART- O
+
+person O
+stopped B-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+person O
+want B-INJURY
+to I-INJURY
+give I-INJURY
+birth L-INJURY
+
+-DOCSTART- O
+
+gunshot B-INJURY
+wounds L-INJURY
+on O
+upper B-BODYLOCATION
+adam I-BODYLOCATION
+apple L-BODYLOCATION
+
+-DOCSTART- O
+
+person O
+never B-STATUS
+faint L-STATUS
+
+-DOCSTART- O
+
+there O
+are O
+7 B-COUNT
+dead L-COUNT
+
+-DOCSTART- O
+
+he O
+was O
+found O
+injured O
+at O
+
+-DOCSTART- O
+
+he O
+is O
+diagnosed O
+dermatitis B-INJURY
+and I-INJURY
+reactions I-INJURY
+affecting I-INJURY
+the I-INJURY
+skin-acute L-INJURY
+
+-DOCSTART- O
+
+this O
+is O
+the O
+7 B-DURATION
+hours L-DURATION
+
+-DOCSTART- O
+
+he O
+was O
+found O
+injured O
+at O
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+is I-CONDITION
+normal L-CONDITION
+
+-DOCSTART- O
+
+he O
+is O
+diagnosed O
+dizziness U-INJURY
+
+-DOCSTART- O
+
+person O
+has O
+cut B-INJURY
+on I-INJURY
+finger L-INJURY
+
+-DOCSTART- O
+
+person O
+has O
+pus B-INJURY
+out I-INJURY
+of I-INJURY
+eye L-INJURY
+
+-DOCSTART- O
+
+his O
+ic O
+number O
+is O
+f B-IC
+seven I-IC
+six I-IC
+zero I-IC
+one I-IC
+three I-IC
+five I-IC
+two I-IC
+v L-IC
+
+-DOCSTART- O
+
+he O
+was O
+found O
+injured O
+at O
+1 U-Addr-Building-Number
+xinghua B-Addr-Building-Name
+primary I-Addr-Building-Name
+school L-Addr-Building-Name
+bidadari B-Addr-Street
+park I-Addr-Street
+drive L-Addr-Street
+#18-20 U-Addr-UnitNo
+524191 U-PostCode
+singapore U-Addr-city
+
+-DOCSTART- O
+
+my O
+number O
+is O
+six B-PHONENO
+seven I-PHONENO
+nine I-PHONENO
+one I-PHONENO
+four I-PHONENO
+zero I-PHONENO
+nine I-PHONENO
+two L-PHONENO
+
+-DOCSTART- O
+
+person O
+is O
+having O
+internal B-INJURY
+injuries I-INJURY
+to I-INJURY
+organs I-INJURY
+and I-INJURY
+blood I-INJURY
+vessels I-INJURY
+of I-INJURY
+the I-INJURY
+trunk L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+is I-CONDITION
+normal L-CONDITION
+
+-DOCSTART- O
+
+bursitis U-INJURY
+on O
+right B-BODYLOCATION
+white I-BODYLOCATION
+blood I-BODYLOCATION
+cells L-BODYLOCATION
+
+-DOCSTART- O
+
+there O
+are O
+thirteen B-COUNT
+dead L-COUNT
+and O
+zero B-COUNT
+dead L-COUNT
+
+-DOCSTART- O
+
+1 B-DURATION
+years L-DURATION
+
+-DOCSTART- O
+
+person O
+is O
+having O
+tendons U-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+no B-STATUS
+movement L-STATUS
+
+-DOCSTART- O
+
+there O
+is O
+a O
+here O
+
+-DOCSTART- O
+
+person O
+can B-STATUS
+respond L-STATUS
+
+-DOCSTART- O
+
+person O
+has O
+drowsy U-STATUS
+
+-DOCSTART- O
+
+person O
+slipped U-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+bitten B-INJURY
+by I-INJURY
+dog L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+diagnosed O
+with O
+crushing B-INJURY
+injuries L-INJURY
+
+-DOCSTART- O
+
+he O
+is O
+diagnosed O
+concussions U-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+diagnosed O
+with O
+hyperventilation U-INJURY
+
+-DOCSTART- O
+
+he O
+is O
+having O
+other B-INJURY
+burns L-INJURY
+
+-DOCSTART- O
+
+there O
+are O
+19 B-COUNT
+dead L-COUNT
+and O
+8 B-COUNT
+injured L-COUNT
+
+-DOCSTART- O
+
+the O
+ic O
+number O
+is O
+t1839120r U-IC
+
+-DOCSTART- O
+
+person O
+is O
+not B-CONDITION
+even I-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+he O
+is O
+injured O
+on O
+right B-BODYLOCATION
+hair L-BODYLOCATION
+
+-DOCSTART- O
+
+she O
+is O
+diagnosed O
+with O
+ligaments U-INJURY
+
+-DOCSTART- O
+
+she O
+is O
+diagnosed O
+with O
+caisson B-INJURY
+disease L-INJURY
+
+-DOCSTART- O
+
+there O
+is O
+a O
+hot B-INJURY
+oil I-INJURY
+splash L-INJURY
+
+-DOCSTART- O
+
+person O
+cannot B-INJURY
+pee L-INJURY
+
+-DOCSTART- O
+
+seizures U-INJURY
+on O
+right B-BODYLOCATION
+pelvis L-BODYLOCATION
+
+-DOCSTART- O
+
+patient O
+is O
+having O
+chemical B-INJURY
+burns I-INJURY
+and I-INJURY
+corrosions L-INJURY
+
+-DOCSTART- O
+
+there O
+are O
+1 B-COUNT
+injured L-COUNT
+and O
+0 B-COUNT
+injured L-COUNT
+
+-DOCSTART- O
+
+patient O
+is O
+diagnosed O
+with O
+gunshot B-INJURY
+wounds L-INJURY
+
+-DOCSTART- O
+
+i O
+am O
+at O
+eight B-Addr-Building-Number
+ten L-Addr-Building-Number
+whampoa B-Addr-Street
+drive L-Addr-Street
+zero B-PostCode
+zero I-PostCode
+zero I-PostCode
+eight I-PostCode
+eight I-PostCode
+seven L-PostCode
+
+-DOCSTART- O
+
+there O
+are O
+fifteen B-COUNT
+injured L-COUNT
+
+-DOCSTART- O
+
+person O
+can B-STATUS
+reply L-STATUS
+
+-DOCSTART- O
+
+person O
+is O
+finger B-INJURY
+amputated L-INJURY
+
+-DOCSTART- O
+
+19 B-COUNT
+dead L-COUNT
+and O
+5 B-COUNT
+dead L-COUNT
+
+-DOCSTART- O
+
+i O
+am O
+at O
+old B-Addr-Street
+upper I-Addr-Street
+thomson I-Addr-Street
+road L-Addr-Street
+hash B-Addr-UnitNo
+eight I-Addr-UnitNo
+dash I-Addr-UnitNo
+eighteen L-Addr-UnitNo
+six B-PostCode
+two I-PostCode
+eight I-PostCode
+four I-PostCode
+six I-PostCode
+six L-PostCode
+
+-DOCSTART- O
+
+i O
+am O
+at O
+turf B-Addr-Street
+club I-Addr-Street
+road L-Addr-Street
+hash B-Addr-UnitNo
+four I-Addr-UnitNo
+twelve L-Addr-UnitNo
+three B-PostCode
+five I-PostCode
+zero I-PostCode
+nine I-PostCode
+nine I-PostCode
+one L-PostCode
+
+-DOCSTART- O
+
+i O
+am O
+at O
+central B-Addr-Street
+water I-Addr-Street
+catchment L-Addr-Street
+hash B-Addr-UnitNo
+nine I-Addr-UnitNo
+dash I-Addr-UnitNo
+twelve L-Addr-UnitNo
+nine B-PostCode
+two I-PostCode
+two I-PostCode
+four I-PostCode
+nine I-PostCode
+nine L-PostCode
+near O
+
+-DOCSTART- O
+
+he O
+is O
+diagnosed O
+multiple B-INJURY
+sprains L-INJURY
+
+-DOCSTART- O
+
+seventeen B-AGE
+years I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+person O
+is O
+diagnosed O
+with O
+sprains B-INJURY
+and I-INJURY
+bruises L-INJURY
+
+-DOCSTART- O
+
+i O
+think O
+he O
+looks O
+around O
+zero B-AGE
+years I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+there O
+is O
+a O
+vehicle B-INJURY
+roll I-INJURY
+over L-INJURY
+
+-DOCSTART- O
+
+seven B-COUNT
+dead L-COUNT
+and O
+eight B-COUNT
+injured L-COUNT
+
+-DOCSTART- O
+
+patient O
+is O
+diagnosed O
+with O
+second B-INJURY
+degree I-INJURY
+chemical I-INJURY
+burns I-INJURY
+and I-INJURY
+corrosions L-INJURY
+
+-DOCSTART- O
+
+person O
+has O
+problems B-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+i O
+am O
+at O
+hua B-Addr-Street
+guan I-Addr-Street
+avenue L-Addr-Street
+600114 U-PostCode
+
+-DOCSTART- O
+
+he O
+is O
+having O
+embolism U-INJURY
+
+-DOCSTART- O
+
+person O
+has O
+seizure U-INJURY
+
+-DOCSTART- O
+
+she O
+is O
+having O
+damage B-INJURY
+to I-INJURY
+prosthetic I-INJURY
+devices L-INJURY
+
+-DOCSTART- O
+
+sprains B-INJURY
+and I-INJURY
+cuts L-INJURY
+on O
+right B-BODYLOCATION
+arch L-BODYLOCATION
+
+-DOCSTART- O
+
+this O
+is O
+the O
+7 B-DURATION
+months L-DURATION
+
+-DOCSTART- O
+
+he O
+is O
+having O
+methicillin-resistant B-INJURY
+staphylococcus I-INJURY
+aureus I-INJURY
+infection L-INJURY
+
+-DOCSTART- O
+
+influenza-novel U-INJURY
+on O
+upper B-BODYLOCATION
+teeth L-BODYLOCATION
+
+-DOCSTART- O
+
+seizures U-INJURY
+on O
+left B-BODYLOCATION
+gums L-BODYLOCATION
+
+-DOCSTART- O
+
+she O
+is O
+diagnosed O
+with O
+symptoms B-INJURY
+involving I-INJURY
+respiratory I-INJURY
+system I-INJURY
+and I-INJURY
+chest L-INJURY
+
+-DOCSTART- O
+
+person O
+has O
+cut B-INJURY
+on I-INJURY
+finger L-INJURY
+
+-DOCSTART- O
+
+there O
+is O
+a O
+here O
+
+-DOCSTART- O
+
+i O
+believe O
+her O
+age O
+is O
+19 B-AGE
+months I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+there O
+is O
+a O
+hot B-INJURY
+oil I-INJURY
+splash L-INJURY
+
+-DOCSTART- O
+
+she O
+is O
+diagnosed O
+with O
+paraplegia U-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+bitten B-INJURY
+on L-INJURY
+
+-DOCSTART- O
+
+he O
+is O
+injured O
+on O
+left B-BODYLOCATION
+face L-BODYLOCATION
+
+-DOCSTART- O
+
+person O
+is O
+fainted U-STATUS
+
+-DOCSTART- O
+
+person O
+has O
+blood U-INJURY
+
+-DOCSTART- O
+
+ten B-COUNT
+injured L-COUNT
+and O
+eighteen B-COUNT
+dead L-COUNT
+
+-DOCSTART- O
+
+person O
+is O
+right B-INJURY
+arm I-INJURY
+fractured L-INJURY
+
+-DOCSTART- O
+
+person O
+did B-STATUS
+not I-STATUS
+faint L-STATUS
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+is I-CONDITION
+normal L-CONDITION
+
+-DOCSTART- O
+
+i O
+think O
+he O
+looks O
+around O
+thirteen B-AGE
+years I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+13 B-COUNT
+dead L-COUNT
+and O
+7 B-COUNT
+dead L-COUNT
+
+-DOCSTART- O
+
+he O
+was O
+found O
+injured O
+at O
+yuan B-Addr-Building-Name
+ming I-Addr-Building-Name
+si I-Addr-Building-Name
+temple L-Addr-Building-Name
+forty U-Addr-Building-Number
+old B-Addr-Street
+toh I-Addr-Street
+tuck I-Addr-Street
+road L-Addr-Street
+four B-PostCode
+seven I-PostCode
+two I-PostCode
+eight I-PostCode
+two I-PostCode
+one L-PostCode
+
+-DOCSTART- O
+
+person O
+cannot B-INJURY
+pee L-INJURY
+
+-DOCSTART- O
+
+he O
+is O
+having O
+lightheadedness U-INJURY
+
+-DOCSTART- O
+
+there O
+are O
+zero B-COUNT
+injured L-COUNT
+and O
+zero B-COUNT
+injured L-COUNT
+
+-DOCSTART- O
+
+person O
+is O
+no B-STATUS
+movement L-STATUS
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+okay L-CONDITION
+
+-DOCSTART- O
+
+he O
+is O
+diagnosed O
+chest B-INJURY
+pain L-INJURY
+
+-DOCSTART- O
+
+person O
+vomit B-INJURY
+blood L-INJURY
+
+-DOCSTART- O
+
+he O
+is O
+having O
+general B-INJURY
+symptoms L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+breathing U-CONDITION
+
+-DOCSTART- O
+
+person O
+has O
+no B-CONDITION
+chest I-CONDITION
+pain L-CONDITION
+
+-DOCSTART- O
+
+he O
+is O
+having O
+pneumonia U-INJURY
+
+-DOCSTART- O
+
+ic O
+number O
+is O
+g B-IC
+one I-IC
+four I-IC
+nine I-IC
+zero I-IC
+zero I-IC
+zero I-IC
+nine I-IC
+o L-IC
+
+-DOCSTART- O
+
+he O
+was O
+found O
+injured O
+at O
+yayasan B-Addr-Building-Name
+mendaki L-Addr-Building-Name
+eleven U-Addr-Building-Number
+gymkhana B-Addr-Street
+avenue L-Addr-Street
+zero B-PostCode
+four I-PostCode
+eight I-PostCode
+two I-PostCode
+seven I-PostCode
+seven L-PostCode
+singapore U-Addr-city
+
+-DOCSTART- O
+
+he O
+is O
+having O
+numbness-nonspecified B-INJURY
+injury L-INJURY
+
+-DOCSTART- O
+
+i O
+am O
+at O
+istay.inn U-Addr-Building-Name
+100 U-Addr-Building-Number
+running B-Addr-Street
+track L-Addr-Street
+631496 U-PostCode
+near O
+
+-DOCSTART- O
+
+person O
+is O
+diagnosed O
+with O
+multiple B-INJURY
+surface I-INJURY
+wounds I-INJURY
+and I-INJURY
+bruises L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+bitten B-INJURY
+on L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+having O
+electric B-INJURY
+shocks L-INJURY
+
+-DOCSTART- O
+
+there O
+are O
+one B-COUNT
+dead L-COUNT
+fourteen B-COUNT
+dead L-COUNT
+
+-DOCSTART- O
+
+he O
+is O
+having O
+third B-INJURY
+or I-INJURY
+fourth I-INJURY
+degree I-INJURY
+chemical I-INJURY
+burns I-INJURY
+and I-INJURY
+corrosions L-INJURY
+
+-DOCSTART- O
+
+on O
+the O
+left B-BODYLOCATION
+bone L-BODYLOCATION
+
+-DOCSTART- O
+
+person O
+has O
+food B-INJURY
+poisoning L-INJURY
+
+-DOCSTART- O
+
+person O
+does B-STATUS
+not I-STATUS
+respond L-STATUS
+
+-DOCSTART- O
+
+there O
+is O
+a O
+group B-INJURY
+of I-INJURY
+people I-INJURY
+beat I-INJURY
+up L-INJURY
+
+-DOCSTART- O
+
+person O
+has O
+back B-INJURY
+pain L-INJURY
+
+-DOCSTART- O
+
+patient O
+is O
+diagnosed O
+with O
+irritation-nonspecified B-INJURY
+injury L-INJURY
+
+-DOCSTART- O
+
+his O
+ic O
+number O
+is O
+s5654993n U-IC
+
+-DOCSTART- O
+
+patient O
+is O
+diagnosed O
+with O
+multiple B-INJURY
+traumatic I-INJURY
+injuries I-INJURY
+to I-INJURY
+bones L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+having O
+swelling U-INJURY
+
+-DOCSTART- O
+
+sixteen B-COUNT
+injured L-COUNT
+and O
+seventeen B-COUNT
+dead L-COUNT
+
+-DOCSTART- O
+
+person O
+is O
+right B-INJURY
+arm I-INJURY
+fractured L-INJURY
+
+-DOCSTART- O
+
+person O
+has O
+not B-STATUS
+feeling I-STATUS
+giddy L-STATUS
+
+-DOCSTART- O
+
+he O
+is O
+having O
+puncture B-INJURY
+wounds L-INJURY
+
+-DOCSTART- O
+
+he O
+is O
+diagnosed O
+internal B-INJURY
+injuries L-INJURY
+
+-DOCSTART- O
+
+one B-COUNT
+dead L-COUNT
+and O
+four B-COUNT
+dead L-COUNT
+
+-DOCSTART- O
+
+i O
+am O
+at O
+hougang B-Addr-Street
+central L-Addr-Street
+548112 U-PostCode
+singapore U-Addr-city
+near O
+
+-DOCSTART- O
+
+this O
+is O
+the O
+5 B-DURATION
+to I-DURATION
+6 I-DURATION
+years L-DURATION
+
+-DOCSTART- O
+
+person O
+is O
+right B-INJURY
+arm I-INJURY
+fractured L-INJURY
+
+-DOCSTART- O
+
+he O
+was O
+found O
+injured O
+at O
+17 U-Addr-Building-Number
+neram B-Addr-Street
+crescent L-Addr-Street
+#11-14 U-Addr-UnitNo
+s558613 U-PostCode
+
+-DOCSTART- O
+
+2 B-DURATION
+seconds L-DURATION
+
+-DOCSTART- O
+
+person O
+is O
+diagnosed O
+with O
+reactions U-INJURY
+
+-DOCSTART- O
+
+my O
+number O
+is O
+53327633 U-PHONENO
+
+-DOCSTART- O
+
+person O
+slipped U-INJURY
+
+-DOCSTART- O
+
+person O
+stopped B-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+there O
+is O
+a O
+here O
+
+-DOCSTART- O
+
+my O
+number O
+is O
+zero B-PHONENO
+four I-PHONENO
+four I-PHONENO
+zero I-PHONENO
+zero I-PHONENO
+three I-PHONENO
+five I-PHONENO
+six L-PHONENO
+
+-DOCSTART- O
+
+person O
+is O
+having O
+myocardial B-INJURY
+infarction L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+having O
+frostbite U-INJURY
+
+-DOCSTART- O
+
+he O
+was O
+found O
+injured O
+at O
+
+-DOCSTART- O
+
+this O
+is O
+the O
+5 B-DURATION
+months L-DURATION
+
+-DOCSTART- O
+
+he O
+is O
+injured O
+on O
+lower B-BODYLOCATION
+wrist L-BODYLOCATION
+
+-DOCSTART- O
+
+person O
+has O
+no B-CONDITION
+chest I-CONDITION
+pain L-CONDITION
+
+-DOCSTART- O
+
+person O
+stopped B-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+is I-CONDITION
+normal L-CONDITION
+
+-DOCSTART- O
+
+person O
+is O
+diagnosed O
+with O
+myocardial B-INJURY
+infarction L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+itchy U-INJURY
+
+-DOCSTART- O
+
+ic O
+number O
+is O
+t4201350k U-IC
+
+-DOCSTART- O
+
+i O
+think O
+he O
+looks O
+around O
+three B-AGE
+years I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+10 B-COUNT
+dead L-COUNT
+and O
+19 B-COUNT
+dead L-COUNT
+
+-DOCSTART- O
+
+there O
+are O
+16 B-COUNT
+dead L-COUNT
+
+-DOCSTART- O
+
+person O
+is O
+electrocuted U-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+right B-INJURY
+arm I-INJURY
+fractured L-INJURY
+
+-DOCSTART- O
+
+he O
+was O
+found O
+injured O
+at O
+queen B-Addr-Street
+astrid I-Addr-Street
+park L-Addr-Street
+one B-PostCode
+three I-PostCode
+four I-PostCode
+two I-PostCode
+two I-PostCode
+nine L-PostCode
+
+-DOCSTART- O
+
+person O
+swallowed B-INJURY
+fish I-INJURY
+bone L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+is I-CONDITION
+a I-CONDITION
+bit I-CONDITION
+slow L-CONDITION
+
+-DOCSTART- O
+
+i O
+am O
+at O
+99 U-Addr-Building-Number
+giok B-Addr-Building-Name
+hong I-Addr-Building-Name
+tian I-Addr-Building-Name
+temple L-Addr-Building-Name
+636b U-Addr-Street
+#13-80 U-Addr-UnitNo
+262126 U-PostCode
+singapore U-Addr-city
+
+-DOCSTART- O
+
+she O
+is O
+having O
+spinal B-INJURY
+cord L-INJURY
+
+-DOCSTART- O
+
+other B-INJURY
+burns L-INJURY
+on O
+left B-BODYLOCATION
+urethra L-BODYLOCATION
+
+-DOCSTART- O
+
+i O
+am O
+at O
+potong B-Addr-Street
+pasir I-Addr-Street
+avenue I-Addr-Street
+1 L-Addr-Street
+#0-11 U-Addr-UnitNo
+s312324 U-PostCode
+near O
+
+-DOCSTART- O
+
+there O
+are O
+four B-COUNT
+injured L-COUNT
+and O
+ten B-COUNT
+dead L-COUNT
+
+-DOCSTART- O
+
+person O
+is O
+shivering U-INJURY
+
+-DOCSTART- O
+
+person O
+stopped B-STATUS
+jerking L-STATUS
+
+-DOCSTART- O
+
+person O
+is O
+having O
+irritation-nonspecified B-INJURY
+injury L-INJURY
+
+-DOCSTART- O
+
+seventeen B-AGE
+years I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+person O
+is O
+diagnosed O
+with O
+multiple B-INJURY
+traumatic I-INJURY
+injuries I-INJURY
+to I-INJURY
+bones L-INJURY
+
+-DOCSTART- O
+
+she O
+is O
+having O
+lacerations U-INJURY
+
+-DOCSTART- O
+
+person O
+has O
+not B-STATUS
+talking L-STATUS
+
+-DOCSTART- O
+
+he O
+was O
+found O
+injured O
+at O
+italian B-Addr-Building-Name
+supplementary I-Addr-Building-Name
+school L-Addr-Building-Name
+seventeen U-Addr-Building-Number
+teck B-Addr-Street
+whye I-Addr-Street
+lane L-Addr-Street
+three B-PostCode
+nine I-PostCode
+four I-PostCode
+eight I-PostCode
+eight I-PostCode
+six L-PostCode
+singapore U-Addr-city
+
+-DOCSTART- O
+
+person O
+is O
+diagnosed O
+with O
+chemical B-INJURY
+burns I-INJURY
+and I-INJURY
+corrosions L-INJURY
+
+-DOCSTART- O
+
+i O
+am O
+at O
+block B-Addr-Block
+three L-Addr-Block
+10a U-Addr-Street
+hash B-Addr-UnitNo
+one I-Addr-UnitNo
+dash I-Addr-UnitNo
+thirteen L-Addr-UnitNo
+five B-PostCode
+six I-PostCode
+eight I-PostCode
+nine I-PostCode
+three I-PostCode
+four L-PostCode
+singapore U-Addr-city
+
+-DOCSTART- O
+
+cartilage B-INJURY
+fractures I-INJURY
+and I-INJURY
+tears L-INJURY
+on O
+upper B-BODYLOCATION
+ball I-BODYLOCATION
+of I-BODYLOCATION
+the I-BODYLOCATION
+foot L-BODYLOCATION
+
+-DOCSTART- O
+
+patient O
+is O
+having O
+burns B-INJURY
+and I-INJURY
+corrosions L-INJURY
+
+-DOCSTART- O
+
+person O
+has O
+still B-STATUS
+shaking L-STATUS
+
+-DOCSTART- O
+
+person O
+is O
+having O
+myocardial B-INJURY
+infarction L-INJURY
+
+-DOCSTART- O
+
+there O
+is O
+a O
+vehicle B-INJURY
+and I-INJURY
+bike I-INJURY
+accident L-INJURY
+
+-DOCSTART- O
+
+i O
+believe O
+her O
+age O
+is O
+5 B-AGE
+months I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+i O
+am O
+at O
+boon B-Addr-Street
+lay I-Addr-Street
+way L-Addr-Street
+eight B-PostCode
+five I-PostCode
+three I-PostCode
+three I-PostCode
+nine I-PostCode
+four L-PostCode
+
+-DOCSTART- O
+
+person O
+has O
+not B-STATUS
+alert L-STATUS
+
+-DOCSTART- O
+
+she O
+is O
+diagnosed O
+with O
+metabolic U-INJURY
+
+-DOCSTART- O
+
+i O
+think O
+he O
+looks O
+around O
+10 B-AGE
+months I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+the O
+ic O
+number O
+is O
+s5825288l U-IC
+
+-DOCSTART- O
+
+person O
+cannot B-CONDITION
+breathe I-CONDITION
+properly L-CONDITION
+
+-DOCSTART- O
+
+person O
+can B-STATUS
+respond L-STATUS
+
+-DOCSTART- O
+
+person O
+has O
+a B-CONDITION
+bit I-CONDITION
+of I-CONDITION
+difficulty I-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+patient O
+is O
+having O
+concussions U-INJURY
+
+-DOCSTART- O
+
+there O
+are O
+18 B-COUNT
+injured L-COUNT
+2 B-COUNT
+dead L-COUNT
+
+-DOCSTART- O
+
+person O
+has O
+bruises U-INJURY
+
+-DOCSTART- O
+
+person O
+has O
+not B-STATUS
+alert L-STATUS
+
+-DOCSTART- O
+
+coughing B-INJURY
+and I-INJURY
+throat I-INJURY
+irritation- I-INJURY
+toxic L-INJURY
+on O
+lower B-BODYLOCATION
+fingernail L-BODYLOCATION
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+is I-CONDITION
+normal L-CONDITION
+
+-DOCSTART- O
+
+person O
+want B-INJURY
+to I-INJURY
+give I-INJURY
+birth L-INJURY
+
+-DOCSTART- O
+
+there O
+is O
+a O
+vehicle B-INJURY
+roll I-INJURY
+over L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+fainted U-STATUS
+
+-DOCSTART- O
+
+his O
+ic O
+number O
+is O
+t B-IC
+five I-IC
+five I-IC
+eight I-IC
+one I-IC
+eight I-IC
+three I-IC
+three I-IC
+e L-IC
+
+-DOCSTART- O
+
+person O
+is O
+breathing U-CONDITION
+
+-DOCSTART- O
+
+person O
+has O
+problems B-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+he O
+is O
+having O
+tears U-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+fainted U-STATUS
+
+-DOCSTART- O
+
+there O
+is O
+a O
+hot B-INJURY
+oil I-INJURY
+splash L-INJURY
+
+-DOCSTART- O
+
+person O
+has O
+quite B-STATUS
+drowsy L-STATUS
+
+-DOCSTART- O
+
+she O
+is O
+having O
+first B-INJURY
+degree I-INJURY
+electrical I-INJURY
+burns L-INJURY
+
+-DOCSTART- O
+
+this O
+is O
+the O
+zero B-DURATION
+to I-DURATION
+nine I-DURATION
+years L-DURATION
+
+-DOCSTART- O
+
+patient O
+is O
+diagnosed O
+with O
+nerves U-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+diagnosed O
+with O
+ischemic B-INJURY
+heart I-INJURY
+disease L-INJURY
+
+-DOCSTART- O
+
+he O
+was O
+found O
+injured O
+at O
+kiew B-Addr-Building-Name
+sian I-Addr-Building-Name
+king I-Addr-Building-Name
+temple L-Addr-Building-Name
+seven U-Addr-Building-Number
+lompang B-Addr-Street
+road L-Addr-Street
+two B-PostCode
+eight I-PostCode
+four I-PostCode
+one I-PostCode
+seven I-PostCode
+two L-PostCode
+singapore U-Addr-city
+
+-DOCSTART- O
+
+person O
+is O
+diagnosed O
+with O
+paralysis U-INJURY
+
+-DOCSTART- O
+
+he O
+is O
+having O
+heat B-INJURY
+syncope L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+is I-CONDITION
+normal L-CONDITION
+
+-DOCSTART- O
+
+there O
+is O
+a O
+here O
+
+-DOCSTART- O
+
+on O
+the O
+lower B-BODYLOCATION
+fingernail L-BODYLOCATION
+
+-DOCSTART- O
+
+i O
+am O
+at O
+compassvale B-Addr-Street
+road L-Addr-Street
+hash B-Addr-UnitNo
+three I-Addr-UnitNo
+nineteen L-Addr-UnitNo
+s B-PostCode
+six I-PostCode
+six I-PostCode
+nine I-PostCode
+nine I-PostCode
+three I-PostCode
+three L-PostCode
+singapore U-Addr-city
+
+-DOCSTART- O
+
+person O
+is O
+diagnosed O
+with O
+hernias B-INJURY
+due I-INJURY
+to I-INJURY
+traumatic I-INJURY
+incidents L-INJURY
+
+-DOCSTART- O
+
+the O
+ic O
+number O
+is O
+s3718313f U-IC
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+is I-CONDITION
+normal L-CONDITION
+
+-DOCSTART- O
+
+i O
+think O
+he O
+looks O
+around O
+one B-AGE
+years I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+he O
+was O
+found O
+injured O
+at O
+
+-DOCSTART- O
+
+person O
+want B-STATUS
+to I-STATUS
+faint L-STATUS
+
+-DOCSTART- O
+
+his O
+ic O
+number O
+is O
+t3238452m U-IC
+
+-DOCSTART- O
+
+person O
+cannot B-CONDITION
+breathe I-CONDITION
+properly L-CONDITION
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+is I-CONDITION
+a I-CONDITION
+bit I-CONDITION
+slow L-CONDITION
+
+-DOCSTART- O
+
+i O
+am O
+at O
+yio B-Addr-Street
+chu I-Addr-Street
+kang I-Addr-Street
+road L-Addr-Street
+hash B-Addr-UnitNo
+four I-Addr-UnitNo
+eighteen L-Addr-UnitNo
+two B-PostCode
+five I-PostCode
+two I-PostCode
+seven I-PostCode
+seven I-PostCode
+five L-PostCode
+singapore U-Addr-city
+
+-DOCSTART- O
+
+this O
+is O
+the O
+3 B-DURATION
+years L-DURATION
+
+-DOCSTART- O
+
+there O
+are O
+8 B-COUNT
+dead L-COUNT
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+is I-CONDITION
+a I-CONDITION
+bit I-CONDITION
+slow L-CONDITION
+
+-DOCSTART- O
+
+he O
+is O
+having O
+loss B-INJURY
+of I-INJURY
+consciousness L-INJURY
+
+-DOCSTART- O
+
+amputations U-INJURY
+on O
+lower B-BODYLOCATION
+circulatory I-BODYLOCATION
+system L-BODYLOCATION
+
+-DOCSTART- O
+
+person O
+has O
+alert U-STATUS
+
+-DOCSTART- O
+
+person O
+swallowed B-INJURY
+fish I-INJURY
+bone L-INJURY
+
+-DOCSTART- O
+
+person O
+has O
+a B-CONDITION
+bit I-CONDITION
+of I-CONDITION
+difficulty I-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+person O
+cannot B-STATUS
+respond L-STATUS
+
+-DOCSTART- O
+
+there O
+are O
+19 B-COUNT
+injured L-COUNT
+
+-DOCSTART- O
+
+patient O
+is O
+diagnosed O
+with O
+electrocutions U-INJURY
+
+-DOCSTART- O
+
+the O
+ic O
+number O
+is O
+t5154614w U-IC
+
+-DOCSTART- O
+
+there O
+are O
+19 B-COUNT
+dead L-COUNT
+17 B-COUNT
+dead L-COUNT
+
+-DOCSTART- O
+
+person O
+has O
+a B-STATUS
+bit I-STATUS
+giddy L-STATUS
+
+-DOCSTART- O
+
+person O
+is O
+bleeding B-INJURY
+on I-INJURY
+arms I-INJURY
+and I-INJURY
+legs L-INJURY
+
+-DOCSTART- O
+
+there O
+are O
+15 B-COUNT
+dead L-COUNT
+
+-DOCSTART- O
+
+there O
+is O
+a O
+group B-INJURY
+of I-INJURY
+people I-INJURY
+beat I-INJURY
+up L-INJURY
+
+-DOCSTART- O
+
+there O
+are O
+six B-COUNT
+injured L-COUNT
+thirteen B-COUNT
+injured L-COUNT
+
+-DOCSTART- O
+
+there O
+are O
+five B-COUNT
+injured L-COUNT
+fifteen B-COUNT
+injured L-COUNT
+
+-DOCSTART- O
+
+person O
+want B-STATUS
+to I-STATUS
+faint L-STATUS
+
+-DOCSTART- O
+
+she O
+is O
+having O
+traumatic B-INJURY
+injuries I-INJURY
+to I-INJURY
+spinal I-INJURY
+cord L-INJURY
+
+-DOCSTART- O
+
+patient O
+is O
+diagnosed O
+with O
+pneumonia U-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+fainted U-STATUS
+
+-DOCSTART- O
+
+i O
+believe O
+her O
+age O
+is O
+eleven B-AGE
+months I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+person O
+can B-STATUS
+talk L-STATUS
+
+-DOCSTART- O
+
+person O
+has O
+blood B-INJURY
+near I-INJURY
+bites L-INJURY
+
+-DOCSTART- O
+
+he O
+is O
+diagnosed O
+chest B-INJURY
+pain L-INJURY
+
+-DOCSTART- O
+
+there O
+is O
+a O
+vehicle B-INJURY
+over I-INJURY
+turn L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+right B-INJURY
+arm I-INJURY
+fractured L-INJURY
+
+-DOCSTART- O
+
+patient O
+is O
+diagnosed O
+with O
+heat B-INJURY
+exhaustion L-INJURY
+
+-DOCSTART- O
+
+eight B-DURATION
+hours L-DURATION
+
+-DOCSTART- O
+
+my O
+number O
+is O
+04661740 U-PHONENO
+
+-DOCSTART- O
+
+there O
+is O
+a O
+group B-INJURY
+of I-INJURY
+people I-INJURY
+beat I-INJURY
+up L-INJURY
+
+-DOCSTART- O
+
+person O
+vomit B-INJURY
+blood L-INJURY
+
+-DOCSTART- O
+
+eighteen B-AGE
+years I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+ic O
+number O
+is O
+s B-IC
+one I-IC
+one I-IC
+seven I-IC
+four I-IC
+zero I-IC
+three I-IC
+six I-IC
+t L-IC
+
+-DOCSTART- O
+
+ic O
+number O
+is O
+g5508177x U-IC
+
+-DOCSTART- O
+
+person O
+slipped U-INJURY
+
+-DOCSTART- O
+
+twelve B-AGE
+months I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+person O
+is O
+not B-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+there O
+are O
+3 B-COUNT
+injured L-COUNT
+and O
+12 B-COUNT
+dead L-COUNT
+
+-DOCSTART- O
+
+he O
+is O
+diagnosed O
+sprains B-INJURY
+and I-INJURY
+bruises L-INJURY
+
+-DOCSTART- O
+
+he O
+is O
+diagnosed O
+effects B-INJURY
+of I-INJURY
+environmental I-INJURY
+conditions L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+okay L-CONDITION
+
+-DOCSTART- O
+
+there O
+is O
+a O
+here O
+
+-DOCSTART- O
+
+she O
+is O
+having O
+multiple B-INJURY
+traumatic I-INJURY
+injuries I-INJURY
+to I-INJURY
+muscles L-INJURY
+
+-DOCSTART- O
+
+he O
+is O
+having O
+first B-INJURY
+degree I-INJURY
+heat I-INJURY
+burns L-INJURY
+
+-DOCSTART- O
+
+there O
+is O
+a O
+group B-INJURY
+of I-INJURY
+people I-INJURY
+beat I-INJURY
+up L-INJURY
+
+-DOCSTART- O
+
+there O
+are O
+seventeen B-COUNT
+dead L-COUNT
+twelve B-COUNT
+dead L-COUNT
+
+-DOCSTART- O
+
+he O
+is O
+diagnosed O
+multiple B-INJURY
+types I-INJURY
+of I-INJURY
+open I-INJURY
+wounds L-INJURY
+
+-DOCSTART- O
+
+he O
+is O
+injured O
+on O
+lower B-BODYLOCATION
+hair L-BODYLOCATION
+
+-DOCSTART- O
+
+person O
+has O
+very B-STATUS
+drowsy L-STATUS
+
+-DOCSTART- O
+
+i O
+am O
+at O
+whampoa B-Addr-Street
+drive L-Addr-Street
+s460597 U-PostCode
+
+-DOCSTART- O
+
+person O
+has O
+stomach B-INJURY
+pain L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+bitten B-INJURY
+on L-INJURY
+
+-DOCSTART- O
+
+i O
+am O
+at O
+1 B-Addr-Building-Name
+finlayson I-Addr-Building-Name
+green L-Addr-Building-Name
+17 U-Addr-Building-Number
+joo B-Addr-Street
+seng I-Addr-Street
+road L-Addr-Street
+972380 U-PostCode
+near O
+
+-DOCSTART- O
+
+zero B-AGE
+years I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+person O
+is O
+arms B-INJURY
+are I-INJURY
+blue L-INJURY
+
+-DOCSTART- O
+
+he O
+was O
+found O
+injured O
+at O
+
+-DOCSTART- O
+
+the O
+ic O
+number O
+is O
+s1250504l U-IC
+
+-DOCSTART- O
+
+strains U-INJURY
+on O
+upper B-BODYLOCATION
+scapula L-BODYLOCATION
+
+-DOCSTART- O
+
+i O
+think O
+he O
+looks O
+around O
+17 B-AGE
+years I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+person O
+can B-STATUS
+talk L-STATUS
+
+-DOCSTART- O
+
+person O
+has O
+food B-INJURY
+poisoning L-INJURY
+
+-DOCSTART- O
+
+there O
+are O
+nineteen B-COUNT
+injured L-COUNT
+and O
+nineteen B-COUNT
+injured L-COUNT
+
+-DOCSTART- O
+
+there O
+are O
+five B-COUNT
+dead L-COUNT
+
+-DOCSTART- O
+
+person O
+has O
+a B-STATUS
+bit I-STATUS
+drowsy L-STATUS
+
+-DOCSTART- O
+
+on O
+the O
+right B-BODYLOCATION
+follicle L-BODYLOCATION
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+is I-CONDITION
+normal L-CONDITION
+
+-DOCSTART- O
+
+electric B-INJURY
+shocks L-INJURY
+on O
+left B-BODYLOCATION
+urethra L-BODYLOCATION
+
+-DOCSTART- O
+
+person O
+is O
+bleeding B-INJURY
+on I-INJURY
+arms I-INJURY
+and I-INJURY
+legs L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+diagnosed O
+with O
+abdominal B-INJURY
+pain L-INJURY
+
+-DOCSTART- O
+
+9 B-AGE
+months I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+there O
+are O
+two B-COUNT
+dead L-COUNT
+fourteen B-COUNT
+injured L-COUNT
+
+-DOCSTART- O
+
+there O
+are O
+fourteen B-COUNT
+injured L-COUNT
+
+-DOCSTART- O
+
+person O
+has O
+problems B-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+i O
+believe O
+her O
+age O
+is O
+13 B-AGE
+months I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+fractures B-INJURY
+and I-INJURY
+dislocations L-INJURY
+on O
+upper B-BODYLOCATION
+sense L-BODYLOCATION
+
+-DOCSTART- O
+
+he O
+is O
+diagnosed O
+pain U-INJURY
+
+-DOCSTART- O
+
+he O
+is O
+having O
+lacerations U-INJURY
+
+-DOCSTART- O
+
+she O
+is O
+having O
+traumatic B-INJURY
+injuries I-INJURY
+to I-INJURY
+muscles I-INJURY
+joints L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+hanging U-INJURY
+
+-DOCSTART- O
+
+i O
+believe O
+her O
+age O
+is O
+10 B-AGE
+years I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+person O
+is O
+having B-CONDITION
+some I-CONDITION
+problems I-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+on O
+the O
+left B-BODYLOCATION
+shoulder I-BODYLOCATION
+blade L-BODYLOCATION
+
+-DOCSTART- O
+
+there O
+are O
+12 B-COUNT
+dead L-COUNT
+
+-DOCSTART- O
+
+she O
+is O
+diagnosed O
+with O
+blisters U-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+finger B-INJURY
+amputated L-INJURY
+
+-DOCSTART- O
+
+she O
+is O
+having O
+abrasions U-INJURY
+
+-DOCSTART- O
+
+my O
+number O
+is O
+nine B-PHONENO
+zero I-PHONENO
+six I-PHONENO
+five I-PHONENO
+zero I-PHONENO
+zero I-PHONENO
+zero I-PHONENO
+two L-PHONENO
+
+-DOCSTART- O
+
+person O
+has O
+drowsy U-STATUS
+
+-DOCSTART- O
+
+person O
+is O
+having O
+traumatic B-INJURY
+injuries I-INJURY
+to I-INJURY
+muscles I-INJURY
+joints L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+right B-INJURY
+arm I-INJURY
+fractured L-INJURY
+
+-DOCSTART- O
+
+person O
+stopped B-STATUS
+jerking L-STATUS
+
+-DOCSTART- O
+
+person O
+cannot B-CONDITION
+breathe I-CONDITION
+properly L-CONDITION
+
+-DOCSTART- O
+
+he O
+is O
+having O
+coughing B-INJURY
+and I-INJURY
+throat I-INJURY
+irritation- I-INJURY
+toxic L-INJURY
+
+-DOCSTART- O
+
+person O
+has O
+problems B-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+on O
+the O
+right B-BODYLOCATION
+ankle L-BODYLOCATION
+
+-DOCSTART- O
+
+person O
+has O
+allergic B-INJURY
+reaction L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+diagnosed O
+with O
+abdominal B-INJURY
+pain L-INJURY
+
+-DOCSTART- O
+
+there O
+are O
+12 B-COUNT
+dead L-COUNT
+
+-DOCSTART- O
+
+ic O
+number O
+is O
+s2096020e U-IC
+
+-DOCSTART- O
+
+he O
+was O
+found O
+injured O
+at O
+1 B-Addr-Building-Name
+finlayson I-Addr-Building-Name
+green L-Addr-Building-Name
+100 U-Addr-Building-Number
+kaki B-Addr-Street
+bukit I-Addr-Street
+crescent L-Addr-Street
+974175 U-PostCode
+
+-DOCSTART- O
+
+there O
+are O
+4 B-COUNT
+injured L-COUNT
+14 B-COUNT
+injured L-COUNT
+
+-DOCSTART- O
+
+person O
+has O
+problems B-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+is I-CONDITION
+normal L-CONDITION
+
+-DOCSTART- O
+
+on O
+the O
+upper B-BODYLOCATION
+radius L-BODYLOCATION
+
+-DOCSTART- O
+
+there O
+is O
+a O
+here O
+
+-DOCSTART- O
+
+person O
+is O
+having B-CONDITION
+some I-CONDITION
+problems I-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+4 B-DURATION
+seconds L-DURATION
+
+-DOCSTART- O
+
+there O
+are O
+12 B-COUNT
+injured L-COUNT
+and O
+0 B-COUNT
+injured L-COUNT
+
+-DOCSTART- O
+
+she O
+is O
+diagnosed O
+with O
+electric B-INJURY
+shocks L-INJURY
+
+-DOCSTART- O
+
+there O
+is O
+a O
+here O
+
+-DOCSTART- O
+
+there O
+is O
+a O
+vehicle B-INJURY
+over I-INJURY
+turn L-INJURY
+
+-DOCSTART- O
+
+patient O
+is O
+having O
+stress U-INJURY
+
+-DOCSTART- O
+
+10 B-AGE
+years I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+the O
+ic O
+number O
+is O
+t6285877e U-IC
+
+-DOCSTART- O
+
+my O
+number O
+is O
+eight B-PHONENO
+five I-PHONENO
+zero I-PHONENO
+four I-PHONENO
+zero I-PHONENO
+three I-PHONENO
+zero I-PHONENO
+zero L-PHONENO
+
+-DOCSTART- O
+
+there O
+is O
+a O
+vehicle B-INJURY
+roll I-INJURY
+over L-INJURY
+
+-DOCSTART- O
+
+he O
+was O
+found O
+injured O
+at O
+twenty U-Addr-Building-Number
+goldhill B-Addr-Street
+plaza L-Addr-Street
+five B-PostCode
+seven I-PostCode
+three I-PostCode
+zero I-PostCode
+three I-PostCode
+zero L-PostCode
+
+-DOCSTART- O
+
+i O
+am O
+at O
+18 U-Addr-Building-Number
+velocity@novena B-Addr-Building-Name
+square L-Addr-Building-Name
+pipit B-Addr-Street
+road L-Addr-Street
+#18-70 U-Addr-UnitNo
+399990 U-PostCode
+singapore U-Addr-city
+near O
+
+-DOCSTART- O
+
+six B-COUNT
+injured L-COUNT
+and O
+zero B-COUNT
+dead L-COUNT
+
+-DOCSTART- O
+
+this O
+is O
+the O
+four B-DURATION
+to I-DURATION
+six I-DURATION
+hours L-DURATION
+
+-DOCSTART- O
+
+patient O
+is O
+having O
+noxious U-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+arms B-INJURY
+are I-INJURY
+blue L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+fainted U-STATUS
+
+-DOCSTART- O
+
+he O
+was O
+found O
+injured O
+at O
+hillcrest B-Addr-Street
+road L-Addr-Street
+#4-6 U-Addr-UnitNo
+118317 U-PostCode
+
+-DOCSTART- O
+
+3 B-COUNT
+dead L-COUNT
+and O
+5 B-COUNT
+injured L-COUNT
+
+-DOCSTART- O
+
+he O
+is O
+having O
+exposures B-INJURY
+to I-INJURY
+disease-no I-INJURY
+illness I-INJURY
+incurred L-INJURY
+
+-DOCSTART- O
+
+four B-COUNT
+injured L-COUNT
+and O
+nineteen B-COUNT
+injured L-COUNT
+
+-DOCSTART- O
+
+i O
+believe O
+her O
+age O
+is O
+eighteen B-AGE
+years I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+patient O
+is O
+diagnosed O
+with O
+multiple B-INJURY
+traumatic I-INJURY
+injuries I-INJURY
+to I-INJURY
+bones L-INJURY
+
+-DOCSTART- O
+
+on O
+the O
+lower B-BODYLOCATION
+chin L-BODYLOCATION
+
+-DOCSTART- O
+
+he O
+is O
+injured O
+on O
+upper B-BODYLOCATION
+toe L-BODYLOCATION
+
+-DOCSTART- O
+
+person O
+has O
+blood U-INJURY
+
+-DOCSTART- O
+
+on O
+the O
+upper B-BODYLOCATION
+lumbar L-BODYLOCATION
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+very I-CONDITION
+fast L-CONDITION
+
+-DOCSTART- O
+
+he O
+is O
+injured O
+on O
+right B-BODYLOCATION
+kidney L-BODYLOCATION
+
+-DOCSTART- O
+
+person O
+has O
+fever U-INJURY
+
+-DOCSTART- O
+
+0 B-DURATION
+mins L-DURATION
+
+-DOCSTART- O
+
+fourteen B-COUNT
+injured L-COUNT
+and O
+sixteen B-COUNT
+dead L-COUNT
+
+-DOCSTART- O
+
+he O
+is O
+injured O
+on O
+left B-BODYLOCATION
+heel L-BODYLOCATION
+
+-DOCSTART- O
+
+person O
+is O
+having O
+prostration U-INJURY
+
+-DOCSTART- O
+
+he O
+is O
+having O
+electrocutions U-INJURY
+
+-DOCSTART- O
+
+eight B-AGE
+years I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+i O
+believe O
+her O
+age O
+is O
+nine B-AGE
+years I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+ic O
+number O
+is O
+t3705349z U-IC
+
+-DOCSTART- O
+
+person O
+has O
+chest B-CONDITION
+pain L-CONDITION
+
+-DOCSTART- O
+
+person O
+is O
+finger B-INJURY
+amputated L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+having O
+nausea U-INJURY
+
+-DOCSTART- O
+
+8 B-DURATION
+to I-DURATION
+8 I-DURATION
+mins L-DURATION
+
+-DOCSTART- O
+
+person O
+is O
+no B-STATUS
+movement L-STATUS
+
+-DOCSTART- O
+
+the O
+ic O
+number O
+is O
+g B-IC
+zero I-IC
+four I-IC
+zero I-IC
+eight I-IC
+eight I-IC
+eight I-IC
+one I-IC
+w L-IC
+
+-DOCSTART- O
+
+person O
+has O
+a B-STATUS
+bit I-STATUS
+drowsy L-STATUS
+
+-DOCSTART- O
+
+there O
+are O
+3 B-COUNT
+injured L-COUNT
+and O
+10 B-COUNT
+dead L-COUNT
+
+-DOCSTART- O
+
+person O
+has O
+slight B-INJURY
+breach L-INJURY
+
+-DOCSTART- O
+
+he O
+is O
+diagnosed O
+cellulitis B-INJURY
+and I-INJURY
+abscess L-INJURY
+
+-DOCSTART- O
+
+four B-COUNT
+injured L-COUNT
+and O
+ten B-COUNT
+injured L-COUNT
+
+-DOCSTART- O
+
+he O
+is O
+injured O
+on O
+lower B-BODYLOCATION
+sole L-BODYLOCATION
+
+-DOCSTART- O
+
+i O
+think O
+he O
+looks O
+around O
+sixteen B-AGE
+years I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+there O
+is O
+a O
+here O
+
+-DOCSTART- O
+
+she O
+is O
+diagnosed O
+with O
+pinched B-INJURY
+nerve L-INJURY
+
+-DOCSTART- O
+
+my O
+number O
+is O
+72788914 U-PHONENO
+
+-DOCSTART- O
+
+patient O
+is O
+diagnosed O
+with O
+effects B-INJURY
+of I-INJURY
+environmental I-INJURY
+conditions L-INJURY
+
+-DOCSTART- O
+
+there O
+are O
+eleven B-COUNT
+dead L-COUNT
+and O
+two B-COUNT
+injured L-COUNT
+
+-DOCSTART- O
+
+this O
+is O
+the O
+four B-DURATION
+months L-DURATION
+
+-DOCSTART- O
+
+person O
+is O
+no B-STATUS
+movement L-STATUS
+
+-DOCSTART- O
+
+the O
+ic O
+number O
+is O
+s7328418v U-IC
+
+-DOCSTART- O
+
+person O
+cannot B-STATUS
+respond L-STATUS
+
+-DOCSTART- O
+
+sixteen B-COUNT
+injured L-COUNT
+and O
+sixteen B-COUNT
+dead L-COUNT
+
+-DOCSTART- O
+
+person O
+has O
+stomach B-INJURY
+pain L-INJURY
+
+-DOCSTART- O
+
+there O
+are O
+11 B-COUNT
+dead L-COUNT
+
+-DOCSTART- O
+
+this O
+is O
+the O
+one B-DURATION
+to I-DURATION
+six I-DURATION
+seconds L-DURATION
+
+-DOCSTART- O
+
+his O
+ic O
+number O
+is O
+s3475396j U-IC
+
+-DOCSTART- O
+
+i O
+am O
+at O
+queen B-Addr-Street
+astrid I-Addr-Street
+park L-Addr-Street
+nine B-PostCode
+zero I-PostCode
+seven I-PostCode
+one I-PostCode
+one I-PostCode
+three L-PostCode
+
+-DOCSTART- O
+
+there O
+is O
+a O
+here O
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+is I-CONDITION
+normal L-CONDITION
+
+-DOCSTART- O
+
+five B-DURATION
+years L-DURATION
+
+-DOCSTART- O
+
+patient O
+is O
+diagnosed O
+with O
+strains U-INJURY
+
+-DOCSTART- O
+
+he O
+was O
+found O
+injured O
+at O
+12 U-Addr-Building-Number
+geylang B-Addr-Street
+serai L-Addr-Street
+026802 U-PostCode
+singapore U-Addr-city
+
+-DOCSTART- O
+
+person O
+has O
+slight B-INJURY
+breach L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+is I-CONDITION
+a I-CONDITION
+bit I-CONDITION
+slow L-CONDITION
+
+-DOCSTART- O
+
+9 B-DURATION
+seconds L-DURATION
+
+-DOCSTART- O
+
+i O
+am O
+at O
+two B-Addr-Building-Number
+fourteen L-Addr-Building-Number
+yangzheng B-Addr-Building-Name
+primary I-Addr-Building-Name
+school L-Addr-Building-Name
+old B-Addr-Street
+upper I-Addr-Street
+thomson I-Addr-Street
+road L-Addr-Street
+hash B-Addr-UnitNo
+eighteen I-Addr-UnitNo
+dash I-Addr-UnitNo
+two L-Addr-UnitNo
+two B-PostCode
+two I-PostCode
+one I-PostCode
+five I-PostCode
+five I-PostCode
+nine L-PostCode
+singapore U-Addr-city
+near O
+
+-DOCSTART- O
+
+there O
+is O
+a O
+here O
+
+-DOCSTART- O
+
+person O
+cannot B-CONDITION
+breathe I-CONDITION
+properly L-CONDITION
+
+-DOCSTART- O
+
+he O
+is O
+diagnosed O
+burns B-INJURY
+and I-INJURY
+smoke I-INJURY
+inhalation L-INJURY
+
+-DOCSTART- O
+
+five B-DURATION
+to I-DURATION
+seven I-DURATION
+hours L-DURATION
+
+-DOCSTART- O
+
+patient O
+is O
+diagnosed O
+with O
+cuts U-INJURY
+
+-DOCSTART- O
+
+i O
+am O
+at O
+petir B-Addr-Street
+road L-Addr-Street
+854603 U-PostCode
+near O
+
+-DOCSTART- O
+
+hyperventilation U-INJURY
+on O
+left B-BODYLOCATION
+eye L-BODYLOCATION
+
+-DOCSTART- O
+
+surface B-INJURY
+wounds I-INJURY
+and I-INJURY
+bruises L-INJURY
+on O
+right B-BODYLOCATION
+pore L-BODYLOCATION
+
+-DOCSTART- O
+
+there O
+is O
+a O
+hot B-INJURY
+oil I-INJURY
+splash L-INJURY
+
+-DOCSTART- O
+
+he O
+is O
+having O
+cellulitis B-INJURY
+and I-INJURY
+abscess L-INJURY
+
+-DOCSTART- O
+
+she O
+is O
+diagnosed O
+with O
+multiple B-INJURY
+types I-INJURY
+of I-INJURY
+open I-INJURY
+wounds L-INJURY
+
+-DOCSTART- O
+
+7 B-COUNT
+injured L-COUNT
+and O
+7 B-COUNT
+dead L-COUNT
+
+-DOCSTART- O
+
+person O
+is O
+diagnosed O
+with O
+influenza-novel U-INJURY
+
+-DOCSTART- O
+
+5 B-AGE
+years I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+person O
+has O
+drowsy U-STATUS
+
+-DOCSTART- O
+
+8 B-DURATION
+months L-DURATION
+
+-DOCSTART- O
+
+stress U-INJURY
+on O
+right B-BODYLOCATION
+uterus L-BODYLOCATION
+
+-DOCSTART- O
+
+person O
+stopped B-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+person O
+did B-STATUS
+not I-STATUS
+faint L-STATUS
+
+-DOCSTART- O
+
+my O
+number O
+is O
+zero B-PHONENO
+three I-PHONENO
+four I-PHONENO
+five I-PHONENO
+two I-PHONENO
+six I-PHONENO
+one I-PHONENO
+zero L-PHONENO
+
+-DOCSTART- O
+
+he O
+was O
+found O
+injured O
+at O
+forty B-Addr-Building-Number
+five L-Addr-Building-Number
+running B-Addr-Street
+track L-Addr-Street
+six B-PostCode
+seven I-PostCode
+eight I-PostCode
+seven I-PostCode
+nine I-PostCode
+one L-PostCode
+
+-DOCSTART- O
+
+person O
+has O
+slight B-INJURY
+breach L-INJURY
+
+-DOCSTART- O
+
+i O
+believe O
+her O
+age O
+is O
+twelve B-AGE
+years I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+1 B-COUNT
+dead L-COUNT
+and O
+5 B-COUNT
+dead L-COUNT
+
+-DOCSTART- O
+
+there O
+is O
+a O
+vehicle B-INJURY
+and I-INJURY
+bike I-INJURY
+accident L-INJURY
+
+-DOCSTART- O
+
+i O
+believe O
+her O
+age O
+is O
+10 B-AGE
+years I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+on O
+the O
+right B-BODYLOCATION
+metacarpal L-BODYLOCATION
+
+-DOCSTART- O
+
+there O
+are O
+fifteen B-COUNT
+injured L-COUNT
+
+-DOCSTART- O
+
+his O
+ic O
+number O
+is O
+g2414249h U-IC
+
+-DOCSTART- O
+
+my O
+number O
+is O
+six B-PHONENO
+two I-PHONENO
+eight I-PHONENO
+five I-PHONENO
+zero I-PHONENO
+seven I-PHONENO
+zero I-PHONENO
+nine L-PHONENO
+
+-DOCSTART- O
+
+zero B-COUNT
+dead L-COUNT
+and O
+seven B-COUNT
+injured L-COUNT
+
+-DOCSTART- O
+
+the O
+ic O
+number O
+is O
+f5087965x U-IC
+
+-DOCSTART- O
+
+he O
+is O
+having O
+enucleations U-INJURY
+
+-DOCSTART- O
+
+the O
+ic O
+number O
+is O
+t9620978y U-IC
+
+-DOCSTART- O
+
+person O
+is O
+arms B-INJURY
+are I-INJURY
+blue L-INJURY
+
+-DOCSTART- O
+
+she O
+is O
+diagnosed O
+with O
+strains U-INJURY
+
+-DOCSTART- O
+
+person O
+can B-STATUS
+reply L-STATUS
+
+-DOCSTART- O
+
+person O
+has O
+chest B-CONDITION
+pain L-CONDITION
+
+-DOCSTART- O
+
+four B-DURATION
+years L-DURATION
+
+-DOCSTART- O
+
+person O
+has O
+a B-CONDITION
+bit I-CONDITION
+of I-CONDITION
+difficulty I-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+dislocation B-INJURY
+of I-INJURY
+joints L-INJURY
+on O
+upper B-BODYLOCATION
+groin L-BODYLOCATION
+
+-DOCSTART- O
+
+i O
+am O
+at O
+3 U-Addr-Building-Number
+grand B-Addr-Building-Name
+copthorne I-Addr-Building-Name
+waterfront I-Addr-Building-Name
+hotel L-Addr-Building-Name
+harper B-Addr-Street
+road L-Addr-Street
+#8-40 U-Addr-UnitNo
+034240 U-PostCode
+singapore U-Addr-city
+
+-DOCSTART- O
+
+paralysis U-INJURY
+on O
+lower B-BODYLOCATION
+pituitary L-BODYLOCATION
+
+-DOCSTART- O
+
+person O
+stopped B-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+i O
+am O
+at O
+blk B-Addr-Block
+50 L-Addr-Block
+playfair B-Addr-Street
+road L-Addr-Street
+#12-15 U-Addr-UnitNo
+765692 U-PostCode
+singapore U-Addr-city
+near O
+
+-DOCSTART- O
+
+person O
+cannot B-CONDITION
+breathe I-CONDITION
+properly L-CONDITION
+
+-DOCSTART- O
+
+my O
+number O
+is O
+06335512 U-PHONENO
+
+-DOCSTART- O
+
+person O
+has O
+slow B-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+he O
+was O
+found O
+injured O
+at O
+thirteen U-Addr-Building-Number
+circuit B-Addr-Street
+link L-Addr-Street
+hash B-Addr-UnitNo
+nineteen I-Addr-UnitNo
+dash I-Addr-UnitNo
+eleven L-Addr-UnitNo
+s B-PostCode
+eight I-PostCode
+five I-PostCode
+nine I-PostCode
+five I-PostCode
+two I-PostCode
+three L-PostCode
+
+-DOCSTART- O
+
+person O
+stopped B-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+person O
+vomit B-INJURY
+blood L-INJURY
+
+-DOCSTART- O
+
+3 B-DURATION
+to I-DURATION
+3 I-DURATION
+mins L-DURATION
+
+-DOCSTART- O
+
+there O
+are O
+13 B-COUNT
+injured L-COUNT
+and O
+7 B-COUNT
+injured L-COUNT
+
+-DOCSTART- O
+
+person O
+vomit B-INJURY
+blood L-INJURY
+
+-DOCSTART- O
+
+patient O
+is O
+having O
+general B-INJURY
+symptoms L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+no B-STATUS
+movement L-STATUS
+
+-DOCSTART- O
+
+there O
+is O
+a O
+here O
+
+-DOCSTART- O
+
+there O
+are O
+4 B-COUNT
+dead L-COUNT
+and O
+10 B-COUNT
+dead L-COUNT
+
+-DOCSTART- O
+
+person O
+has O
+quite B-STATUS
+giddy L-STATUS
+
+-DOCSTART- O
+
+person O
+has O
+not B-STATUS
+moving I-STATUS
+at I-STATUS
+all L-STATUS
+
+-DOCSTART- O
+
+he O
+was O
+found O
+injured O
+at O
+jalan B-Addr-Street
+damai L-Addr-Street
+zero B-PostCode
+four I-PostCode
+eight I-PostCode
+five I-PostCode
+eight I-PostCode
+seven L-PostCode
+
+-DOCSTART- O
+
+person O
+is O
+stung B-INJURY
+by I-INJURY
+bee L-INJURY
+
+-DOCSTART- O
+
+i O
+am O
+at O
+blk B-Addr-Block
+100 L-Addr-Block
+saujana B-Addr-Street
+road L-Addr-Street
+#13-19 U-Addr-UnitNo
+495084 U-PostCode
+
+-DOCSTART- O
+
+patient O
+is O
+diagnosed O
+with O
+surface B-INJURY
+wounds I-INJURY
+and I-INJURY
+bruises L-INJURY
+
+-DOCSTART- O
+
+8 B-AGE
+years I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+there O
+are O
+nine B-COUNT
+dead L-COUNT
+two B-COUNT
+dead L-COUNT
+
+-DOCSTART- O
+
+i O
+am O
+at O
+new B-Addr-Street
+upper I-Addr-Street
+changi I-Addr-Street
+road L-Addr-Street
+hash B-Addr-UnitNo
+six I-Addr-UnitNo
+dash I-Addr-UnitNo
+fifty I-Addr-UnitNo
+six L-Addr-UnitNo
+singapore B-PostCode
+post I-PostCode
+code I-PostCode
+nine I-PostCode
+five I-PostCode
+five I-PostCode
+two I-PostCode
+eight I-PostCode
+two L-PostCode
+
+-DOCSTART- O
+
+he O
+was O
+found O
+injured O
+at O
+
+-DOCSTART- O
+
+there O
+are O
+9 B-COUNT
+dead L-COUNT
+
+-DOCSTART- O
+
+he O
+was O
+found O
+injured O
+at O
+16 U-Addr-Building-Number
+dafne B-Addr-Street
+street L-Addr-Street
+750052 U-PostCode
+
+-DOCSTART- O
+
+i O
+am O
+at O
+sungei B-Addr-Street
+kadut L-Addr-Street
+477795 U-PostCode
+near O
+
+-DOCSTART- O
+
+there O
+are O
+15 B-COUNT
+dead L-COUNT
+11 B-COUNT
+dead L-COUNT
+
+-DOCSTART- O
+
+he O
+was O
+found O
+injured O
+at O
+playfair B-Addr-Street
+road L-Addr-Street
+202422 U-PostCode
+
+-DOCSTART- O
+
+there O
+are O
+seventeen B-COUNT
+injured L-COUNT
+
+-DOCSTART- O
+
+she O
+is O
+having O
+heat B-INJURY
+burns L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+fainted U-STATUS
+
+-DOCSTART- O
+
+patient O
+is O
+diagnosed O
+with O
+blisters U-INJURY
+
+-DOCSTART- O
+
+she O
+is O
+having O
+multiple B-INJURY
+sprains L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+fainted U-STATUS
+
+-DOCSTART- O
+
+person O
+has O
+a B-STATUS
+bit I-STATUS
+giddy L-STATUS
+
+-DOCSTART- O
+
+person O
+has O
+unconscious U-STATUS
+
+-DOCSTART- O
+
+i O
+believe O
+her O
+age O
+is O
+fourteen B-AGE
+months I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+person O
+stopped B-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+he O
+is O
+diagnosed O
+abrasions U-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+having B-CONDITION
+some I-CONDITION
+problems I-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+ten B-AGE
+years I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+he O
+was O
+found O
+injured O
+at O
+jurong B-Addr-Street
+east L-Addr-Street
+#15-27 U-Addr-UnitNo
+s332339 U-PostCode
+
+-DOCSTART- O
+
+there O
+is O
+a O
+here O
+
+-DOCSTART- O
+
+person O
+did B-STATUS
+not I-STATUS
+faint L-STATUS
+
+-DOCSTART- O
+
+person O
+has O
+slow B-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+is I-CONDITION
+a I-CONDITION
+bit I-CONDITION
+slow L-CONDITION
+
+-DOCSTART- O
+
+person O
+is O
+collapse U-INJURY
+
+-DOCSTART- O
+
+ligaments U-INJURY
+on O
+right B-BODYLOCATION
+chest L-BODYLOCATION
+
+-DOCSTART- O
+
+i O
+believe O
+her O
+age O
+is O
+11 B-AGE
+years I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+person O
+is O
+taking B-INJURY
+drugs L-INJURY
+
+-DOCSTART- O
+
+the O
+ic O
+number O
+is O
+g B-IC
+six I-IC
+three I-IC
+nine I-IC
+seven I-IC
+two I-IC
+one I-IC
+one I-IC
+s L-IC
+
+-DOCSTART- O
+
+she O
+is O
+diagnosed O
+with O
+second B-INJURY
+degree I-INJURY
+heat I-INJURY
+burns L-INJURY
+
+-DOCSTART- O
+
+patient O
+is O
+having O
+bursitis U-INJURY
+
+-DOCSTART- O
+
+he O
+is O
+injured O
+on O
+left B-BODYLOCATION
+ureter L-BODYLOCATION
+
+-DOCSTART- O
+
+there O
+is O
+a O
+here O
+
+-DOCSTART- O
+
+he O
+was O
+found O
+injured O
+at O
+
+-DOCSTART- O
+
+person O
+is O
+not B-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+the O
+ic O
+number O
+is O
+g6913626m U-IC
+
+-DOCSTART- O
+
+person O
+is O
+diagnosed O
+with O
+third B-INJURY
+or I-INJURY
+fourth I-INJURY
+degree I-INJURY
+electrical I-INJURY
+burns L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+arms B-INJURY
+are I-INJURY
+blue L-INJURY
+
+-DOCSTART- O
+
+ic O
+number O
+is O
+t7768174f U-IC
+
+-DOCSTART- O
+
+person O
+is O
+bleeding U-INJURY
+
+-DOCSTART- O
+
+4 B-DURATION
+months L-DURATION
+
+-DOCSTART- O
+
+i O
+think O
+he O
+looks O
+around O
+eleven B-AGE
+years I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+he O
+was O
+found O
+injured O
+at O
+11 U-Addr-Building-Number
+ubi B-Addr-Street
+avenue I-Addr-Street
+1 L-Addr-Street
+#18-6 U-Addr-UnitNo
+257240 U-PostCode
+
+-DOCSTART- O
+
+nerves U-INJURY
+on O
+left B-BODYLOCATION
+shoulder L-BODYLOCATION
+
+-DOCSTART- O
+
+person O
+can B-STATUS
+speak L-STATUS
+
+-DOCSTART- O
+
+person O
+has O
+a B-CONDITION
+bit I-CONDITION
+of I-CONDITION
+difficulty I-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+person O
+has O
+not B-STATUS
+alert L-STATUS
+
+-DOCSTART- O
+
+he O
+is O
+having O
+heat B-INJURY
+stroke L-INJURY
+
+-DOCSTART- O
+
+7 B-COUNT
+dead L-COUNT
+and O
+14 B-COUNT
+dead L-COUNT
+
+-DOCSTART- O
+
+person O
+is O
+shivering U-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+arms B-INJURY
+are I-INJURY
+blue L-INJURY
+
+-DOCSTART- O
+
+i O
+think O
+he O
+looks O
+around O
+2 B-AGE
+years I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+this O
+is O
+the O
+5 B-DURATION
+to I-DURATION
+0 I-DURATION
+months L-DURATION
+
+-DOCSTART- O
+
+i O
+think O
+he O
+looks O
+around O
+6 B-AGE
+months I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+this O
+is O
+the O
+nine B-DURATION
+to I-DURATION
+three I-DURATION
+seconds L-DURATION
+
+-DOCSTART- O
+
+he O
+was O
+found O
+injured O
+at O
+myvillage U-Addr-Building-Name
+36 U-Addr-Building-Number
+joan B-Addr-Street
+road L-Addr-Street
+656878 U-PostCode
+
+-DOCSTART- O
+
+person O
+is O
+collapse U-INJURY
+
+-DOCSTART- O
+
+i O
+am O
+at O
+seventeen U-Addr-Building-Number
+sian B-Addr-Street
+tuan I-Addr-Street
+avenue L-Addr-Street
+hash B-Addr-UnitNo
+seventeen I-Addr-UnitNo
+dash I-Addr-UnitNo
+eight L-Addr-UnitNo
+six B-PostCode
+one I-PostCode
+three I-PostCode
+five I-PostCode
+zero I-PostCode
+five L-PostCode
+singapore U-Addr-city
+near O
+
+-DOCSTART- O
+
+my O
+number O
+is O
+19747982 U-PHONENO
+
+-DOCSTART- O
+
+he O
+is O
+having O
+strangulations U-INJURY
+
+-DOCSTART- O
+
+8 B-AGE
+years I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+person O
+is O
+fainted U-STATUS
+
+-DOCSTART- O
+
+person O
+has O
+unconscious U-STATUS
+
+-DOCSTART- O
+
+patient O
+is O
+having O
+fractures B-INJURY
+and I-INJURY
+other I-INJURY
+injuries L-INJURY
+
+-DOCSTART- O
+
+there O
+is O
+a O
+group B-INJURY
+of I-INJURY
+people I-INJURY
+beat I-INJURY
+up L-INJURY
+
+-DOCSTART- O
+
+there O
+are O
+2 B-COUNT
+dead L-COUNT
+12 B-COUNT
+dead L-COUNT
+
+-DOCSTART- O
+
+person O
+has O
+blood U-INJURY
+
+-DOCSTART- O
+
+this O
+is O
+the O
+three B-DURATION
+hours L-DURATION
+
+-DOCSTART- O
+
+this O
+is O
+the O
+zero B-DURATION
+years L-DURATION
+
+-DOCSTART- O
+
+person O
+has O
+having B-STATUS
+difficulty I-STATUS
+walking L-STATUS
+
+-DOCSTART- O
+
+person O
+has O
+a B-CONDITION
+bit I-CONDITION
+of I-CONDITION
+difficulty I-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+there O
+are O
+nine B-COUNT
+dead L-COUNT
+eleven B-COUNT
+injured L-COUNT
+
+-DOCSTART- O
+
+he O
+is O
+diagnosed O
+second B-INJURY
+degree I-INJURY
+chemical I-INJURY
+burns I-INJURY
+and I-INJURY
+corrosions L-INJURY
+
+-DOCSTART- O
+
+his O
+ic O
+number O
+is O
+s B-IC
+two I-IC
+nine I-IC
+one I-IC
+zero I-IC
+eight I-IC
+six I-IC
+nine I-IC
+u L-IC
+
+-DOCSTART- O
+
+he O
+is O
+diagnosed O
+pneumonia U-INJURY
+
+-DOCSTART- O
+
+cerebral B-INJURY
+and I-INJURY
+other I-INJURY
+intracranial I-INJURY
+hemorrhages L-INJURY
+on O
+right B-BODYLOCATION
+heart L-BODYLOCATION
+
+-DOCSTART- O
+
+she O
+is O
+having O
+surface B-INJURY
+wounds I-INJURY
+and I-INJURY
+bruises L-INJURY
+
+-DOCSTART- O
+
+this O
+is O
+the O
+zero B-DURATION
+to I-DURATION
+zero I-DURATION
+months L-DURATION
+
+-DOCSTART- O
+
+he O
+is O
+having O
+electrical B-INJURY
+burns L-INJURY
+
+-DOCSTART- O
+
+this O
+is O
+the O
+seven B-DURATION
+to I-DURATION
+one I-DURATION
+months L-DURATION
+
+-DOCSTART- O
+
+person O
+has O
+problems B-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+there O
+are O
+9 B-COUNT
+injured L-COUNT
+
+-DOCSTART- O
+
+heat B-INJURY
+stroke L-INJURY
+on O
+upper B-BODYLOCATION
+pituitary L-BODYLOCATION
+
+-DOCSTART- O
+
+there O
+is O
+a O
+here O
+
+-DOCSTART- O
+
+he O
+is O
+diagnosed O
+frostbite U-INJURY
+
+-DOCSTART- O
+
+he O
+was O
+found O
+injured O
+at O
+
+-DOCSTART- O
+
+person O
+is O
+having O
+metabolic U-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+finger B-INJURY
+amputated L-INJURY
+
+-DOCSTART- O
+
+4 B-COUNT
+dead L-COUNT
+and O
+13 B-COUNT
+injured L-COUNT
+
+-DOCSTART- O
+
+she O
+is O
+having O
+effects B-INJURY
+of I-INJURY
+environmental I-INJURY
+conditions L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+is I-CONDITION
+a I-CONDITION
+bit I-CONDITION
+slow L-CONDITION
+
+-DOCSTART- O
+
+there O
+is O
+a O
+vehicle B-INJURY
+roll I-INJURY
+over L-INJURY
+
+-DOCSTART- O
+
+she O
+is O
+diagnosed O
+with O
+internal B-INJURY
+injuries I-INJURY
+to I-INJURY
+organs I-INJURY
+and I-INJURY
+blood I-INJURY
+vessels I-INJURY
+of I-INJURY
+the I-INJURY
+trunk L-INJURY
+
+-DOCSTART- O
+
+there O
+are O
+2 B-COUNT
+dead L-COUNT
+4 B-COUNT
+dead L-COUNT
+
+-DOCSTART- O
+
+he O
+was O
+found O
+injured O
+at O
+
+-DOCSTART- O
+
+his O
+ic O
+number O
+is O
+t B-IC
+zero I-IC
+two I-IC
+four I-IC
+eight I-IC
+six I-IC
+two I-IC
+eight I-IC
+w L-IC
+
+-DOCSTART- O
+
+person O
+cannot B-CONDITION
+breathe I-CONDITION
+properly L-CONDITION
+
+-DOCSTART- O
+
+person O
+is O
+no B-STATUS
+movement L-STATUS
+
+-DOCSTART- O
+
+i O
+am O
+at O
+10a U-Addr-Street
+526707 U-PostCode
+singapore U-Addr-city
+near O
+
+-DOCSTART- O
+
+i O
+am O
+at O
+40 U-Addr-Building-Number
+78 B-Addr-Building-Name
+shenton I-Addr-Building-Name
+way L-Addr-Building-Name
+jln B-Addr-Street
+tambur L-Addr-Street
+#9-1 U-Addr-UnitNo
+318527 U-PostCode
+singapore U-Addr-city
+
+-DOCSTART- O
+
+person O
+is O
+breathing U-CONDITION
+
+-DOCSTART- O
+
+person O
+can B-STATUS
+speak L-STATUS
+
+-DOCSTART- O
+
+i O
+believe O
+her O
+age O
+is O
+13 B-AGE
+months I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+he O
+is O
+diagnosed O
+burns B-INJURY
+and I-INJURY
+corrosions L-INJURY
+
+-DOCSTART- O
+
+she O
+is O
+diagnosed O
+with O
+second B-INJURY
+degree I-INJURY
+electrical I-INJURY
+burns L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+bitten B-INJURY
+by I-INJURY
+dog L-INJURY
+
+-DOCSTART- O
+
+person O
+has O
+no B-CONDITION
+difficulty I-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+7 B-DURATION
+hours L-DURATION
+
+-DOCSTART- O
+
+person O
+has O
+severe B-INJURY
+allergic I-INJURY
+reaction L-INJURY
+
+-DOCSTART- O
+
+there O
+are O
+6 B-COUNT
+dead L-COUNT
+
+-DOCSTART- O
+
+he O
+is O
+injured O
+on O
+upper B-BODYLOCATION
+pharynx L-BODYLOCATION
+
+-DOCSTART- O
+
+she O
+is O
+diagnosed O
+with O
+bends U-INJURY
+
+-DOCSTART- O
+
+person O
+has O
+very B-STATUS
+drowsy L-STATUS
+
+-DOCSTART- O
+
+patient O
+is O
+diagnosed O
+with O
+hypothermia U-INJURY
+
+-DOCSTART- O
+
+he O
+is O
+having O
+dizziness U-INJURY
+
+-DOCSTART- O
+
+i O
+am O
+at O
+eunos B-Addr-Street
+link L-Addr-Street
+386981 U-PostCode
+singapore U-Addr-city
+
+-DOCSTART- O
+
+person O
+is O
+having O
+hernias B-INJURY
+due I-INJURY
+to I-INJURY
+traumatic I-INJURY
+incidents L-INJURY
+
+-DOCSTART- O
+
+his O
+ic O
+number O
+is O
+g2351001h U-IC
+
+-DOCSTART- O
+
+my O
+number O
+is O
+four B-PHONENO
+eight I-PHONENO
+seven I-PHONENO
+seven I-PHONENO
+one I-PHONENO
+seven I-PHONENO
+zero I-PHONENO
+eight L-PHONENO
+
+-DOCSTART- O
+
+patient O
+is O
+diagnosed O
+with O
+anxiety U-INJURY
+
+-DOCSTART- O
+
+he O
+was O
+found O
+injured O
+at O
+lentor B-Addr-Street
+green L-Addr-Street
+six B-PostCode
+seven I-PostCode
+five I-PostCode
+three I-PostCode
+nine I-PostCode
+six L-PostCode
+singapore U-Addr-city
+
+-DOCSTART- O
+
+he O
+was O
+found O
+injured O
+at O
+
+-DOCSTART- O
+
+there O
+are O
+nineteen B-COUNT
+dead L-COUNT
+ten B-COUNT
+dead L-COUNT
+
+-DOCSTART- O
+
+he O
+was O
+found O
+injured O
+at O
+queen B-Addr-Street
+astrid I-Addr-Street
+park L-Addr-Street
+#14-118 U-Addr-UnitNo
+008413 U-PostCode
+singapore U-Addr-city
+
+-DOCSTART- O
+
+he O
+was O
+found O
+injured O
+at O
+
+-DOCSTART- O
+
+i O
+am O
+at O
+sixty U-Addr-Building-Number
+ocean B-Addr-Building-Name
+financial I-Addr-Building-Name
+centre L-Addr-Building-Name
+ah B-Addr-Street
+soo I-Addr-Street
+garden L-Addr-Street
+hash B-Addr-UnitNo
+eleven I-Addr-UnitNo
+dash I-Addr-UnitNo
+ninety I-Addr-UnitNo
+five L-Addr-UnitNo
+s B-PostCode
+two I-PostCode
+two I-PostCode
+four I-PostCode
+zero I-PostCode
+six I-PostCode
+two L-PostCode
+singapore U-Addr-city
+near O
+
+-DOCSTART- O
+
+there O
+are O
+zero B-COUNT
+injured L-COUNT
+eleven B-COUNT
+injured L-COUNT
+
+-DOCSTART- O
+
+i O
+am O
+at O
+sixteen U-Addr-Building-Number
+punggol B-Addr-Street
+road L-Addr-Street
+hash B-Addr-UnitNo
+fifteen I-Addr-UnitNo
+eleven L-Addr-UnitNo
+zero B-PostCode
+two I-PostCode
+zero I-PostCode
+one I-PostCode
+five I-PostCode
+five L-PostCode
+singapore U-Addr-city
+near O
+
+-DOCSTART- O
+
+my O
+number O
+is O
+16164455 U-PHONENO
+
+-DOCSTART- O
+
+there O
+are O
+3 B-COUNT
+injured L-COUNT
+and O
+14 B-COUNT
+injured L-COUNT
+
+-DOCSTART- O
+
+i O
+believe O
+her O
+age O
+is O
+eleven B-AGE
+months I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+my O
+number O
+is O
+nine B-PHONENO
+seven I-PHONENO
+six I-PHONENO
+three I-PHONENO
+seven I-PHONENO
+one I-PHONENO
+five I-PHONENO
+two L-PHONENO
+
+-DOCSTART- O
+
+person O
+cannot B-INJURY
+feel I-INJURY
+his I-INJURY
+hands L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+arms B-INJURY
+are I-INJURY
+blue L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+diagnosed O
+with O
+anaphylactic B-INJURY
+shock L-INJURY
+
+-DOCSTART- O
+
+on O
+the O
+lower B-BODYLOCATION
+skull L-BODYLOCATION
+
+-DOCSTART- O
+
+sixteen B-COUNT
+injured L-COUNT
+and O
+three B-COUNT
+injured L-COUNT
+
+-DOCSTART- O
+
+my O
+number O
+is O
+81642213 U-PHONENO
+
+-DOCSTART- O
+
+person O
+has O
+cut B-INJURY
+on I-INJURY
+finger L-INJURY
+
+-DOCSTART- O
+
+there O
+are O
+11 B-COUNT
+injured L-COUNT
+
+-DOCSTART- O
+
+my O
+number O
+is O
+seven B-PHONENO
+nine I-PHONENO
+nine I-PHONENO
+two I-PHONENO
+two I-PHONENO
+nine I-PHONENO
+three I-PHONENO
+nine L-PHONENO
+
+-DOCSTART- O
+
+he O
+is O
+injured O
+on O
+lower B-BODYLOCATION
+vein L-BODYLOCATION
+
+-DOCSTART- O
+
+he O
+was O
+found O
+injured O
+at O
+
+-DOCSTART- O
+
+person O
+has O
+chest B-CONDITION
+pain L-CONDITION
+
+-DOCSTART- O
+
+i O
+am O
+at O
+block B-Addr-Block
+sixteen L-Addr-Block
+hougang B-Addr-Street
+street I-Addr-Street
+eleven L-Addr-Street
+hash B-Addr-UnitNo
+b I-Addr-UnitNo
+ten I-Addr-UnitNo
+dash I-Addr-UnitNo
+fourteen L-Addr-UnitNo
+five B-PostCode
+six I-PostCode
+eight I-PostCode
+four I-PostCode
+two I-PostCode
+seven L-PostCode
+
+-DOCSTART- O
+
+person O
+is O
+having O
+traumatic B-INJURY
+injuries I-INJURY
+to I-INJURY
+bones L-INJURY
+
+-DOCSTART- O
+
+ic O
+number O
+is O
+g B-IC
+five I-IC
+three I-IC
+nine I-IC
+four I-IC
+four I-IC
+nine I-IC
+six I-IC
+f L-IC
+
+-DOCSTART- O
+
+he O
+is O
+having O
+traumatic B-INJURY
+injuries I-INJURY
+to I-INJURY
+muscles I-INJURY
+joints L-INJURY
+
+-DOCSTART- O
+
+i O
+think O
+he O
+looks O
+around O
+four B-AGE
+years I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+he O
+is O
+injured O
+on O
+upper B-BODYLOCATION
+groin L-BODYLOCATION
+
+-DOCSTART- O
+
+she O
+is O
+diagnosed O
+with O
+sprains B-INJURY
+and I-INJURY
+other I-INJURY
+injuries L-INJURY
+
+-DOCSTART- O
+
+his O
+ic O
+number O
+is O
+f B-IC
+four I-IC
+seven I-IC
+two I-IC
+three I-IC
+nine I-IC
+three I-IC
+six I-IC
+b L-IC
+
+-DOCSTART- O
+
+she O
+is O
+having O
+symptoms B-INJURY
+involving I-INJURY
+cardiovascular I-INJURY
+system L-INJURY
+
+-DOCSTART- O
+
+he O
+was O
+found O
+injured O
+at O
+
+-DOCSTART- O
+
+i O
+am O
+at O
+luxus B-Addr-Street
+hill I-Addr-Street
+avenue L-Addr-Street
+884027 U-PostCode
+near O
+
+-DOCSTART- O
+
+13 B-COUNT
+injured L-COUNT
+and O
+13 B-COUNT
+injured L-COUNT
+
+-DOCSTART- O
+
+his O
+ic O
+number O
+is O
+f B-IC
+eight I-IC
+seven I-IC
+four I-IC
+nine I-IC
+eight I-IC
+one I-IC
+six I-IC
+c L-IC
+
+-DOCSTART- O
+
+she O
+is O
+having O
+chemical B-INJURY
+burns I-INJURY
+and I-INJURY
+corrosions L-INJURY
+
+-DOCSTART- O
+
+i O
+am O
+at O
+block B-Addr-Block
+six I-Addr-Block
+six I-Addr-Block
+nine L-Addr-Block
+running B-Addr-Street
+track L-Addr-Street
+hash B-Addr-UnitNo
+three I-Addr-UnitNo
+dash I-Addr-UnitNo
+twenty L-Addr-UnitNo
+six B-PostCode
+three I-PostCode
+six I-PostCode
+zero I-PostCode
+nine I-PostCode
+seven L-PostCode
+near O
+
+-DOCSTART- O
+
+she O
+is O
+having O
+multiple B-INJURY
+traumatic I-INJURY
+injuries I-INJURY
+to I-INJURY
+muscles L-INJURY
+
+-DOCSTART- O
+
+i O
+am O
+at O
+thomson B-Addr-Street
+hill L-Addr-Street
+s379722 U-PostCode
+singapore U-Addr-city
+
+-DOCSTART- O
+
+there O
+is O
+a O
+group B-INJURY
+of I-INJURY
+people I-INJURY
+beat I-INJURY
+up L-INJURY
+
+-DOCSTART- O
+
+person O
+fell B-INJURY
+from I-INJURY
+a I-INJURY
+height L-INJURY
+
+-DOCSTART- O
+
+patient O
+is O
+diagnosed O
+with O
+hypothermia U-INJURY
+
+-DOCSTART- O
+
+person O
+want B-STATUS
+to I-STATUS
+faint L-STATUS
+
+-DOCSTART- O
+
+i O
+believe O
+her O
+age O
+is O
+two B-AGE
+years I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+person O
+is O
+fainted U-STATUS
+
+-DOCSTART- O
+
+person O
+has O
+cut B-INJURY
+on I-INJURY
+finger L-INJURY
+
+-DOCSTART- O
+
+he O
+was O
+found O
+injured O
+at O
+geylang B-Addr-Street
+serai L-Addr-Street
+#20-14 U-Addr-UnitNo
+628166 U-PostCode
+singapore U-Addr-city
+
+-DOCSTART- O
+
+she O
+is O
+having O
+quadriplegia U-INJURY
+
+-DOCSTART- O
+
+this O
+is O
+the O
+9 B-DURATION
+to I-DURATION
+0 I-DURATION
+years L-DURATION
+
+-DOCSTART- O
+
+person O
+is O
+no B-STATUS
+movement L-STATUS
+
+-DOCSTART- O
+
+i O
+believe O
+her O
+age O
+is O
+9 B-AGE
+years I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+his O
+ic O
+number O
+is O
+g1944491y U-IC
+
+-DOCSTART- O
+
+there O
+are O
+15 B-COUNT
+injured L-COUNT
+and O
+4 B-COUNT
+injured L-COUNT
+
+-DOCSTART- O
+
+on O
+the O
+left B-BODYLOCATION
+eyes L-BODYLOCATION
+
+-DOCSTART- O
+
+eight B-DURATION
+years L-DURATION
+
+-DOCSTART- O
+
+person O
+cant B-STATUS
+speak I-STATUS
+properly L-STATUS
+
+-DOCSTART- O
+
+person O
+cannot B-CONDITION
+breathe I-CONDITION
+properly L-CONDITION
+
+-DOCSTART- O
+
+person O
+want B-STATUS
+to I-STATUS
+faint L-STATUS
+
+-DOCSTART- O
+
+his O
+ic O
+number O
+is O
+g1176509i U-IC
+
+-DOCSTART- O
+
+12 B-AGE
+months I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+cuts B-INJURY
+and I-INJURY
+abrasions I-INJURY
+or I-INJURY
+bruises L-INJURY
+on O
+left B-BODYLOCATION
+teeth L-BODYLOCATION
+
+-DOCSTART- O
+
+avulsions U-INJURY
+on O
+right B-BODYLOCATION
+sense L-BODYLOCATION
+
+-DOCSTART- O
+
+the O
+ic O
+number O
+is O
+s1826490p U-IC
+
+-DOCSTART- O
+
+person O
+is O
+having O
+intracranial B-INJURY
+injuries I-INJURY
+and I-INJURY
+injuries I-INJURY
+to I-INJURY
+internal I-INJURY
+organs L-INJURY
+
+-DOCSTART- O
+
+he O
+is O
+diagnosed O
+heat B-INJURY
+exhaustion L-INJURY
+
+-DOCSTART- O
+
+his O
+ic O
+number O
+is O
+s8890678l U-IC
+
+-DOCSTART- O
+
+my O
+number O
+is O
+zero B-PHONENO
+seven I-PHONENO
+six I-PHONENO
+three I-PHONENO
+seven I-PHONENO
+three I-PHONENO
+six I-PHONENO
+nine L-PHONENO
+
+-DOCSTART- O
+
+person O
+is O
+arms B-INJURY
+are I-INJURY
+blue L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+having O
+hernias B-INJURY
+due I-INJURY
+to I-INJURY
+traumatic I-INJURY
+incidents L-INJURY
+
+-DOCSTART- O
+
+person O
+stopped B-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+she O
+is O
+diagnosed O
+with O
+influenza-common U-INJURY
+
+-DOCSTART- O
+
+ic O
+number O
+is O
+g8936980u U-IC
+
+-DOCSTART- O
+
+he O
+is O
+injured O
+on O
+lower B-BODYLOCATION
+thumb L-BODYLOCATION
+
+-DOCSTART- O
+
+i O
+am O
+at O
+gentle B-Addr-Street
+road L-Addr-Street
+s B-PostCode
+one I-PostCode
+eight I-PostCode
+six I-PostCode
+three I-PostCode
+seven I-PostCode
+six L-PostCode
+singapore U-Addr-city
+near O
+
+-DOCSTART- O
+
+person O
+is O
+diagnosed O
+with O
+paralysis U-INJURY
+
+-DOCSTART- O
+
+the O
+ic O
+number O
+is O
+f0420268j U-IC
+
+-DOCSTART- O
+
+person O
+stopped B-STATUS
+jerking L-STATUS
+
+-DOCSTART- O
+
+there O
+are O
+seven B-COUNT
+injured L-COUNT
+seventeen B-COUNT
+dead L-COUNT
+
+-DOCSTART- O
+
+person O
+is O
+diagnosed O
+with O
+hernias B-INJURY
+due I-INJURY
+to I-INJURY
+traumatic I-INJURY
+incidents L-INJURY
+
+-DOCSTART- O
+
+person O
+slipped U-INJURY
+
+-DOCSTART- O
+
+she O
+is O
+having O
+soreness U-INJURY
+
+-DOCSTART- O
+
+he O
+is O
+injured O
+on O
+lower B-BODYLOCATION
+pelvis L-BODYLOCATION
+
+-DOCSTART- O
+
+there O
+are O
+1 B-COUNT
+dead L-COUNT
+and O
+11 B-COUNT
+injured L-COUNT
+
+-DOCSTART- O
+
+person O
+is O
+having B-CONDITION
+some I-CONDITION
+problems I-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+i O
+am O
+at O
+15 U-Addr-Building-Number
+sian B-Addr-Street
+tuan I-Addr-Street
+avenue L-Addr-Street
+#16-19 U-Addr-UnitNo
+413798 U-PostCode
+
+-DOCSTART- O
+
+person O
+can B-STATUS
+talk L-STATUS
+
+-DOCSTART- O
+
+he O
+is O
+having O
+traumatic B-INJURY
+injuries I-INJURY
+to I-INJURY
+bones L-INJURY
+
+-DOCSTART- O
+
+she O
+is O
+having O
+first B-INJURY
+degree I-INJURY
+chemical I-INJURY
+burns I-INJURY
+and I-INJURY
+corrosions L-INJURY
+
+-DOCSTART- O
+
+person O
+cant B-STATUS
+speak I-STATUS
+properly L-STATUS
+
+-DOCSTART- O
+
+he O
+was O
+found O
+injured O
+at O
+
+-DOCSTART- O
+
+person O
+has O
+still B-STATUS
+shaking L-STATUS
+
+-DOCSTART- O
+
+11 B-AGE
+years I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+he O
+is O
+diagnosed O
+methicillin-resistant B-INJURY
+staphylococcus I-INJURY
+aureus I-INJURY
+infection L-INJURY
+
+-DOCSTART- O
+
+i O
+believe O
+her O
+age O
+is O
+9 B-AGE
+months I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+person O
+is O
+arms B-INJURY
+are I-INJURY
+blue L-INJURY
+
+-DOCSTART- O
+
+this O
+is O
+the O
+6 B-DURATION
+to I-DURATION
+1 I-DURATION
+mins L-DURATION
+
+-DOCSTART- O
+
+she O
+is O
+having O
+electrocutions U-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+taking B-INJURY
+drugs L-INJURY
+
+-DOCSTART- O
+
+i O
+think O
+he O
+looks O
+around O
+8 B-AGE
+months I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+there O
+is O
+a O
+here O
+
+-DOCSTART- O
+
+person O
+has O
+quite B-STATUS
+alert L-STATUS
+
+-DOCSTART- O
+
+the O
+ic O
+number O
+is O
+g0812071j U-IC
+
+-DOCSTART- O
+
+heat B-INJURY
+burns L-INJURY
+on O
+left B-BODYLOCATION
+uterus L-BODYLOCATION
+
+-DOCSTART- O
+
+person O
+is O
+having O
+influenza-novel U-INJURY
+
+-DOCSTART- O
+
+there O
+are O
+5 B-COUNT
+dead L-COUNT
+and O
+15 B-COUNT
+dead L-COUNT
+
+-DOCSTART- O
+
+person O
+has O
+problems B-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+he O
+was O
+found O
+injured O
+at O
+
+-DOCSTART- O
+
+person O
+has O
+fever U-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+is I-CONDITION
+normal L-CONDITION
+
+-DOCSTART- O
+
+his O
+ic O
+number O
+is O
+t6961141z U-IC
+
+-DOCSTART- O
+
+eleven B-COUNT
+dead L-COUNT
+and O
+five B-COUNT
+injured L-COUNT
+
+-DOCSTART- O
+
+person O
+is O
+not B-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+i O
+believe O
+her O
+age O
+is O
+nine B-AGE
+months I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+person O
+is O
+bleeding U-INJURY
+
+-DOCSTART- O
+
+the O
+ic O
+number O
+is O
+g3140515b U-IC
+
+-DOCSTART- O
+
+person O
+is O
+finger B-INJURY
+amputated L-INJURY
+
+-DOCSTART- O
+
+there O
+are O
+seven B-COUNT
+injured L-COUNT
+ten B-COUNT
+dead L-COUNT
+
+-DOCSTART- O
+
+person O
+is O
+diagnosed O
+with O
+strangulations U-INJURY
+
+-DOCSTART- O
+
+i O
+think O
+he O
+looks O
+around O
+12 B-AGE
+months I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+person O
+has O
+eye B-INJURY
+injury L-INJURY
+
+-DOCSTART- O
+
+six B-AGE
+years I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+ic O
+number O
+is O
+f B-IC
+seven I-IC
+nine I-IC
+four I-IC
+zero I-IC
+zero I-IC
+four I-IC
+two I-IC
+n L-IC
+
+-DOCSTART- O
+
+there O
+is O
+a O
+here O
+
+-DOCSTART- O
+
+person O
+stopped B-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+there O
+is O
+a O
+here O
+
+-DOCSTART- O
+
+person O
+never B-STATUS
+faint L-STATUS
+
+-DOCSTART- O
+
+seven B-AGE
+months I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+there O
+is O
+a O
+vehicle B-INJURY
+roll I-INJURY
+over L-INJURY
+
+-DOCSTART- O
+
+this O
+is O
+the O
+one B-DURATION
+to I-DURATION
+six I-DURATION
+seconds L-DURATION
+
+-DOCSTART- O
+
+there O
+are O
+fourteen B-COUNT
+dead L-COUNT
+ten B-COUNT
+injured L-COUNT
+
+-DOCSTART- O
+
+he O
+is O
+having O
+avulsions U-INJURY
+
+-DOCSTART- O
+
+i O
+believe O
+her O
+age O
+is O
+seven B-AGE
+months I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+he O
+was O
+found O
+injured O
+at O
+two U-Addr-Building-Number
+queen B-Addr-Street
+astrid I-Addr-Street
+park L-Addr-Street
+five B-PostCode
+six I-PostCode
+one I-PostCode
+six I-PostCode
+seven I-PostCode
+three L-PostCode
+singapore U-Addr-city
+
+-DOCSTART- O
+
+his O
+ic O
+number O
+is O
+f0676987m U-IC
+
+-DOCSTART- O
+
+there O
+is O
+a O
+vehicle B-INJURY
+roll I-INJURY
+over L-INJURY
+
+-DOCSTART- O
+
+person O
+has O
+slight B-INJURY
+breach L-INJURY
+
+-DOCSTART- O
+
+person O
+has O
+nose B-INJURY
+tube I-INJURY
+dislodge L-INJURY
+
+-DOCSTART- O
+
+person O
+cannot B-CONDITION
+breathe I-CONDITION
+properly L-CONDITION
+
+-DOCSTART- O
+
+she O
+is O
+having O
+blisters U-INJURY
+
+-DOCSTART- O
+
+10 B-AGE
+months I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+there O
+is O
+a O
+vehicle B-INJURY
+over I-INJURY
+turn L-INJURY
+
+-DOCSTART- O
+
+i O
+am O
+at O
+sixty B-Addr-Building-Number
+eight L-Addr-Building-Number
+verde B-Addr-Street
+view L-Addr-Street
+five B-PostCode
+three I-PostCode
+six I-PostCode
+zero I-PostCode
+nine I-PostCode
+eight L-PostCode
+
+-DOCSTART- O
+
+she O
+is O
+having O
+exposures B-INJURY
+to I-INJURY
+disease-no I-INJURY
+illness I-INJURY
+incurred L-INJURY
+
+-DOCSTART- O
+
+stress U-INJURY
+on O
+lower B-BODYLOCATION
+urinary L-BODYLOCATION
+
+-DOCSTART- O
+
+she O
+is O
+having O
+methicillin-resistant B-INJURY
+staphylococcus I-INJURY
+aureus I-INJURY
+infection L-INJURY
+
+-DOCSTART- O
+
+this O
+is O
+the O
+six B-DURATION
+to I-DURATION
+four I-DURATION
+seconds L-DURATION
+
+-DOCSTART- O
+
+he O
+is O
+having O
+scratches U-INJURY
+
+-DOCSTART- O
+
+multiple B-INJURY
+surface I-INJURY
+wounds I-INJURY
+and I-INJURY
+bruises L-INJURY
+on O
+left B-BODYLOCATION
+wrist L-BODYLOCATION
+
+-DOCSTART- O
+
+person O
+never B-STATUS
+faint L-STATUS
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+is I-CONDITION
+a I-CONDITION
+bit I-CONDITION
+slow L-CONDITION
+
+-DOCSTART- O
+
+my O
+number O
+is O
+zero B-PHONENO
+nine I-PHONENO
+zero I-PHONENO
+four I-PHONENO
+eight I-PHONENO
+seven I-PHONENO
+zero I-PHONENO
+nine L-PHONENO
+
+-DOCSTART- O
+
+ten B-AGE
+years I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+person O
+is O
+having O
+anxiety U-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+bitten B-INJURY
+by I-INJURY
+dog L-INJURY
+
+-DOCSTART- O
+
+person O
+has O
+no B-CONDITION
+difficulty I-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+i O
+think O
+he O
+looks O
+around O
+three B-AGE
+years I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+there O
+are O
+six B-COUNT
+injured L-COUNT
+
+-DOCSTART- O
+
+she O
+is O
+diagnosed O
+with O
+multiple B-INJURY
+traumatic I-INJURY
+injuries I-INJURY
+and I-INJURY
+disorders L-INJURY
+
+-DOCSTART- O
+
+ic O
+number O
+is O
+f B-IC
+zero I-IC
+zero I-IC
+nine I-IC
+four I-IC
+four I-IC
+two I-IC
+five I-IC
+u L-IC
+
+-DOCSTART- O
+
+person O
+can B-STATUS
+respond L-STATUS
+
+-DOCSTART- O
+
+i O
+am O
+at O
+pa B-Addr-Building-Name
+water I-Addr-Building-Name
+venture L-Addr-Building-Name
+one B-Addr-Building-Number
+twenty L-Addr-Building-Number
+hillview B-Addr-Street
+rise L-Addr-Street
+five B-PostCode
+one I-PostCode
+zero I-PostCode
+three I-PostCode
+seven I-PostCode
+eight L-PostCode
+singapore U-Addr-city
+
+-DOCSTART- O
+
+there O
+are O
+2 B-COUNT
+injured L-COUNT
+and O
+15 B-COUNT
+injured L-COUNT
+
+-DOCSTART- O
+
+nineteen B-COUNT
+dead L-COUNT
+and O
+nine B-COUNT
+dead L-COUNT
+
+-DOCSTART- O
+
+i O
+am O
+at O
+aperia B-Addr-Building-Name
+mall L-Addr-Building-Name
+15 U-Addr-Building-Number
+whampoa B-Addr-Street
+road L-Addr-Street
+744371 U-PostCode
+near O
+
+-DOCSTART- O
+
+on O
+the O
+lower B-BODYLOCATION
+kidney L-BODYLOCATION
+
+-DOCSTART- O
+
+he O
+is O
+diagnosed O
+paraplegia U-INJURY
+
+-DOCSTART- O
+
+she O
+is O
+having O
+multiple B-INJURY
+traumatic I-INJURY
+injuries I-INJURY
+to I-INJURY
+muscles L-INJURY
+
+-DOCSTART- O
+
+he O
+is O
+diagnosed O
+fractures U-INJURY
+
+-DOCSTART- O
+
+there O
+are O
+fifteen B-COUNT
+injured L-COUNT
+and O
+sixteen B-COUNT
+dead L-COUNT
+
+-DOCSTART- O
+
+i O
+am O
+at O
+ifly U-Addr-Building-Name
+79 U-Addr-Building-Number
+verde B-Addr-Street
+crescent L-Addr-Street
+572730 U-PostCode
+singapore U-Addr-city
+near O
+
+-DOCSTART- O
+
+i O
+think O
+he O
+looks O
+around O
+8 B-AGE
+years I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+patient O
+is O
+diagnosed O
+with O
+fractures B-INJURY
+and I-INJURY
+dislocations L-INJURY
+
+-DOCSTART- O
+
+patient O
+is O
+diagnosed O
+with O
+fractures B-INJURY
+and I-INJURY
+concussions L-INJURY
+
+-DOCSTART- O
+
+i O
+am O
+at O
+block B-Addr-Block
+four L-Addr-Block
+sungei B-Addr-Street
+kadut I-Addr-Street
+way L-Addr-Street
+hash B-Addr-UnitNo
+seventeen I-Addr-UnitNo
+ten L-Addr-UnitNo
+s B-PostCode
+five I-PostCode
+nine I-PostCode
+four I-PostCode
+one I-PostCode
+eight I-PostCode
+nine L-PostCode
+singapore U-Addr-city
+
+-DOCSTART- O
+
+this O
+is O
+the O
+4 B-DURATION
+to I-DURATION
+2 I-DURATION
+months L-DURATION
+
+-DOCSTART- O
+
+he O
+was O
+found O
+injured O
+at O
+
+-DOCSTART- O
+
+she O
+is O
+having O
+diverse B-INJURY
+palsy L-INJURY
+
+-DOCSTART- O
+
+person O
+stopped B-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+patient O
+is O
+diagnosed O
+with O
+dislocations U-INJURY
+
+-DOCSTART- O
+
+this O
+is O
+the O
+seven B-DURATION
+hours L-DURATION
+
+-DOCSTART- O
+
+person O
+is O
+bitten B-INJURY
+by I-INJURY
+snake L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+having O
+inflammation U-INJURY
+
+-DOCSTART- O
+
+i O
+think O
+he O
+looks O
+around O
+fourteen B-AGE
+months I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+person O
+is O
+right B-INJURY
+arm I-INJURY
+fractured L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+right B-INJURY
+arm I-INJURY
+fractured L-INJURY
+
+-DOCSTART- O
+
+person O
+has O
+a B-CONDITION
+bit I-CONDITION
+of I-CONDITION
+difficulty I-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+ic O
+number O
+is O
+g B-IC
+zero I-IC
+zero I-IC
+four I-IC
+seven I-IC
+eight I-IC
+four I-IC
+five I-IC
+c L-IC
+
+-DOCSTART- O
+
+person O
+is O
+bleeding U-INJURY
+
+-DOCSTART- O
+
+there O
+are O
+eighteen B-COUNT
+injured L-COUNT
+and O
+thirteen B-COUNT
+injured L-COUNT
+
+-DOCSTART- O
+
+person O
+is O
+diagnosed O
+with O
+second B-INJURY
+degree I-INJURY
+chemical I-INJURY
+burns I-INJURY
+and I-INJURY
+corrosions L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+finger B-INJURY
+amputated L-INJURY
+
+-DOCSTART- O
+
+my O
+number O
+is O
+five B-PHONENO
+zero I-PHONENO
+five I-PHONENO
+five I-PHONENO
+three I-PHONENO
+eight I-PHONENO
+nine I-PHONENO
+four L-PHONENO
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+is I-CONDITION
+a I-CONDITION
+bit I-CONDITION
+slow L-CONDITION
+
+-DOCSTART- O
+
+there O
+are O
+7 B-COUNT
+dead L-COUNT
+
+-DOCSTART- O
+
+person O
+has O
+cut B-INJURY
+herself L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+bitten B-INJURY
+on I-INJURY
+arms L-INJURY
+
+-DOCSTART- O
+
+she O
+is O
+diagnosed O
+with O
+cuts B-INJURY
+and I-INJURY
+abrasions I-INJURY
+or I-INJURY
+bruises L-INJURY
+
+-DOCSTART- O
+
+person O
+has O
+not B-STATUS
+moving I-STATUS
+at I-STATUS
+all L-STATUS
+
+-DOCSTART- O
+
+person O
+cannot B-CONDITION
+breathe I-CONDITION
+properly L-CONDITION
+
+-DOCSTART- O
+
+traumatic B-INJURY
+injuries I-INJURY
+to I-INJURY
+nerves L-INJURY
+on O
+lower B-BODYLOCATION
+iris L-BODYLOCATION
+
+-DOCSTART- O
+
+person O
+has O
+slow B-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+3 B-DURATION
+hours L-DURATION
+
+-DOCSTART- O
+
+my O
+number O
+is O
+63061776 U-PHONENO
+
+-DOCSTART- O
+
+patient O
+is O
+having O
+gunshot B-INJURY
+wounds L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+not B-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+his O
+ic O
+number O
+is O
+g4148752x U-IC
+
+-DOCSTART- O
+
+person O
+has O
+eye B-INJURY
+injury L-INJURY
+
+-DOCSTART- O
+
+he O
+is O
+injured O
+on O
+left B-BODYLOCATION
+immune I-BODYLOCATION
+system L-BODYLOCATION
+
+-DOCSTART- O
+
+person O
+has O
+swelling U-INJURY
+
+-DOCSTART- O
+
+there O
+are O
+sixteen B-COUNT
+dead L-COUNT
+
+-DOCSTART- O
+
+his O
+ic O
+number O
+is O
+f7173094c U-IC
+
+-DOCSTART- O
+
+the O
+ic O
+number O
+is O
+f B-IC
+four I-IC
+one I-IC
+five I-IC
+one I-IC
+three I-IC
+five I-IC
+three I-IC
+f L-IC
+
+-DOCSTART- O
+
+there O
+is O
+a O
+here O
+
+-DOCSTART- O
+
+she O
+is O
+having O
+multiple B-INJURY
+traumatic I-INJURY
+injuries I-INJURY
+to I-INJURY
+muscles L-INJURY
+
+-DOCSTART- O
+
+person O
+has O
+a B-CONDITION
+bit I-CONDITION
+of I-CONDITION
+difficulty I-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+19 B-AGE
+months I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+there O
+are O
+6 B-COUNT
+dead L-COUNT
+
+-DOCSTART- O
+
+person O
+is O
+having O
+paralysis U-INJURY
+
+-DOCSTART- O
+
+he O
+was O
+found O
+injured O
+at O
+97 U-Addr-Building-Number
+my B-Addr-Building-Name
+saviour's I-Addr-Building-Name
+church L-Addr-Building-Name
+verde B-Addr-Street
+crescent L-Addr-Street
+#18-15 U-Addr-UnitNo
+s297445 U-PostCode
+
+-DOCSTART- O
+
+eleven B-AGE
+years I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+3 B-AGE
+years I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+i O
+am O
+at O
+block B-Addr-Block
+four I-Addr-Block
+zero I-Addr-Block
+two L-Addr-Block
+626a U-Addr-Street
+hash B-Addr-UnitNo
+twenty I-Addr-UnitNo
+dash I-Addr-UnitNo
+ten L-Addr-UnitNo
+six B-PostCode
+two I-PostCode
+one I-PostCode
+three I-PostCode
+three I-PostCode
+eight L-PostCode
+near O
+
+-DOCSTART- O
+
+person O
+has O
+not B-STATUS
+talking L-STATUS
+
+-DOCSTART- O
+
+4 B-DURATION
+to I-DURATION
+1 I-DURATION
+months L-DURATION
+
+-DOCSTART- O
+
+person O
+has O
+difficulty B-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+7 B-COUNT
+injured L-COUNT
+and O
+14 B-COUNT
+injured L-COUNT
+
+-DOCSTART- O
+
+there O
+is O
+a O
+group B-INJURY
+of I-INJURY
+people I-INJURY
+beat I-INJURY
+up L-INJURY
+
+-DOCSTART- O
+
+this O
+is O
+the O
+zero B-DURATION
+to I-DURATION
+three I-DURATION
+years L-DURATION
+
+-DOCSTART- O
+
+on O
+the O
+left B-BODYLOCATION
+follicle L-BODYLOCATION
+
+-DOCSTART- O
+
+my O
+number O
+is O
+45707584 U-PHONENO
+
+-DOCSTART- O
+
+patient O
+is O
+having O
+third B-INJURY
+or I-INJURY
+fourth I-INJURY
+degree I-INJURY
+chemical I-INJURY
+burns I-INJURY
+and I-INJURY
+corrosions L-INJURY
+
+-DOCSTART- O
+
+his O
+ic O
+number O
+is O
+t B-IC
+one I-IC
+one I-IC
+six I-IC
+eight I-IC
+six I-IC
+six I-IC
+five I-IC
+r L-IC
+
+-DOCSTART- O
+
+this O
+is O
+the O
+4 B-DURATION
+months L-DURATION
+
+-DOCSTART- O
+
+there O
+are O
+6 B-COUNT
+injured L-COUNT
+14 B-COUNT
+injured L-COUNT
+
+-DOCSTART- O
+
+on O
+the O
+lower B-BODYLOCATION
+coccyx L-BODYLOCATION
+
+-DOCSTART- O
+
+there O
+are O
+sixteen B-COUNT
+injured L-COUNT
+
+-DOCSTART- O
+
+she O
+is O
+having O
+ligaments U-INJURY
+
+-DOCSTART- O
+
+the O
+ic O
+number O
+is O
+f B-IC
+nine I-IC
+two I-IC
+one I-IC
+four I-IC
+nine I-IC
+five I-IC
+one I-IC
+x L-IC
+
+-DOCSTART- O
+
+4 B-DURATION
+seconds L-DURATION
+
+-DOCSTART- O
+
+person O
+has O
+nose B-INJURY
+tube I-INJURY
+dislodge L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+diagnosed O
+with O
+first B-INJURY
+degree I-INJURY
+heat I-INJURY
+burns L-INJURY
+
+-DOCSTART- O
+
+he O
+was O
+found O
+injured O
+at O
+qi B-Addr-Building-Name
+tian I-Addr-Building-Name
+tan I-Addr-Building-Name
+temple L-Addr-Building-Name
+one B-Addr-Building-Number
+nineteen L-Addr-Building-Number
+hougang B-Addr-Street
+central L-Addr-Street
+eight B-PostCode
+three I-PostCode
+one I-PostCode
+three I-PostCode
+four I-PostCode
+five L-PostCode
+singapore U-Addr-city
+
+-DOCSTART- O
+
+13 B-COUNT
+injured L-COUNT
+and O
+6 B-COUNT
+dead L-COUNT
+
+-DOCSTART- O
+
+his O
+ic O
+number O
+is O
+t B-IC
+five I-IC
+zero I-IC
+five I-IC
+six I-IC
+eight I-IC
+two I-IC
+three I-IC
+b L-IC
+
+-DOCSTART- O
+
+my O
+number O
+is O
+56452950 U-PHONENO
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+is I-CONDITION
+a I-CONDITION
+bit I-CONDITION
+slow L-CONDITION
+
+-DOCSTART- O
+
+ic O
+number O
+is O
+s9861609r U-IC
+
+-DOCSTART- O
+
+person O
+is O
+diagnosed O
+with O
+pain U-INJURY
+
+-DOCSTART- O
+
+person O
+has O
+fainting B-STATUS
+soon L-STATUS
+
+-DOCSTART- O
+
+she O
+is O
+having O
+sprains B-INJURY
+and I-INJURY
+cuts L-INJURY
+
+-DOCSTART- O
+
+there O
+are O
+nine B-COUNT
+injured L-COUNT
+and O
+fifteen B-COUNT
+dead L-COUNT
+
+-DOCSTART- O
+
+she O
+is O
+having O
+abdominal B-INJURY
+pain L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+diagnosed O
+with O
+seizures U-INJURY
+
+-DOCSTART- O
+
+person O
+never B-STATUS
+faint L-STATUS
+
+-DOCSTART- O
+
+person O
+has O
+drowsy U-STATUS
+
+-DOCSTART- O
+
+second B-INJURY
+degree I-INJURY
+heat I-INJURY
+burns L-INJURY
+on O
+left B-BODYLOCATION
+index I-BODYLOCATION
+finger L-BODYLOCATION
+
+-DOCSTART- O
+
+person O
+cannot B-CONDITION
+breathe I-CONDITION
+properly L-CONDITION
+
+-DOCSTART- O
+
+my O
+number O
+is O
+57531048 U-PHONENO
+
+-DOCSTART- O
+
+he O
+is O
+diagnosed O
+chest B-INJURY
+pain L-INJURY
+
+-DOCSTART- O
+
+she O
+is O
+diagnosed O
+with O
+hernias B-INJURY
+due I-INJURY
+to I-INJURY
+traumatic I-INJURY
+incidents L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+having O
+open B-INJURY
+wounds L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+is I-CONDITION
+normal L-CONDITION
+
+-DOCSTART- O
+
+there O
+are O
+seventeen B-COUNT
+injured L-COUNT
+three B-COUNT
+dead L-COUNT
+
+-DOCSTART- O
+
+person O
+stopped B-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+he O
+was O
+found O
+injured O
+at O
+
+-DOCSTART- O
+
+person O
+has O
+not B-STATUS
+talking L-STATUS
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+is I-CONDITION
+normal L-CONDITION
+
+-DOCSTART- O
+
+patient O
+is O
+having O
+third B-INJURY
+or I-INJURY
+fourth I-INJURY
+degree I-INJURY
+chemical I-INJURY
+burns I-INJURY
+and I-INJURY
+corrosions L-INJURY
+
+-DOCSTART- O
+
+patient O
+is O
+diagnosed O
+with O
+traumatic B-INJURY
+injuries I-INJURY
+to I-INJURY
+muscles I-INJURY
+joints L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+is I-CONDITION
+normal L-CONDITION
+
+-DOCSTART- O
+
+ic O
+number O
+is O
+g B-IC
+five I-IC
+eight I-IC
+six I-IC
+one I-IC
+eight I-IC
+six I-IC
+nine I-IC
+u L-IC
+
+-DOCSTART- O
+
+person O
+has O
+pus B-INJURY
+out I-INJURY
+of I-INJURY
+eye L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+hanging U-INJURY
+
+-DOCSTART- O
+
+his O
+ic O
+number O
+is O
+f4062915l U-IC
+
+-DOCSTART- O
+
+twelve B-AGE
+years I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+my O
+number O
+is O
+27696816 U-PHONENO
+
+-DOCSTART- O
+
+she O
+is O
+having O
+second B-INJURY
+degree L-INJURY
+
+-DOCSTART- O
+
+0 B-AGE
+years I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+there O
+are O
+15 B-COUNT
+dead L-COUNT
+
+-DOCSTART- O
+
+on O
+the O
+right B-BODYLOCATION
+coccyx L-BODYLOCATION
+
+-DOCSTART- O
+
+there O
+are O
+fifteen B-COUNT
+injured L-COUNT
+nine B-COUNT
+dead L-COUNT
+
+-DOCSTART- O
+
+there O
+are O
+2 B-COUNT
+injured L-COUNT
+and O
+3 B-COUNT
+injured L-COUNT
+
+-DOCSTART- O
+
+on O
+the O
+left B-BODYLOCATION
+liver L-BODYLOCATION
+
+-DOCSTART- O
+
+there O
+is O
+a O
+here O
+
+-DOCSTART- O
+
+person O
+is O
+breathing U-CONDITION
+
+-DOCSTART- O
+
+he O
+was O
+found O
+injured O
+at O
+tai B-Addr-Street
+keng I-Addr-Street
+gardens L-Addr-Street
+hash B-Addr-UnitNo
+twelve I-Addr-UnitNo
+dash I-Addr-UnitNo
+one I-Addr-UnitNo
+hundred I-Addr-UnitNo
+thirty L-Addr-UnitNo
+two B-PostCode
+nine I-PostCode
+zero I-PostCode
+six I-PostCode
+five I-PostCode
+seven L-PostCode
+
+-DOCSTART- O
+
+there O
+are O
+seven B-COUNT
+injured L-COUNT
+and O
+thirteen B-COUNT
+injured L-COUNT
+
+-DOCSTART- O
+
+there O
+are O
+two B-COUNT
+injured L-COUNT
+seven B-COUNT
+dead L-COUNT
+
+-DOCSTART- O
+
+i O
+think O
+he O
+looks O
+around O
+two B-AGE
+years I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+i O
+am O
+at O
+upper B-Addr-Street
+serangoon I-Addr-Street
+crescent L-Addr-Street
+hash B-Addr-UnitNo
+eighteen I-Addr-UnitNo
+dash I-Addr-UnitNo
+two I-Addr-UnitNo
+hundred I-Addr-UnitNo
+four L-Addr-UnitNo
+one B-PostCode
+four I-PostCode
+one I-PostCode
+nine I-PostCode
+nine I-PostCode
+two L-PostCode
+
+-DOCSTART- O
+
+there O
+are O
+14 B-COUNT
+dead L-COUNT
+
+-DOCSTART- O
+
+i O
+am O
+at O
+six B-Addr-Building-Number
+five I-Addr-Building-Number
+zero L-Addr-Building-Number
+10a U-Addr-Street
+hash B-Addr-UnitNo
+b I-Addr-UnitNo
+fourteen I-Addr-UnitNo
+dash I-Addr-UnitNo
+one L-Addr-UnitNo
+eight B-PostCode
+six I-PostCode
+seven I-PostCode
+four I-PostCode
+nine I-PostCode
+eight L-PostCode
+
+-DOCSTART- O
+
+my O
+number O
+is O
+00217379 U-PHONENO
+
+-DOCSTART- O
+
+person O
+has O
+difficulty B-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+she O
+is O
+having O
+third B-INJURY
+or I-INJURY
+fourth I-INJURY
+degree I-INJURY
+chemical I-INJURY
+burns I-INJURY
+and I-INJURY
+corrosions L-INJURY
+
+-DOCSTART- O
+
+person O
+has O
+alert U-STATUS
+
+-DOCSTART- O
+
+person O
+is O
+having O
+influenza-novel U-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+right B-INJURY
+arm I-INJURY
+fractured L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+having O
+intracranial B-INJURY
+injuries L-INJURY
+
+-DOCSTART- O
+
+my O
+number O
+is O
+11563388 U-PHONENO
+
+-DOCSTART- O
+
+0 B-COUNT
+dead L-COUNT
+and O
+18 B-COUNT
+dead L-COUNT
+
+-DOCSTART- O
+
+vomiting U-INJURY
+on O
+lower B-BODYLOCATION
+anatomy L-BODYLOCATION
+
+-DOCSTART- O
+
+he O
+was O
+found O
+injured O
+at O
+917 U-Addr-Building-Number
+carisbrooke B-Addr-Street
+grove L-Addr-Street
+#5-18 U-Addr-UnitNo
+s767383 U-PostCode
+singapore U-Addr-city
+
+-DOCSTART- O
+
+there O
+are O
+fourteen B-COUNT
+dead L-COUNT
+and O
+one B-COUNT
+injured L-COUNT
+
+-DOCSTART- O
+
+there O
+are O
+10 B-COUNT
+injured L-COUNT
+and O
+15 B-COUNT
+injured L-COUNT
+
+-DOCSTART- O
+
+i O
+think O
+he O
+looks O
+around O
+15 B-AGE
+years I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+this O
+is O
+the O
+nine B-DURATION
+seconds L-DURATION
+
+-DOCSTART- O
+
+person O
+is O
+fainted U-STATUS
+
+-DOCSTART- O
+
+he O
+is O
+injured O
+on O
+right B-BODYLOCATION
+bladder L-BODYLOCATION
+
+-DOCSTART- O
+
+person O
+has O
+quite B-STATUS
+drowsy L-STATUS
+
+-DOCSTART- O
+
+this O
+is O
+the O
+one B-DURATION
+to I-DURATION
+nine I-DURATION
+months L-DURATION
+
+-DOCSTART- O
+
+person O
+cannot B-CONDITION
+breathe I-CONDITION
+properly L-CONDITION
+
+-DOCSTART- O
+
+there O
+is O
+a O
+vehicle B-INJURY
+roll I-INJURY
+over L-INJURY
+
+-DOCSTART- O
+
+1 B-DURATION
+years L-DURATION
+
+-DOCSTART- O
+
+this O
+is O
+the O
+nine B-DURATION
+months L-DURATION
+
+-DOCSTART- O
+
+she O
+is O
+diagnosed O
+with O
+pinched B-INJURY
+nerve L-INJURY
+
+-DOCSTART- O
+
+there O
+are O
+eight B-COUNT
+dead L-COUNT
+seventeen B-COUNT
+injured L-COUNT
+
+-DOCSTART- O
+
+he O
+is O
+diagnosed O
+swelling U-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+hanging U-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+diagnosed O
+with O
+cerebral B-INJURY
+and I-INJURY
+other I-INJURY
+intracranial I-INJURY
+hemorrhages L-INJURY
+
+-DOCSTART- O
+
+person O
+slipped U-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+diagnosed O
+with O
+traumatic B-INJURY
+injuries I-INJURY
+to I-INJURY
+nerves L-INJURY
+
+-DOCSTART- O
+
+my O
+number O
+is O
+98435315 U-PHONENO
+
+-DOCSTART- O
+
+person O
+has O
+drowsy U-STATUS
+
+-DOCSTART- O
+
+person O
+has O
+chemical B-INJURY
+burns L-INJURY
+
+-DOCSTART- O
+
+i O
+am O
+at O
+block B-Addr-Block
+twenty L-Addr-Block
+636b U-Addr-Street
+hash B-Addr-UnitNo
+ten I-Addr-UnitNo
+eight L-Addr-UnitNo
+singapore B-PostCode
+post I-PostCode
+code I-PostCode
+four I-PostCode
+three I-PostCode
+five I-PostCode
+four I-PostCode
+two I-PostCode
+seven L-PostCode
+
+-DOCSTART- O
+
+he O
+is O
+diagnosed O
+seizures U-INJURY
+
+-DOCSTART- O
+
+person O
+cannot B-STATUS
+respond L-STATUS
+
+-DOCSTART- O
+
+ic O
+number O
+is O
+f B-IC
+nine I-IC
+one I-IC
+four I-IC
+four I-IC
+five I-IC
+zero I-IC
+nine I-IC
+i L-IC
+
+-DOCSTART- O
+
+skull B-INJURY
+fracture I-INJURY
+and I-INJURY
+intracranial I-INJURY
+injury L-INJURY
+on O
+upper B-BODYLOCATION
+foot L-BODYLOCATION
+
+-DOCSTART- O
+
+he O
+was O
+found O
+injured O
+at O
+
+-DOCSTART- O
+
+ic O
+number O
+is O
+f B-IC
+three I-IC
+seven I-IC
+zero I-IC
+nine I-IC
+zero I-IC
+zero I-IC
+zero I-IC
+q L-IC
+
+-DOCSTART- O
+
+person O
+is O
+fainted U-STATUS
+
+-DOCSTART- O
+
+there O
+is O
+a O
+here O
+
+-DOCSTART- O
+
+i O
+am O
+at O
+wallace B-Addr-Street
+way L-Addr-Street
+hash B-Addr-UnitNo
+sixteen I-Addr-UnitNo
+sixteen L-Addr-UnitNo
+s B-PostCode
+zero I-PostCode
+nine I-PostCode
+five I-PostCode
+six I-PostCode
+eight I-PostCode
+seven L-PostCode
+singapore U-Addr-city
+near O
+
+-DOCSTART- O
+
+on O
+the O
+right B-BODYLOCATION
+tissue L-BODYLOCATION
+
+-DOCSTART- O
+
+i O
+am O
+at O
+blk B-Addr-Block
+6 L-Addr-Block
+verde B-Addr-Street
+crescent L-Addr-Street
+#11-18 U-Addr-UnitNo
+159889 U-PostCode
+singapore U-Addr-city
+
+-DOCSTART- O
+
+three B-COUNT
+dead L-COUNT
+and O
+eighteen B-COUNT
+dead L-COUNT
+
+-DOCSTART- O
+
+burns B-INJURY
+and I-INJURY
+other I-INJURY
+injuries L-INJURY
+on O
+left B-BODYLOCATION
+cell L-BODYLOCATION
+
+-DOCSTART- O
+
+ic O
+number O
+is O
+f B-IC
+six I-IC
+nine I-IC
+one I-IC
+four I-IC
+nine I-IC
+six I-IC
+nine I-IC
+y L-IC
+
+-DOCSTART- O
+
+he O
+is O
+having O
+ischemic B-INJURY
+heart I-INJURY
+disease L-INJURY
+
+-DOCSTART- O
+
+my O
+number O
+is O
+zero B-PHONENO
+seven I-PHONENO
+eight I-PHONENO
+nine I-PHONENO
+one I-PHONENO
+two I-PHONENO
+eight I-PHONENO
+three L-PHONENO
+
+-DOCSTART- O
+
+he O
+was O
+found O
+injured O
+at O
+twelve U-Addr-Building-Number
+queen B-Addr-Street
+astrid I-Addr-Street
+park L-Addr-Street
+three B-PostCode
+six I-PostCode
+one I-PostCode
+eight I-PostCode
+three I-PostCode
+one L-PostCode
+
+-DOCSTART- O
+
+he O
+is O
+injured O
+on O
+lower B-BODYLOCATION
+capillary L-BODYLOCATION
+
+-DOCSTART- O
+
+i O
+believe O
+her O
+age O
+is O
+nine B-AGE
+years I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+person O
+is O
+having O
+fractures B-INJURY
+and I-INJURY
+burns L-INJURY
+
+-DOCSTART- O
+
+he O
+is O
+having O
+tears U-INJURY
+
+-DOCSTART- O
+
+this O
+is O
+the O
+four B-DURATION
+seconds L-DURATION
+
+-DOCSTART- O
+
+ic O
+number O
+is O
+g8890130l U-IC
+
+-DOCSTART- O
+
+person O
+has O
+drowsy U-STATUS
+
+-DOCSTART- O
+
+he O
+was O
+found O
+injured O
+at O
+three U-Addr-Building-Number
+1 B-Addr-Building-Name
+finlayson I-Addr-Building-Name
+green L-Addr-Building-Name
+kingsmead B-Addr-Street
+road L-Addr-Street
+hash B-Addr-UnitNo
+one I-Addr-UnitNo
+dash I-Addr-UnitNo
+eight I-Addr-UnitNo
+hundred L-Addr-UnitNo
+zero B-PostCode
+five I-PostCode
+zero I-PostCode
+eight I-PostCode
+four I-PostCode
+seven L-PostCode
+
+-DOCSTART- O
+
+patient O
+is O
+having O
+fractures B-INJURY
+and I-INJURY
+concussions L-INJURY
+
+-DOCSTART- O
+
+his O
+ic O
+number O
+is O
+s4564194o U-IC
+
+-DOCSTART- O
+
+she O
+is O
+diagnosed O
+with O
+cuts B-INJURY
+and I-INJURY
+abrasions I-INJURY
+or I-INJURY
+bruises L-INJURY
+
+-DOCSTART- O
+
+he O
+is O
+injured O
+on O
+upper B-BODYLOCATION
+ball I-BODYLOCATION
+of I-BODYLOCATION
+the I-BODYLOCATION
+foot L-BODYLOCATION
+
+-DOCSTART- O
+
+there O
+is O
+a O
+here O
+
+-DOCSTART- O
+
+0 B-AGE
+years I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+the O
+ic O
+number O
+is O
+t B-IC
+nine I-IC
+four I-IC
+two I-IC
+six I-IC
+four I-IC
+seven I-IC
+seven I-IC
+i L-IC
+
+-DOCSTART- O
+
+he O
+was O
+found O
+injured O
+at O
+
+-DOCSTART- O
+
+person O
+is O
+arms B-INJURY
+are I-INJURY
+blue L-INJURY
+
+-DOCSTART- O
+
+there O
+is O
+a O
+here O
+
+-DOCSTART- O
+
+6 B-AGE
+months I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+person O
+has O
+conscious U-STATUS
+
+-DOCSTART- O
+
+person O
+is O
+having O
+amputations U-INJURY
+
+-DOCSTART- O
+
+he O
+is O
+diagnosed O
+irritant B-INJURY
+dermatitis-acute L-INJURY
+
+-DOCSTART- O
+
+the O
+ic O
+number O
+is O
+g0737698y U-IC
+
+-DOCSTART- O
+
+i O
+think O
+he O
+looks O
+around O
+0 B-AGE
+months I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+she O
+is O
+diagnosed O
+with O
+cerebral B-INJURY
+and I-INJURY
+other I-INJURY
+intracranial I-INJURY
+hemorrhages L-INJURY
+
+-DOCSTART- O
+
+person O
+has O
+quite B-STATUS
+giddy L-STATUS
+
+-DOCSTART- O
+
+i O
+believe O
+her O
+age O
+is O
+nine B-AGE
+months I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+ic O
+number O
+is O
+t B-IC
+eight I-IC
+eight I-IC
+eight I-IC
+seven I-IC
+four I-IC
+six I-IC
+seven I-IC
+i L-IC
+
+-DOCSTART- O
+
+three B-DURATION
+to I-DURATION
+six I-DURATION
+months L-DURATION
+
+-DOCSTART- O
+
+18 B-COUNT
+injured L-COUNT
+and O
+14 B-COUNT
+injured L-COUNT
+
+-DOCSTART- O
+
+this O
+is O
+the O
+eight B-DURATION
+to I-DURATION
+eight I-DURATION
+months L-DURATION
+
+-DOCSTART- O
+
+he O
+was O
+found O
+injured O
+at O
+636b U-Addr-Street
+hash B-Addr-UnitNo
+eighteen I-Addr-UnitNo
+twenty L-Addr-UnitNo
+eight B-PostCode
+zero I-PostCode
+six I-PostCode
+seven I-PostCode
+five I-PostCode
+zero L-PostCode
+
+-DOCSTART- O
+
+i O
+am O
+at O
+seventeen U-Addr-Building-Number
+anklong B-Addr-Street
+lane L-Addr-Street
+nine B-PostCode
+seven I-PostCode
+three I-PostCode
+five I-PostCode
+one I-PostCode
+four L-PostCode
+singapore U-Addr-city
+
+-DOCSTART- O
+
+ic O
+number O
+is O
+s B-IC
+eight I-IC
+three I-IC
+two I-IC
+six I-IC
+five I-IC
+five I-IC
+six I-IC
+l L-IC
+
+-DOCSTART- O
+
+person O
+cannot B-CONDITION
+breathe I-CONDITION
+properly L-CONDITION
+
+-DOCSTART- O
+
+she O
+is O
+having O
+fractures U-INJURY
+
+-DOCSTART- O
+
+there O
+are O
+6 B-COUNT
+dead L-COUNT
+
+-DOCSTART- O
+
+patient O
+is O
+diagnosed O
+with O
+irritation-nonspecified B-INJURY
+injury L-INJURY
+
+-DOCSTART- O
+
+he O
+is O
+diagnosed O
+seizures U-INJURY
+
+-DOCSTART- O
+
+there O
+are O
+seven B-COUNT
+injured L-COUNT
+and O
+eighteen B-COUNT
+dead L-COUNT
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+is I-CONDITION
+normal L-CONDITION
+
+-DOCSTART- O
+
+i O
+believe O
+her O
+age O
+is O
+7 B-AGE
+years I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+there O
+are O
+13 B-COUNT
+dead L-COUNT
+
+-DOCSTART- O
+
+patient O
+is O
+having O
+reactions U-INJURY
+
+-DOCSTART- O
+
+person O
+can B-STATUS
+speak L-STATUS
+
+-DOCSTART- O
+
+there O
+is O
+a O
+vehicle B-INJURY
+over I-INJURY
+turn L-INJURY
+
+-DOCSTART- O
+
+he O
+is O
+diagnosed O
+second B-INJURY
+degree I-INJURY
+chemical I-INJURY
+burns I-INJURY
+and I-INJURY
+corrosions L-INJURY
+
+-DOCSTART- O
+
+he O
+is O
+diagnosed O
+traumatic B-INJURY
+injuries I-INJURY
+to I-INJURY
+muscles I-INJURY
+joints L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+electrocuted U-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+is I-CONDITION
+a I-CONDITION
+bit I-CONDITION
+slow L-CONDITION
+
+-DOCSTART- O
+
+patient O
+is O
+diagnosed O
+with O
+effects B-INJURY
+of I-INJURY
+environmental I-INJURY
+conditions L-INJURY
+
+-DOCSTART- O
+
+i O
+think O
+he O
+looks O
+around O
+14 B-AGE
+months I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+my O
+number O
+is O
+five B-PHONENO
+one I-PHONENO
+zero I-PHONENO
+four I-PHONENO
+seven I-PHONENO
+two I-PHONENO
+five I-PHONENO
+five L-PHONENO
+
+-DOCSTART- O
+
+there O
+is O
+a O
+vehicle B-INJURY
+over I-INJURY
+turn L-INJURY
+
+-DOCSTART- O
+
+person O
+has O
+difficulty B-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+there O
+are O
+9 B-COUNT
+injured L-COUNT
+
+-DOCSTART- O
+
+person O
+is O
+fainted U-STATUS
+
+-DOCSTART- O
+
+there O
+is O
+a O
+vehicle B-INJURY
+and I-INJURY
+bike I-INJURY
+accident L-INJURY
+
+-DOCSTART- O
+
+there O
+are O
+three B-COUNT
+injured L-COUNT
+and O
+twelve B-COUNT
+dead L-COUNT
+
+-DOCSTART- O
+
+there O
+are O
+5 B-COUNT
+dead L-COUNT
+and O
+12 B-COUNT
+dead L-COUNT
+
+-DOCSTART- O
+
+i O
+think O
+he O
+looks O
+around O
+14 B-AGE
+years I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+he O
+was O
+found O
+injured O
+at O
+
+-DOCSTART- O
+
+3 B-DURATION
+to I-DURATION
+3 I-DURATION
+months L-DURATION
+
+-DOCSTART- O
+
+person O
+is O
+collapse U-INJURY
+
+-DOCSTART- O
+
+i O
+am O
+at O
+14 U-Addr-Building-Number
+upper B-Addr-Street
+bukit I-Addr-Street
+timah I-Addr-Street
+road L-Addr-Street
+#9-22 U-Addr-UnitNo
+725726 U-PostCode
+
+-DOCSTART- O
+
+she O
+is O
+having O
+ischemic B-INJURY
+heart I-INJURY
+disease L-INJURY
+
+-DOCSTART- O
+
+ten B-COUNT
+dead L-COUNT
+and O
+eight B-COUNT
+dead L-COUNT
+
+-DOCSTART- O
+
+8 B-DURATION
+to I-DURATION
+2 I-DURATION
+months L-DURATION
+
+-DOCSTART- O
+
+person O
+cannot B-INJURY
+feel I-INJURY
+his I-INJURY
+hands L-INJURY
+
+-DOCSTART- O
+
+there O
+is O
+a O
+here O
+
+-DOCSTART- O
+
+there O
+are O
+17 B-COUNT
+dead L-COUNT
+and O
+4 B-COUNT
+injured L-COUNT
+
+-DOCSTART- O
+
+person O
+cannot B-CONDITION
+breathe I-CONDITION
+properly L-CONDITION
+
+-DOCSTART- O
+
+zero B-DURATION
+to I-DURATION
+seven I-DURATION
+mins L-DURATION
+
+-DOCSTART- O
+
+i O
+think O
+he O
+looks O
+around O
+3 B-AGE
+months I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+this O
+is O
+the O
+8 B-DURATION
+to I-DURATION
+7 I-DURATION
+years L-DURATION
+
+-DOCSTART- O
+
+eight B-COUNT
+injured L-COUNT
+and O
+thirteen B-COUNT
+dead L-COUNT
+
+-DOCSTART- O
+
+person O
+is O
+itchy U-INJURY
+
+-DOCSTART- O
+
+she O
+is O
+diagnosed O
+with O
+electrocutions U-INJURY
+
+-DOCSTART- O
+
+she O
+is O
+diagnosed O
+with O
+cuts U-INJURY
+
+-DOCSTART- O
+
+i O
+think O
+he O
+looks O
+around O
+seven B-AGE
+months I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+person O
+is O
+vomiting U-INJURY
+
+-DOCSTART- O
+
+person O
+has O
+no B-CONDITION
+chest I-CONDITION
+pain L-CONDITION
+
+-DOCSTART- O
+
+she O
+is O
+diagnosed O
+with O
+chemical B-INJURY
+burns I-INJURY
+and I-INJURY
+corrosions L-INJURY
+
+-DOCSTART- O
+
+this O
+is O
+the O
+7 B-DURATION
+years L-DURATION
+
+-DOCSTART- O
+
+person O
+has O
+a B-CONDITION
+bit I-CONDITION
+of I-CONDITION
+difficulty I-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+patient O
+is O
+having O
+paralysis U-INJURY
+
+-DOCSTART- O
+
+he O
+is O
+injured O
+on O
+left B-BODYLOCATION
+scalp L-BODYLOCATION
+
+-DOCSTART- O
+
+this O
+is O
+the O
+6 B-DURATION
+to I-DURATION
+9 I-DURATION
+seconds L-DURATION
+
+-DOCSTART- O
+
+he O
+is O
+diagnosed O
+intracranial B-INJURY
+injuries I-INJURY
+and I-INJURY
+injuries I-INJURY
+to I-INJURY
+internal I-INJURY
+organs L-INJURY
+
+-DOCSTART- O
+
+ic O
+number O
+is O
+t B-IC
+seven I-IC
+three I-IC
+one I-IC
+three I-IC
+three I-IC
+five I-IC
+three I-IC
+k L-IC
+
+-DOCSTART- O
+
+two B-COUNT
+injured L-COUNT
+and O
+nine B-COUNT
+injured L-COUNT
+
+-DOCSTART- O
+
+person O
+is O
+bitten B-INJURY
+on I-INJURY
+arms L-INJURY
+
+-DOCSTART- O
+
+person O
+has O
+a B-CONDITION
+bit I-CONDITION
+of I-CONDITION
+difficulty I-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+person O
+has O
+blood B-INJURY
+loss L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+fainted U-STATUS
+
+-DOCSTART- O
+
+person O
+is O
+having O
+loss B-INJURY
+of I-INJURY
+consciousness L-INJURY
+
+-DOCSTART- O
+
+patient O
+is O
+having O
+endocrine U-INJURY
+
+-DOCSTART- O
+
+there O
+are O
+6 B-COUNT
+injured L-COUNT
+
+-DOCSTART- O
+
+patient O
+is O
+diagnosed O
+with O
+burns B-INJURY
+and I-INJURY
+other I-INJURY
+injuries L-INJURY
+
+-DOCSTART- O
+
+she O
+is O
+having O
+exposures B-INJURY
+to I-INJURY
+disease-no I-INJURY
+illness I-INJURY
+incurred L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+electrocuted U-INJURY
+
+-DOCSTART- O
+
+patient O
+is O
+diagnosed O
+with O
+traumatic B-INJURY
+injuries I-INJURY
+to I-INJURY
+muscles I-INJURY
+joints L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+hanging U-INJURY
+
+-DOCSTART- O
+
+patient O
+is O
+diagnosed O
+with O
+first B-INJURY
+degree I-INJURY
+chemical I-INJURY
+burns I-INJURY
+and I-INJURY
+corrosions L-INJURY
+
+-DOCSTART- O
+
+i O
+am O
+at O
+block B-Addr-Block
+two L-Addr-Block
+kovan B-Addr-Street
+road L-Addr-Street
+hash B-Addr-UnitNo
+b I-Addr-UnitNo
+ten I-Addr-UnitNo
+fifty L-Addr-UnitNo
+s B-PostCode
+one I-PostCode
+four I-PostCode
+zero I-PostCode
+seven I-PostCode
+two I-PostCode
+seven L-PostCode
+singapore U-Addr-city
+near O
+
+-DOCSTART- O
+
+there O
+are O
+nine B-COUNT
+injured L-COUNT
+
+-DOCSTART- O
+
+she O
+is O
+having O
+nausea U-INJURY
+
+-DOCSTART- O
+
+she O
+is O
+diagnosed O
+with O
+burns B-INJURY
+and I-INJURY
+smoke I-INJURY
+inhalation L-INJURY
+
+-DOCSTART- O
+
+person O
+has O
+a B-CONDITION
+bit I-CONDITION
+of I-CONDITION
+difficulty I-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+person O
+is O
+having O
+prostration U-INJURY
+
+-DOCSTART- O
+
+there O
+is O
+a O
+here O
+
+-DOCSTART- O
+
+there O
+is O
+a O
+vehicle B-INJURY
+and I-INJURY
+bike I-INJURY
+accident L-INJURY
+
+-DOCSTART- O
+
+person O
+has O
+bloody B-INJURY
+stool L-INJURY
+
+-DOCSTART- O
+
+he O
+is O
+having O
+bursitis U-INJURY
+
+-DOCSTART- O
+
+i O
+am O
+at O
+11 U-Addr-Building-Number
+1 B-Addr-Building-Name
+finlayson I-Addr-Building-Name
+green L-Addr-Building-Name
+fir B-Addr-Street
+avenue L-Addr-Street
+#10-1 U-Addr-UnitNo
+901383 U-PostCode
+singapore U-Addr-city
+
+-DOCSTART- O
+
+person O
+cannot B-INJURY
+feel I-INJURY
+his I-INJURY
+hands L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+is I-CONDITION
+normal L-CONDITION
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+very I-CONDITION
+fast L-CONDITION
+
+-DOCSTART- O
+
+person O
+has O
+no B-CONDITION
+difficulty I-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+he O
+was O
+found O
+injured O
+at O
+
+-DOCSTART- O
+
+person O
+slipped U-INJURY
+
+-DOCSTART- O
+
+his O
+ic O
+number O
+is O
+g7741500u U-IC
+
+-DOCSTART- O
+
+he O
+was O
+found O
+injured O
+at O
+13 U-Addr-Building-Number
+ubi B-Addr-Street
+road I-Addr-Street
+3 L-Addr-Street
+#2-1 U-Addr-UnitNo
+193213 U-PostCode
+singapore U-Addr-city
+
+-DOCSTART- O
+
+his O
+ic O
+number O
+is O
+g B-IC
+seven I-IC
+two I-IC
+zero I-IC
+nine I-IC
+five I-IC
+eight I-IC
+seven I-IC
+y L-IC
+
+-DOCSTART- O
+
+there O
+is O
+a O
+here O
+
+-DOCSTART- O
+
+patient O
+is O
+having O
+amputations U-INJURY
+
+-DOCSTART- O
+
+she O
+is O
+diagnosed O
+with O
+dislocations U-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+arms B-INJURY
+are I-INJURY
+blue L-INJURY
+
+-DOCSTART- O
+
+person O
+can B-STATUS
+respond L-STATUS
+
+-DOCSTART- O
+
+person O
+is O
+having O
+multiple B-INJURY
+sprains L-INJURY
+
+-DOCSTART- O
+
+he O
+is O
+diagnosed O
+multiple B-INJURY
+traumatic I-INJURY
+injuries I-INJURY
+to I-INJURY
+muscles L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+not B-CONDITION
+even I-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+person O
+cant B-STATUS
+speak I-STATUS
+properly L-STATUS
+
+-DOCSTART- O
+
+person O
+fell B-INJURY
+from I-INJURY
+a I-INJURY
+height L-INJURY
+
+-DOCSTART- O
+
+i O
+am O
+at O
+seventy U-Addr-Building-Number
+running B-Addr-Street
+track L-Addr-Street
+hash B-Addr-UnitNo
+four I-Addr-UnitNo
+fifteen L-Addr-UnitNo
+three B-PostCode
+four I-PostCode
+four I-PostCode
+five I-PostCode
+one I-PostCode
+four L-PostCode
+
+-DOCSTART- O
+
+person O
+has O
+chemical B-INJURY
+burns L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+is I-CONDITION
+normal L-CONDITION
+
+-DOCSTART- O
+
+he O
+was O
+found O
+injured O
+at O
+
+-DOCSTART- O
+
+person O
+is O
+diagnosed O
+with O
+concussions U-INJURY
+
+-DOCSTART- O
+
+he O
+is O
+having O
+pneumonia U-INJURY
+
+-DOCSTART- O
+
+person O
+has O
+problems B-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+person O
+is O
+diagnosed O
+with O
+electric B-INJURY
+shocks L-INJURY
+
+-DOCSTART- O
+
+on O
+the O
+left B-BODYLOCATION
+elbow L-BODYLOCATION
+
+-DOCSTART- O
+
+the O
+ic O
+number O
+is O
+g1878686s U-IC
+
+-DOCSTART- O
+
+there O
+is O
+a O
+here O
+
+-DOCSTART- O
+
+i O
+think O
+he O
+looks O
+around O
+16 B-AGE
+years I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+this O
+is O
+the O
+3 B-DURATION
+months L-DURATION
+
+-DOCSTART- O
+
+he O
+is O
+injured O
+on O
+upper B-BODYLOCATION
+mouth L-BODYLOCATION
+
+-DOCSTART- O
+
+on O
+the O
+left B-BODYLOCATION
+bone L-BODYLOCATION
+
+-DOCSTART- O
+
+i O
+believe O
+her O
+age O
+is O
+seventeen B-AGE
+months I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+ic O
+number O
+is O
+t B-IC
+nine I-IC
+three I-IC
+six I-IC
+six I-IC
+eight I-IC
+one I-IC
+one I-IC
+t L-IC
+
+-DOCSTART- O
+
+person O
+is O
+diagnosed O
+with O
+multiple B-INJURY
+traumatic I-INJURY
+injuries I-INJURY
+and I-INJURY
+disorders L-INJURY
+
+-DOCSTART- O
+
+on O
+the O
+lower B-BODYLOCATION
+skull L-BODYLOCATION
+
+-DOCSTART- O
+
+i O
+believe O
+her O
+age O
+is O
+seven B-AGE
+months I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+there O
+is O
+a O
+here O
+
+-DOCSTART- O
+
+person O
+is O
+collapse U-INJURY
+
+-DOCSTART- O
+
+burns B-INJURY
+and I-INJURY
+smoke I-INJURY
+inhalation L-INJURY
+on O
+left B-BODYLOCATION
+scapula L-BODYLOCATION
+
+-DOCSTART- O
+
+person O
+is O
+having B-CONDITION
+some I-CONDITION
+problems I-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+he O
+is O
+having O
+vomiting U-INJURY
+
+-DOCSTART- O
+
+he O
+is O
+having O
+symptoms B-INJURY
+involving I-INJURY
+cardiovascular I-INJURY
+system L-INJURY
+
+-DOCSTART- O
+
+she O
+is O
+diagnosed O
+with O
+second B-INJURY
+degree I-INJURY
+chemical I-INJURY
+burns I-INJURY
+and I-INJURY
+corrosions L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+shivering U-INJURY
+
+-DOCSTART- O
+
+his O
+ic O
+number O
+is O
+g6482115m U-IC
+
+-DOCSTART- O
+
+i O
+am O
+at O
+774 U-Addr-Building-Number
+5footway.inn U-Addr-Building-Name
+jalan B-Addr-Street
+suasa L-Addr-Street
+#17-14 U-Addr-UnitNo
+049450 U-PostCode
+
+-DOCSTART- O
+
+i O
+think O
+he O
+looks O
+around O
+7 B-AGE
+years I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+there O
+are O
+1 B-COUNT
+injured L-COUNT
+and O
+18 B-COUNT
+injured L-COUNT
+
+-DOCSTART- O
+
+4 B-COUNT
+dead L-COUNT
+and O
+13 B-COUNT
+injured L-COUNT
+
+-DOCSTART- O
+
+patient O
+is O
+having O
+third B-INJURY
+or I-INJURY
+fourth I-INJURY
+degree I-INJURY
+chemical I-INJURY
+burns I-INJURY
+and I-INJURY
+corrosions L-INJURY
+
+-DOCSTART- O
+
+he O
+is O
+diagnosed O
+nutritional U-INJURY
+
+-DOCSTART- O
+
+patient O
+is O
+having O
+paralysis U-INJURY
+
+-DOCSTART- O
+
+person O
+has O
+not B-STATUS
+responding L-STATUS
+
+-DOCSTART- O
+
+she O
+is O
+diagnosed O
+with O
+heat B-INJURY
+fatigue L-INJURY
+
+-DOCSTART- O
+
+he O
+was O
+found O
+injured O
+at O
+block B-Addr-Block
+six L-Addr-Block
+fernvale B-Addr-Street
+lane L-Addr-Street
+hash B-Addr-UnitNo
+thirteen I-Addr-UnitNo
+dash I-Addr-UnitNo
+fourteen L-Addr-UnitNo
+one B-PostCode
+six I-PostCode
+two I-PostCode
+six I-PostCode
+seven I-PostCode
+three L-PostCode
+singapore U-Addr-city
+
+-DOCSTART- O
+
+person O
+is O
+having O
+gunshot B-INJURY
+wounds L-INJURY
+
+-DOCSTART- O
+
+he O
+is O
+having O
+tendons U-INJURY
+
+-DOCSTART- O
+
+ic O
+number O
+is O
+g B-IC
+one I-IC
+nine I-IC
+two I-IC
+one I-IC
+one I-IC
+three I-IC
+zero I-IC
+s L-IC
+
+-DOCSTART- O
+
+patient O
+is O
+having O
+anxiety U-INJURY
+
+-DOCSTART- O
+
+he O
+was O
+found O
+injured O
+at O
+
+-DOCSTART- O
+
+7 B-AGE
+years I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+person O
+has O
+difficulty B-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+person O
+is O
+arms B-INJURY
+are I-INJURY
+blue L-INJURY
+
+-DOCSTART- O
+
+i O
+believe O
+her O
+age O
+is O
+6 B-AGE
+months I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+he O
+is O
+having O
+blindness U-INJURY
+
+-DOCSTART- O
+
+his O
+ic O
+number O
+is O
+f6223854m U-IC
+
+-DOCSTART- O
+
+on O
+the O
+upper B-BODYLOCATION
+eyelash L-BODYLOCATION
+
+-DOCSTART- O
+
+he O
+is O
+diagnosed O
+skull B-INJURY
+fracture I-INJURY
+and I-INJURY
+intracranial I-INJURY
+injury L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+having O
+endocrine U-INJURY
+
+-DOCSTART- O
+
+i O
+am O
+at O
+hundred U-Addr-Building-Number
+velocity B-Addr-Building-Name
+@ I-Addr-Building-Name
+novena I-Addr-Building-Name
+square L-Addr-Building-Name
+hillcrest B-Addr-Street
+road L-Addr-Street
+hash B-Addr-UnitNo
+b I-Addr-UnitNo
+fourteen I-Addr-UnitNo
+dash I-Addr-UnitNo
+nine L-Addr-UnitNo
+two B-PostCode
+two I-PostCode
+nine I-PostCode
+nine I-PostCode
+two I-PostCode
+seven L-PostCode
+singapore U-Addr-city
+near O
+
+-DOCSTART- O
+
+person O
+has O
+difficulty B-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+open B-INJURY
+wounds L-INJURY
+on O
+lower B-BODYLOCATION
+pelvis L-BODYLOCATION
+
+-DOCSTART- O
+
+my O
+number O
+is O
+nine B-PHONENO
+nine I-PHONENO
+eight I-PHONENO
+eight I-PHONENO
+three I-PHONENO
+one I-PHONENO
+zero I-PHONENO
+one L-PHONENO
+
+-DOCSTART- O
+
+she O
+is O
+having O
+open B-INJURY
+wounds L-INJURY
+
+-DOCSTART- O
+
+he O
+was O
+found O
+injured O
+at O
+
+-DOCSTART- O
+
+person O
+has O
+no B-CONDITION
+difficulty I-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+is I-CONDITION
+a I-CONDITION
+bit I-CONDITION
+slow L-CONDITION
+
+-DOCSTART- O
+
+he O
+was O
+found O
+injured O
+at O
+
+-DOCSTART- O
+
+this O
+is O
+the O
+7 B-DURATION
+mins L-DURATION
+
+-DOCSTART- O
+
+person O
+has O
+not B-STATUS
+feeling I-STATUS
+giddy L-STATUS
+
+-DOCSTART- O
+
+12 B-COUNT
+dead L-COUNT
+and O
+13 B-COUNT
+injured L-COUNT
+
+-DOCSTART- O
+
+person O
+is O
+fainted U-STATUS
+
+-DOCSTART- O
+
+he O
+was O
+found O
+injured O
+at O
+fulton B-Addr-Street
+road L-Addr-Street
+438365 U-PostCode
+singapore U-Addr-city
+
+-DOCSTART- O
+
+there O
+are O
+seven B-COUNT
+injured L-COUNT
+and O
+nineteen B-COUNT
+dead L-COUNT
+
+-DOCSTART- O
+
+person O
+cant B-STATUS
+speak I-STATUS
+properly L-STATUS
+
+-DOCSTART- O
+
+there O
+are O
+11 B-COUNT
+dead L-COUNT
+and O
+14 B-COUNT
+injured L-COUNT
+
+-DOCSTART- O
+
+he O
+was O
+found O
+injured O
+at O
+block B-Addr-Block
+three I-Addr-Block
+four I-Addr-Block
+two L-Addr-Block
+springleaf B-Addr-Street
+drive L-Addr-Street
+hash B-Addr-UnitNo
+one I-Addr-UnitNo
+seventeen L-Addr-UnitNo
+three B-PostCode
+seven I-PostCode
+eight I-PostCode
+zero I-PostCode
+nine I-PostCode
+zero L-PostCode
+singapore U-Addr-city
+
+-DOCSTART- O
+
+there O
+is O
+a O
+vehicle B-INJURY
+and I-INJURY
+bike I-INJURY
+accident L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+having O
+second B-INJURY
+degree I-INJURY
+electrical I-INJURY
+burns L-INJURY
+
+-DOCSTART- O
+
+i O
+am O
+at O
+block B-Addr-Block
+nineteen L-Addr-Block
+kovan B-Addr-Street
+road L-Addr-Street
+hash B-Addr-UnitNo
+five I-Addr-UnitNo
+dash I-Addr-UnitNo
+eighteen L-Addr-UnitNo
+eight B-PostCode
+four I-PostCode
+six I-PostCode
+zero I-PostCode
+one I-PostCode
+seven L-PostCode
+near O
+
+-DOCSTART- O
+
+there O
+are O
+15 B-COUNT
+injured L-COUNT
+and O
+3 B-COUNT
+injured L-COUNT
+
+-DOCSTART- O
+
+there O
+are O
+one B-COUNT
+injured L-COUNT
+five B-COUNT
+injured L-COUNT
+
+-DOCSTART- O
+
+she O
+is O
+diagnosed O
+with O
+traumatic B-INJURY
+injuries I-INJURY
+to I-INJURY
+bones L-INJURY
+
+-DOCSTART- O
+
+there O
+are O
+four B-COUNT
+injured L-COUNT
+
+-DOCSTART- O
+
+person O
+cannot B-CONDITION
+breathe I-CONDITION
+properly L-CONDITION
+
+-DOCSTART- O
+
+i O
+am O
+at O
+sembawang B-Addr-Street
+hills I-Addr-Street
+drive L-Addr-Street
+#3-16 U-Addr-UnitNo
+396067 U-PostCode
+near O
+
+-DOCSTART- O
+
+he O
+is O
+injured O
+on O
+lower B-BODYLOCATION
+gums L-BODYLOCATION
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+is I-CONDITION
+a I-CONDITION
+bit I-CONDITION
+slow L-CONDITION
+
+-DOCSTART- O
+
+person O
+has O
+heatstroke U-INJURY
+
+-DOCSTART- O
+
+burns B-INJURY
+and I-INJURY
+corrosions L-INJURY
+on O
+lower B-BODYLOCATION
+pituitary L-BODYLOCATION
+
+-DOCSTART- O
+
+she O
+is O
+diagnosed O
+with O
+contusions U-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+vomiting U-INJURY
+
+-DOCSTART- O
+
+she O
+is O
+diagnosed O
+with O
+traumatic B-INJURY
+injuries I-INJURY
+to I-INJURY
+bones L-INJURY
+
+-DOCSTART- O
+
+ic O
+number O
+is O
+t3470821e U-IC
+
+-DOCSTART- O
+
+there O
+is O
+a O
+vehicle B-INJURY
+over I-INJURY
+turn L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+diagnosed O
+with O
+abdominal B-INJURY
+pain L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+diagnosed O
+with O
+influenza-novel U-INJURY
+
+-DOCSTART- O
+
+person O
+slipped U-INJURY
+
+-DOCSTART- O
+
+patient O
+is O
+diagnosed O
+with O
+transient B-INJURY
+ischemia I-INJURY
+attacks L-INJURY
+
+-DOCSTART- O
+
+person O
+has O
+bloody B-INJURY
+stool L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+having O
+second B-INJURY
+degree L-INJURY
+
+-DOCSTART- O
+
+on O
+the O
+lower B-BODYLOCATION
+jaw L-BODYLOCATION
+
+-DOCSTART- O
+
+person O
+is O
+no B-STATUS
+movement L-STATUS
+
+-DOCSTART- O
+
+his O
+ic O
+number O
+is O
+t7820677c U-IC
+
+-DOCSTART- O
+
+person O
+is O
+having O
+scratches U-INJURY
+
+-DOCSTART- O
+
+patient O
+is O
+having O
+strangulations U-INJURY
+
+-DOCSTART- O
+
+he O
+was O
+found O
+injured O
+at O
+block B-Addr-Block
+eleven L-Addr-Block
+running B-Addr-Street
+track L-Addr-Street
+hash B-Addr-UnitNo
+eight I-Addr-UnitNo
+dash I-Addr-UnitNo
+eleven L-Addr-UnitNo
+eight B-PostCode
+four I-PostCode
+seven I-PostCode
+three I-PostCode
+six I-PostCode
+three L-PostCode
+
+-DOCSTART- O
+
+person O
+is O
+diagnosed O
+with O
+first B-INJURY
+degree I-INJURY
+chemical I-INJURY
+burns I-INJURY
+and I-INJURY
+corrosions L-INJURY
+
+-DOCSTART- O
+
+my O
+number O
+is O
+one B-PHONENO
+nine I-PHONENO
+four I-PHONENO
+zero I-PHONENO
+zero I-PHONENO
+one I-PHONENO
+eight I-PHONENO
+nine L-PHONENO
+
+-DOCSTART- O
+
+person O
+cannot B-CONDITION
+breathe I-CONDITION
+properly L-CONDITION
+
+-DOCSTART- O
+
+person O
+is O
+having O
+noxious U-INJURY
+
+-DOCSTART- O
+
+ic O
+number O
+is O
+f B-IC
+two I-IC
+eight I-IC
+two I-IC
+three I-IC
+one I-IC
+three I-IC
+eight I-IC
+v L-IC
+
+-DOCSTART- O
+
+i O
+believe O
+her O
+age O
+is O
+17 B-AGE
+months I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+person O
+has O
+blood B-INJURY
+near I-INJURY
+bites L-INJURY
+
+-DOCSTART- O
+
+ic O
+number O
+is O
+s B-IC
+five I-IC
+zero I-IC
+three I-IC
+zero I-IC
+zero I-IC
+eight I-IC
+five I-IC
+r L-IC
+
+-DOCSTART- O
+
+there O
+are O
+three B-COUNT
+injured L-COUNT
+
+-DOCSTART- O
+
+he O
+is O
+having O
+anaphylaxis U-INJURY
+
+-DOCSTART- O
+
+this O
+is O
+the O
+4 B-DURATION
+hours L-DURATION
+
+-DOCSTART- O
+
+person O
+is O
+drowning U-INJURY
+
+-DOCSTART- O
+
+there O
+are O
+fifteen B-COUNT
+dead L-COUNT
+and O
+four B-COUNT
+injured L-COUNT
+
+-DOCSTART- O
+
+there O
+is O
+a O
+vehicle B-INJURY
+and I-INJURY
+bike I-INJURY
+accident L-INJURY
+
+-DOCSTART- O
+
+person O
+can B-STATUS
+reply L-STATUS
+
+-DOCSTART- O
+
+there O
+is O
+a O
+here O
+
+-DOCSTART- O
+
+2 B-COUNT
+dead L-COUNT
+and O
+13 B-COUNT
+dead L-COUNT
+
+-DOCSTART- O
+
+person O
+is O
+not B-CONDITION
+even I-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+person O
+is O
+having B-CONDITION
+some I-CONDITION
+problems I-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+i O
+am O
+at O
+potong B-Addr-Street
+pasir I-Addr-Street
+avenue I-Addr-Street
+1 L-Addr-Street
+hash B-Addr-UnitNo
+fourteen I-Addr-UnitNo
+forty I-Addr-UnitNo
+three L-Addr-UnitNo
+singapore B-PostCode
+post I-PostCode
+code I-PostCode
+eight I-PostCode
+five I-PostCode
+nine I-PostCode
+one I-PostCode
+one I-PostCode
+zero L-PostCode
+singapore U-Addr-city
+
+-DOCSTART- O
+
+she O
+is O
+having O
+bursitis U-INJURY
+
+-DOCSTART- O
+
+person O
+has O
+food B-INJURY
+poisoning L-INJURY
+
+-DOCSTART- O
+
+i O
+am O
+at O
+block B-Addr-Block
+twenty I-Addr-Block
+seven L-Addr-Block
+leedon B-Addr-Street
+road L-Addr-Street
+hash B-Addr-UnitNo
+nineteen I-Addr-UnitNo
+eight L-Addr-UnitNo
+eight B-PostCode
+eight I-PostCode
+six I-PostCode
+five I-PostCode
+three I-PostCode
+five L-PostCode
+near O
+
+-DOCSTART- O
+
+person O
+has O
+blood B-INJURY
+loss L-INJURY
+
+-DOCSTART- O
+
+his O
+ic O
+number O
+is O
+f8820430j U-IC
+
+-DOCSTART- O
+
+he O
+was O
+found O
+injured O
+at O
+
+-DOCSTART- O
+
+there O
+is O
+a O
+here O
+
+-DOCSTART- O
+
+i O
+think O
+he O
+looks O
+around O
+8 B-AGE
+years I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+i O
+am O
+at O
+blk B-Addr-Block
+1 L-Addr-Block
+farleigh B-Addr-Street
+avenue L-Addr-Street
+#18-6 U-Addr-UnitNo
+419382 U-PostCode
+
+-DOCSTART- O
+
+she O
+is O
+having O
+loss B-INJURY
+of I-INJURY
+consciousness L-INJURY
+
+-DOCSTART- O
+
+ic O
+number O
+is O
+g8956615b U-IC
+
+-DOCSTART- O
+
+person O
+want B-STATUS
+to I-STATUS
+faint L-STATUS
+
+-DOCSTART- O
+
+there O
+are O
+9 B-COUNT
+dead L-COUNT
+
+-DOCSTART- O
+
+person O
+can B-STATUS
+talk L-STATUS
+
+-DOCSTART- O
+
+0 B-DURATION
+years L-DURATION
+
+-DOCSTART- O
+
+i O
+believe O
+her O
+age O
+is O
+3 B-AGE
+years I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+is I-CONDITION
+a I-CONDITION
+bit I-CONDITION
+slow L-CONDITION
+
+-DOCSTART- O
+
+my O
+number O
+is O
+five B-PHONENO
+seven I-PHONENO
+seven I-PHONENO
+zero I-PHONENO
+eight I-PHONENO
+nine I-PHONENO
+seven I-PHONENO
+seven L-PHONENO
+
+-DOCSTART- O
+
+he O
+is O
+having O
+hernias B-INJURY
+due I-INJURY
+to I-INJURY
+traumatic I-INJURY
+incidents L-INJURY
+
+-DOCSTART- O
+
+this O
+is O
+the O
+zero B-DURATION
+months L-DURATION
+
+-DOCSTART- O
+
+there O
+is O
+a O
+here O
+
+-DOCSTART- O
+
+paralysis U-INJURY
+on O
+lower B-BODYLOCATION
+scalp L-BODYLOCATION
+
+-DOCSTART- O
+
+his O
+ic O
+number O
+is O
+g B-IC
+seven I-IC
+zero I-IC
+three I-IC
+five I-IC
+eight I-IC
+seven I-IC
+four I-IC
+y L-IC
+
+-DOCSTART- O
+
+zero B-DURATION
+months L-DURATION
+
+-DOCSTART- O
+
+person O
+stopped B-STATUS
+jerking L-STATUS
+
+-DOCSTART- O
+
+on O
+the O
+right B-BODYLOCATION
+lymph L-BODYLOCATION
+
+-DOCSTART- O
+
+i O
+am O
+at O
+three B-Addr-Building-Number
+eleven L-Addr-Building-Number
+kupang U-Addr-Building-Name
+central B-Addr-Street
+expressway L-Addr-Street
+hash B-Addr-UnitNo
+two I-Addr-UnitNo
+two L-Addr-UnitNo
+six B-PostCode
+zero I-PostCode
+seven I-PostCode
+three I-PostCode
+four I-PostCode
+two L-PostCode
+singapore U-Addr-city
+
+-DOCSTART- O
+
+ic O
+number O
+is O
+g8698495l U-IC
+
+-DOCSTART- O
+
+person O
+is O
+lying B-INJURY
+on I-INJURY
+ground L-INJURY
+
+-DOCSTART- O
+
+there O
+are O
+2 B-COUNT
+injured L-COUNT
+5 B-COUNT
+dead L-COUNT
+
+-DOCSTART- O
+
+16 B-AGE
+years I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+patient O
+is O
+having O
+soreness U-INJURY
+
+-DOCSTART- O
+
+there O
+are O
+two B-COUNT
+dead L-COUNT
+
+-DOCSTART- O
+
+i O
+believe O
+her O
+age O
+is O
+thirteen B-AGE
+months I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+i O
+am O
+at O
+urban B-Addr-Building-Name
+hostel L-Addr-Building-Name
+ninety U-Addr-Building-Number
+636b U-Addr-Street
+eight B-PostCode
+six I-PostCode
+one I-PostCode
+six I-PostCode
+four I-PostCode
+zero L-PostCode
+
+-DOCSTART- O
+
+i O
+am O
+at O
+19 U-Addr-Building-Number
+lambeth B-Addr-Street
+walk L-Addr-Street
+#7-6 U-Addr-UnitNo
+412666 U-PostCode
+near O
+
+-DOCSTART- O
+
+on O
+the O
+upper B-BODYLOCATION
+index I-BODYLOCATION
+finger L-BODYLOCATION
+
+-DOCSTART- O
+
+person O
+is O
+diagnosed O
+with O
+headache-toxic U-INJURY
+
+-DOCSTART- O
+
+he O
+is O
+diagnosed O
+amputations U-INJURY
+
+-DOCSTART- O
+
+he O
+was O
+found O
+injured O
+at O
+seven B-Addr-Building-Number
+thirty L-Addr-Building-Number
+mcnair B-Addr-Street
+road L-Addr-Street
+hash B-Addr-UnitNo
+zero I-Addr-UnitNo
+five L-Addr-UnitNo
+five B-PostCode
+seven I-PostCode
+zero I-PostCode
+six I-PostCode
+five I-PostCode
+six L-PostCode
+
+-DOCSTART- O
+
+person O
+is O
+finger B-INJURY
+amputated L-INJURY
+
+-DOCSTART- O
+
+patient O
+is O
+having O
+second B-INJURY
+degree I-INJURY
+chemical I-INJURY
+burns I-INJURY
+and I-INJURY
+corrosions L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+breathing U-CONDITION
+
+-DOCSTART- O
+
+she O
+is O
+having O
+frostbite U-INJURY
+
+-DOCSTART- O
+
+person O
+has O
+bloody B-INJURY
+stool L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+no B-STATUS
+movement L-STATUS
+
+-DOCSTART- O
+
+my O
+number O
+is O
+14172479 U-PHONENO
+
+-DOCSTART- O
+
+this O
+is O
+the O
+one B-DURATION
+to I-DURATION
+eight I-DURATION
+years L-DURATION
+
+-DOCSTART- O
+
+person O
+is O
+bitten B-INJURY
+by I-INJURY
+dog L-INJURY
+
+-DOCSTART- O
+
+he O
+was O
+found O
+injured O
+at O
+yio B-Addr-Street
+chu I-Addr-Street
+kang I-Addr-Street
+road L-Addr-Street
+#b15-160 U-Addr-UnitNo
+664955 U-PostCode
+singapore U-Addr-city
+
+-DOCSTART- O
+
+person O
+is O
+having O
+fractures B-INJURY
+and I-INJURY
+burns L-INJURY
+
+-DOCSTART- O
+
+there O
+is O
+a O
+here O
+
+-DOCSTART- O
+
+there O
+are O
+10 B-COUNT
+dead L-COUNT
+
+-DOCSTART- O
+
+fifteen B-AGE
+months I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+she O
+is O
+having O
+second B-INJURY
+degree I-INJURY
+heat I-INJURY
+burns L-INJURY
+
+-DOCSTART- O
+
+i O
+am O
+at O
+block B-Addr-Block
+twenty L-Addr-Block
+meadow B-Addr-Street
+lane L-Addr-Street
+hash B-Addr-UnitNo
+six I-Addr-UnitNo
+dash I-Addr-UnitNo
+four L-Addr-UnitNo
+four B-PostCode
+two I-PostCode
+four I-PostCode
+four I-PostCode
+five I-PostCode
+six L-PostCode
+singapore U-Addr-city
+near O
+
+-DOCSTART- O
+
+she O
+is O
+having O
+heat B-INJURY
+exhaustion L-INJURY
+
+-DOCSTART- O
+
+my O
+number O
+is O
+six B-PHONENO
+two I-PHONENO
+nine I-PHONENO
+two I-PHONENO
+nine I-PHONENO
+seven I-PHONENO
+one I-PHONENO
+zero L-PHONENO
+
+-DOCSTART- O
+
+person O
+is O
+taking B-INJURY
+drugs L-INJURY
+
+-DOCSTART- O
+
+i O
+am O
+at O
+turf B-Addr-Street
+club I-Addr-Street
+road L-Addr-Street
+517069 U-PostCode
+
+-DOCSTART- O
+
+person O
+is O
+not B-CONDITION
+even I-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+he O
+was O
+found O
+injured O
+at O
+teck B-Addr-Street
+whye I-Addr-Street
+lane L-Addr-Street
+s B-PostCode
+three I-PostCode
+eight I-PostCode
+nine I-PostCode
+one I-PostCode
+five I-PostCode
+one L-PostCode
+
+-DOCSTART- O
+
+there O
+are O
+19 B-COUNT
+dead L-COUNT
+9 B-COUNT
+injured L-COUNT
+
+-DOCSTART- O
+
+he O
+is O
+having O
+exposures B-INJURY
+to I-INJURY
+disease-no I-INJURY
+illness I-INJURY
+incurred L-INJURY
+
+-DOCSTART- O
+
+person O
+has O
+a B-CONDITION
+bit I-CONDITION
+of I-CONDITION
+difficulty I-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+he O
+was O
+found O
+injured O
+at O
+15 U-Addr-Building-Number
+1 B-Addr-Building-Name
+finlayson I-Addr-Building-Name
+green L-Addr-Building-Name
+gymkhana B-Addr-Street
+avenue L-Addr-Street
+#8-50 U-Addr-UnitNo
+077939 U-PostCode
+
+-DOCSTART- O
+
+there O
+are O
+2 B-COUNT
+dead L-COUNT
+
+-DOCSTART- O
+
+i O
+believe O
+her O
+age O
+is O
+sixteen B-AGE
+months I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+i O
+believe O
+her O
+age O
+is O
+one B-AGE
+years I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+16 B-AGE
+months I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+person O
+is O
+stung B-INJURY
+by I-INJURY
+bee L-INJURY
+
+-DOCSTART- O
+
+he O
+is O
+injured O
+on O
+upper B-BODYLOCATION
+uterus L-BODYLOCATION
+
+-DOCSTART- O
+
+i O
+am O
+at O
+old B-Addr-Street
+holland I-Addr-Street
+road L-Addr-Street
+zero B-PostCode
+seven I-PostCode
+zero I-PostCode
+seven I-PostCode
+four I-PostCode
+two L-PostCode
+
+-DOCSTART- O
+
+his O
+ic O
+number O
+is O
+f B-IC
+three I-IC
+two I-IC
+six I-IC
+two I-IC
+seven I-IC
+one I-IC
+six I-IC
+s L-IC
+
+-DOCSTART- O
+
+he O
+was O
+found O
+injured O
+at O
+
+-DOCSTART- O
+
+the O
+ic O
+number O
+is O
+t B-IC
+one I-IC
+five I-IC
+zero I-IC
+one I-IC
+seven I-IC
+seven I-IC
+two I-IC
+j L-IC
+
+-DOCSTART- O
+
+person O
+can B-STATUS
+respond L-STATUS
+
+-DOCSTART- O
+
+he O
+is O
+injured O
+on O
+left B-BODYLOCATION
+wrist L-BODYLOCATION
+
+-DOCSTART- O
+
+the O
+ic O
+number O
+is O
+s B-IC
+zero I-IC
+four I-IC
+two I-IC
+five I-IC
+seven I-IC
+two I-IC
+four I-IC
+b L-IC
+
+-DOCSTART- O
+
+there O
+are O
+sixteen B-COUNT
+injured L-COUNT
+and O
+thirteen B-COUNT
+dead L-COUNT
+
+-DOCSTART- O
+
+person O
+is O
+fainted U-STATUS
+
+-DOCSTART- O
+
+there O
+are O
+nineteen B-COUNT
+dead L-COUNT
+five B-COUNT
+dead L-COUNT
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+is I-CONDITION
+normal L-CONDITION
+
+-DOCSTART- O
+
+person O
+is O
+no B-STATUS
+movement L-STATUS
+
+-DOCSTART- O
+
+person O
+has O
+heatstroke U-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+right B-INJURY
+arm I-INJURY
+fractured L-INJURY
+
+-DOCSTART- O
+
+she O
+is O
+diagnosed O
+with O
+toxic U-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+right B-INJURY
+arm I-INJURY
+fractured L-INJURY
+
+-DOCSTART- O
+
+person O
+smell B-INJURY
+toxic I-INJURY
+gas L-INJURY
+
+-DOCSTART- O
+
+i O
+believe O
+her O
+age O
+is O
+19 B-AGE
+months I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+person O
+is O
+diagnosed O
+with O
+multiple B-INJURY
+general I-INJURY
+symptoms L-INJURY
+
+-DOCSTART- O
+
+person O
+can B-STATUS
+reply L-STATUS
+
+-DOCSTART- O
+
+there O
+is O
+a O
+here O
+
+-DOCSTART- O
+
+person O
+is O
+lying B-INJURY
+on I-INJURY
+ground L-INJURY
+
+-DOCSTART- O
+
+he O
+is O
+diagnosed O
+internal B-INJURY
+injuries I-INJURY
+to I-INJURY
+organs I-INJURY
+and I-INJURY
+blood I-INJURY
+vessels I-INJURY
+of I-INJURY
+the I-INJURY
+trunk L-INJURY
+
+-DOCSTART- O
+
+i O
+think O
+he O
+looks O
+around O
+eight B-AGE
+years I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+she O
+is O
+diagnosed O
+with O
+enucleations U-INJURY
+
+-DOCSTART- O
+
+patient O
+is O
+having O
+traumatic B-INJURY
+injuries I-INJURY
+to I-INJURY
+bones L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+no B-STATUS
+movement L-STATUS
+
+-DOCSTART- O
+
+on O
+the O
+left B-BODYLOCATION
+nipple L-BODYLOCATION
+
+-DOCSTART- O
+
+ic O
+number O
+is O
+f7409730g U-IC
+
+-DOCSTART- O
+
+person O
+is O
+arms B-INJURY
+are I-INJURY
+blue L-INJURY
+
+-DOCSTART- O
+
+the O
+ic O
+number O
+is O
+s6779163d U-IC
+
+-DOCSTART- O
+
+3 B-AGE
+months I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+there O
+are O
+sixteen B-COUNT
+injured L-COUNT
+and O
+two B-COUNT
+dead L-COUNT
+
+-DOCSTART- O
+
+person O
+has O
+conscious U-STATUS
+
+-DOCSTART- O
+
+i O
+am O
+at O
+eighty U-Addr-Building-Number
+meadow B-Addr-Street
+lane L-Addr-Street
+hash B-Addr-UnitNo
+five I-Addr-UnitNo
+dash I-Addr-UnitNo
+eleven L-Addr-UnitNo
+two B-PostCode
+five I-PostCode
+zero I-PostCode
+nine I-PostCode
+six I-PostCode
+two L-PostCode
+singapore U-Addr-city
+near O
+
+-DOCSTART- O
+
+there O
+are O
+9 B-COUNT
+dead L-COUNT
+and O
+3 B-COUNT
+injured L-COUNT
+
+-DOCSTART- O
+
+she O
+is O
+diagnosed O
+with O
+third B-INJURY
+or I-INJURY
+fourth I-INJURY
+degree I-INJURY
+electrical I-INJURY
+burns L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+diagnosed O
+with O
+lightheadedness U-INJURY
+
+-DOCSTART- O
+
+asphyxiations U-INJURY
+on O
+upper B-BODYLOCATION
+ear L-BODYLOCATION
+
+-DOCSTART- O
+
+person O
+has O
+not B-STATUS
+moving I-STATUS
+at I-STATUS
+all L-STATUS
+
+-DOCSTART- O
+
+person O
+cannot B-CONDITION
+breathe I-CONDITION
+properly L-CONDITION
+
+-DOCSTART- O
+
+i O
+think O
+he O
+looks O
+around O
+fourteen B-AGE
+years I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+there O
+are O
+ten B-COUNT
+dead L-COUNT
+nine B-COUNT
+injured L-COUNT
+
+-DOCSTART- O
+
+his O
+ic O
+number O
+is O
+f7017439h U-IC
+
+-DOCSTART- O
+
+seven B-DURATION
+years L-DURATION
+
+-DOCSTART- O
+
+patient O
+is O
+diagnosed O
+with O
+lacerations U-INJURY
+
+-DOCSTART- O
+
+ic O
+number O
+is O
+g B-IC
+nine I-IC
+four I-IC
+six I-IC
+six I-IC
+five I-IC
+two I-IC
+nine I-IC
+h L-IC
+
+-DOCSTART- O
+
+14 B-COUNT
+injured L-COUNT
+and O
+4 B-COUNT
+injured L-COUNT
+
+-DOCSTART- O
+
+person O
+has O
+problems B-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+6 B-DURATION
+to I-DURATION
+2 I-DURATION
+mins L-DURATION
+
+-DOCSTART- O
+
+person O
+slipped U-INJURY
+
+-DOCSTART- O
+
+she O
+is O
+diagnosed O
+with O
+multiple B-INJURY
+surface I-INJURY
+wounds I-INJURY
+and I-INJURY
+bruises L-INJURY
+
+-DOCSTART- O
+
+there O
+is O
+a O
+vehicle B-INJURY
+and I-INJURY
+bike I-INJURY
+accident L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+no B-STATUS
+movement L-STATUS
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+is I-CONDITION
+a I-CONDITION
+bit I-CONDITION
+slow L-CONDITION
+
+-DOCSTART- O
+
+person O
+is O
+right B-INJURY
+arm I-INJURY
+fractured L-INJURY
+
+-DOCSTART- O
+
+person O
+has O
+chemical B-INJURY
+went I-INJURY
+into I-INJURY
+her I-INJURY
+eye L-INJURY
+
+-DOCSTART- O
+
+there O
+is O
+a O
+vehicle B-INJURY
+over I-INJURY
+turn L-INJURY
+
+-DOCSTART- O
+
+person O
+cannot B-CONDITION
+breathe I-CONDITION
+properly L-CONDITION
+
+-DOCSTART- O
+
+he O
+is O
+having O
+metabolic U-INJURY
+
+-DOCSTART- O
+
+he O
+is O
+injured O
+on O
+right B-BODYLOCATION
+organ L-BODYLOCATION
+
+-DOCSTART- O
+
+i O
+am O
+at O
+ten U-Addr-Building-Number
+ifly U-Addr-Building-Name
+hua B-Addr-Street
+guan I-Addr-Street
+avenue L-Addr-Street
+hash B-Addr-UnitNo
+fourteen I-Addr-UnitNo
+nineteen L-Addr-UnitNo
+s B-PostCode
+five I-PostCode
+seven I-PostCode
+one I-PostCode
+three I-PostCode
+one I-PostCode
+five L-PostCode
+singapore U-Addr-city
+
+-DOCSTART- O
+
+i O
+think O
+he O
+looks O
+around O
+twelve B-AGE
+years I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+person O
+has O
+quite B-STATUS
+drowsy L-STATUS
+
+-DOCSTART- O
+
+there O
+are O
+9 B-COUNT
+injured L-COUNT
+and O
+10 B-COUNT
+injured L-COUNT
+
+-DOCSTART- O
+
+person O
+is O
+having O
+other B-INJURY
+traumatic I-INJURY
+injuries I-INJURY
+and I-INJURY
+disorders L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+diagnosed O
+with O
+herniated B-INJURY
+discs L-INJURY
+
+-DOCSTART- O
+
+he O
+was O
+found O
+injured O
+at O
+
+-DOCSTART- O
+
+person O
+swallowed B-INJURY
+fish I-INJURY
+bone L-INJURY
+
+-DOCSTART- O
+
+he O
+was O
+found O
+injured O
+at O
+1 U-Addr-Building-Number
+kaki B-Addr-Street
+bukit I-Addr-Street
+road I-Addr-Street
+4 L-Addr-Street
+#20-19 U-Addr-UnitNo
+022262 U-PostCode
+singapore U-Addr-city
+
+-DOCSTART- O
+
+he O
+was O
+found O
+injured O
+at O
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+is I-CONDITION
+normal L-CONDITION
+
+-DOCSTART- O
+
+person O
+has O
+slow B-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+patient O
+is O
+having O
+heat B-INJURY
+syncope L-INJURY
+
+-DOCSTART- O
+
+patient O
+is O
+having O
+puncture B-INJURY
+wounds L-INJURY
+
+-DOCSTART- O
+
+he O
+is O
+diagnosed O
+sprains U-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+lying B-INJURY
+on I-INJURY
+ground L-INJURY
+
+-DOCSTART- O
+
+this O
+is O
+the O
+1 B-DURATION
+to I-DURATION
+7 I-DURATION
+months L-DURATION
+
+-DOCSTART- O
+
+person O
+is O
+having B-CONDITION
+some I-CONDITION
+problems I-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+she O
+is O
+having O
+dislocation B-INJURY
+of I-INJURY
+joints L-INJURY
+
+-DOCSTART- O
+
+person O
+vomit B-INJURY
+blood L-INJURY
+
+-DOCSTART- O
+
+person O
+stopped B-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+there O
+are O
+17 B-COUNT
+dead L-COUNT
+18 B-COUNT
+dead L-COUNT
+
+-DOCSTART- O
+
+there O
+are O
+19 B-COUNT
+injured L-COUNT
+and O
+18 B-COUNT
+dead L-COUNT
+
+-DOCSTART- O
+
+person O
+is O
+raped U-INJURY
+
+-DOCSTART- O
+
+patient O
+is O
+having O
+dislocation B-INJURY
+of I-INJURY
+joints L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+raped U-INJURY
+
+-DOCSTART- O
+
+she O
+is O
+having O
+dermatitis B-INJURY
+and I-INJURY
+reactions I-INJURY
+affecting I-INJURY
+the I-INJURY
+skin-acute L-INJURY
+
+-DOCSTART- O
+
+he O
+is O
+diagnosed O
+third B-INJURY
+or I-INJURY
+fourth I-INJURY
+degree I-INJURY
+chemical I-INJURY
+burns I-INJURY
+and I-INJURY
+corrosions L-INJURY
+
+-DOCSTART- O
+
+13 B-COUNT
+dead L-COUNT
+and O
+4 B-COUNT
+injured L-COUNT
+
+-DOCSTART- O
+
+9 B-AGE
+years I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+the O
+ic O
+number O
+is O
+s7832230s U-IC
+
+-DOCSTART- O
+
+i O
+think O
+he O
+looks O
+around O
+eight B-AGE
+months I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+he O
+was O
+found O
+injured O
+at O
+watten B-Addr-Building-Name
+view L-Addr-Building-Name
+hundred U-Addr-Building-Number
+pipit B-Addr-Street
+road L-Addr-Street
+four B-PostCode
+two I-PostCode
+seven I-PostCode
+zero I-PostCode
+four I-PostCode
+one L-PostCode
+
+-DOCSTART- O
+
+person O
+is O
+right B-INJURY
+arm I-INJURY
+fractured L-INJURY
+
+-DOCSTART- O
+
+5 B-AGE
+months I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+he O
+is O
+having O
+coughing B-INJURY
+and I-INJURY
+throat I-INJURY
+irritation- I-INJURY
+toxic L-INJURY
+
+-DOCSTART- O
+
+my O
+number O
+is O
+three B-PHONENO
+six I-PHONENO
+zero I-PHONENO
+zero I-PHONENO
+nine I-PHONENO
+zero I-PHONENO
+six I-PHONENO
+four L-PHONENO
+
+-DOCSTART- O
+
+on O
+the O
+upper B-BODYLOCATION
+diaphragm L-BODYLOCATION
+
+-DOCSTART- O
+
+there O
+is O
+a O
+here O
+
+-DOCSTART- O
+
+person O
+has O
+conscious U-STATUS
+
+-DOCSTART- O
+
+person O
+has O
+not B-STATUS
+alert L-STATUS
+
+-DOCSTART- O
+
+9 B-DURATION
+years L-DURATION
+
+-DOCSTART- O
+
+person O
+is O
+having O
+multiple B-INJURY
+traumatic I-INJURY
+injuries I-INJURY
+and I-INJURY
+disorders L-INJURY
+
+-DOCSTART- O
+
+he O
+is O
+having O
+skull B-INJURY
+fracture I-INJURY
+and I-INJURY
+intracranial I-INJURY
+injury L-INJURY
+
+-DOCSTART- O
+
+this O
+is O
+the O
+zero B-DURATION
+to I-DURATION
+two I-DURATION
+mins L-DURATION
+
+-DOCSTART- O
+
+i O
+am O
+at O
+fourteen U-Addr-Building-Number
+nsrcc B-Addr-Building-Name
+sea I-Addr-Building-Name
+sports I-Addr-Building-Name
+centre L-Addr-Building-Name
+ah B-Addr-Street
+soo I-Addr-Street
+garden L-Addr-Street
+hash B-Addr-UnitNo
+fourteen I-Addr-UnitNo
+dash I-Addr-UnitNo
+seventy L-Addr-UnitNo
+one B-PostCode
+one I-PostCode
+one I-PostCode
+two I-PostCode
+three I-PostCode
+seven L-PostCode
+
+-DOCSTART- O
+
+person O
+has O
+no B-CONDITION
+chest I-CONDITION
+pain L-CONDITION
+
+-DOCSTART- O
+
+person O
+can B-STATUS
+speak L-STATUS
+
+-DOCSTART- O
+
+patient O
+is O
+having O
+other B-INJURY
+burns L-INJURY
+
+-DOCSTART- O
+
+person O
+has O
+chest B-CONDITION
+pain L-CONDITION
+
+-DOCSTART- O
+
+he O
+was O
+found O
+injured O
+at O
+jln B-Addr-Street
+tambur L-Addr-Street
+#3-5 U-Addr-UnitNo
+396913 U-PostCode
+
+-DOCSTART- O
+
+person O
+has O
+no B-CONDITION
+difficulty I-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+on O
+the O
+left B-BODYLOCATION
+spinal I-BODYLOCATION
+cord L-BODYLOCATION
+
+-DOCSTART- O
+
+on O
+the O
+upper B-BODYLOCATION
+groin L-BODYLOCATION
+
+-DOCSTART- O
+
+person O
+is O
+stung B-INJURY
+by I-INJURY
+bee L-INJURY
+
+-DOCSTART- O
+
+my O
+number O
+is O
+10207733 U-PHONENO
+
+-DOCSTART- O
+
+person O
+is O
+diagnosed O
+with O
+second B-INJURY
+degree I-INJURY
+chemical I-INJURY
+burns I-INJURY
+and I-INJURY
+corrosions L-INJURY
+
+-DOCSTART- O
+
+i O
+am O
+at O
+jalan B-Addr-Street
+senang L-Addr-Street
+hash B-Addr-UnitNo
+b I-Addr-UnitNo
+four I-Addr-UnitNo
+dash I-Addr-UnitNo
+seven I-Addr-UnitNo
+hundred I-Addr-UnitNo
+twenty I-Addr-UnitNo
+six L-Addr-UnitNo
+six B-PostCode
+five I-PostCode
+one I-PostCode
+eight I-PostCode
+nine I-PostCode
+five L-PostCode
+near O
+
+-DOCSTART- O
+
+he O
+is O
+diagnosed O
+multiple B-INJURY
+intracranial I-INJURY
+injuries L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+fainted U-STATUS
+
+-DOCSTART- O
+
+patient O
+is O
+diagnosed O
+with O
+low B-INJURY
+vision L-INJURY
+
+-DOCSTART- O
+
+he O
+is O
+injured O
+on O
+left B-BODYLOCATION
+face L-BODYLOCATION
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+is I-CONDITION
+a I-CONDITION
+bit I-CONDITION
+slow L-CONDITION
+
+-DOCSTART- O
+
+there O
+are O
+7 B-COUNT
+injured L-COUNT
+
+-DOCSTART- O
+
+7 B-DURATION
+to I-DURATION
+3 I-DURATION
+years L-DURATION
+
+-DOCSTART- O
+
+person O
+cannot B-INJURY
+feel I-INJURY
+his I-INJURY
+hands L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+not B-CONDITION
+even I-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+person O
+is O
+fainted U-STATUS
+
+-DOCSTART- O
+
+i O
+believe O
+her O
+age O
+is O
+sixteen B-AGE
+months I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+is I-CONDITION
+a I-CONDITION
+bit I-CONDITION
+slow L-CONDITION
+
+-DOCSTART- O
+
+his O
+ic O
+number O
+is O
+t8421428k U-IC
+
+-DOCSTART- O
+
+she O
+is O
+diagnosed O
+with O
+internal B-INJURY
+injuries I-INJURY
+to I-INJURY
+organs I-INJURY
+and I-INJURY
+blood I-INJURY
+vessels I-INJURY
+of I-INJURY
+the I-INJURY
+trunk L-INJURY
+
+-DOCSTART- O
+
+this O
+is O
+the O
+2 B-DURATION
+to I-DURATION
+7 I-DURATION
+mins L-DURATION
+
+-DOCSTART- O
+
+9 B-COUNT
+dead L-COUNT
+and O
+0 B-COUNT
+injured L-COUNT
+
+-DOCSTART- O
+
+there O
+is O
+a O
+group B-INJURY
+of I-INJURY
+people I-INJURY
+beat I-INJURY
+up L-INJURY
+
+-DOCSTART- O
+
+he O
+is O
+having O
+internal B-INJURY
+injuries L-INJURY
+
+-DOCSTART- O
+
+the O
+ic O
+number O
+is O
+f6286432e U-IC
+
+-DOCSTART- O
+
+person O
+has O
+conscious U-STATUS
+
+-DOCSTART- O
+
+person O
+is O
+collapse U-INJURY
+
+-DOCSTART- O
+
+person O
+stopped B-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+he O
+is O
+injured O
+on O
+left B-BODYLOCATION
+patella L-BODYLOCATION
+
+-DOCSTART- O
+
+person O
+is O
+fainted U-STATUS
+
+-DOCSTART- O
+
+she O
+is O
+diagnosed O
+with O
+gunshot B-INJURY
+wounds L-INJURY
+
+-DOCSTART- O
+
+3 B-COUNT
+dead L-COUNT
+and O
+4 B-COUNT
+dead L-COUNT
+
+-DOCSTART- O
+
+the O
+ic O
+number O
+is O
+t B-IC
+two I-IC
+eight I-IC
+seven I-IC
+seven I-IC
+seven I-IC
+two I-IC
+two I-IC
+i L-IC
+
+-DOCSTART- O
+
+person O
+is O
+finger B-INJURY
+amputated L-INJURY
+
+-DOCSTART- O
+
+person O
+has O
+drowsy U-STATUS
+
+-DOCSTART- O
+
+person O
+is O
+breathing U-CONDITION
+
+-DOCSTART- O
+
+person O
+has O
+a B-CONDITION
+bit I-CONDITION
+of I-CONDITION
+difficulty I-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+person O
+is O
+no B-STATUS
+movement L-STATUS
+
+-DOCSTART- O
+
+i O
+am O
+at O
+636b U-Addr-Street
+#15-307 U-Addr-UnitNo
+521223 U-PostCode
+singapore U-Addr-city
+
+-DOCSTART- O
+
+person O
+is O
+diagnosed O
+with O
+exposures B-INJURY
+to I-INJURY
+disease-no I-INJURY
+illness I-INJURY
+incurred L-INJURY
+
+-DOCSTART- O
+
+he O
+is O
+injured O
+on O
+right B-BODYLOCATION
+uvula L-BODYLOCATION
+
+-DOCSTART- O
+
+he O
+is O
+injured O
+on O
+upper B-BODYLOCATION
+femur L-BODYLOCATION
+
+-DOCSTART- O
+
+this O
+is O
+the O
+0 B-DURATION
+to I-DURATION
+3 I-DURATION
+mins L-DURATION
+
+-DOCSTART- O
+
+there O
+are O
+fifteen B-COUNT
+injured L-COUNT
+
+-DOCSTART- O
+
+i O
+am O
+at O
+blk B-Addr-Block
+39 L-Addr-Block
+upper B-Addr-Street
+aljunied I-Addr-Street
+lane L-Addr-Street
+#9-2 U-Addr-UnitNo
+280341 U-PostCode
+
+-DOCSTART- O
+
+person O
+is O
+arms B-INJURY
+are I-INJURY
+blue L-INJURY
+
+-DOCSTART- O
+
+i O
+believe O
+her O
+age O
+is O
+fourteen B-AGE
+years I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+there O
+is O
+a O
+here O
+
+-DOCSTART- O
+
+person O
+fell B-INJURY
+from I-INJURY
+a I-INJURY
+height L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+is I-CONDITION
+a I-CONDITION
+bit I-CONDITION
+slow L-CONDITION
+
+-DOCSTART- O
+
+person O
+is O
+shivering U-INJURY
+
+-DOCSTART- O
+
+person O
+cannot B-STATUS
+respond L-STATUS
+
+-DOCSTART- O
+
+the O
+ic O
+number O
+is O
+f5630082x U-IC
+
+-DOCSTART- O
+
+person O
+has O
+chest B-CONDITION
+pain L-CONDITION
+
+-DOCSTART- O
+
+i O
+am O
+at O
+sp B-Addr-Building-Name
+jain I-Addr-Building-Name
+school I-Addr-Building-Name
+of I-Addr-Building-Name
+global I-Addr-Building-Name
+management L-Addr-Building-Name
+1 U-Addr-Building-Number
+windsor B-Addr-Street
+park I-Addr-Street
+road L-Addr-Street
+117892 U-PostCode
+singapore U-Addr-city
+near O
+
+-DOCSTART- O
+
+person O
+stopped B-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+person O
+has O
+no B-CONDITION
+chest I-CONDITION
+pain L-CONDITION
+
+-DOCSTART- O
+
+i O
+am O
+at O
+dairy B-Addr-Street
+farm I-Addr-Street
+road L-Addr-Street
+#6-11 U-Addr-UnitNo
+415412 U-PostCode
+singapore U-Addr-city
+
+-DOCSTART- O
+
+there O
+are O
+four B-COUNT
+injured L-COUNT
+and O
+eighteen B-COUNT
+injured L-COUNT
+
+-DOCSTART- O
+
+she O
+is O
+having O
+nerves U-INJURY
+
+-DOCSTART- O
+
+person O
+can B-STATUS
+respond L-STATUS
+
+-DOCSTART- O
+
+there O
+are O
+thirteen B-COUNT
+injured L-COUNT
+and O
+nineteen B-COUNT
+dead L-COUNT
+
+-DOCSTART- O
+
+she O
+is O
+diagnosed O
+with O
+fractures U-INJURY
+
+-DOCSTART- O
+
+there O
+are O
+nine B-COUNT
+dead L-COUNT
+
+-DOCSTART- O
+
+she O
+is O
+having O
+diverse B-INJURY
+palsy L-INJURY
+
+-DOCSTART- O
+
+i O
+think O
+he O
+looks O
+around O
+eleven B-AGE
+years I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+fifteen B-COUNT
+dead L-COUNT
+and O
+four B-COUNT
+dead L-COUNT
+
+-DOCSTART- O
+
+person O
+has O
+a B-STATUS
+bit I-STATUS
+drowsy L-STATUS
+
+-DOCSTART- O
+
+i O
+am O
+at O
+block B-Addr-Block
+nineteen L-Addr-Block
+mcnair B-Addr-Street
+road L-Addr-Street
+hash B-Addr-UnitNo
+two I-Addr-UnitNo
+dash I-Addr-UnitNo
+nineteen L-Addr-UnitNo
+s B-PostCode
+six I-PostCode
+four I-PostCode
+four I-PostCode
+four I-PostCode
+zero I-PostCode
+four L-PostCode
+near O
+
+-DOCSTART- O
+
+19 B-AGE
+years I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+person O
+has O
+bruises U-INJURY
+
+-DOCSTART- O
+
+he O
+is O
+injured O
+on O
+upper B-BODYLOCATION
+pharynx L-BODYLOCATION
+
+-DOCSTART- O
+
+there O
+are O
+8 B-COUNT
+injured L-COUNT
+and O
+7 B-COUNT
+injured L-COUNT
+
+-DOCSTART- O
+
+there O
+are O
+19 B-COUNT
+injured L-COUNT
+and O
+3 B-COUNT
+injured L-COUNT
+
+-DOCSTART- O
+
+person O
+is O
+arms B-INJURY
+are I-INJURY
+blue L-INJURY
+
+-DOCSTART- O
+
+ic O
+number O
+is O
+t8425038u U-IC
+
+-DOCSTART- O
+
+i O
+believe O
+her O
+age O
+is O
+1 B-AGE
+months I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+she O
+is O
+having O
+bruises U-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+diagnosed O
+with O
+seizures U-INJURY
+
+-DOCSTART- O
+
+he O
+was O
+found O
+injured O
+at O
+seventeen U-Addr-Building-Number
+saint B-Addr-Street
+george I-Addr-Street
+' I-Addr-Street
+s I-Addr-Street
+road L-Addr-Street
+hash B-Addr-UnitNo
+three I-Addr-UnitNo
+dash I-Addr-UnitNo
+one I-Addr-UnitNo
+hundred I-Addr-UnitNo
+ninety I-Addr-UnitNo
+five L-Addr-UnitNo
+six B-PostCode
+four I-PostCode
+two I-PostCode
+four I-PostCode
+eight I-PostCode
+six L-PostCode
+
+-DOCSTART- O
+
+person O
+is O
+fainted U-STATUS
+
+-DOCSTART- O
+
+person O
+has O
+chest B-CONDITION
+pain L-CONDITION
+
+-DOCSTART- O
+
+there O
+are O
+7 B-COUNT
+dead L-COUNT
+
+-DOCSTART- O
+
+person O
+has O
+still B-STATUS
+shaking L-STATUS
+
+-DOCSTART- O
+
+i O
+believe O
+her O
+age O
+is O
+9 B-AGE
+months I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+i O
+am O
+at O
+13 U-Addr-Building-Number
+626a U-Addr-Street
+#12-705 U-Addr-UnitNo
+872096 U-PostCode
+
+-DOCSTART- O
+
+headache-toxic U-INJURY
+on O
+lower B-BODYLOCATION
+cheek L-BODYLOCATION
+
+-DOCSTART- O
+
+person O
+is O
+lying B-INJURY
+on I-INJURY
+ground L-INJURY
+
+-DOCSTART- O
+
+this O
+is O
+the O
+9 B-DURATION
+to I-DURATION
+9 I-DURATION
+years L-DURATION
+
+-DOCSTART- O
+
+person O
+can B-STATUS
+respond L-STATUS
+
+-DOCSTART- O
+
+person O
+is O
+finger B-INJURY
+amputated L-INJURY
+
+-DOCSTART- O
+
+person O
+has O
+slow B-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+this O
+is O
+the O
+four B-DURATION
+mins L-DURATION
+
+-DOCSTART- O
+
+he O
+was O
+found O
+injured O
+at O
+
+-DOCSTART- O
+
+patient O
+is O
+having O
+multiple B-INJURY
+surface I-INJURY
+wounds I-INJURY
+and I-INJURY
+bruises L-INJURY
+
+-DOCSTART- O
+
+there O
+are O
+twelve B-COUNT
+injured L-COUNT
+
+-DOCSTART- O
+
+nine B-AGE
+months I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+he O
+is O
+having O
+spinal B-INJURY
+cord L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+okay L-CONDITION
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+is I-CONDITION
+a I-CONDITION
+bit I-CONDITION
+slow L-CONDITION
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+is I-CONDITION
+a I-CONDITION
+bit I-CONDITION
+slow L-CONDITION
+
+-DOCSTART- O
+
+there O
+is O
+a O
+here O
+
+-DOCSTART- O
+
+i O
+think O
+he O
+looks O
+around O
+seven B-AGE
+months I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+patient O
+is O
+having O
+cartilage B-INJURY
+fractures I-INJURY
+and I-INJURY
+tears L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+not B-CONDITION
+even I-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+person O
+is O
+having O
+seizures U-INJURY
+
+-DOCSTART- O
+
+person O
+did B-STATUS
+not I-STATUS
+faint L-STATUS
+
+-DOCSTART- O
+
+he O
+was O
+found O
+injured O
+at O
+block B-Addr-Block
+hundred L-Addr-Block
+dafne B-Addr-Street
+street L-Addr-Street
+hash B-Addr-UnitNo
+seven I-Addr-UnitNo
+dash I-Addr-UnitNo
+ten L-Addr-UnitNo
+two B-PostCode
+three I-PostCode
+three I-PostCode
+seven I-PostCode
+nine I-PostCode
+six L-PostCode
+singapore U-Addr-city
+
+-DOCSTART- O
+
+i O
+am O
+at O
+hundred U-Addr-Building-Number
+equestrian B-Addr-Building-Name
+walk L-Addr-Building-Name
+lentor B-Addr-Street
+green L-Addr-Street
+hash B-Addr-UnitNo
+three I-Addr-UnitNo
+nineteen L-Addr-UnitNo
+one B-PostCode
+nine I-PostCode
+eight I-PostCode
+five I-PostCode
+two I-PostCode
+eight L-PostCode
+
+-DOCSTART- O
+
+there O
+are O
+seven B-COUNT
+injured L-COUNT
+nineteen B-COUNT
+injured L-COUNT
+
+-DOCSTART- O
+
+there O
+are O
+twelve B-COUNT
+injured L-COUNT
+seventeen B-COUNT
+injured L-COUNT
+
+-DOCSTART- O
+
+person O
+has O
+no B-CONDITION
+difficulty I-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+this O
+is O
+the O
+1 B-DURATION
+months L-DURATION
+
+-DOCSTART- O
+
+ic O
+number O
+is O
+g B-IC
+two I-IC
+seven I-IC
+five I-IC
+nine I-IC
+seven I-IC
+two I-IC
+four I-IC
+b L-IC
+
+-DOCSTART- O
+
+person O
+cant B-STATUS
+speak I-STATUS
+properly L-STATUS
+
+-DOCSTART- O
+
+multiple B-INJURY
+sprains L-INJURY
+on O
+lower B-BODYLOCATION
+urinary L-BODYLOCATION
+
+-DOCSTART- O
+
+she O
+is O
+diagnosed O
+with O
+effects B-INJURY
+of I-INJURY
+heat I-INJURY
+and I-INJURY
+light L-INJURY
+
+-DOCSTART- O
+
+his O
+ic O
+number O
+is O
+g B-IC
+two I-IC
+eight I-IC
+nine I-IC
+zero I-IC
+five I-IC
+three I-IC
+four I-IC
+a L-IC
+
+-DOCSTART- O
+
+person O
+is O
+having O
+symptoms B-INJURY
+involving I-INJURY
+respiratory I-INJURY
+system I-INJURY
+and I-INJURY
+chest L-INJURY
+
+-DOCSTART- O
+
+8 B-AGE
+months I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+11 B-AGE
+months I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+there O
+are O
+seven B-COUNT
+injured L-COUNT
+nine B-COUNT
+dead L-COUNT
+
+-DOCSTART- O
+
+person O
+is O
+diagnosed O
+with O
+avulsions U-INJURY
+
+-DOCSTART- O
+
+person O
+has O
+a B-INJURY
+lot I-INJURY
+of I-INJURY
+bleeding L-INJURY
+
+-DOCSTART- O
+
+person O
+cannot B-INJURY
+feel I-INJURY
+his I-INJURY
+hands L-INJURY
+
+-DOCSTART- O
+
+the O
+ic O
+number O
+is O
+s B-IC
+eight I-IC
+zero I-IC
+six I-IC
+one I-IC
+three I-IC
+five I-IC
+three I-IC
+j L-IC
+
+-DOCSTART- O
+
+headache-toxic U-INJURY
+on O
+right B-BODYLOCATION
+filling L-BODYLOCATION
+
+-DOCSTART- O
+
+person O
+is O
+vomiting U-INJURY
+
+-DOCSTART- O
+
+she O
+is O
+diagnosed O
+with O
+other B-INJURY
+traumatic I-INJURY
+injuries I-INJURY
+and I-INJURY
+disorders L-INJURY
+
+-DOCSTART- O
+
+there O
+is O
+a O
+here O
+
+-DOCSTART- O
+
+this O
+is O
+the O
+3 B-DURATION
+to I-DURATION
+2 I-DURATION
+hours L-DURATION
+
+-DOCSTART- O
+
+he O
+is O
+having O
+cuts U-INJURY
+
+-DOCSTART- O
+
+my O
+number O
+is O
+three B-PHONENO
+nine I-PHONENO
+four I-PHONENO
+seven I-PHONENO
+nine I-PHONENO
+five I-PHONENO
+five I-PHONENO
+seven L-PHONENO
+
+-DOCSTART- O
+
+there O
+are O
+4 B-COUNT
+dead L-COUNT
+and O
+9 B-COUNT
+injured L-COUNT
+
+-DOCSTART- O
+
+person O
+has O
+slow B-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+person O
+is O
+having B-CONDITION
+some I-CONDITION
+problems I-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+he O
+is O
+injured O
+on O
+lower B-BODYLOCATION
+iris L-BODYLOCATION
+
+-DOCSTART- O
+
+13 B-COUNT
+dead L-COUNT
+and O
+8 B-COUNT
+dead L-COUNT
+
+-DOCSTART- O
+
+person O
+is O
+having O
+multiple B-INJURY
+traumatic I-INJURY
+injuries I-INJURY
+to I-INJURY
+bones L-INJURY
+
+-DOCSTART- O
+
+ic O
+number O
+is O
+g B-IC
+six I-IC
+four I-IC
+four I-IC
+four I-IC
+one I-IC
+six I-IC
+zero I-IC
+t L-IC
+
+-DOCSTART- O
+
+ic O
+number O
+is O
+g5744007k U-IC
+
+-DOCSTART- O
+
+she O
+is O
+having O
+sprains B-INJURY
+and I-INJURY
+other I-INJURY
+injuries L-INJURY
+
+-DOCSTART- O
+
+there O
+is O
+a O
+here O
+
+-DOCSTART- O
+
+person O
+is O
+hanging U-INJURY
+
+-DOCSTART- O
+
+person O
+has O
+problems B-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+four B-COUNT
+injured L-COUNT
+and O
+fourteen B-COUNT
+injured L-COUNT
+
+-DOCSTART- O
+
+i O
+think O
+he O
+looks O
+around O
+seventeen B-AGE
+years I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+i O
+am O
+at O
+saujana B-Addr-Street
+road L-Addr-Street
+#3-11 U-Addr-UnitNo
+s580893 U-PostCode
+singapore U-Addr-city
+near O
+
+-DOCSTART- O
+
+he O
+is O
+diagnosed O
+chest B-INJURY
+pain L-INJURY
+
+-DOCSTART- O
+
+she O
+is O
+having O
+multiple B-INJURY
+poisoning L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+is I-CONDITION
+normal L-CONDITION
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+is I-CONDITION
+normal L-CONDITION
+
+-DOCSTART- O
+
+3 B-DURATION
+to I-DURATION
+1 I-DURATION
+hours L-DURATION
+
+-DOCSTART- O
+
+this O
+is O
+the O
+six B-DURATION
+months L-DURATION
+
+-DOCSTART- O
+
+i O
+am O
+at O
+blk B-Addr-Block
+1 L-Addr-Block
+10a U-Addr-Street
+#b2-506 U-Addr-UnitNo
+s706510 U-PostCode
+near O
+
+-DOCSTART- O
+
+she O
+is O
+diagnosed O
+with O
+paralysis U-INJURY
+
+-DOCSTART- O
+
+his O
+ic O
+number O
+is O
+s2344826q U-IC
+
+-DOCSTART- O
+
+three B-COUNT
+dead L-COUNT
+and O
+four B-COUNT
+dead L-COUNT
+
+-DOCSTART- O
+
+person O
+can B-STATUS
+talk L-STATUS
+
+-DOCSTART- O
+
+there O
+are O
+one B-COUNT
+dead L-COUNT
+
+-DOCSTART- O
+
+four B-COUNT
+dead L-COUNT
+and O
+nineteen B-COUNT
+dead L-COUNT
+
+-DOCSTART- O
+
+person O
+has O
+not B-STATUS
+talking L-STATUS
+
+-DOCSTART- O
+
+on O
+the O
+left B-BODYLOCATION
+skin L-BODYLOCATION
+
+-DOCSTART- O
+
+person O
+cannot B-STATUS
+respond L-STATUS
+
+-DOCSTART- O
+
+there O
+are O
+one B-COUNT
+injured L-COUNT
+and O
+seventeen B-COUNT
+dead L-COUNT
+
+-DOCSTART- O
+
+ic O
+number O
+is O
+t B-IC
+six I-IC
+two I-IC
+six I-IC
+three I-IC
+three I-IC
+eight I-IC
+one I-IC
+c L-IC
+
+-DOCSTART- O
+
+person O
+has O
+blood B-INJURY
+near I-INJURY
+bites L-INJURY
+
+-DOCSTART- O
+
+there O
+are O
+6 B-COUNT
+injured L-COUNT
+16 B-COUNT
+dead L-COUNT
+
+-DOCSTART- O
+
+1 B-DURATION
+to I-DURATION
+3 I-DURATION
+months L-DURATION
+
+-DOCSTART- O
+
+he O
+was O
+found O
+injured O
+at O
+
+-DOCSTART- O
+
+person O
+has O
+no B-CONDITION
+chest I-CONDITION
+pain L-CONDITION
+
+-DOCSTART- O
+
+he O
+is O
+having O
+ischemic B-INJURY
+heart I-INJURY
+disease L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+is I-CONDITION
+normal L-CONDITION
+
+-DOCSTART- O
+
+my O
+number O
+is O
+seven B-PHONENO
+one I-PHONENO
+four I-PHONENO
+seven I-PHONENO
+eight I-PHONENO
+nine I-PHONENO
+six I-PHONENO
+three L-PHONENO
+
+-DOCSTART- O
+
+person O
+is O
+lying B-INJURY
+on I-INJURY
+ground L-INJURY
+
+-DOCSTART- O
+
+i O
+think O
+he O
+looks O
+around O
+0 B-AGE
+years I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+person O
+is O
+fainted U-STATUS
+
+-DOCSTART- O
+
+ic O
+number O
+is O
+f9990955s U-IC
+
+-DOCSTART- O
+
+the O
+ic O
+number O
+is O
+t B-IC
+three I-IC
+five I-IC
+nine I-IC
+seven I-IC
+five I-IC
+zero I-IC
+five I-IC
+a L-IC
+
+-DOCSTART- O
+
+person O
+is O
+bitten B-INJURY
+by I-INJURY
+snake L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+not B-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+person O
+has O
+fainting B-STATUS
+soon L-STATUS
+
+-DOCSTART- O
+
+person O
+is O
+bleeding B-INJURY
+on I-INJURY
+arms I-INJURY
+and I-INJURY
+legs L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+having O
+third B-INJURY
+or I-INJURY
+fourth I-INJURY
+degree I-INJURY
+heat I-INJURY
+burns L-INJURY
+
+-DOCSTART- O
+
+she O
+is O
+diagnosed O
+with O
+abrasions U-INJURY
+
+-DOCSTART- O
+
+patient O
+is O
+diagnosed O
+with O
+burns B-INJURY
+and I-INJURY
+smoke I-INJURY
+inhalation L-INJURY
+
+-DOCSTART- O
+
+patient O
+is O
+diagnosed O
+with O
+burns B-INJURY
+and I-INJURY
+corrosions L-INJURY
+
+-DOCSTART- O
+
+there O
+are O
+14 B-COUNT
+injured L-COUNT
+
+-DOCSTART- O
+
+person O
+cannot B-INJURY
+pee L-INJURY
+
+-DOCSTART- O
+
+she O
+is O
+having O
+headache-toxic U-INJURY
+
+-DOCSTART- O
+
+his O
+ic O
+number O
+is O
+s B-IC
+eight I-IC
+three I-IC
+four I-IC
+nine I-IC
+three I-IC
+four I-IC
+nine I-IC
+g L-IC
+
+-DOCSTART- O
+
+ic O
+number O
+is O
+t B-IC
+four I-IC
+zero I-IC
+two I-IC
+two I-IC
+six I-IC
+zero I-IC
+zero I-IC
+m L-IC
+
+-DOCSTART- O
+
+person O
+is O
+itchy U-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+finger B-INJURY
+amputated L-INJURY
+
+-DOCSTART- O
+
+there O
+are O
+1 B-COUNT
+dead L-COUNT
+and O
+7 B-COUNT
+injured L-COUNT
+
+-DOCSTART- O
+
+person O
+has O
+problems B-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+person O
+is O
+not B-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+14 B-COUNT
+injured L-COUNT
+and O
+4 B-COUNT
+dead L-COUNT
+
+-DOCSTART- O
+
+i O
+am O
+at O
+yarwood B-Addr-Street
+avenue L-Addr-Street
+#8-17 U-Addr-UnitNo
+s752606 U-PostCode
+singapore U-Addr-city
+near O
+
+-DOCSTART- O
+
+16 B-COUNT
+dead L-COUNT
+and O
+12 B-COUNT
+injured L-COUNT
+
+-DOCSTART- O
+
+person O
+is O
+arms B-INJURY
+are I-INJURY
+blue L-INJURY
+
+-DOCSTART- O
+
+there O
+are O
+eleven B-COUNT
+dead L-COUNT
+
+-DOCSTART- O
+
+multiple B-INJURY
+traumatic I-INJURY
+injuries I-INJURY
+and I-INJURY
+disorders L-INJURY
+on O
+upper B-BODYLOCATION
+foot L-BODYLOCATION
+
+-DOCSTART- O
+
+there O
+are O
+6 B-COUNT
+dead L-COUNT
+13 B-COUNT
+dead L-COUNT
+
+-DOCSTART- O
+
+he O
+is O
+having O
+hypothermia U-INJURY
+
+-DOCSTART- O
+
+she O
+is O
+having O
+stress U-INJURY
+
+-DOCSTART- O
+
+i O
+believe O
+her O
+age O
+is O
+3 B-AGE
+years I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+on O
+the O
+upper B-BODYLOCATION
+shoulder L-BODYLOCATION
+
+-DOCSTART- O
+
+i O
+am O
+at O
+35 U-Addr-Building-Number
+blue B-Addr-Building-Name
+cross I-Addr-Building-Name
+thong I-Addr-Building-Name
+kheng I-Addr-Building-Name
+home L-Addr-Building-Name
+toh B-Addr-Street
+tuck I-Addr-Street
+walk L-Addr-Street
+#6-3 U-Addr-UnitNo
+356772 U-PostCode
+
+-DOCSTART- O
+
+person O
+is O
+having O
+third B-INJURY
+or I-INJURY
+fourth I-INJURY
+degree I-INJURY
+chemical I-INJURY
+burns I-INJURY
+and I-INJURY
+corrosions L-INJURY
+
+-DOCSTART- O
+
+i O
+believe O
+her O
+age O
+is O
+12 B-AGE
+years I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+my O
+number O
+is O
+four B-PHONENO
+two I-PHONENO
+three I-PHONENO
+zero I-PHONENO
+two I-PHONENO
+two I-PHONENO
+two I-PHONENO
+nine L-PHONENO
+
+-DOCSTART- O
+
+there O
+is O
+a O
+hot B-INJURY
+oil I-INJURY
+splash L-INJURY
+
+-DOCSTART- O
+
+my O
+number O
+is O
+31808035 U-PHONENO
+
+-DOCSTART- O
+
+one B-DURATION
+mins L-DURATION
+
+-DOCSTART- O
+
+on O
+the O
+lower B-BODYLOCATION
+anus L-BODYLOCATION
+
+-DOCSTART- O
+
+person O
+is O
+having B-CONDITION
+some I-CONDITION
+problems I-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+person O
+has O
+chest B-CONDITION
+pain L-CONDITION
+
+-DOCSTART- O
+
+fourteen B-AGE
+months I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+19 B-COUNT
+injured L-COUNT
+and O
+8 B-COUNT
+dead L-COUNT
+
+-DOCSTART- O
+
+ic O
+number O
+is O
+g B-IC
+one I-IC
+zero I-IC
+five I-IC
+two I-IC
+seven I-IC
+one I-IC
+nine I-IC
+g L-IC
+
+-DOCSTART- O
+
+person O
+cant B-STATUS
+speak I-STATUS
+properly L-STATUS
+
+-DOCSTART- O
+
+12 B-COUNT
+injured L-COUNT
+and O
+11 B-COUNT
+injured L-COUNT
+
+-DOCSTART- O
+
+person O
+stopped B-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+there O
+are O
+18 B-COUNT
+injured L-COUNT
+7 B-COUNT
+dead L-COUNT
+
+-DOCSTART- O
+
+person O
+is O
+fainted U-STATUS
+
+-DOCSTART- O
+
+he O
+is O
+injured O
+on O
+upper B-BODYLOCATION
+radius L-BODYLOCATION
+
+-DOCSTART- O
+
+i O
+am O
+at O
+fifty B-Addr-Building-Number
+four L-Addr-Building-Number
+cafhi B-Addr-Building-Name
+jetty L-Addr-Building-Name
+rangoon B-Addr-Street
+road L-Addr-Street
+hash B-Addr-UnitNo
+ten I-Addr-UnitNo
+dash I-Addr-UnitNo
+seven I-Addr-UnitNo
+hundred I-Addr-UnitNo
+one L-Addr-UnitNo
+two B-PostCode
+five I-PostCode
+four I-PostCode
+three I-PostCode
+zero I-PostCode
+zero L-PostCode
+singapore U-Addr-city
+near O
+
+-DOCSTART- O
+
+he O
+is O
+having O
+third B-INJURY
+or I-INJURY
+fourth I-INJURY
+degree I-INJURY
+electrical I-INJURY
+burns L-INJURY
+
+-DOCSTART- O
+
+there O
+are O
+three B-COUNT
+injured L-COUNT
+
+-DOCSTART- O
+
+patient O
+is O
+having O
+reactions U-INJURY
+
+-DOCSTART- O
+
+this O
+is O
+the O
+7 B-DURATION
+months L-DURATION
+
+-DOCSTART- O
+
+patient O
+is O
+diagnosed O
+with O
+electrocutions U-INJURY
+
+-DOCSTART- O
+
+i O
+believe O
+her O
+age O
+is O
+11 B-AGE
+years I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+person O
+has O
+glass B-INJURY
+shards I-INJURY
+went I-INJURY
+into I-INJURY
+his I-INJURY
+eye L-INJURY
+
+-DOCSTART- O
+
+there O
+are O
+11 B-COUNT
+injured L-COUNT
+11 B-COUNT
+dead L-COUNT
+
+-DOCSTART- O
+
+person O
+is O
+having O
+loss B-INJURY
+of I-INJURY
+consciousness L-INJURY
+
+-DOCSTART- O
+
+she O
+is O
+diagnosed O
+with O
+amputations U-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+is I-CONDITION
+normal L-CONDITION
+
+-DOCSTART- O
+
+i O
+am O
+at O
+four B-Addr-Building-Number
+nineteen L-Addr-Building-Number
+10a U-Addr-Street
+hash B-Addr-UnitNo
+six I-Addr-UnitNo
+dash I-Addr-UnitNo
+eight I-Addr-UnitNo
+hundred I-Addr-UnitNo
+seventy I-Addr-UnitNo
+nine L-Addr-UnitNo
+five B-PostCode
+zero I-PostCode
+nine I-PostCode
+four I-PostCode
+two I-PostCode
+one L-PostCode
+singapore U-Addr-city
+
+-DOCSTART- O
+
+ic O
+number O
+is O
+s3808237r U-IC
+
+-DOCSTART- O
+
+person O
+is O
+no B-STATUS
+movement L-STATUS
+
+-DOCSTART- O
+
+there O
+are O
+8 B-COUNT
+dead L-COUNT
+
+-DOCSTART- O
+
+ic O
+number O
+is O
+t0076222w U-IC
+
+-DOCSTART- O
+
+ic O
+number O
+is O
+t B-IC
+nine I-IC
+four I-IC
+four I-IC
+two I-IC
+eight I-IC
+eight I-IC
+three I-IC
+z L-IC
+
+-DOCSTART- O
+
+person O
+is O
+having O
+third B-INJURY
+or I-INJURY
+fourth I-INJURY
+degree I-INJURY
+chemical I-INJURY
+burns I-INJURY
+and I-INJURY
+corrosions L-INJURY
+
+-DOCSTART- O
+
+this O
+is O
+the O
+2 B-DURATION
+months L-DURATION
+
+-DOCSTART- O
+
+there O
+are O
+nineteen B-COUNT
+dead L-COUNT
+
+-DOCSTART- O
+
+person O
+fall B-INJURY
+in I-INJURY
+bathroom L-INJURY
+
+-DOCSTART- O
+
+patient O
+is O
+having O
+intracranial B-INJURY
+injuries L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+diagnosed O
+with O
+burns B-INJURY
+and I-INJURY
+other I-INJURY
+injuries L-INJURY
+
+-DOCSTART- O
+
+nineteen B-COUNT
+dead L-COUNT
+and O
+eight B-COUNT
+dead L-COUNT
+
+-DOCSTART- O
+
+my O
+number O
+is O
+70000084 U-PHONENO
+
+-DOCSTART- O
+
+there O
+are O
+two B-COUNT
+dead L-COUNT
+one B-COUNT
+dead L-COUNT
+
+-DOCSTART- O
+
+person O
+is O
+arms B-INJURY
+are I-INJURY
+blue L-INJURY
+
+-DOCSTART- O
+
+i O
+am O
+at O
+blk B-Addr-Block
+100 L-Addr-Block
+bloxhome B-Addr-Street
+drive L-Addr-Street
+#14-1 U-Addr-UnitNo
+557422 U-PostCode
+singapore U-Addr-city
+near O
+
+-DOCSTART- O
+
+person O
+has O
+fever U-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+is I-CONDITION
+normal L-CONDITION
+
+-DOCSTART- O
+
+i O
+believe O
+her O
+age O
+is O
+fourteen B-AGE
+months I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+person O
+is O
+not B-CONDITION
+even I-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+13 B-AGE
+months I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+he O
+was O
+found O
+injured O
+at O
+
+-DOCSTART- O
+
+person O
+has O
+slight B-INJURY
+breach L-INJURY
+
+-DOCSTART- O
+
+i O
+believe O
+her O
+age O
+is O
+sixteen B-AGE
+months I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+is I-CONDITION
+a I-CONDITION
+bit I-CONDITION
+slow L-CONDITION
+
+-DOCSTART- O
+
+person O
+is O
+diagnosed O
+with O
+multiple B-INJURY
+surface I-INJURY
+wounds I-INJURY
+and I-INJURY
+bruises L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+is I-CONDITION
+normal L-CONDITION
+
+-DOCSTART- O
+
+14 B-COUNT
+dead L-COUNT
+and O
+5 B-COUNT
+injured L-COUNT
+
+-DOCSTART- O
+
+person O
+has O
+slight B-INJURY
+breach L-INJURY
+
+-DOCSTART- O
+
+i O
+think O
+he O
+looks O
+around O
+13 B-AGE
+years I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+person O
+fall B-INJURY
+in I-INJURY
+bathroom L-INJURY
+
+-DOCSTART- O
+
+ic O
+number O
+is O
+t B-IC
+three I-IC
+six I-IC
+seven I-IC
+five I-IC
+zero I-IC
+three I-IC
+four I-IC
+l L-IC
+
+-DOCSTART- O
+
+two B-DURATION
+to I-DURATION
+eight I-DURATION
+months L-DURATION
+
+-DOCSTART- O
+
+there O
+is O
+a O
+here O
+
+-DOCSTART- O
+
+i O
+am O
+at O
+punggol B-Addr-Street
+road L-Addr-Street
+singapore B-PostCode
+post I-PostCode
+code I-PostCode
+three I-PostCode
+nine I-PostCode
+six I-PostCode
+four I-PostCode
+six I-PostCode
+zero L-PostCode
+singapore U-Addr-city
+near O
+
+-DOCSTART- O
+
+person O
+has O
+a B-CONDITION
+bit I-CONDITION
+of I-CONDITION
+difficulty I-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+there O
+are O
+eight B-COUNT
+injured L-COUNT
+twelve B-COUNT
+injured L-COUNT
+
+-DOCSTART- O
+
+person O
+is O
+collapse U-INJURY
+
+-DOCSTART- O
+
+person O
+did B-STATUS
+not I-STATUS
+faint L-STATUS
+
+-DOCSTART- O
+
+i O
+am O
+at O
+block B-Addr-Block
+sixty L-Addr-Block
+turf B-Addr-Street
+club I-Addr-Street
+road L-Addr-Street
+hash B-Addr-UnitNo
+five I-Addr-UnitNo
+ten L-Addr-UnitNo
+five B-PostCode
+five I-PostCode
+two I-PostCode
+four I-PostCode
+seven I-PostCode
+one L-PostCode
+near O
+

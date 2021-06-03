@@ -1,0 +1,41 @@
+export CLOTHES = Optimize[" abaya ".utf8 | " anorak ".utf8 | " apparel ".utf8 | " apron ".utf8 | " ascot tie ".utf8 | 
+											" attire ".utf8 | " B ".utf8 | " balaclava ".utf8 | " ball gown ".utf8 | " bandanna ".utf8 | 
+											" baseball cap ".utf8 | " bathing suit ".utf8 | " battledress ".utf8 | " beanie ".utf8 | 
+											" bedclothes ".utf8 | " bell-bottoms ".utf8 | " belt ".utf8 | " beret ".utf8 | " Bermuda shorts ".utf8 | 
+											" bib ".utf8 | " bikini ".utf8 | " blazer ".utf8 | " bloomers ".utf8 | " blouse ".utf8 | " boa ".utf8 | 
+											" bonnet ".utf8 | " boot ".utf8 | " bow ".utf8 | " bow tie ".utf8 | " boxer shorts ".utf8 | " boxers ".utf8 | 
+											" bra ".utf8 | " bracelet ".utf8 | " brassiere ".utf8 | " breeches ".utf8 | " briefs ".utf8 | " buckle ".utf8 | 
+											" button ".utf8 | " button-down shirt ".utf8 | " C ".utf8 | " caftan ".utf8 | " camisole ".utf8 | " camouflage ".utf8 | 
+											" cap ".utf8 | " cap and gown ".utf8 | " cape ".utf8 | " capris ".utf8 | " cardigan ".utf8 | " chemise ".utf8 | " cloak ".utf8 | 
+											" clogs ".utf8 | " clothes ".utf8 | " clothing ".utf8 | " coat ".utf8 | " collar ".utf8 | " corset ".utf8 | " costume ".utf8 | 
+											" coveralls ".utf8 | " cowboy boots ".utf8 | " cowboy hat ".utf8 | " cravat ".utf8 | " crown ".utf8 | " cuff ".utf8 | 
+											" cuff links ".utf8 | " culottes ".utf8 | " cummerbund ".utf8 | " D ".utf8 | " dashiki ".utf8 | " diaper ".utf8 | 
+											" dinner jacket ".utf8 | " dirndl ".utf8 | " drawers ".utf8 | " dress ".utf8 | " dress shirt ".utf8 | " duds ".utf8 |
+											" dungarees ".utf8 |  " earmuffs ".utf8 | " earrings ".utf8 | " elastic ".utf8 | " evening gown ".utf8 | " fashion ".utf8 | 
+											" fatigues ".utf8 | " fedora ".utf8 | " fez ".utf8 | " flak jacket ".utf8 | " flannel nightgown ".utf8 | " flannel shirt ".utf8 | 
+											" flip-flops ".utf8 | " formal wear ".utf8 | " frock ".utf8 | " fur ".utf8 | " fur coat ".utf8 | " G ".utf8 | " gabardine ".utf8 | 
+											" gaiters ".utf8 | " galoshes ".utf8 | " garb ".utf8 | " garment ".utf8 | " garters ".utf8 | " gear ".utf8 | " getup ".utf8 | 
+											" gilet ".utf8 | " girdle ".utf8 | " glasses ".utf8 | " gloves ".utf8 | " gown ".utf8 | " H ".utf8 | " halter top ".utf8 | 
+											" handbag ".utf8 | " handkerchief ".utf8 | " hat ".utf8 | " Hawaiian shirt ".utf8 | " hazmat suit ".utf8 | " headscarf ".utf8 | 
+											" helmet ".utf8 | " hem ".utf8 | " high heels ".utf8 | " hoodie ".utf8 | " hook and eye ".utf8 | " hose ".utf8 | " hosiery ".utf8 | 
+											" hospital gown ".utf8 | " houndstooth ".utf8 | " housecoat ".utf8 | " J ".utf8 | " jacket ".utf8 | " jeans ".utf8 | " jersey ".utf8 | 
+											" jewelry ".utf8 | " jodhpurs ".utf8 | " jumper ".utf8 | " jumpsuit ".utf8 | " kerchief ".utf8 | " khakis ".utf8 | " kilt ".utf8 | 
+											" kimono ".utf8 | " kit ".utf8 | " knickers ".utf8 | " lab coat ".utf8 | " lapel ".utf8 | " leather jacket ".utf8 | " leg warmers ".utf8 |
+											" leggings ".utf8 | " leotard ".utf8 | " life jacket ".utf8 | " lingerie ".utf8 | " loafers ".utf8 | " loincloth ".utf8 | " long johns ".utf8 | 
+											" long underwear ".utf8 | " miniskirt ".utf8 | " mittens ".utf8 | " moccasins ".utf8 | " muffler ".utf8 | " muumuu ".utf8 | 
+											" neckerchief ".utf8 | " necklace ".utf8 | " nightgown ".utf8 | " nightshirt ".utf8  | " onesies ".utf8 | " outerwear ".utf8 |
+											" outfit ".utf8 | " overalls ".utf8 | " overcoat ".utf8 | " overshirt ".utf8 |  " pajamas ".utf8 | " panama hat ".utf8 | " pants ".utf8 | 
+											" pantsuit ".utf8 | " pantyhose ".utf8 | " parka ".utf8 | " pea coat ".utf8 | " peplum ".utf8 | " petticoat ".utf8 | " pinafore ".utf8 |
+											" pleat ".utf8 | " pocket ".utf8 | " pocketbook ".utf8 | " polo shirt ".utf8 | " poncho ".utf8 | " poodle skirt ".utf8 | " pork pie hat ".utf8 |
+											" pullover ".utf8 | " pumps ".utf8 | " purse ".utf8 | " R ".utf8 | " raincoat ".utf8 | " ring ".utf8 | " robe ".utf8 | " rugby shirt ".utf8 | " S ".utf8 | 
+											" sandals ".utf8 | " sari ".utf8 | " sarong ".utf8 | " scarf ".utf8 | " school uniform ".utf8 | " scrubs ".utf8 | " shawl ".utf8 | " sheath dress ".utf8 |
+											" shift ".utf8 | " shirt ".utf8 | " shoe ".utf8 | " shorts ".utf8 | " shoulder pads ".utf8 | " shrug ".utf8 | " singlet ".utf8 | " skirt ".utf8 | " slacks ".utf8 | 
+											" slip ".utf8 | " slippers ".utf8 | " smock ".utf8 | " snaps ".utf8 | " sneakers ".utf8 | " sock ".utf8 | " sombrero ".utf8 | " spacesuit ".utf8 | 
+											" Stetson hat ".utf8 | " stockings ".utf8 | " stole ".utf8 | " suit ".utf8 | " sun hat ".utf8 | " sunbonnet ".utf8 | " sundress ".utf8 | " sunglasses ".utf8 | 
+											" suspenders ".utf8 | " sweater ".utf8 | " sweatpants ".utf8 | " sweatshirt ".utf8 | " sweatsuit ".utf8 | " swimsuit ".utf8 | " T ".utf8 | " T-shirt ".utf8 | 
+											" tam ".utf8 | " tank top ".utf8 | " teddy ".utf8 | " threads ".utf8 | " tiara ".utf8 | " tie ".utf8 | " tie clip ".utf8 | " tights ".utf8 | " toga ".utf8 | " togs ".utf8 |
+											" top ".utf8 | " top coat ".utf8 | " top hat ".utf8 | " train ".utf8 | " trench coat ".utf8 | " trousers ".utf8 | " trunks ".utf8 | " tube top ".utf8 | " tunic ".utf8 |
+											" turban ".utf8 | " turtleneck ".utf8 | " turtleneck shirt ".utf8 | " tutu ".utf8 | " tux ".utf8 | " tuxedo ".utf8 | " tweed jacket ".utf8 | " twill ".utf8 | " twin set ".utf8 | 
+											" U ".utf8 | " umbrella ".utf8 | " underclothes ".utf8 | " undershirt ".utf8 | " underwear ".utf8 | " uniform ".utf8 | " V ".utf8 | " veil ".utf8 | " Velcro ".utf8 | 
+											" vest ".utf8 | " vestments ".utf8 | " visor ".utf8 | " W ".utf8 | " waders ".utf8 | " waistcoat ".utf8 | " wear ".utf8 | " wedding gown ".utf8 | " Wellingtons ".utf8 | 
+											" wetsuit ".utf8 | " white tie ".utf8 | " wig ".utf8 | " windbreaker ".utf8 | " woolens ".utf8 | " wrap ".utf8 | " yoke ".utf8  | " zipper ".utf8 | " zoris ".utf8] ;

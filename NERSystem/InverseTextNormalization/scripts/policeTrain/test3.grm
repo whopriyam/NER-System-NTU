@@ -1,0 +1,110 @@
+import 'numbers.grm' as numbers;
+import 'example.grm' as tk;
+
+
+numbers_to_999 = Optimize[numbers.numbers_to_100 | numbers.numbers_101_to_999_dig_by_dig];
+
+ADDRESS_OPEN_TAG = "<Address> ".utf8 ;
+ADDRESS_CLOSE_TAG = "</Address> ".utf8 ;
+
+
+BLOCK = "<Addr-Block> " ("Blk ": "block ") numbers_to_999 " </Addr-Block> ";
+BUILDING_NO = "<Addr-Building-Number> " numbers_to_999 " </Addr-Building-Number> ";
+
+
+STREETS = StringFile['resources/roads_and_streets.txt'];
+STREET_REWRITTEN = Optimize[STREETS @ tk.TOKENIZER];
+STREET_NAME = "<Addr-Street> " STREET_REWRITTEN " </Addr-Street> ";
+
+BUSINESS_NAME = StringFile['resources/venues-filtered.txt'] ;
+
+BUSINESS_REWRITTEN = Optimize[BUSINESS_NAME @ tk.TOKENIZER];
+
+BUILDING_NAME = " <Addr-Building-Name> " BUSINESS_REWRITTEN "</Addr-Building-Name> ";
+
+UNIT_NO = "<Addr-UnitNo> "  ("#" : "hash ") (("B" : "b ") | "") (numbers.units_with_zero | numbers.teens | ("20": "twenty")) (("-" : " " ) | ("-" : " dash " )) numbers.numbers_to_999 " </Addr-UnitNo> ";
+
+REGION = StringFile['resources/regions.txt'] ;
+
+REGION_REWRITTEN = Optimize[REGION @ tk.TOKENIZER];
+
+POSTALCODE = "<PostCode> " (("S" : "s ") | ("S" : "singapore post code ") | ("" : ""))  (numbers.units_with_zero_trailing_spaces numbers.units_with_zero_trailing_spaces numbers.units_with_zero_trailing_spaces numbers.units_with_zero_trailing_spaces numbers.units_with_zero_trailing_spaces numbers.units_with_zero_trailing_spaces) " </PostCode> ";
+
+LANDMARKS = "Cafes ".utf8 | "Restaurants ".utf8 | "Gyms ".utf8 | "Hospitals ".utf8 | "Schools ".utf8 | "Spas ".utf8 | "Malls ".utf8;
+
+EMERGENCY_TYPE = "<EMERGENCY> "( "Fire ".utf8 | "Accident ".utf8 | "Motor Accident ".utf8 | "Kidnapping ".utf8 | "Death ".utf8 | "Robbery ".utf8 | "Traffic ".utf8 | "EMS ".utf8) " <EMERGENCY>" ;
+TIME = " hours ".utf8 | " mins ".utf8 | " seconds ".utf8 ;
+YEAR= " years ".utf8 | " months ".utf8 ;
+POSITION=" upper ".utf8 |" lower's apple ".utf8  |" right ".utf8  |" left ".utf8 ;
+BODYPART= " abdomen ".utf8 |" Adam's apple ".utf8 |" adenoids ".utf8 |" adrenal gland ".utf8 |" anatomy ".utf8 |" ankle ".utf8 |" anus ".utf8 |" appendix ".utf8 |" arch ".utf8  | " arms ".utf8 | " arm ".utf8 |" artery ".utf8 |" back ".utf8 |" belly ".utf8 |" toe ".utf8 |" body ".utf8 |" brain ".utf8 |" buttocks ".utf8 |" breast ".utf8 |" boobs ".utf8 |" bone ".utf8 |" bladder ".utf8 |" belly button ".utf8 |" ball of the foot ".utf8 |" calf ".utf8 |" carpal ".utf8 |" cell ".utf8 |" chin ".utf8 |" cheek ".utf8 |" collar bone ".utf8 |" cartilage ".utf8 |" capillary ".utf8 |" cervical vertebrae ".utf8 |" chest ".utf8 |" coccyx ".utf8 |" circulatory system ".utf8 |" balls ".utf8 |" diaphragm ".utf8 |" ear ".utf8 |" ear lobe ".utf8 |" elbow ".utf8 |" endocrine ".utf8 |" esophagus ".utf8 |" eye ".utf8 |" eyebrow ".utf8 |" eyelid ".utf8 |" eyelash ".utf8 |" face ".utf8 |" feet ".utf8 |" foot ".utf8 |" eyes ".utf8 |" fibula ".utf8 |" finger ".utf8 |" follicle ".utf8 |" forehead ".utf8 |" foot ".utf8 |" fingernail ".utf8 |" filling ".utf8 |" femur ".utf8 |" facial ".utf8 |" fingers ".utf8 |" groin ".utf8 |" gallbladder ".utf8 |" glands ".utf8 |" gums ".utf8 |" head ".utf8 |" hand ".utf8 |" hair ".utf8 |" heel ".utf8 |" humerus ".utf8 |" heart ".utf8 |" hip ".utf8 |" immune system ".utf8 |" index finger ".utf8 |" instep ".utf8 |" intestines ".utf8 |" iris ".utf8 |" jaw ".utf8 |" teeth ".utf8 |" tooth ".utf8 |" kidney ".utf8 |" knee ".utf8 |" shin ".utf8 |" forearm ".utf8 |" neck ".utf8 |" spine ".utf8 |" ligament ".utf8 |" liver ".utf8 |" leg ".utf8 |" lip ".utf8 |" lobe ".utf8 |" larynx ".utf8 |" lumbar ".utf8 |" lymph ".utf8 |" lungs ".utf8 |" lung ".utf8 |" mouth ".utf8 |" molar ".utf8 |" mandible ".utf8 |" metatarsal ".utf8 |" muscle ".utf8 |" metacarpal ".utf8 |" nail ".utf8 |" nipple ".utf8 |" nostril ".utf8 |" nose ".utf8 |" navel ".utf8 |" nerve ".utf8 |" organ ".utf8 |" ovaries ".utf8 |" palm ".utf8 |" patella ".utf8 |" phalanges ".utf8 |" pinky ".utf8 |" pore ".utf8 |" pancreas ".utf8 |" pelvis ".utf8 |" pharynx ".utf8 |" pupil ".utf8 |" pituitary ".utf8 |" pharynx ".utf8 |" ribs ".utf8 |" rectum ".utf8 |" respiratory ".utf8 |" radius ".utf8 |" sacrum ".utf8 |" scapula ".utf8 |" shoulder blade ".utf8 |" skin ".utf8 |" sole ".utf8 |" spinal cord ".utf8 |" spleen ".utf8 |" stomach ".utf8 |" scalp ".utf8 |" sense ".utf8 |" shoulder ".utf8 |" skeleton ".utf8 |" skull ".utf8 |" sternum ".utf8 |" tarsal ".utf8 |" tendon ".utf8 |" thigh ".utf8 |" throat ".utf8 |" thyroid ".utf8 |" tissue ".utf8 |" toenail ".utf8 |" tonsils ".utf8 |" testes ".utf8 |" thorax ".utf8 |" thumb ".utf8 |" tibia ".utf8 |" toe ".utf8 |" tongue ".utf8 |" torso ".utf8 |" trachea ".utf8 |" testicles ".utf8 |" ulnaa ".utf8 |" urethra ".utf8 |" ureter ".utf8 |" urinary ".utf8 |" uterus ".utf8 |" uvula ".utf8 |" vein ".utf8 |" vertebra ".utf8 |" waist ".utf8 |" wrist ".utf8 |" white blood cells ".utf8 ;
+
+
+DEATH= " dead ".utf8|" injured ".utf8;
+YES_CONFIRMATION = " yes ".utf8 | " correct ".utf8 | " right ".utf8 | " okay yeah ".utf8 | " understood ".utf8 | " alright ".utf8 | " got ".utf8 | " okay ".utf8 | " alright ".utf8 | " yeah yeah ".utf8 | " lah ".utf8;
+
+NO_CONFIRMATION = " no ".utf8 | " incorrect ".utf8 | " not right ".utf8 | " i dont know ".utf8 | " i am not sure ".utf8 | " not sure ".utf8 | " doesnt have ".utf8 | " does not ".utf8;
+
+ICNO = " <IC> " (("S":"s ")|("T":"t ")|("F":"f ")|("G":"g ")) (numbers.units_with_zero_trailing_spaces numbers.units_with_zero_trailing_spaces numbers.units_with_zero_trailing_spaces numbers.units_with_zero_trailing_spaces numbers.units_with_zero_trailing_spaces numbers.units_with_zero_trailing_spaces numbers.units_with_zero_trailing_spaces  ) (("A":"a")|("B":"b")|("C":"c")|("D":"d")|("E":"e")|("F":"f")|("G":"g")|("H":"h")|("I":"i")|("J":"j")|("K":"k")|("L":"l")|("M":"m")|("N":"n")|("O":"o")|("P":"p")|("Q":"q")|("R":"r")|("S":"s")|("T":"t")|("U":"u")|("V":"v")|("W":"w")|("X":"x")|("Y":"y")|("Z":"z"))" </IC> ";
+
+
+TIMEFRAME = " <DURATION> " (numbers.units_with_zero_trailing_spaces " to ".utf8 numbers.units_with_zero_trailing_spaces (YEAR|TIME) ) | (numbers.units_with_zero_trailing_spaces YEAR|TIME) " </DURATION> ";
+PHONE_NO= " <PHONENO> "(numbers.units_with_zero_trailing_spaces numbers.units_with_zero_trailing_spaces numbers.units_with_zero_trailing_spaces numbers.units_with_zero_trailing_spaces numbers.units_with_zero_trailing_spaces numbers.units_with_zero_trailing_spaces numbers.units_with_zero_trailing_spaces numbers.units_with_zero_trailing_spaces ) " </PHONENO> ";
+AGES= " <AGE> " ((numbers.units_with_zero | numbers.teens)) YEAR " old ".utf8 "</AGE> ";
+INJURYOUT= " <COUNT> "( ((numbers.units_with_zero | numbers.teens) DEATH )) " </COUNT> ";
+#(((numbers.units_with_zero | numbers.teens)  DEATH " and ".utf8  (numbers.units_with_zero | numbers.teens)  DEATH))  | ((numbers.units_with_zero | numbers.teens) DEATH (numbers.units_with_zero | numbers.teens) DEATH)|
+INJURYLIST = "<INJURY> "( "fractures".utf8 | "second degree heat burns".utf8 | "traumatic injuries and disorders".utf8 | " soreness ".utf8 | "pain".utf8 | "amputations".utf8 | "heat burns".utf8 | "electrocutions".utf8 | "electric shocks".utf8 | "puncture wounds".utf8 | "gunshot wounds".utf8 | "avulsions".utf8 | "enucleations".utf8 | "asphyxiations".utf8 | "strangulations".utf8 | "suffocations".utf8 | "major tears to muscles".utf8 | "tendons".utf8 | "ligaments".utf8 | "fractures and other injuries".utf8 | "intracranial injuries".utf8 | "burns and corrosions".utf8 | "traumatic injuries to spinal cord".utf8 | "concussions".utf8 | "chemical burns and corrosions".utf8 | "cuts".utf8 | "lacerations".utf8 | "other burns".utf8 | "electrical burns".utf8 | "inflammation".utf8 | "swelling".utf8 | "fractures and dislocations".utf8 | "abrasions".utf8 | "scratches".utf8 | "general symptoms".utf8 | "crushing injuries".utf8 | "multiple injuries and disorders".utf8 | "cuts and abrasions or bruises".utf8 | "traumatic injuries to bones".utf8 | "nerves".utf8 | "spinal cord".utf8 | "cellulitis and abscess".utf8 | "internal injuries".utf8 | "third or fourth degree electrical burns".utf8 | "noxious".utf8 | "symptoms involving respiratory system and chest".utf8 | "sprains and other injuries".utf8 | "third or fourth degree heat burns".utf8 | "reactions".utf8 | "irritation-nonspecified injury".utf8 | "multiple traumatic injuries and disorders".utf8 | "traumatic injuries to muscles joints".utf8 | "dislocations".utf8 | "skull fracture and intracranial injury".utf8 | "nausea".utf8 | "vomiting".utf8 | "poisoning".utf8 | "toxic".utf8 | "surface wounds and bruises".utf8 | "blindness".utf8 | "low vision".utf8 | "strains".utf8 | "sprains".utf8 | "tears".utf8 | "second degree chemical burns and corrosions".utf8 | "fractures and burns".utf8 | "hernias due to traumatic incidents".utf8 | "methicillin-resistant staphylococcus aureus infection".utf8 | "internal injuries to organs and blood vessels of the trunk".utf8 | "fractures and concussions".utf8 | "cerebral and other intracranial hemorrhages".utf8 | "dislocation of joints".utf8 | "bruises".utf8 | "contusions".utf8 | "numbness-nonspecified injury".utf8 | "herniated discs".utf8 | "abdominal pain".utf8 | "second degree electrical burns".utf8 | "burns and other injuries".utf8 | "open wounds".utf8 | "dizziness".utf8 | "lightheadedness".utf8 | "headache-toxic".utf8 | "cartilage fractures and tears".utf8 | "effects of heat and light".utf8 | "loss of consciousness".utf8 | "pinched nerve".utf8 | "heat exhaustion".utf8 | "prostration".utf8 | "first degree electrical burns".utf8 | "chest pain".utf8 | "third or fourth degree chemical burns and corrosions".utf8 | "stroke".utf8 | "convulsions".utf8 | "seizures".utf8 | "bursitis".utf8 | "multiple intracranial injuries".utf8 | "first degree heat burns".utf8 | "effects of environmental conditions".utf8 | "infections of the skin and subcutaneous tissue".utf8 | "heat syncope".utf8 | "heat stroke".utf8 | "second degree".utf8 | "coughing and throat irritation- toxic".utf8 | "multiple sprains".utf8 | "traumatic injuries to nerves".utf8 | "heat fatigue".utf8 | "anaphylactic shock".utf8 | "anaphylaxis".utf8 | "pneumonia".utf8 | "blisters".utf8 | "multiple poisoning".utf8 | "paralysis".utf8 | "paraplegia".utf8 | "quadriplegia".utf8 | "multiple types of open wounds".utf8 | "multiple surface wounds and bruises".utf8 | "myocardial infarction".utf8 | "dermatitis and reactions affecting the skin-acute".utf8 | "exposures to disease-no illness incurred".utf8 | "caisson disease".utf8 | "bends".utf8 | "divers' palsy".utf8 | "intracranial injuries and injuries to internal organs".utf8 | "burns and smoke inhalation".utf8 | "endocrine".utf8 | "nutritional".utf8 | "metabolic".utf8 | "sprains and bruises".utf8 | "irritant dermatitis-acute".utf8 | "sprains and cuts".utf8 | "hypothermia".utf8 | "first degree chemical burns and corrosions".utf8 | "damage to prosthetic devices".utf8 | "hyperventilation".utf8 | "influenza-common".utf8 | "multiple traumatic injuries to muscles".utf8 | "other traumatic injuries and disorders".utf8 | "multiple traumatic injuries to bones".utf8 | "multiple general symptoms".utf8 | "allergic dermatitis-acute".utf8 | "symptoms involving cardiovascular system".utf8 | "anxiety".utf8 | "stress".utf8 | "ischemic heart disease".utf8 | "influenza-novel".utf8 | "embolism".utf8 | "frostbite".utf8 | "transient ischemia attacks".utf8 )"</INJURY>";
+INJURY_ONE = "<INJURY> "( "stomach pain ".utf8 | "bloody stool ".utf8 | "allergic reaction ".utf8 | "rashes around mouth ".utf8 | "severe allergic reaction ".utf8 | "hives ".utf8 | "swelling ".utf8 | "blood ".utf8 | "no bleeding ".utf8 | "blood near bites ".utf8 | "blood loss ".utf8 | "bruises ".utf8 | "back pain ".utf8 | "blood in urine ".utf8 | "bleeding disorder ".utf8 | "cut on finger ".utf8 | "vaginal bleeding ".utf8 | "contraction ".utf8 | "breathing problem ".utf8 | "right hand burn ".utf8 | "chemical burns ".utf8 | "chest pain ".utf8 | "slight breach ".utf8 | "a lot of bleeding ".utf8 | "seizure ".utf8 | "fever ".utf8 | "blood sugar level quite high ".utf8 | "glass shards went into his eye ".utf8 | "chemical went into her eye ".utf8 | "eye injury ".utf8 | "pus out of eye ".utf8 | "headache ".utf8 | "heatstroke ".utf8 | "bleeding ongoing ".utf8 | "stomachache ".utf8 | "food poisoning ".utf8 | "cut herself ".utf8 | "nose tube dislodge ".utf8 )"</INJURY>";
+INJURY_TWO = "<INJURY> "( "vomiting ".utf8 | "stung by bee ".utf8 | "itchy ".utf8 | "bitten by dog ".utf8 | "bitten on arms ".utf8 | "bitten by snake ".utf8 | "bleeding ".utf8 | "bitten on ".utf8 | "bleeding on arms and legs ".utf8 | "raped ".utf8 | "hanging ".utf8 | "drowning ".utf8 | "electrocuted ".utf8 | "shivering ".utf8 | "lying on ground ".utf8 | "taking drugs ".utf8 | "fainting ".utf8 | "collapse ".utf8 )"</INJURY>";
+INJURY_THREE = "<INJURY> "( "want to give birth ".utf8 | "cannot pee ".utf8 | "cannot feel his hands ".utf8 | "slipped ".utf8 | "smell toxic gas ".utf8 | "fell from a height ".utf8 | "swallowed fish bone ".utf8 | "vomit blood ".utf8 | "fall in bathroom ".utf8 )"</INJURY>";
+INJURY_FOUR = "<INJURY> "( "group of people beat up ".utf8 | "hot oil splash ".utf8 | "vehicle and bike accident ".utf8 | "vehicle roll over ".utf8 | "vehicle over turn ".utf8 )"</INJURY>";
+INJURY_FIVE = "<INJURY> "( "finger amputated ".utf8 | "right arm fractured ".utf8 | "arms are blue ".utf8 )"</INJURY>";
+
+STATUS_ONE = "<STATUS> "( "conscious ".utf8 | "a bit drowsy ".utf8 | "a bit giddy ".utf8 | "alert ".utf8 | "not feeling giddy ".utf8 | "quite alert ".utf8 | "quite drowsy ".utf8 | "definitely alert ".utf8 | "still jerking ".utf8 | "still shaking ".utf8 | "quite giddy ".utf8 | "not alert ".utf8 | "not moving at all ".utf8 | "having difficulty walking ".utf8 | "drowsy ".utf8 | "fainting soon ".utf8 | "very drowsy ".utf8 | "not responding ".utf8 | "not talking ".utf8 | "still alert ".utf8 | "unconscious ".utf8 | "feeling giddy ".utf8 | "drowsy ".utf8 )"</STATUS>";
+STATUS_TWO = "<STATUS> "( "didn’t faint ".utf8 | "want to faint ".utf8 | "never faint ".utf8 | "can respond ".utf8 | "can reply ".utf8 | "can speak ".utf8 | "can reply ".utf8 | "can talk ".utf8 | "stopped jerking ".utf8 | "doesn’t respond ".utf8 | "can’t speak properly ".utf8 | "cannot respond ".utf8 )"</STATUS>";
+STATUS_THREE = "<STATUS> "( "fainted ".utf8 | "no movement ".utf8 )"</STATUS>";
+
+
+CONDTION_ONE = "<CONDITION> "( "breathing ".utf8 | "breathing okay ".utf8 | "having some problems breathing ".utf8 | "not breathing ".utf8 | "not even breathing ".utf8 | "breathing very fast ".utf8 )"</CONDITION>";
+CONDITION_TWO = "<CONDITION> "( "difficulty breathing ".utf8 | "no difficulty breathing ".utf8 | "a bit of difficulty breathing ".utf8 | "chest pain ".utf8 | "no chest pain ".utf8 | "problems breathing ".utf8 | "slow breathing ".utf8 )"</CONDITION>";
+CONDITION_THREE = "<CONDITION> "( "breathing is normal ".utf8 | "breathing is a bit slow ".utf8 )"</CONDITION>";
+CONDITION_FOUR = "<CONDITION> "( "stopped breathing ".utf8 | "cannot breathe properly ".utf8 )"</CONDITION>";
+
+
+
+export PUBLIC_HOUSING = (BLOCK | "") STREET_NAME UNIT_NO POSTALCODE ("<Addr-city> Singapore </Addr-city>" | "");
+export OFFICE_BUILDING = BUILDING_NO BUILDING_NAME STREET_NAME UNIT_NO POSTALCODE ("<Addr-city> Singapore </Addr-city>" | "");
+export CONDOMIUM_RESIDENTIAL = BUILDING_NO STREET_NAME UNIT_NO POSTALCODE ("<Addr-city> Singapore </Addr-city>" | "");
+export LANDED_RESIDENTIAL  = (BUILDING_NO | "") STREET_NAME POSTALCODE ("<Addr-city> Singapore </Addr-city>" | "");
+export FACILITY = BUILDING_NAME BUILDING_NO STREET_NAME POSTALCODE ("<Addr-city> Singapore </Addr-city>" | "");
+
+export ADDRESS = (PUBLIC_HOUSING | OFFICE_BUILDING | CONDOMIUM_RESIDENTIAL | LANDED_RESIDENTIAL | FACILITY) ;
+
+
+# Colloquial English
+#address
+#export SHORTEST_ROUTE = "<O> Fetch me the shortest route to </O> " ADDRESS | "<O> Navigate To </O> " ADDRESS |  "<O> Show me the route To </O> " ADDRESS | "<O> My destination is </O> " ADDRESS | "<O> How to reach </O> " ADDRESS | "<O> Where is </O> " ADDRESS | "<O> I want to go to </O> " ADDRESS | "<O> Take me to </O> " ADDRESS | "<O> Show me how to reach </O> " ADDRESS | "<O> How do I reach </O> " ADDRESS | "<O> Let's go to </O> " ADDRESS;
+#export FIND_POI = " <O> Find " LANDMARKS " near </O> " ADDRESS | "<O> What are some " LANDMARKS " close to </O> " ADDRESS | " <O> Find " LANDMARKS " close to </O> " ADDRESS | "<O> What are some " LANDMARKS " near </O> " ADDRESS | " <O> Find " LANDMARKS " around </O> " ADDRESS | "<O> I am looking for " LANDMARKS " near </O> " ADDRESS | " <O> Are there any " LANDMARKS " near </O> " ADDRESS;
+#export DELIVERY = " <O> I am at </O> " + ADDRESS | "<O> Deliver the package to </O> " + ADDRESS | "<O> Send the courier to </O> " + ADDRESS | "<O> I live at </O> " + ADDRESS | "<O> My address is </O> " + ADDRESS | "<O> Make the delivery at </O> " + ADDRESS | "<O> Can you deliver to </O> " + ADDRESS;
+#export EMERGENCY = ( EMERGENCY_TYPE "<O> reported at </O> " + ADDRESS) | ("<O> I want to report</O> " EMERGENCY_TYPE  " <O> at </O> " + ADDRESS) | ( EMERGENCY_TYPE  " occured at </O> " + ADDRESS);
+export LOCATION = " <O> i am at " ADDRESS " near </O> LANDMARKS | " <O> i am at " ADDRESS " </O> " | " <O> there is a " LANDMARKS " here </O> " | " <O> he was found injured at " ADDRESS " </O> " | " <O> he was found injured at " LANDMARKS " </O> " ;
+#etc
+export PHONENUMBER = " <O> my number is </O> " PHONE_NO;
+export TIMESEN =" <O> this is the </O> " TIMEFRAME | TIMEFRAME;
+export ICSENTENCT= " <O> his ic number is </O> " ICNO | " <O> ic number is </O> " ICNO |" <O> the ic number is </O> " ICNO;
+export AGESEXAMPLE = "<O> i think he looks around </O> " AGES | " <O> i believe her age is </O>" AGES | AGES ;
+export INJURYCOUNT = "<O> there are </O> "  INJURYOUT  " <O> and </O> " INJURYOUT | INJURYOUT  " <O> and </O> " INJURYOUT | " <O> there are </O> " + INJURYOUT | " <O> there are </O> " + INJURYOUT + INJURYOUT;
+export INJURYS = "<O> Patient is having </O> " + INJURYLIST | "<O> Patient is diagnosed with </O> " + INJURYLIST | "<O> Person is having </O> " + INJURYLIST | "<O> Person is diagnosed with </O> " + INJURYLIST | "<O> He is having </O> " + INJURYLIST | "<O> He is diagnosed </O> " + INJURYLIST | "<O> She is having </O> " + INJURYLIST | "<O> She is diagnosed with </O> " + INJURYLIST | " <O> he is injured on " BODYPART " </O> "| " <O> on the " BODYPART " </O> "| " <O> " INJURYLIST " on " BODYPART " </O> " ;
+export INJURIES = "<O> Person has  </O> " + INJURY_ONE | "<O> Person is </O> " + INJURY_TWO | "<O> Person </O> " + INJURY_THREE |  "<O> There is a </O> " + INJURY_FOUR |  "<O> Person’s </O> " + INJURY_FIVE;
+export STATUSES = " <O> Person has  </O> " + STATUS_ONE | " <O> Person </O> " + STATUS_TWO | " <O> Person is </O> " + STATUS_THREE;
+export CONDITIONS = "<O> Person is  </O> " + CONDTION_ONE | "<O> Person has </O> " + CONDITION_TWO | "<O> Person’s </O> " + CONDITION_THREE | "<O> Person </O> " + CONDITION_FOUR;
+
+export random_sentence = LOCATION |
+PHONENUMBER |
+AGESEXAMPLE |
+ICSENTENCT |
+INJURYS |
+TIMESEN |
+INJURYCOUNT |
+INJURIES |
+STATUSES |
+CONDITIONS;

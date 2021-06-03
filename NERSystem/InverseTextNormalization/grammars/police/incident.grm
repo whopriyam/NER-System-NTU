@@ -1,0 +1,21 @@
+import 'condition.grm' as condition;
+import 'weapons.grm' as weapons;
+import 'address.grm' as address;
+import 'pronoun.grm' as pronoun;
+import 'status.grm' as status;
+import 'dead.grm' as dead;
+
+
+
+
+export WEAPONEX= " <O> " pronoun.PRONOUN " has </O> " weapons.WEAPONS | weapons.WEAPONS | " <O> a </O> " weapons.WEAPONS| " <O>" pronoun.PRONOUN "had a </O>" weapons.WEAPONS " <O> and was last seen at </O> " address.ADDRESS; 
+
+export STATUSES = (" <O> Person is </O> " status.STATUS_ONE )| (" <O> Person </O> " status.STATUS_TWO )|( " <O> Person is </O> " status.STATUS_THREE);
+
+export CONDITIONS = ("<O> Person is  </O> " condition.CONDTION_ONE )|( "<O> Person has </O> " condition.CONDITION_TWO )|( "<O> Person is </O> " condition.CONDITION_THREE )|( " <O> Person </O> " condition.CONDITION_FOUR) ;
+
+#export INJURYCOUNT = (" <O> there are </O> "  dead.INJURYOUT  " <O> and </O> " dead.INJURYOUT) | (INJURYOUT  " <O> and </O> " dead.INJURYOUT ) | (" <O> there are </O> " dead.INJURYOUT ) | (" <O> there are </O> "  dead.INJURYOUT  dead.INJURYOUT);
+
+
+#export INJURYS = ("<O> Patient is having </O> " INJURYLIST ) | ("<O> Patient is diagnosed with </O> " INJURYLIST) | ("<O> Person is having </O> " INJURYLIST ) | ("<O> Person is diagnosed with </O> " INJURYLIST) | ("<O> He is having </O> " INJURYLIST) | ("<O> He is diagnosed </O> " INJURYLIST) |( "<O> She is having </O> " INJURYLIST) |( "<O> She is diagnosed with </O> " INJURYLIST )|( " <O> he is injured on </O> " PARTS )|( " <O> on the </O> " PARTS )|(INJURYLIST " <O> on </O> " PARTS);
+#INJURYLIST????

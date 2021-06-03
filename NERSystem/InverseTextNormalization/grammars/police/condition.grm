@@ -1,0 +1,7 @@
+export CONDTION_ONE = Optimize["<CONDITION> "( "breathing ".utf8 | "breathing okay ".utf8 | "having some problems breathing ".utf8 | "not breathing ".utf8 | "not even breathing ".utf8 | "breathing very fast ".utf8 )"</CONDITION>"];
+
+export CONDITION_TWO = Optimize["<CONDITION> "( "difficulty breathing ".utf8 | "no difficulty breathing ".utf8 | "a bit of difficulty breathing ".utf8 | "chest pain ".utf8 | "no chest pain ".utf8 | "problems breathing ".utf8 | "slow breathing ".utf8 )"</CONDITION>"];
+
+export CONDITION_THREE = Optimize["<CONDITION> "( "breathing is normal ".utf8 | "breathing is a bit slow ".utf8 )"</CONDITION>"];
+
+export CONDITION_FOUR = Optimize["<CONDITION> "( "stopped breathing ".utf8 | "cannot breathe properly ".utf8 )" </CONDITION> " ];

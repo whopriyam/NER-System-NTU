@@ -1,0 +1,160 @@
+import 'numbers.grm' as numbers;
+import 'example.grm' as tk;
+import 'preposition.grm' as preposition;
+import 'propersition.grm' as propersition;
+import 'possessive.grm' as possessive;
+import 'demostrative.grm' as demostrative;
+import 'pronoun.grm' as pronoun;
+import 'quantifier.grm' as quantifier;
+import determiner.grm' as determiner;
+import 'conjuction.grm' as conjuction;
+import 'helpingverb.grm' as helpingverb; 
+import 'timeverb.grm' as timeverb;
+import 'interrogativeadjective.grm' as interrogativeadjective;
+#import 'coordinatingconjuction.grm' as coordinatingconjuction;
+import 'linkingverb.grm' as linkingverb;
+import 'bodypart.grm' as bodypart;
+import 'clothes.grm' as clothes;
+import 'colors.grm' as colors;
+import 'weapons.grm' as weapons;
+import 'isdescription.grm' as isdescription;
+import 'hasdescription.grm' as hasdescription;
+import 'commonppl.grm' as commonppl;
+import 'commonani.grm' as commonani;
+import 'commonprop.grm' as commonprop;
+#import 'height.grm' as height;
+import 'emergency.grm' as emergency;
+import 'article.grm' as article;
+import 'icno.grm' as icno;
+import 'phoneno.grm' as phoneno;
+import 'status.grm' as status;
+import 'condition.grm' as condition; 
+#import 'part.grm' as part; 
+
+
+numbers_to_999 = Optimize[numbers.numbers_to_100 | numbers.numbers_101_to_999_dig_by_dig];
+
+
+ADDRESS_OPEN_TAG = "<Address> ".utf8 ;
+ADDRESS_CLOSE_TAG = "</Address> ".utf8 ;
+
+
+BLOCK = "<Addr-Block> " ("Blk ": "block ") numbers_to_999 " </Addr-Block> ";
+BUILDING_NO = "<Addr-Building-Number> " numbers_to_999 " </Addr-Building-Number> ";
+
+
+STREETS = StringFile['resources/roads_and_streets.txt'];
+STREET_REWRITTEN = Optimize[STREETS @ tk.TOKENIZER];
+
+STREET_NAME = "<Addr-Street> " STREET_REWRITTEN " </Addr-Street> ";
+
+
+BUSINESS_NAME = StringFile['resources/venues-filtered.txt'];
+BUSINESS_REWRITTEN = Optimize[BUSINESS_NAME @ tk.TOKENIZER];
+
+
+
+BUILDING_NAME = " <Addr-Building-Name> " BUSINESS_REWRITTEN "</Addr-Building-Name> ";
+UNIT_NO = "<Addr-UnitNo> "  ("#" : "hash ") (("B" : "b ") | "") (numbers.units_with_zero | numbers.teens | ("20": "twenty")) (("-" : " " ) | ("-" : " dash " )) numbers.numbers_to_999 " </Addr-UnitNo> ";
+
+
+REGION = StringFile['resources/regions.txt'];
+REGION_REWRITTEN = Optimize[REGION @ tk.TOKENIZER];
+
+
+POSTALCODE = "<PostCode> " (("S" : "s ") | ("S" : "singapore post code ") | ("" : ""))  (numbers.units_with_zero_trailing_spaces numbers.units_with_zero_trailing_spaces numbers.units_with_zero_trailing_spaces numbers.units_with_zero_trailing_spaces numbers.units_with_zero_trailing_spaces numbers.units_with_zero_trailing_spaces) " </PostCode> ";
+
+
+
+#PROPERSITION = " with ".utf8 | " at ".utf8 |" from ".utf8 | " into ".utf8 | " during ".utf8 | " including ".utf8 ;
+
+TIME = " hours ".utf8 | " mins ".utf8 | " seconds ".utf8 ;
+YEAR= " years ".utf8 | " months ".utf8 ;
+POSITION=" upper ".utf8 |" lower ".utf8  |" right ".utf8  |" left ".utf8 ;
+
+#
+
+
+HEIGHT =" <CHARATERISTIC> "(  numbers_to_999 " cm ".utf8 | numbers.units_with_zero_trailing_spaces numbers.units_with_zero_trailing_spaces " ft ".utf8 | numbers.units_with_zero_trailing_spaces numbers.units_with_zero_trailing_spaces " feet ".utf8 | numbers.units_with_zero_trailing_spaces " feet ".utf8 numbers.units_with_zero_trailing_spaces " inch ".utf8 | numbers.numbers_to_999 " inches ".utf8 ) " </CHARATERISTIC> ";
+
+
+
+
+#
+
+
+ICNO = " <IC> " (("S":"s ")|("T":"t ")|("F":"f ")|("G":"g ")) (numbers.units_with_zero_trailing_spaces numbers.units_with_zero_trailing_spaces numbers.units_with_zero_trailing_spaces numbers.units_with_zero_trailing_spaces numbers.units_with_zero_trailing_spaces numbers.units_with_zero_trailing_spaces numbers.units_with_zero_trailing_spaces  ) (("A":"a")|("B":"b")|("C":"c")|("D":"d")|("E":"e")|("F":"f")|("G":"g")|("H":"h")|("I":"i")|("J":"j")|("K":"k")|("L":"l")|("M":"m")|("N":"n")|("O":"o")|("P":"p")|("Q":"q")|("R":"r")|("S":"s")|("T":"t")|("U":"u")|("V":"v")|("W":"w")|("X":"x")|("Y":"y")|("Z":"z"))" </IC> ";
+
+
+
+PARTS= " <BODYLOCATION> " POSITION bodypart.BODYPART " </BODYLOCATION> ";
+
+TIMEFRAME = " <DURATION> " ((numbers.units_with_zero_trailing_spaces " to ".utf8 numbers.units_with_zero_trailing_spaces YEAR ) | (numbers.units_with_zero_trailing_spaces YEAR )| (numbers.units_with_zero_trailing_spaces TIME ) | (numbers.units_with_zero_trailing_spaces " to ".utf8 numbers.units_with_zero_trailing_spaces (TIME) )  )" </DURATION> ";
+
+#
+AGES= " <AGE> " ((numbers.units_with_zero | numbers.teens)) YEAR " old ".utf8 "</AGE> ";
+
+INJURYOUT= " <COUNT> "( ((numbers.units_with_zero | numbers.teens) emergency.DEATH )) " </COUNT> ";
+
+
+#
+
+
+
+
+
+
+
+export PUBLIC_HOUSING = (BLOCK | "") STREET_NAME UNIT_NO POSTALCODE ("<Addr-city> Singapore </Addr-city>" | "");
+
+export OFFICE_BUILDING = BUILDING_NO BUILDING_NAME STREET_NAME UNIT_NO POSTALCODE ("<Addr-city> Singapore </Addr-city>" | "");
+
+export CONDOMIUM_RESIDENTIAL = BUILDING_NO STREET_NAME UNIT_NO POSTALCODE ("<Addr-city> Singapore </Addr-city>" | "");
+
+export LANDED_RESIDENTIAL  = (BUILDING_NO | "") STREET_NAME POSTALCODE ("<Addr-city> Singapore </Addr-city>" | "");
+
+export FACILITY = BUILDING_NAME BUILDING_NO STREET_NAME POSTALCODE ("<Addr-city> Singapore </Addr-city>" | "");
+
+
+
+export ADDRESS = (PUBLIC_HOUSING | OFFICE_BUILDING | CONDOMIUM_RESIDENTIAL | LANDED_RESIDENTIAL | FACILITY) ;
+
+TRAITS = " <CHARATERISTIC> " ( colors.COLORS clothes.CLOTHES )" </CHARATERISTIC> ";
+#emergency , traits , visual
+export WITNESS =" <O> " pronoun.PRONOUN " is wearing </O> " TRAITS;
+
+export OVERALL = (" <O> " pronoun.PRONOUN " has </O> " TRAITS ) |( " <O> " pronoun.PRONOUN " is </O> " isdescription.ISDESCRIPTION ) |( " <O> " pronoun.PRONOUN " has a </O> " hasdescription.HASDESCRIPTION )| (" <O> " pronoun.PRONOUN " is wearing </O> " TRAITS ) |( " <O> " pronoun.PRONOUN " is </O>" HEIGHT) | (" <O> " pronoun.PRONOUN " is </O> " HEIGHT " <O> tall </O> " );
+
+
+
+
+
+# Colloquial English
+
+#address
+
+#export LOCATION = " <O> i am at </O> " ADDRESS " <O> near </O> " LANDMARKS | " <O> i am at </O> " ADDRESS | " <O> there is a </O> " LANDMARKS " <O> here </O> " | " <O> he was found injured at </O> " ADDRESS | " <O> he was found injured at </O> " LANDMARKS ;
+
+#etc
+
+export PHONENUMBER = " <O> my number is </O> " phoneno.PHONE_NO| phoneno.PHONE_NO;
+export TIMESEN =" <O> this is the </O> " TIMEFRAME | TIMEFRAME;
+export ICSENTENCT= " <O> his ic number is </O> " icno.ICNO | " <O> ic number is </O> " icno.ICNO |" <O> the ic number is </O> " icno.ICNO;
+export AGESEXAMPLE = "<O> i think he looks around </O> " AGES | " <O> i believe her age is </O>" AGES | AGES ;
+export WEAPONEX= " <O> " pronoun.PRONOUN " has </O> " weapons.WEAPONS | weapons.WEAPONS | " <O> a </O> " weapons.WEAPONS| " <O> he had a </O>" weapons.WEAPONS " <O> and was last seen at </O> " ADDRESS; 
+
+#
+
+export EMERGENCYSEN = (emergency.EMERGENCY_TYPENOUN " <O> reported at </O> " ADDRESS) | ("<O> I want to report </O> " emergency.EMERGENCY_TYPENOUN  " <O> at </O> "  ADDRESS) | ( emergency.EMERGENCY_TYPENOUN  " <O> occured at </O> " ADDRESS ) | (emergency.EMERGENCY_TYPENOUN "<O> at </O> "ADDRESS ) | (" <O> Help someone </O>" emergency.EMERGENCY_TYPENOUN "<O> me </O>" ) | ("<O> there is a </O> " emergency.EMERGENCYTYPEVERB "<O> at </O>" ADDRESS)|( "<O> there are people trying to </O> " emergency.EMERGENCYTYPEVERB  " <O> at </O> " +ADDRESS + " <O> please send help </O> " )| ("<O> help me i am being </O>" emergency.EMERGENCYTYPEVERB) | ("<O> help there is a</O>" emergency.EMERGENCY_TYPENOUN)| ("<O>there have been a </O>" emergency.EMERGENCY_TYPENOUN "<O> at </O> " ADDRESS)| (pronoun.PRONOUN" <O> was </O>" emergency.EMERGENCY_TYPENOUN) | (pronoun.PRONOUN "<O> was </O>" emergency.EMERGENCYTYPEVERB) |( ADDRESS "<O> two men is trying to </O> " emergency.EMERGENCYTYPEVERB )| ("<O> help there is a" commonppl.COMMONPPL " who was <O> "emergency.EMERGENCY_TYPENOUN) ;
+
+
+#
+
+
+#export random_sentence = WITNESS | WEAPONEX | OVERALL | AGESEXAMPLE;
+export random_sentence = EMERGENCYSEN|ADDRESS;
+#export random_sentence = WEAPONEX|AGESEXAMPLE|WITNESS|OVERALL;
+#export random_sentence = LOCATION |PHONENUMBER | AGESEXAMPLE | ICSENTENCT | INJURYS | TIMESEN | INJURYCOUNT | INJURIES | STATUSES | CONDITIONS;
+
+
+

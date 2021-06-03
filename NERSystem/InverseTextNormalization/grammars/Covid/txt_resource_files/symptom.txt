@@ -1,0 +1,29 @@
+fever
+chills
+cough
+shortness of breath
+difficulty breathing
+fatigue
+muscle ache
+body ache
+headache
+loss of taste
+loss of smell
+Sore throat
+chest congestion
+congestion
+runny nose
+nausea
+vomiting
+diarrhea
+diarrhoea
+chest pain
+chest pressure
+tiredness
+conjunctivitis
+skin rash
+discolouration of fingers
+discolouration of toes
+loss of speech
+loss of movement
+dry cough

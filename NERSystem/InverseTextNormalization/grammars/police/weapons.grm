@@ -1,0 +1,6 @@
+export WEAPONS = Optimize[" <WEAPON> " ( " knife ".utf8 | " shard ".utf8 |" gun ".utf8 |" parang ".utf8 |" machete ".utf8 |
+											" blade ".utf8 |" bat ".utf8 |" weapon ".utf8 |" club ".utf8 |" bayonet ".utf8 |" lance ".utf8 |" taser ".utf8 |
+											" axe ".utf8 |" chainsaw ".utf8 |" dagger ".utf8 |" brike ".utf8 |" rifle ".utf8 |" knuckle duster ".utf8 |
+											" handcuff ".utf8 |" scissors ".utf8 |" stick ".utf8 |" sickle ".utf8 | " kukri ".utf8 |" blow pipe ".utf8 |
+											" bow ".utf8 |" arrow ".utf8 |" hammer ".utf8 |" wrench ".utf8 |" crowbar ".utf8 |" whips ".utf8 |" firearm ".utf8 |
+											" stun gun ".utf8 |" nanchaku ".utf8 | " baton ".utf8 | " truncheons ".utf8| " knuckleduster ".utf8| " shuriken ".utf8| " slingshot ".utf8 ) " </WEAPON> "];

@@ -1,0 +1,27 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+allennlp = "*"
+flask = "*"
+flask-sockets = "*"
+gevent = "*"
+gevent-websocket = "*"
+lark-parser = "==0.6.4"
+spacy = "*"
+torch = "*"
+nltk = "*"
+tqdm = "*"
+yaspin = "*"
+pyyaml = "*"
+gunicorn = "*"
+
+[dev-packages]
+jupyter = "*"
+yapf = "*"
+pylint = "*"
+
+[requires]
+python_version = "3.7"

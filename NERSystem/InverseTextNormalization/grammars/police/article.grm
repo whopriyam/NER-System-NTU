@@ -1,0 +1,1 @@
+ARTICLE = " a ".utf8 | " an ".utf8 | " the ".utf8 ;

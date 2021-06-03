@@ -1,0 +1,1 @@
+export EXCLAMATION = Optimize[ "Good Morning".utf8 | "good afternoon".utf8 |" Good evening".utf8 | "Hey".utf8 |"hello".utf8 | "hi".utf8 | "Actually".utf8 | "so".utf8| "excuse me".utf8 | "pardon me".utf8 | "morning".utf8 | "evening".utf8];

@@ -1,0 +1,70 @@
+import 'example.grm' as tk;
+import 'exclamation.grm' as exclamation;
+
+FIRST_NAMES = StringFile['chinesefirstnames.txt'];
+FIRST_NAMES_REWRITTEN = Optimize[FIRST_NAMES @ tk.TOKENIZER];
+FIRST_NAME = " <first-name>" FIRST_NAMES_REWRITTEN "</first-name> ";
+
+LAST_NAMES = StringFile['chineselastnames.txt'];
+LAST_NAMES_REWRITTEN = Optimize[LAST_NAMES @ tk.TOKENIZER];
+LAST_NAME = " <last-name>" LAST_NAMES_REWRITTEN "</last-name> ";
+
+SYMPTOMS= StringFile['symptom.txt'];
+SYMPTOMS_REWRITTEN = Optimize[SYMPTOMS @ tk.TOKENIZER];
+SYMPTOMS= " <symptom> "  SYMPTOM_REWRITTEN  " </symptom>  ";
+
+
+EXCLAMATION = " <exclamation>" exclamation.EXCLAMATION "</exclamation> ";
+
+export SYMPTOMSENT =  ("<O> Do you have </O> "  SYMPTOM ) | 
+												("<O> Did you have </O> "  SYMPTOM ) |
+												("<O> Do you have any Covid symptoms like </O> "  SYMPTOM "<O> and </O>" SYMPTOM ) |
+												("<O> Are you sure you have </O> "  SYMPTOM ) |
+												("<O> I have </O>"  SYMPTOM "<O> and </O>" SYMPTOM) |
+												("<O> I have recently developed </O> "  SYMPTOM ) |
+												("<O> I have developed </O> "  SYMPTOM ) |
+												("<O> I developed </O> "  SYMPTOM ) |
+												("<O> I have come down with the symtom of </O> "  SYMPTOM ) |
+												("<O> I have come down with the symptoms of </O>"  SYMPTOM "<O> and </O>" SYMPTOM) |
+												("<O> I am feeling sick because of </O> "  SYMPTOM ) |
+												("<O> I am worried because I recently developed </O> "  SYMPTOM "<O> and I think I might have Covid </O> ") |
+												("<O> Have you had </O> "  SYMPTOM "<O> since yesterday </O>" ) |
+												("<O> Have you had </O> "  SYMPTOM "<O> or </O>" SYMPTOM "<O> since yesterday </O>" ) |
+												("<O> I have been having </O> "  SYMPTOM "<O> since yesterday </O> ") |
+												("<O> I have been having </O> "  SYMPTOM "<O> since last night </O> ") |
+												("<O> I have been having </O> "  SYMPTOM "<O> for a few hours  </O> ") |
+												("<O> Have you had </O> "  SYMPTOM "<O> since this morning </O>" ) |
+												("<O> I have been having </O> "  SYMPTOM "<O> since this morning </O> ") |
+												("<O> Since when do you have </O> "  SYMPTOM ) |
+												("<O> Since when do you have </O> "  SYMPTOM "<O> and </O>" SYMPTOM ) |
+												("<O> When did you start having </O> "  SYMPTOM ) |
+												("<O> When did you develop </O> "  SYMPTOM "<O> and </O>" SYMPTOM ) |
+												("<O> When did you develop </O> "  SYMPTOM ) |
+												("<O> When did you have </O> "  SYMPTOM ) |
+												("<O> When did you start having </O> "  SYMPTOM "<O> and </O>" SYMPTOM ) |
+												("<O> How long have you been suffering from </O> "  SYMPTOM ) |
+												("<O> How long have you been suffering from </O> "  SYMPTOM "<O> and </O>" SYMPTOM ) |
+												("<O> Since last night, I've been down with </O> "  SYMPTOM ) |
+												("<O> Since yesterday, I've been down with </O> "  SYMPTOM ) |
+												("<O> I have had </O> "  SYMPTOM "<O> for the past few days </O> ") |
+												("<O> I have had </O> "  SYMPTOM "<O> for quite some time now </O> ") |
+												("<O> Is </O> "  SYMPTOM "<O> a symptom of Covid because I think I might be have it </O> ") |
+												("<O> I think I should get a Covid test done because I have a </O> "  SYMPTOM ) |
+												("<O> I think I should get a Covid test done because I have symptoms like  </O>"  SYMPTOM "<O> and </O>" SYMPTOM) |
+												(EXCLAMATION "<O> Can you recommend me a good doctor, I think I have </O>" SYMPTOM )|
+												(EXCLAMATION "<O> Can you recommend me a good doctor, I have </O>" SYMPTOM "<O> and think that I might have Covid</O>" )|
+												("<O> I have </O> "  SYMPTOM "<O> what are the chances that I actually have Covid </O> ") |
+												("<O> Have you contacted any doctor regarding your </O> "  SYMPTOM ) |
+												("<O> Have you asked any doctor about your </O> "  SYMPTOM ) |
+												("<O> I think I should contact a doctor because I have been having </O> "  SYMPTOM "<O> for quite some time now </O> ") |
+												("<O> Have you met anyone since you started suffering from </O> "  SYMPTOM ) |
+												("<O> Have you met anyone since you started having </O> "  SYMPTOM ) |
+												("<O> Have you contacted anyone since you started suffering from </O> "  SYMPTOM ) |
+												("<O> Have you contacted anyone since you started having </O> "  SYMPTOM ) |
+												("<O> I am not meeting people right now ever since I got </O> "  SYMPTOM "<O> which might be indicative of Covid </O> ") |
+												("<O> I did not meet "</O>" FIRST_NAME LAST_NAME "<O>" yesterday because I have </O> "  SYMPTOM "<O> which might be indicative of Covid </O> ") |
+												("<O> Is your </O> "  SYMPTOM "<O> severe </O>" ) |
+												("<O> Is your </O> "  SYMPTOM "<O> really bad </O>" ) |
+												("<O> Yes I think I have severe </O> "  SYMPTOM ) |
+												("<O> Yes I think my </O> "  SYMPTOM "<O> is quite severe </O>" ) |
+												("<O> Yes I think my </O> "  SYMPTOM "<O> is very serious </O>" );

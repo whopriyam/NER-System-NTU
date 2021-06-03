@@ -1,0 +1,1 @@
+CONJUNCTION = " and ".utf8 | " because ".utf8 | " but ".utf8 |" so ".utf8  |" or ".utf8 ;

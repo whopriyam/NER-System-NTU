@@ -1,0 +1,18 @@
+import 'clothes.grm' as clothes;
+import 'colors.grm' as colors;
+import 'pronoun.grm' as pronoun;
+#import 'height.grm' as height;
+import 'ages.grm' as ages;
+
+import 'isdescription.grm' as isdescription;
+import 'hasdescription.grm' as hasdescription;
+
+TRAITS = " <CHARATERISTIC> " ( colors.COLORS clothes.CLOTHES )" </CHARATERISTIC>";
+
+export WITNESS =" <O> " pronoun.PRONOUN " is wearing </O> " TRAITS;
+#export WITNESS =" <O> " pronoun.PRONOUN " is wearing </O> " TRAITS;
+
+export OVERALL = (" <O> " pronoun.PRONOUN " has </O> " TRAITS ) |( " <O> " pronoun.PRONOUN " is </O> " isdescription.ISDESCRIPTION ) |( " <O> " pronoun.PRONOUN " has a </O> " hasdescription.HASDESCRIPTION )| (" <O> " pronoun.PRONOUN " is wearing </O> " TRAITS );
+
+# (" <O> " pronoun.PRONOUN " is </O>" height.HEIGHT) | (" <O> " pro.PRONOUN " is </O> " height.HEIGHT " <O> tall </O> " );
+								

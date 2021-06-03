@@ -1,0 +1,10 @@
+
+export STATUS_ONE = Optimize["<STATUS> "( "conscious ".utf8 | "a bit drowsy ".utf8 | "a bit giddy ".utf8 | "alert ".utf8 | "not feeling giddy ".utf8 | 
+													"quite alert ".utf8 | "quite drowsy ".utf8 | "definitely alert ".utf8 | "still jerking ".utf8 | "still shaking ".utf8 | "quite giddy ".utf8 | 
+													"not alert ".utf8 | "not moving at all ".utf8 | "having difficulty walking ".utf8 | "drowsy ".utf8 | "fainting soon ".utf8 | "very drowsy ".utf8 | 
+													"not responding ".utf8 | "not talking ".utf8 | "still alert ".utf8 | "unconscious ".utf8 | "feeling giddy ".utf8 | "drowsy ".utf8 )"</STATUS>"];
+
+export STATUS_TWO = Optimize["<STATUS> "( "did not faint ".utf8 | "want to faint ".utf8 | "never faint ".utf8 | "can respond ".utf8 | "can reply ".utf8 | "can speak ".utf8 | 
+													"can reply ".utf8 | "can talk ".utf8 | "stopped jerking ".utf8 | "does not respond ".utf8 | "cant speak properly ".utf8 | "cannot respond ".utf8 )"</STATUS>"];
+
+export STATUS_THREE = Optimize["<STATUS> "( "fainted ".utf8 | "no movement ".utf8 )"</STATUS>"];

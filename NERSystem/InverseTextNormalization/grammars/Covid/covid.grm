@@ -1,0 +1,7 @@
+import 'covid_symptoms.grm' as covid_symptoms;
+import 'place_country.grm' as place_country;
+import 'local_address.grm' as local_address;
+import 'activity.grm' as activity;
+
+export random_sentence = covid_symptoms.SYMPTOMSENT | place_country.PLACE_COUNTRY_SENT | local_address.LOCAL_ADDRESS_SENT | activity.ACTIVITYSENT;
+

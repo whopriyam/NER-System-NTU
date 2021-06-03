@@ -1,0 +1,30 @@
+{
+  "name": "online-asr-backend",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "NODE_ENV=development nodemon ./bin/www",
+    "start": "NODE_ENV=production node ./bin/www"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.3",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "ejs": "~2.5.7",
+    "express": "~4.16.0",
+    "http-errors": "~1.6.2",
+    "morgan": "~1.9.0",
+    "multer": "^1.4.2",
+    "socket.io": "^2.2.0",
+    "websocket": "^1.0.29"
+  },
+  "devDependencies": {
+    "eslint": "^6.3.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^9.2.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "nodemon": "^1.19.1"
+  }
+}

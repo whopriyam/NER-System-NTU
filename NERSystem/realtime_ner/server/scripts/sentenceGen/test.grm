@@ -1,0 +1,63 @@
+import 'numbers.grm' as numbers;
+import 'example.grm' as tk;
+
+
+numbers_to_999 = Optimize[numbers.numbers_to_100 | numbers.numbers_101_to_999_dig_by_dig];
+
+ADDRESS_OPEN_TAG = "<Address> ".utf8 ;
+ADDRESS_CLOSE_TAG = "</Address> ".utf8 ;
+
+
+BLOCK = "<Addr-Block> " ("Blk ": "block ") numbers_to_999 " </Addr-Block> ";
+BUILDING_NO = "<Addr-Building-Number> " numbers_to_999 " </Addr-Building-Number> ";
+
+
+STREETS = StringFile['resources/roads_and_streets.txt'];
+STREET_REWRITTEN = Optimize[STREETS @ tk.TOKENIZER];
+STREET_NAME = "<Addr-Street> " STREET_REWRITTEN " </Addr-Street> ";
+
+BUSINESS_NAME = StringFile['resources/venues-filtered.txt'] ;
+
+BUSINESS_REWRITTEN = Optimize[BUSINESS_NAME @ tk.TOKENIZER];
+
+BUILDING_NAME = " <Addr-Building-Name> " BUSINESS_REWRITTEN "</Addr-Building-Name> ";
+
+UNIT_NO = "<Addr-UnitNo> "  ("#" : "hash ") (("B" : "b ") | "") (numbers.units_with_zero | numbers.teens | ("20": "twenty")) (("-" : " " ) | ("-" : " dash " )) numbers.numbers_to_999 " </Addr-UnitNo> ";
+
+REGION = StringFile['resources/regions.txt'] ;
+
+REGION_REWRITTEN = Optimize[REGION @ tk.TOKENIZER];
+
+POSTALCODE = "<PostCode> " (("S" : "S ") | ("S" : "singapore post code ") | ("" : ""))  (numbers.units_with_zero_trailing_spaces numbers.units_with_zero_trailing_spaces numbers.units_with_zero_trailing_spaces numbers.units_with_zero_trailing_spaces numbers.units_with_zero_trailing_spaces numbers.units_with_zero_trailing_spaces) " </PostCode> ";
+
+AREA = "<Addr-Region> " (REGION_REWRITTEN)  " </Addr-Region> " ;
+
+LANDMARKS = "Cafes ".utf8 | "Restaurants ".utf8 | "Gyms ".utf8 | "Hospitals ".utf8 | "Schools ".utf8 | "Spas ".utf8 | "Malls ".utf8;
+EMERGENCY_TYPE = "Fire ".utf8 | "Accident ".utf8 | "Motor Accident ".utf8 | "Kidnapping ".utf8 | "Death ".utf8 | "Robbery ".utf8 | "Traffic ".utf8 | "EMS ".utf8;
+
+INJURY_TAG_OPEN = "<INJURY> ".utf8 ;
+INJURY_TAG_CLOSE = "</INJURY> ".utf8 ;
+INJURYLIST=("STAB".utf8 <0.0005>) |("HEARTATTACK".utf8 <0.0005>) |("BACK PAINS".utf8 <0.0005>) |("BACK INJURY".utf8 <0.0005>) |("DIABETIC EMERGENCY".utf8 <0.0005>) |("GAS-ODOR".utf8 <0.0005>) |("GASLEAK".utf8 <0.0005>) |("CARDIACEMERGENCY".utf8 <0.0005>) |("DIZZINESS".utf8 <0.0005>) |("HEADINJURY"..utf8 <0.0005>) |("NAUSEA".utf8 <0.0005>) |("VOMITING".utf8 <0.0005>) |("RESPIRATORYEMERGENCY".utf8 <0.0005>) |("SYNCOPALEPISODE".utf8 <0.0005>) |("VEHICLEACCIDENT".utf8 <0.0005>) |("DISABLEDVEHICLE".utf8 <0.0005>) |("APPLIANCEFIRE".utf8 <0.0005>) |("GENERALWEAKNESS".utf8 <0.0005>) |("CARBONMONOXIDEDETECTOR".utf8 <0.0005>) |("UNKNOWNMEDICALEMERGENCY".utf8 <0.0005>) |("UNRESPONSIVESUBJECT".utf8 <0.0005>) |("ALTEREDMENTALSTATUS".utf8 <0.0005>) |("FIREALARM".utf8 <0.0005>) |("CVA".utf8 <0.0005>) |("STROKE".utf8 <0.0005>) |("ROADOBSTRUCTION".utf8 <0.0005>) |("SUBJECTINPAIN".utf8 <0.0005>) |("HEMORRHAGING".utf8 <0.0005>) |("FALLVICTIM".utf8 <0.0005>) |("ASSAULTVICTIM".utf8 <0.0005>) |("SEIZURES".utf8 <0.0005>) |("MEDICALALERTALARM".utf8 <0.0005>) |("ABDOMINALPAINS".utf8 <0.0005>) |("PUMPDETAIL".utf8 <0.0005>) |("FIREINVESTIGATION".utf8 <0.0005>) |("OVERDOSE".utf8 <0.0005>) |("MATERNITY".utf8 <0.0005>) |("UNCONSCIOUSSUBJECT".utf8 <0.0005>) |("CHOKING".utf8 <0.0005>) |("LACERATIONS".utf8 <0.0005>) |("TRASHFIRE".utf8 <0.0005>) |("DUMPSTERFIRE".utf8 <0.0005>) |("UNKNOWNTYPEFIRE".utf8 <0.0005>) |("BUILDINGFIRE".utf8 <0.0005>) |("ELECTRICALFIREOUTSIDE".utf8 <0.0005>) |("DEBRISONHIGHWAY".utf8 <0.0005>) |("FLUIDSONHIGHWAY".utf8 <0.0005>) |("FEVER".utf8 <0.0005>) |("ALLERGICREACTION".utf8 <0.0005>) |("VEHICLELEAKINGFUEL".utf8 <0.0005>) |("FRACTURE".utf8 <0.0005>) |("BURNVICTIM".utf8 <0.0005>) |("RESCUEGENERAL".utf8 <0.0005>) |("WOODSFIRE".utf8 <0.0005>) |("FIELDFIRE".utf8 <0.0005>) |("FIRESPECIALSERVICE".utf8 <0.0005>) |("VEHICLE FIRE".utf8 <0.0005>) |("WARRANTSERVICE".utf8 <0.0005>) |("EMSSPECIALSERVICE".utf8 <0.0005>) |("HAZARDOUSROADCONDITIONS".utf8 <0.0005>) |("RESCUEELEVATOR".utf8 <0.0005>) |("DEHYDRATION".utf8 <0.0005>) |("SHOOTING".utf8 <0.0005>) |("POISONING".utf8 <0.0005>) |("TRANSFERREDCALL".utf8 <0.0005>) |("RESCUETECHNICAL".utf8 <0.0005>) |("VEHICLELEAKINGFUEL".utf8 <0.0005>) |("EYEINJURY".utf8 <0.0005>) |("ELECTROCUTION".utf8 <0.0005>) |("STABBING".utf8 <0.0005>) |("FIREPOLICENEEDED".utf8 <0.0005>) |("AMPUTATION".utf8 <0.0005>) |("ANIMALBITE".utf8 <0.0005>) |("HAZARDOUSMATERIALSINCIDENT".utf8 <0.0005>) |("TRAINCRASH".utf8 <0.0005>) |("RESCUEWATER".utf8 <0.0005>) |("CARDIACARREST.utf8 <0.0005>) |("PLANECRASH".utf8 <0.0005>) |("HEATEXHAUSTION".utf8 <0.0005>) |("ACTIVESHOOTER".utf8 <0.0005>) |("POLICEINFORMATION".utf8 <0.0005>) |("BOMBDEVICEFOUND".utf8 <0.0005>) |("INDUSTRIALACCIDENT".utf8 <0.0005>) |("DROWNING".utf8 <0.0005>) |("SUSPICIOUS".utf8 <0.0005>) |("ARMEDSUBJECT".utf8 <0.0005>) |("STANDBYFORANOTHERCO".utf8 <0.0005>) |("HITRUN".utf8 <0.0005>) |("SUICIDETHREAT".utf8 <0.0005>) |("ANIMALCOMPLAINT".utf8 <0.0005>) |("PRISONERINCUSTODY".utf8 <0.0005>) |("SUICIDEATTEMPT".utf8 <0.0005>) |("PUBLICSERVICE".utf8 <0.0005>) |("BOMBTHREAT".utf8 <0.0005>) |("ELEVATOREMERGENCY".utf8 <0.0005>) |("HAZARDOUSROADCONDITIONS".utf8 <0.0005>) |("FOOTPATROL".utf8 <0.0005>) |("ROADOBSTRUCTION".utf8 <0.0005>) |("BARRICADEDSUBJECT".utf8 <0.0005>);
+
+export PUBLIC_HOUSING = (BLOCK | "") STREET_NAME UNIT_NO POSTALCODE ("<Addr-city> Singapore </Addr-city>" | "");
+export OFFICE_BUILDING = BUILDING_NO BUILDING_NAME STREET_NAME UNIT_NO POSTALCODE ("<Addr-city> Singapore </Addr-city>" | "");
+export CONDOMIUM_RESIDENTIAL = BUILDING_NO STREET_NAME UNIT_NO POSTALCODE ("<Addr-city> Singapore </Addr-city>" | "");
+export LANDED_RESIDENTIAL  = (BUILDING_NO | "") STREET_NAME POSTALCODE ("<Addr-city> Singapore </Addr-city>" | "");
+export FACILITY = BUILDING_NAME BUILDING_NO STREET_NAME POSTALCODE ("<Addr-city> Singapore </Addr-city>" | "");
+
+export ADDRESS = (PUBLIC_HOUSING | OFFICE_BUILDING | CONDOMIUM_RESIDENTIAL | LANDED_RESIDENTIAL | FACILITY) ;
+
+# Colloquial English
+
+#export SHORTEST_ROUTE = "<O> Fetch me the shortest route to </O> " ADDRESS | "<O> Navigate To </O> " ADDRESS |  "<O> Show me the route To </O> " ADDRESS | "<O> My destination is </O> " ADDRESS | "<O> How to reach </O> " ADDRESS | "<O> Where is </O> " ADDRESS | "<O> I want to go to </O> " ADDRESS | "<O> Take me to </O> " ADDRESS | "<O> Show me how to reach </O> " ADDRESS | "<O> How do I reach </O> " ADDRESS | "<O> Let's go to </O> " ADDRESS;
+#export FIND_POI = "<O> Find " LANDMARKS " near </O> " ADDRESS | "<O> What are some " LANDMARKS " close to </O> " ADDRESS | "<O> Find " LANDMARKS " close to </O> " ADDRESS | "<O> What are some " LANDMARKS " near </O> " ADDRESS 
+| "<O> Find " LANDMARKS " around </O> " ADDRESS | "<O> I am looking for " LANDMARKS " near </O> " ADDRESS | "<O> Are there any " LANDMARKS " near </O> " ADDRESS;
+#export DELIVERY = "<O> I am at </O> " + ADDRESS | "<O> Deliver the package to </O> " + ADDRESS | "<O> Send the courier to </O> " + ADDRESS | "<O> I live at </O> " + ADDRESS | "<O> My address is </O> " + ADDRESS | "<O> Make the delivery at </O> " + ADDRESS | "<O> Can you deliver to </O> " + ADDRESS;
+export EMERGENCY = ("<O> " EMERGENCY_TYPE " reported at </O> " + ADDRESS) | ("<O> I want to report " EMERGENCY_TYPE  " at </O> " + ADDRESS) | ("<O> " EMERGENCY_TYPE  " occured at </O> " + ADDRESS);
+#export INJURY = "<O> Patient is having </O> " + INJURYLIST | "<O> Patient is diagnosed with </O> " + INJURYLIST | "<O> Person is having </O> " + INJURYLIST | "<O> Person is diagnosed with </O> " + INJURYLIST | "<O> He is having </O> " + INJURYLIST | "<O> He is diagnosed </O> " + INJURYLIST | "<O> She is having </O> " + INJURYLIST | "<O> She is diagnosed with </O> " + INJURYLIST
+
+export random_sentence = SHORTEST_ROUTE |
+                         FIND_POI |
+                         DELIVERY |
+                         EMERGENCY|
+                         INJURYLIST;

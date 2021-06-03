@@ -1,0 +1,2 @@
+model_archive_path:
+  ner: "models/model.tar.gz"

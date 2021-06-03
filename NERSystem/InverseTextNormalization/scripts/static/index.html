@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ITN</title>
+    <link rel="stylesheet" type="text/css" href="./css/index.css">
+
+</head>
+<body>
+<div class="form__group field">
+    <input type="input" class="form__field" placeholder="Name" name="name" id='name' required />
+    <label for="name" class="form__label">Sentence</label>
+    <button id="btn-annotate" class="btn-green">Annotate</button>
+
+    <div style="margin-top:20px; padding: 10px;">
+        <div id="outputB1" style="width:95%; color:white; display:none; text-align: center; border: 1px solid white;">
+            <h3>Annotated text</h3>
+            <pre id="annotated">
+
+            </pre>
+            <button id="btn-itn" class="btn-green">Inverse Normalise</button>
+        </div>
+    </div>
+
+</div>
+
+<script>
+    var endpt = new URL("../annotate", document.baseURI).href;
+    document.getElementById('btn-annotate').onclick = async function (event) {
+        event.preventDefault();
+        var inp_text = document.getElementById('name').value;
+        var body = JSON.stringify({
+            "text": inp_text,
+        });
+
+        fetch(endpt,{credentials:'same-origin',mode:'same-origin',method:"post",body:body})
+            .then(resp => {
+                if(resp.status==200){
+                    return resp.json()
+                }else{
+                    console.log("Status: "+resp.status);
+                    return Promise.reject("realtime_server")
+                }
+            })
+            .then(dataJson =>{
+                dataReceived = (dataJson);
+                document.getElementById("annotated").textContent = dataReceived["annotation"];
+                document.getElementById("outputB1").style.display = "block";
+                console.log(dataReceived["annotation"]);
+            })
+            .catch(err =>{
+                if(err=="realtime_server")return;
+                console.log(err);
+            })
+
+        console.log();
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+start: commands
+icao_alphabet : "ALPHA" | "BRAVO" | "CHARLIE" | "DELTA" | "ECHO" | "FOXTROT" | "GOLF" | "HOTEL" | "INDIA" | "JULIET" | "KILO" | "LIMA" | "MIKE" | "NOVEMBER" | "OSCAR" | "PAPA" | "QUEBEC" | "ROMEO" | "SIERRA" | "TANGO" | "UNIFORM" | "VICTOR" | "WHISKEY" | "XRAY" | "YANKEE" | "ZULU"
+one : "ONE"
+two : "TWO"
+three : "THREE"
+four : "FOUR"
+five : "FIVE"
+six : "SIX"
+seven : "SEVEN"
+eight : "EIGHT"
+nine : "NINE" | "NINER"
+zero  : "ZERO"
+digit : one | two | three | four | five | six | seven | eight | nine | zero
+left : "LEFT"
+right : "RIGHT"
+centre : "CENTER" | "CENTRE"
+airline_designator : ("SINGAPORE" ) | ("JET"  "STAR" "ASIA" ) | ("GO" "CAT" ) | ("SILK" "AIR" ) | ("RED" "CAP" ) | ("SCOOTER" ) | ("INDONESIA" ) | (("WAGON" | "UNION") "AIR" ) | ("CATHAY" ) | ("MALAYSIAN" ) | ("EMIRATES" ) | ("THAI" "ASIA" ) | ("CEBU" ) | ("LION" ) | ("QANTAS" ) | ("CHINA" "EASTERN" ) | ("MALINDO" ) | ("SING" "CARGO" ) | ("CHINA" ) | ("FIREFLY" ) | ("DYNASTY" ) | ("ALL" "NIPPON" ) | ("QATARI" ) | ("JET" "AIRWAYS" ) | ("VIET" "NAM" )
+callsign : airline_designator digit? digit? digit? digit?
+wx_wind_phrase : ("SURFACE")? "WIND" ("LIGHT" "AND" "VARIABLE" | "CALM" | digit digit zero ("KNOTS")? ("AT")? digit digit? "DEGREES"?)
+after_the_landing_ctl_phrase : ("AFTER" "THE" "LANDING") callsign
+runway_02l : ("RUNWAY")? zero two left
+runway_20r : ("RUNWAY")? two zero right
+runway_02c : ("RUNWAY")? zero two centre
+runway_20c : ("RUNWAY")? two zero centre
+runway_02r : ("RUNWAY")? zero two right
+runway_20l : ("RUNWAY")? two zero left
+expected_runway : runway_02l | runway_20r
+unexpected_runway : runway_02c | runway_20c
+probability_zero_runway : runway_02r | runway_20l
+airport_runway : (expected_runway ) | (unexpected_runway ) | (probability_zero_runway )
+ctl_prefix : ("YOU'RE" | "YOU" "ARE" | "AND")
+ctl_phrase : ctl_prefix? ("CLEARED" | "CLEAR") ("TO")? "LAND"
+luaw_suffix : "VIA" "WHISKEY"
+cft_phrase : ("CLEARED" | "CLEAR") ("FOR")? "TAKEOFF"
+luaw_phrase : ("LINE" "UP") ("BEHIND")? ("AND")? ("WAIT")?
+hold_short_phrase : "HOLD" "SHORT"
+cross_phrase : "CROSS"
+continue_approach_phrase : "CONTINUE" "APPROACH"
+ctl_clearance : (airport_runway wx_wind_phrase? ctl_phrase) | (ctl_phrase airport_runway) | (after_the_landing_ctl_phrase airport_runway ctl_phrase) | (airport_runway after_the_landing_ctl_phrase? ctl_phrase)
+cft_clearance : wx_wind_phrase? ((airport_runway cft_phrase) | (cft_phrase airport_runway))
+luaw_clearance : luaw_phrase airport_runway luaw_suffix?
+hold_short_clearance : hold_short_phrase ("OF")? (airport_runway)?
+cross_runway_clearance : cross_phrase airport_runway
+continue_approach_clearance : (airport_runway continue_approach_phrase) | (continue_approach_phrase airport_runway?)
+immediate_runway_use_clearance : ctl_clearance | cft_clearance | luaw_clearance | cross_runway_clearance
+non_immediate_runway_use_clearance : hold_short_clearance | continue_approach_clearance
+toc_sep : ("AT" |"ON")?
+ground_freq : ("ONE" "TWO" "FOUR" ("DECIMAL")? "THREE") | ("ONE" "TWO" "ONE" ("DECIMAL")? "EIGHT" ("FIVE")?) | ("ONE" "TWO" "ONE" ("DECIMAL")? "TWO" ("SEVEN")?)
+departure_freq : "ONE" "TWO" "ZERO" ("DECIMAL")? "THREE"
+approach_freq : "ONE" "TWO" "ZERO" ("DECIMAL")? "THREE"
+tower_freq : "ONE" "ONE" "EIGHT" ("DECIMAL")? "SIX"
+ground_toc_instruction : ("CONTACT" "GROUND" toc_sep ground_freq) | ("CONTACT" "SINGAPORE" "GROUND" toc_sep ground_freq)
+departure_toc_instruction : ("CONTACT" "DEPARTURE" toc_sep departure_freq) | ("CONTACT" "SINGAPORE" "DEPARTURE" toc_sep departure_freq)
+approach_toc_instruction : ("CONTACT" "APPROACH" toc_sep approach_freq) | ("CONTACT" "SINGAPORE" "APPROACH" toc_sep approach_freq)
+tower_toc_instruction : ("CONTACT" "TOWER" toc_sep tower_freq) | ("CONTACT" "SINGAPORE" "TOWER" toc_sep tower_freq)
+toc_instruction : (ground_toc_instruction ) | (departure_toc_instruction ) | (approach_toc_instruction ) | (tower_toc_instruction )
+taxi_instruction : "VACATE" "RUNWAY" | "VACATE" "WHISKEY" "ONE" | "VACATE" "WHISKEY" "TWO" | "VACATE" "WHISKEY" "THREE" | "VACATE" "WHISKEY" "FOUR" | "VACATE" "WHISKEY" "FIVE" | "VACATE" "WHISKEY" "SIX" | "VACATE" "WHISKEY" "SEVEN" | "VACATE" "WHISKEY" "EIGHT" | "VACATE" "WHISKEY" "NINE" | "VACATE" "WHISKEY" "TEN" | ("TAXI" "TO" "HOLDING" "POINT") | "VACATE" "ECHO" "ONE" | "VACATE" "ECHO" "TWO" | "VACATE" "ECHO" "THREE" | "VACATE" "ECHO" "FOUR" | "VACATE" "ECHO" "FIVE" | "VACATE" "ECHO" "SIX" | "VACATE" "ECHO" "SEVEN" | "VACATE" "ECHO" "EIGHT" | "VACATE" "ECHO" "NINE" | "VACATE" "ECHO" "TEN" | "VACATE" "ECHO" "ELEVEN" | "VACATE" "ECHO" "TWELVE" 
+lc_clearance : immediate_runway_use_clearance | non_immediate_runway_use_clearance
+atc_information : wx_wind_phrase
+commands : callsign (lc_clearance | (taxi_instruction ground_toc_instruction?) | toc_instruction  | taxi_instruction | atc_information)
+%import common.WS
+%ignore WS

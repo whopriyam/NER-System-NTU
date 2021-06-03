@@ -1,0 +1,110 @@
+[
+  {
+    "ner_name": "location_NER",
+    "ner_ws_endpoint": "ws://localhost:5000",
+    "examples": [
+      "I am at thirty Clementi Avenue five hash two dash eleven",
+      "I want to go to 11 Airport Road hash three dash seven hundred",
+      "Show me the route to Hyde Park gate Block 810",
+      "Accident reported at block eighteen Old Holland Road Hash zero dash four hundred sixty two seven three eight zero six",
+      "Let's go to nineteen playfair road hash eight dash eighteen"
+      
+    ]
+  },
+  {
+    "ner_name": "ATC",
+    "ner_ws_endpoint": "ws://localhost:5002",
+    "examples": [
+      "singapore four runway two zero right continue approach",
+      "runway two zero right continue approach singapore four",
+      "jet asia two four five vacate echo five contact singapore ground at one two one point eight",
+      "swissair three four five pushback approved",
+      "request pushback swissair three four five",
+      "singapore nine four two pushback completed confirm brakes set",
+      "ready to start up speedbird four two",
+      "speedbird four nine two decrease speed to two hundred knots and maintain speed",
+      "mayday mayday mayday hamburg airways two seven four",
+      "crystal-air four two three increase speed to four hundred knots",
+      "increase speed to four hundred knots cebu five four",
+      "ryanair six seven climb to four thousand feet and maintain flight level",
+      "singapore three eight six altimeter setting sea level pressure one zero eight six",
+      "far eastern eight three slot time one two three six ",
+      "cebu two zero two center wind seven nine zero three zero you are clear to land",
+      "red cap one three two clear to enter runway zero two center",
+      "malaysia one two three cancel take off clearance vehicle on runway three one right",
+      "air canada four three clear to backtrack runway one two left",
+      "air seoul four five cleared for takeoff",
+      "air ghana four three two taxi to holding area",
+      "wokair six four two cross runway two two right",
+      "indonesia nine two zero center after the landing firefly six zero and clear to land",
+      "indonesia nine two zero speak slower",
+      "air macao three six start up approved",
+      "indonesia nine two radar contact",
+      "california shuttle six contact hong kong departure at one two three decimal eight",
+      "musrata air four three contact tokyo tower one one eight point seven"
+    ]
+  },
+  {
+    "ner_name": "Emergency NER",
+    "ner_ws_endpoint": "ws://localhost:5001",
+    "examples": [
+      "I am at thirty Clementi Avenue five hash two dash eleven",
+      "I want to go to 11 Airport Road hash three dash seven hundred",
+      "Show me the route to Hyde Park gate Block 810",
+      "Accident reported at block eighteen Old Holland Road Hash zero dash four hundred sixty two seven three eight zero six",
+      "Let's go to nineteen playfair road hash eight dash eighteen",
+      "I believe his age is about ten year old",
+      "he has suffered from back injuries",
+      "there are five injured and three dead",
+      "person is having no movement",
+      "she is having contusions",
+      "person cannot respond",
+      "patient is diagnosed with intracranial injuries and injuries to internal organs",
+      "on the lower liagament",
+      "i am at blk 80 keat hong link #8-1 309135",
+      "person has servere allergic reaction",
+      "there is a vehicle roll over",
+      "ic number is g four five six four zero six four m",
+      "person has no difficulty breathing",
+      "person is having chest pain",
+      "person cannot feel his hands",
+      "chemical burns and corrosions on left pancres",
+      "he was found injured at six two zero kong hiap memorial museum yio chu kang gardens hash six eleven one five two five zeo one",
+      "he is having heat stroke",
+      "she have cov19",
+      "he is bleeding on his right arm",
+      "one to seven year",
+      "i believe her age is ten months old",
+      "person cannot breathe properly",
+      "person has a cut on his face",
+      "traumatic injuries to nerves on lower cartilage",
+      "patient is diagnosed with electrocutions",
+      "the person is alert"
+    ]
+  },
+  {
+    "ner_name": "Police report NER",
+    "ner_ws_endpoint": "ws://localhost:5003",
+    "examples": [
+      "he is wearing a green hat with a blue shirt",
+      "Fire occured at Oakwood Grove nineteen Kovan Road seven three seven three eight three ",
+      "unlicensed moneylending reported at eight chiselhurst grove hash eighteen dash fifteen three eight one nine seven zero   ",
+      "I want to report sex assault at nineteen waterway point chun tin road hash thirteen dash fifteen four four zero three eight seven Singapore ",
+      "she cut me",
+      "it was a girl with a knife",
+      "i just found my father murdered",
+      "he was assulted and murdered",
+      "Woodlands block seven one three two men have are trying to break into my house",
+      "yes one is in a red jumpsuit the other is in a blue white hoodie",
+      "there is somebody trying to get into my house",
+      "i was raped",
+      "They broke my door",
+      "He has been shot in the head",
+      "she was holding a gun",
+      "i am holding two guns",
+      "she shot my children in the head",
+      "there are two men trying to break into my house"
+    ]
+  }
+
+]

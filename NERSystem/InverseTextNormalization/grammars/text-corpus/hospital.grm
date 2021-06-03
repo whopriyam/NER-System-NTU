@@ -1,0 +1,90 @@
+import 'example.grm' as tk;
+import 'exclamation.grm' as exclamation;
+import 'designation.grm' as designation;
+
+FIRST_NAMES = StringFile['resources/names/chinesefirstnames.txt'];
+FIRST_NAMES_REWRITTEN = Optimize[FIRST_NAMES @ tk.TOKENIZER];
+FIRST_NAME = " <first-name>" FIRST_NAMES_REWRITTEN "</first-name> ";
+
+LAST_NAMES = StringFile['resources/names/chineselastnames.txt'];
+LAST_NAMES_REWRITTEN = Optimize[LAST_NAMES @ tk.TOKENIZER];
+LAST_NAME = " <last-name>" LAST_NAMES_REWRITTEN "</last-name> ";
+
+DEPARTMENTS= StringFile['resources/department.txt'];
+DEPARTMENT_REWRITTEN = Optimize[DEPARTMENTS @ tk.TOKENIZER];
+DEPARTMENT= " <department> "  DEPARTMENT_REWRITTEN  " </department>  ";
+
+
+EXCLAMATION = " <exclamation>" exclamation.EXCLAMATION "</exclamation> ";
+DESIGNATION = " <designation>"  designation.DESIGNATION  "</designation> ";
+
+
+export DEPARTMENTSENT =    ("<O> You just put me to </O>"  DEPARTMENT "<O> other day reservation </O>") |
+												("<O> Can you put me to </O> "  DEPARTMENT  "<O> for inquiry. </O>") |
+												("<O> I want to inquire about </O>" DEPARTMENT "<O> for reservation. </O>") |
+												("<O> Looking for </O>" DEPARTMENT "<O> room </O>") |
+												("<O> Looking for </O>" DEPARTMENT ) |
+												("<O> Can i ask what is the number to </O>" DEPARTMENT) |
+												("<O> Can i ask what is the number to </O>" DEPARTMENT )|
+												("<O> On call the </O>" DESIGNATION "<O> regarding </O>" DEPARTMENT) |
+												("<O> Can i talk to </O>" DESIGNATION "<O> from </O>" DEPARTMENT)|
+												(EXCLAMATION "<O> Can i talk to </O>" DESIGNATION "<O> from </O>" DEPARTMENT )|
+												("<O> Get me </O>" DEPARTMENT )|
+												("<O> Can you transfer me to </O>" DEPARTMENT ) |
+												("<O> I need to reach </O>" DEPARTMENT )|
+												("<O> Do you have the number for </O>" DEPARTMENT )|
+												("<O> The best timing to call </O>" DESIGNATION "<O> at </O>" DEPARTMENT )|
+												("<O> I cannot seem to reach </O>" DEPARTMENT )|
+												(EXCLAMATION "<O> calling from </O>" DEPARTMENT "<O> can you help me connect to </O>" DEPARTMENT )|
+												("<O> Can I have </O>" DEPARTMENT "<O> centre booking </O>") |
+												(DEPARTMENT "<O> on call </O>") |
+												("<O> Can I have </O>" DEPARTMENT )|
+												("<O> Can I have </O>" DEPARTMENT DESIGNATION )|
+												("<O> I wish to talk to </O>" DEPARTMENT "<O> on call </O>") |
+												(EXCLAMATION "<O> Looking for </O>" DEPARTMENT "<O> on call </O>") |
+												("<O> Trying to reach </O>" DEPARTMENT )|
+												("<O> Are you able to give me the number for </O>" DEPARTMENT )|
+												(EXCLAMATION "<O> what is the number to </O>" DEPARTMENT "<O> on call again </O>") |
+												(EXCLAMATION "<O>  what is the number to </O>"DEPARTMENT DESIGNATION "<O> on call again </O>") |
+												(EXCLAMATION "<O> what is the number to </O>" DEPARTMENT )|
+												(EXCLAMATION "<O> what is the number to </O>" DEPARTMENT DESIGNATION)|
+												("<O> Give me the number to </O>" DEPARTMENT )|
+												("<O> Connect me to DESIGNATION of </O>" DEPARTMENT )|
+												("<O> Connect me to </O>" DEPARTMENT "<O> on call </O>") |
+												(DEPARTMENT DESIGNATION)|
+												(DESIGNATION "<O> of </O>" DEPARTMENT)|
+												(EXCLAMATION DEPARTMENT DESIGNATION )|
+												("<O> Could you connect me to </O>" DEPARTMENT )|
+												("<O> Could you connect me to </O>" DEPARTMENT "<O> on call </O>") |
+												("<O> Get me </O>" DEPARTMENT DESIGNATION)|
+												("<O> Can you call  </O>" DEPARTMENT )|
+												("<O> Can you book me to </O>" DEPARTMENT )|
+												(EXCLAMATION EXCLAMATION "<O> my name is </O>" FIRST_NAME LAST_NAME "<O> calling for </O>" DEPARTMENT )|
+												(EXCLAMATION EXCLAMATION "<O> my name is </O>" FIRST_NAME LAST_NAME "<O> calling for </O>" DESIGNATION DEPARTMENT )|
+												("<O> Want to speak to  </O>" DEPARTMENT "<O> on call </O>") |
+												("<O> They gave me the wrong number for </O>" DEPARTMENT DESIGNATION )|
+												("<O> They gave me the wrong number for </O>" DEPARTMENT )|
+												("<O> Can you put my call to </O>" DEPARTMENT )|
+												("<O> Clarify about the timings of </O>" DEPARTMENT )|
+												("<O> How to reach </O>" DEPARTMENT )|
+												("<O> How to reach </O>" DEPARTMENT DESIGNATION )|
+												(DEPARTMENT "<O> on the line </O>") |
+												("<O> So the number to </O>" DEPARTMENT )|
+												("<O> Which number to reach out to </O>" DEPARTMENT )|
+												("<O> Which number to reach out to </O>" DEPARTMENT DESIGNATION )|
+												("<O> The number to </O>" DEPARTMENT )|
+												("<O> Trying to reach </O>" DEPARTMENT )|
+												(EXCLAMATION "<O> Trying to reach </O>" DEPARTMENT );
+												
+												
+												
+												
+												
+
+
+
+
+
+
+
+

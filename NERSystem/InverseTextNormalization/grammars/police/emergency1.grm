@@ -1,0 +1,36 @@
+import 'emergencynoun.grm' as emergencytypenoun;
+import 'emergencytypev.grm' as emergencytypev;
+import 'dead.grm' as dead;
+import 'yes-no-confirmation.grm' as confirmation;
+import 'address.grm' as address;
+import 'commonppl.grm' as commonppl;
+import 'pronoun.grm' as pronoun;
+
+EMERGENCY_TYPENOUN = " <EMERGENCY> " emergencytypenoun.EMERGENCYTYPENOUN" </EMERGENCY> ";
+EMERGENCYTYPEVERB = " <EMERGENCY> " emergencytypev.EMERGENCYTYPEV " </EMERGENCY> ";
+EMERGENCY_TYPE = " <EMERGENCY> " emergencytypenoun.EMERGENCYTYPE" </EMERGENCY> ";
+
+DEAD = dead.DEATH;
+INJURYCOUNT = dead.INJURYCOUNT;
+
+YES_CONFIRMATION = confirmation.YES_CONFIRMATION;
+NO_CONFIRMATION = confirmation.NO_CONFIRMATION;
+
+
+
+export EMERGENCYSEN = (EMERGENCY_TYPENOUN " <O> reported at </O> " address.ADDRESS) | 
+											("<O> I want to report </O> " EMERGENCY_TYPENOUN  " <O> at </O> "  address.ADDRESS) | 
+											( EMERGENCY_TYPENOUN  " <O> occured at </O> " address.ADDRESS ) | 
+											(EMERGENCY_TYPENOUN "<O> at </O> "address.ADDRESS ) |
+											(" <O> Help someone </O>" EMERGENCY_TYPENOUN "<O> me </O>" ) | 
+											("<O> there is a </O> " EMERGENCYTYPEVERB "<O> at </O>" address.ADDRESS)|
+											( "<O> there are people trying to </O> " EMERGENCYTYPEVERB  " <O> at </O> " +address.ADDRESS + " <O> please send help </O> " )|
+											("<O> help me i am being </O>" EMERGENCYTYPEVERB) | ("<O> help there is a</O>" EMERGENCY_TYPENOUN)| 
+											("<O>there have been a </O>" EMERGENCY_TYPENOUN "<O> at </O> " address.ADDRESS)| 
+											(pronoun.PRONOUN" <O> was </O>" EMERGENCY_TYPENOUN) | 
+											(pronoun.PRONOUN "<O> was </O>" EMERGENCYTYPEVERB) |
+											( address.ADDRESS "<O> two men is trying to </O> " EMERGENCYTYPEVERB )| 
+											("<O> help there is a" commonppl.COMMONPPL " who was <O> "EMERGENCY_TYPENOUN) ;
+
+
+

@@ -1,0 +1,2 @@
+model_archive_path:
+  ner: "scripts/models/ner_experiment/model.tar.gz"

@@ -1,0 +1,23 @@
+
+
+export EMERGENCYTYPENOUN = Optimize[" fire ".utf8 | " accident ".utf8 | " motor accident ".utf8 | " kidnap ".utf8 | 
+																	" death ".utf8 | " robbery ".utf8 | " traffic ".utf8 | " ems ".utf8 | " assault ".utf8 |" burglary ".utf8 |
+																	" disturbance ".utf8 |" property damage ".utf8 |" animal complaint ".utf8 |" suspicious ".utf8 | " sexual assault ".utf8 |
+																	" damage ".utf8 |" scam ".utf8 |" welfare check ".utf8 |" stab ".utf8 | " murder ".utf8 | " hit and run ".utf8 |
+																	" child abuse ".utf8 |" theft ".utf8 |" assist ".utf8 |" tresspass ".utf8 |" outrage of modesty ".utf8 |" fraud ".utf8 |
+																	" recovered stolen prop ".utf8 |" domestic abuse ".utf8 |" loud noises ".utf8 | " disturbing activities ".utf8 |" rob ".utf8 | 
+																	" found ".utf8 | " ah long ".utf8 | " scary looking ".utf8 | " unlicensed moneylending ".utf8 | " vandalism ".utf8| " paint ".utf8 | 
+																	" molested ".utf8 |" molest ".utf8 | " broke in ".utf8 |" broke ".utf8 | " break ".utf8 | " stolen ".utf8 | " riot ".utf8 | " fight ".utf8 | 
+																	" argue ".utf8| " hit ".utf8 | " bang ".utf8| " attack ".utf8 | " punch ".utf8 | " kick ".utf8 | " cheat ".utf8 | " push ".utf8| " hurt ".utf8 | 
+																	" mean ".utf8 |  " shoot ".utf8 | " dead ".utf8 | " intoxication ".utf8 | " violence ".utf8 | " passed ".utf8 | " abduction ".utf8 | " cut ".utf8 | " rape ".utf8 | " harassment ".utf8];
+
+
+
+export EMERGENCYTYPE = Optimize[ " fire ".utf8 | " accident ".utf8 | " motor accident ".utf8 | " kidnapping ".utf8 | " death ".utf8 | " robbery ".utf8 | " traffic ".utf8 | " ems ".utf8  | 
+															" assault ".utf8 |" burglary ".utf8 |" disturbance  ".utf8 |" property damage ".utf8 |" animal complaint ".utf8 |" suspicious ".utf8 | " sexual assault ".utf8 | " property damage ".utf8 |" scam ".utf8 |
+															" welfare Check ".utf8 |" stab ".utf8 | " murder ".utf8 | " hit and run ".utf8 |" child abuse ".utf8 |" theft ".utf8 |" assist ".utf8 |" tresspassing ".utf8 |" outrage of modesty ".utf8 |" fraud ".utf8 |
+															" recovered stolen prop ".utf8 |" domestic abuse  ".utf8 |" loud noises ".utf8 | " disturbing activities ".utf8 |" rob ".utf8 | " found  ".utf8 | " ah long ".utf8 | " scary looking ".utf8 |
+															 " unlicensed moneylending ".utf8 |  " vandalise ".utf8| " vandalising ".utf8 | " painted ".utf8 |" paint ".utf8 | " molested ".utf8 |" molest ".utf8 | " broke in ".utf8 |" broke ".utf8 | 
+															 " break ".utf8 | " stole ".utf8 | " rioting ".utf8 | " fighting ".utf8 |  " arguing ".utf8|  " hitting ".utf8 |  " banging ".utf8| " attack ".utf8 | " punch ".utf8 | " kick ".utf8 | " cheat ".utf8 | 
+															 " push ".utf8|  " hurting ".utf8 |  " harassing ".utf8 |  " mean ".utf8 |  " shot ".utf8 |  " shooting ".utf8 |  " dead ".utf8 |  " intoxication ".utf8 |  " violence ".utf8 | " passed ".utf8 |  
+															 " abducted ".utf8 |  " knifed ".utf8 | " cut ".utf8 | " arguing ".utf8 |  " rape ".utf8] ;

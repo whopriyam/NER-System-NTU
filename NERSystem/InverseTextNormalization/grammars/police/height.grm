@@ -1,0 +1,5 @@
+import 'numbers.grm' as numbers;
+
+export HEIGHT =Optimize[" <CHARATERISTIC> "(  numbers_to_999 " cm ".utf8 | numbers.units_with_zero_trailing_spaces numbers.units_with_zero_trailing_spaces " ft ".utf8 |
+									numbers.units_with_zero_trailing_spaces numbers.units_with_zero_trailing_spaces " feet ".utf8 | 
+									numbers.units_with_zero_trailing_spaces " feet ".utf8 numbers.units_with_zero_trailing_spaces " inch ".utf8 | numbers.numbers_to_999 " inches ".utf8 ) " </CHARATERISTIC> "];

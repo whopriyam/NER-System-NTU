@@ -1,0 +1,78 @@
+Downtown Core
+Marina Bay
+Marina Centre
+Raffles Place
+Tanjong Pagar
+Outram
+Sentosa
+Rochor
+Orchard
+Newton
+River Valley
+Bukit Timah
+Holland Road
+Tanglin
+Novena
+Thomson
+Bishan
+Bukit Merah
+Geylang
+Kallang
+Marine Parade
+Queenstown
+Southern Islands
+Toa Payoh
+Central Water Catchment
+Lim Chu Kang
+Mandai
+Sembawang
+Simpang
+Sungei Kadut
+Woodlands
+Yishun
+Ang Mo Kio
+Hougang
+North-Eastern Islands
+Punggol
+Seletar
+Sengkang
+Sengkang New Town
+Rivervale
+Buangkok
+Anchorvale
+Fernvale
+Kayu
+Jalan
+Compassvale
+Serangoon
+Bedok
+Changi
+Changi Bay
+Paya Lebar
+Pasir Ris
+Tampines
+Bukit Batok
+Bukit Panjang
+Boon Lay
+Pioneer
+Choa Chu Kang
+Clementi
+Jurong East
+Jurong West
+Tengah
+Tuas
+Western Islands
+Western Water Catchment
+Benoi
+Ghim Moh
+Gul
+Pandan Gardens
+Jurong Island
+Kent Ridge
+Nanyang
+Pioneer
+Pasir Laba
+Teban Gardens
+Toh Tuck
+Tuas South
+West Coast

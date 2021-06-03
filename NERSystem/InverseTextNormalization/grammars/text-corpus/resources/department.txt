@@ -1,0 +1,199 @@
+mammogram examination
+X-ray
+Cardiology
+Electrocardiogram 
+ECG
+Echocardiogram
+Cardiac catheterisation 
+coronary angiography
+MRI scan
+Myocardial perfusion scan
+Radionuclide tests.
+radiotherapy
+Chaplaincy
+Critical care
+intensive care
+Diagnostic imaging
+General radiography 
+X-ray scan
+Scans for A&E
+Mammography 
+breast scan
+Ultrasound scan
+Angiography 
+Interventional radiology 
+CT scan
+Discharge lounge
+Elderly services department
+geriatric medicine
+elderly services department 
+Gastroenterology
+Diabetes
+Gastroenterology
+endoscopy 
+nutritional services
+colorectal surgery
+gastroenterology unit 
+General surgery
+general surgery ward 
+Day surgery
+Thyroid surgery
+Kidney transplants
+Colon surgery
+Endoscopy
+Breast surgery
+Gynaecology
+endometritis
+infertility department
+Gynaecology department
+specialist ward
+Day surgery unit
+Emergency gynaecology assessment unit
+Outpatient clinics
+Haematology
+hospital laboratory
+Maternity department
+antenatal care
+birth care department
+postnatal support
+Antenatal clinics 
+High-dependency unit
+Microbiology
+The microbiology department 
+Neonatal unit
+Nephrology
+Nephrologists 
+kidney specialists
+Neurology
+paediatric neurologists
+Epilepsy multiple sclerosis
+Nutrition and dietetics
+outpatient clinics
+The nutrition and dietetics department 
+Diabetes
+Cancer
+Paediatrics
+Elderly care centre
+Surgery and critical care centre
+Gastroenterology
+Obstetrics and gynaecology unit 
+Antenatal and postnatal care centre
+Prenatal diagnosis unit
+Maternal and foetal surveillance
+General inpatient and outpatient treatment
+Psychosexual counselling
+miscarriage unit
+Early pregnancy unit
+Occupational therapy
+Oncology
+chemotherapy 
+Ophthalmology 
+General eye clinic appointments
+Laser treatments
+Optometry 
+sight testing
+Orthoptics 
+Prosthetic eye services
+Ophthalmic imaging 
+eye scans
+Orthopaedics 
+Pain management clinics
+Pharmacy
+Physiotherapy
+physiotherapy department 
+rehabilitation unit
+Radiotherapy
+Radiotherapists
+radiotherapy 
+Renal unit
+nephrology 
+Rheumatology
+rheumatologists 
+Sexual health 
+genitourinary medicine
+sexual health department 
+STI
+Family planning care 
+Urology
+urology department 
+stomatology
+child psychiatry
+child psychiatry
+paediatric surgery
+child surgery
+paediatric gynaecology
+paediatric cardiology
+paediatric oncology
+Endocrinology
+Gastroenterology
+Pulmonology
+Oncology
+Gynaecologic oncology
+Immunology
+Neurology
+Oto-rhino-laringology
+Microbiology
+bacteriology 
+Haematology
+Dermatology
+Pathology
+epidemiology
+Orthopaedic
+Ophthalmology
+Urology
+nephrology
+Anaesthesiology
+endoscopy
+MRI
+MEMC
+Maternity wards
+Accident and emergency 
+A&E
+Casualty
+minor injuries area 
+Anaesthetic
+Ear nose and throat 
+ENT
+ENT department
+booking office
+laboratory 
+parkway service
+laboratory parkway service
+dialysis centre
+store keeper
+laboratory client service
+A and E emergency room
+blood bank
+nursing administration
+radiation oncology center 
+reception
+radiation oncology center reception
+administration
+laboratory operation
+radiology clinical
+EEG
+ESWL room
+parkway cancer centre
+OT
+OT room
+Operating Theatre
+customer service counter
+ICU pharmacy
+ICU
+Intensive care
+Dental surgery
+Oral surgery
+maxillofacial surgery
+health screening reception
+accident and emergency consultation
+assessment medicine
+General surgery
+Neurological surgery
+Plastic surgery
+Adult and geronto psychiatry
+addictive disorders psychiatry
+Social psychiatry
+Psychiatric rehabilitation
+Psychiatry
+Neuropsychiatry
+echo room

@@ -1,0 +1,12 @@
+import 'example.grm' as tk;
+import 'exclamation.grm' as exclamation;
+
+
+HOSPITAL_NAMES = StringFile['resources/singaporehospitals.txt'];
+HOSP_NAMES_REWRITTEN = Optimize[HOSPITAL_NAMES @ tk.TOKENIZER];
+HOSP_NAME = " <hosp-name>" HOSP_NAMES_REWRITTEN "</hosp-name>";
+
+EXCLAMATION = " <exclamation>" exclamation.EXCLAMATION "</exclamation> ";
+
+export HOSPITAL_NAME = (EXCLAMATION HOSP_NAME "<O> how can I help you </O>") | 
+												(EXCLAMATION "<O> Is this </O>" HOSP_NAME ) ;

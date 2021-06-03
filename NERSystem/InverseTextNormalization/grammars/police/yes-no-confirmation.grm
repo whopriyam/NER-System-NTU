@@ -1,0 +1,5 @@
+export YES_CONFIRMATION = Optimize[" yes ".utf8 | " correct ".utf8 | " right ".utf8 | " okay yeah ".utf8 | " understood ".utf8 | " alright ".utf8 | " got ".utf8 | " okay ".utf8 | " alright ".utf8 | " yeah yeah ".utf8 | " lah ".utf8 | " think so ".utf8];
+
+
+
+export NO_CONFIRMATION = Optimize[" no ".utf8 | " incorrect ".utf8 | " not right ".utf8 | " i dont know ".utf8 | " i am not sure ".utf8 | " not sure ".utf8 | " doesnt have ".utf8 | " does not ".utf8];

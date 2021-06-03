@@ -1,0 +1,11 @@
+import 'numbers.grm' as numbers;
+
+export TIME = Optimize[" hours ".utf8 | " mins ".utf8 | " seconds ".utf8 ];
+export YEAR= Optimize[" years ".utf8 | " months ".utf8];
+
+
+export TIMEFRAME = Optimize[" <DURATION> " ((numbers.units_with_zero_trailing_spaces " to ".utf8 numbers.units_with_zero_trailing_spaces YEAR ) | (numbers.units_with_zero_trailing_spaces YEAR )| (numbers.units_with_zero_trailing_spaces TIME ) | 
+(numbers.units_with_zero_trailing_spaces " to ".utf8 numbers.units_with_zero_trailing_spaces (TIME) )  )" </DURATION> "];
+
+
+export TIMESEN =" <O> this is the </O> " TIMEFRAME | TIMEFRAME;

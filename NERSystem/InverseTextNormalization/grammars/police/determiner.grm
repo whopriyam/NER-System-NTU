@@ -1,0 +1,1 @@
+DETERMINER =   " one ".utf8  |" many ".utf8 | " some ".utf8| " my ".utf8 | " that ".utf8| " the ".utf8; 

@@ -1,0 +1,8 @@
+
+import 'numbers.grm' as numbers;
+
+export DEATH= Optimize[" dead ".utf8 | " injured ".utf8];
+
+export INJURYOUT= " <COUNT> "( ((numbers.units_with_zero | numbers.teens) DEATH )) " </COUNT> ";
+
+export INJURYCOUNT = (" <O> there are </O> "  INJURYOUT  " <O> and </O> " INJURYOUT) | (INJURYOUT  " <O> and </O> " INJURYOUT ) | (" <O> there are </O> " INJURYOUT ) | (" <O> there are </O> "  INJURYOUT  INJURYOUT);

@@ -1,0 +1,8 @@
+import 'hospital.grm' as hospital;
+import 'contact_person_sentences.grm' as contact;
+import 'hospital_name_sent.grm' as hospname;
+
+export random_sentence = hospital.DEPARTMENTSENT | contact.CONTACTPERSONSENT | hospname.HOSPITAL_NAME;
+
+
+

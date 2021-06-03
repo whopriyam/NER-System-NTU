@@ -1,0 +1,1 @@
+export SENIORITY = Optimize["senior".utf8 | "junior".utf8];

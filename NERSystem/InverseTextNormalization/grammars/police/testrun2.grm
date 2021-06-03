@@ -1,0 +1,20 @@
+import 'emergency1.grm' as emergency1;
+import 'address.grm' as address;
+import 'characteristics.grm' as characteristics;
+import 'incident.grm' as incident;
+import 'ages.grm' as ages;
+import 'phoneno.grm' as phoneno;
+import 'icno.grm' as icno;
+import 'time.grm' as time;
+
+
+export random_sentence = emergency1.EMERGENCYSEN |address.ADDRESS;
+#export random_sentence = characteristics.WITNESS | incident.WEAPONEX | ages.AGESEXAMPLE;
+#export random_sentence = emergency1.EMERGENCYSEN| address.ADDRESS;
+#export random_sentence = incident.WEAPONEX|ages.AGESEXAMPLE|characteristics.WITNESS|characteristics.OVERALL;
+#export random_sentence = phoneno.PHONENUMBER | ages.AGESEXAMPLE | icno.ICSENTENCT | INJURYS | time.TIMESEN | emergency1.INJURYCOUNT | incident.STATUSES | incident.CONDITIONS
+
+
+#
+
+#characteristics.OVERALL |  2nd

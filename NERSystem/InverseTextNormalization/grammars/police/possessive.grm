@@ -1,0 +1,1 @@
+POSSESSIVE = " my ".utf8  |" your ".utf8 |" his ".utf8  |" her ".utf8  |" its ".utf8| " our ".utf8  |" their ".utf8|" whose ".utf8 ;

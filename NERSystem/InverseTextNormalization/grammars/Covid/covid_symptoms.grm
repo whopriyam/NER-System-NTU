@@ -1,0 +1,117 @@
+import 'example.grm' as tk;
+import 'exclamation.grm' as exclamation;
+import 'numbers.grm' as numbers;
+
+FIRST_NAMES = StringFile['txt_resource_files/chinesefirstnames.txt'];
+FIRST_NAMES_REWRITTEN = Optimize[FIRST_NAMES @ tk.TOKENIZER];
+FIRST_NAME = FIRST_NAMES_REWRITTEN;
+
+LAST_NAMES = StringFile['txt_resource_files/chineselastnames.txt'];
+LAST_NAMES_REWRITTEN = Optimize[LAST_NAMES @ tk.TOKENIZER];
+LAST_NAME = LAST_NAMES_REWRITTEN;
+
+SYMPTOMS= StringFile['txt_resource_files/symptom.txt'];
+SYMPTOM_REWRITTEN = Optimize[SYMPTOMS @ tk.TOKENIZER];
+SYMPTOM=  SYMPTOM_REWRITTEN;
+
+EXCLAMATION = exclamation.EXCLAMATION;
+
+
+
+
+export SYMPTOMSENT =  ("Do you have "  SYMPTOM ) |
+												("Did you have "  SYMPTOM ) |
+												("Do you have any Covid symptoms like "  SYMPTOM " and " SYMPTOM ) |
+												("Are you sure you have "  SYMPTOM ) |
+												
+												("I have "  SYMPTOM "and " SYMPTOM) |
+												("I have recently developed "  SYMPTOM ) |
+												("I have developed "  SYMPTOM ) |
+												("I developed "  SYMPTOM ) |
+												("I have come down with the symtom of "  SYMPTOM ) |
+												("I have come down with the symptoms of "  SYMPTOM " and " SYMPTOM ) |
+												("I am feeling sick because of "  SYMPTOM ) |
+												("I am worried because I recently developed "  SYMPTOM " and I think I might have Covid ") |
+												
+												("Have you had "  SYMPTOM " since yesterday " ) |
+												("Have you had "  SYMPTOM "or " SYMPTOM " since yesterday " ) |
+												
+												("I have been having "  SYMPTOM " since yesterday ") |
+												("I have been having "  SYMPTOM " since last night ") |
+												("I have been having "  SYMPTOM " for a few hours  ") |
+												
+												("Have you had "  SYMPTOM " since this morning " ) |
+												("I have been having "  SYMPTOM " since this morning ") |
+												
+												("Since when do you have "  SYMPTOM ) |
+												("Since when do you have "  SYMPTOM " and " SYMPTOM ) |
+												("When did you start having "  SYMPTOM ) |
+												("When did you develop "  SYMPTOM " and " SYMPTOM ) |
+												("When did you develop "  SYMPTOM ) |
+												("When did you have "  SYMPTOM ) |
+												("When did you start having "  SYMPTOM " and " SYMPTOM ) |
+												("How long have you been suffering from "  SYMPTOM ) |
+												("How long have you been suffering from "  SYMPTOM " and " SYMPTOM ) |
+												("Since last night, I've been down with "  SYMPTOM ) |
+												("Since yesterday, I've been down with "  SYMPTOM ) |
+												
+												("I have had "  SYMPTOM " for the past few days ") |
+												("I have had "  SYMPTOM " for quite some time now ") |
+												("Is "  SYMPTOM " a symptom of Covid because I think I might be have it ") |
+												("I think I should get a Covid test done because I have a "  SYMPTOM ) |
+												("I think I should get a Covid test done because I have symptoms like  "  SYMPTOM " and " SYMPTOM) |
+												(EXCLAMATION " Can you recommend me a good doctor, I think I have " SYMPTOM ) |
+												(EXCLAMATION " Can you recommend me a good doctor, I have " SYMPTOM " and think that I might have Covid" ) |
+												("I have "  SYMPTOM " what are the chances that I actually have Covid ") |
+												
+												("Have you contacted any doctor regarding your " SYMPTOM ) |
+												("Have you asked any doctor about your " SYMPTOM ) |
+												
+												("I think I should contact a doctor because I have been having " SYMPTOM " for quite some time now ") |
+												
+												("Have you met anyone since you started suffering from "  SYMPTOM ) |
+												("Have you met anyone since you started having "  SYMPTOM ) |
+												("Have you contacted anyone since you started suffering from "  SYMPTOM ) |
+												("Have you contacted anyone since you started having "  SYMPTOM ) |
+												
+												("I am not meeting people right now ever since I got "  SYMPTOM " which might be indicative of Covid ") |
+												("I did not meet " FIRST_NAME " " LAST_NAME " yesterday because I have "  SYMPTOM " which might be indicative of Covid ") |
+												("Is your "  SYMPTOM " severe " ) |
+												("Is your "  SYMPTOM " really bad " ) |
+												
+												("Yes I think I have severe "  SYMPTOM ) |
+												("Yes I think my "  SYMPTOM " is quite severe " ) |
+												("Yes I think my "  SYMPTOM " is very serious " ) |
+												
+												
+
+
+												
+
+
+												("What were you doing") |
+												("What were you doing there") |
+												("What were you travelling ") |
+												("Why were you roaming outside your house")
+												("Why had you gone there") |
+
+												("I had gone to meet my parents") |
+												("I had gone to meet my cousins") |
+												("I had gone to meet my brother") |
+												("I had gone to meet my sister") |
+												("I had gone to meet my friends") |
+												("I had gone to meet my friend " FIRST_NAME " " LAST_NAME) |
+												("I had gone to see the doctor") |
+												("I went for a health checkup") |
+
+												("I had gone to the bank") |
+												("I had gone to withdraw some money from the ATM") |
+												("I had gone to work") |
+												("I had gone for some personal reason") |
+												("I had gone to deliver groceries to my parents' house") |
+												("I had gone to buy groceries") |
+												("I had gone to buy food") |
+												("I had gone to buy some house supplies") |
+												("I had gone out to get some medicine") |
+												("I had gone to get vaccinated") |
+												("I went to get the vaccine");

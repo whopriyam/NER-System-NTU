@@ -1,0 +1,16 @@
+import 'preposition.grm' as preposition;
+import 'propersition.grm' as propersition;
+import 'possessive.grm' as possessive;
+import 'demostrative.grm' as demostrative;
+import 'pronoun.grm' as pronoun;
+import 'quantifier.grm' as quantifier;
+import determiner.grm' as determiner;
+import 'conjuction.grm' as conjuction;
+import 'helpingverb.grm' as helpingverb; 
+import 'timeverb.grm' as timeverb;
+import 'interrogativeadjective.grm' as interrogativeadjective;
+#import 'coordinatingconjuction.grm' as coordinatingconjuction;
+import 'linkingverb.grm' as linkingverb;
+
+
+

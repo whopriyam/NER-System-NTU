@@ -1,0 +1,1 @@
+export DESIGNATION = Optimize[ "head".utf8 | "chief".utf8 | "president".utf8 | "deputy".utf8 | "secretary".utf8 | "VP".utf8 | "consultant".utf8 ];

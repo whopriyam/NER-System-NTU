@@ -1,0 +1,5 @@
+import 'numbers.grm' as numbers;
+export PHONE_NO= Optimize[" <PHONENO> "(numbers.units_with_zero_trailing_spaces numbers.units_with_zero_trailing_spaces numbers.units_with_zero_trailing_spaces numbers.units_with_zero_trailing_spaces numbers.units_with_zero_trailing_spaces numbers.units_with_zero_trailing_spaces numbers.units_with_zero_trailing_spaces numbers.units_with_zero_trailing_spaces ) " </PHONENO> "];
+
+
+export PHONENUMBER = " <O> my number is </O> " PHONE_NO| PHONE_NO;

@@ -1,0 +1,3 @@
+import 'bodypart.grm' as bodypart;
+POSITION=" upper ".utf8 |" lower ".utf8  |" right ".utf8  |" left ".utf8 ;
+PARTS= " <BODYLOCATION> " POSITION bodypart.BODYPART " </BODYLOCATION> ";

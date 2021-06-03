@@ -1,0 +1,1 @@
+export PRONOUN = Optimize[" i ".utf8 | " you ".utf8 | " he ".utf8 | " she ".utf8 | " it ".utf8 |" we ".utf8 |" they ".utf8 |" who ".utf8] ;

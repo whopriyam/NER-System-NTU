@@ -1,0 +1,2 @@
+
+PROPERSITION = " with ".utf8 | " at ".utf8 |" from ".utf8 | " into ".utf8 | " during ".utf8 | " including ".utf8 ;

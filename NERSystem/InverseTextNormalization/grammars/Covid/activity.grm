@@ -1,0 +1,37 @@
+import 'example.grm' as tk;
+import 'numbers.grm' as numbers;
+
+FIRST_NAMES = StringFile['txt_resource_files/chinesefirstnames.txt'];
+FIRST_NAMES_REWRITTEN = Optimize[FIRST_NAMES @ tk.TOKENIZER];
+FIRST_NAME = FIRST_NAMES_REWRITTEN;
+
+LAST_NAMES = StringFile['txt_resource_files/chineselastnames.txt'];
+LAST_NAMES_REWRITTEN = Optimize[LAST_NAMES @ tk.TOKENIZER];
+LAST_NAME = LAST_NAMES_REWRITTEN;
+
+export ACTIVITYSENT = ("What were you doing") |
+												("What were you doing there") |
+												("What were you travelling for") |
+												("Why were you roaming outside your house")
+												("Why had you gone there") |
+
+												("I had gone to meet my parents") |
+												("I had gone to meet my cousins") |
+												("I had gone to meet my brother") |
+												("I had gone to meet my sister") |
+												("I had gone to meet my friends") |
+												("I had gone to meet my friend " FIRST_NAME " " LAST_NAME) |
+												("I had gone to see the doctor") |
+												("I went for a health checkup") |
+
+												("I had gone to the bank") |
+												("I had gone to withdraw some money from the ATM") |
+												("I had gone to work") |
+												("I had gone for some personal reason") |
+												("I had gone to deliver groceries to my parents' house") |
+												("I had gone to buy groceries") |
+												("I had gone to buy food") |
+												("I had gone to buy some house supplies") |
+												("I had gone out to get some medicine") |
+												("I had gone to get vaccinated") |
+												("I went to get the vaccine");

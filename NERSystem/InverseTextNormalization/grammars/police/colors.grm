@@ -1,0 +1,48 @@
+export COLORS= Optimize[" Absolute Zero ".utf8 | " Acid green ".utf8 | " Aero ".utf8 | " Aero blue ".utf8 |
+										" African violet ".utf8 | " Air superiority blue ".utf8 | " Alabaster ".utf8 | " Alice blue ".utf8 | 
+										" Alloy orange ".utf8 | " Almond ".utf8 | " Amaranth ".utf8 | " Amaranth ".utf8 | " Amaranth pink ".utf8 | 
+										" Amaranth purple ".utf8 | " Amaranth red ".utf8 | " Amazon ".utf8 | " Amber ".utf8 |  " Amethyst ".utf8 | 
+										" Android green ".utf8 | " Antique brass ".utf8 | " Antique bronze ".utf8 | " Antique fuchsia ".utf8 | " Antique ruby ".utf8 | 
+										" Antique white ".utf8 | " Ao  ".utf8 | " Apple green ".utf8 | " Apricot ".utf8 | " Aqua ".utf8 | " Aquamarine ".utf8 | 
+										" Arctic lime ".utf8 | " Army green ".utf8 | " Artichoke ".utf8 | " Arylide yellow ".utf8 | " Ash gray ".utf8 | " Asparagus ".utf8 | 
+										" Atomic tangerine ".utf8 | " Auburn ".utf8 | " Aureolin ".utf8 | " Avocado ".utf8 | " Azure ".utf8 | " Azure ".utf8 | " Baby blue ".utf8 | 
+										" Baby blue eyes ".utf8 | " Baby pink ".utf8 | " Baby powder ".utf8 | " Baker-Miller pink ".utf8 | " Banana Mania ".utf8 | 
+										" Barbie Pink ".utf8 | " Barn red ".utf8 | " Battleship grey ".utf8 | " Beau blue ".utf8 | " Beaver ".utf8 | " Beige ".utf8 | 
+										" dazzled blue ".utf8 | " Big dip o ruby ".utf8 | " Bisque ".utf8 | " Bistre ".utf8 | " Bistre brown ".utf8 | " Bitter lemon ".utf8 | 
+										" Bitter lime ".utf8 | " Bittersweet ".utf8 | " Bittersweet shimmer ".utf8 | " Black ".utf8 | " Black bean ".utf8 | " Black chocolate ".utf8 | 
+										" Black coffee ".utf8 | " Black coral ".utf8 | " Black olive ".utf8 | " Black Shadows ".utf8 | " Blanched almond ".utf8 | " Blast-off bronze ".utf8 |
+										" Bleu de France ".utf8 | " Blizzard blue ".utf8 | " Blond ".utf8 | " Blood red ".utf8 | " Blue ".utf8 | " Crayola ".utf8  | " Blue bell ".utf8 | 
+										" Blue-gray ".utf8 | " Blue-green ".utf8 | " Blue-green color wheel ".utf8 | " Blue jeans ".utf8 | " Blue sapphire ".utf8 | " Blue-violet ".utf8 | 
+										" Blue yonder ".utf8 | " Bluetiful ".utf8 | " Blush ".utf8 | " Bole ".utf8 | " Bone ".utf8 | " Bottle green ".utf8 | " Brandy ".utf8 | " Brick red ".utf8 | 
+										" Bright green ".utf8 | " Bright lilac ".utf8 | " Bright maroon ".utf8 | " Bright navy blue ".utf8 | " Bright yellow ".utf8 | " Brilliant rose ".utf8 | 
+										" Brink pink ".utf8 | " British racing green ".utf8 | " Bronze ".utf8 | " Brown ".utf8 | " Brown sugar ".utf8 | " Brunswick green ".utf8 | " Bud green ".utf8 |
+										" Buff ".utf8 | " Burgundy ".utf8 | " Burlywood ".utf8 | " Burnished brown ".utf8 | " Burnt orange ".utf8 | " Burnt sienna ".utf8 | " Burnt umber ".utf8 |
+										" Byzantine ".utf8 | " Byzantium ".utf8 | " Cadet ".utf8 | " Cadet blue ".utf8 | " Cadet blue Crayola ".utf8 | " Cadet grey ".utf8 | " Cadmium green ".utf8 | 
+										" Cadmium orange ".utf8 | " Cadmium red ".utf8 | " Cadmium yellow ".utf8 | " Cafe au lait ".utf8 | " Cafe noir ".utf8 | " Cambridge blue ".utf8 | " Camel ".utf8 | 
+										" Cameo pink ".utf8 | " Canary ".utf8 | " Canary yellow ".utf8 | " Candy apple red ".utf8 | " Candy pink ".utf8 | " Capri ".utf8 | " Caput mortuum ".utf8 | 
+										" Cardinal ".utf8 | " Caribbean green ".utf8 | " Carmine ".utf8 | " Carmine M&P ".utf8 | " Carnation pink ".utf8 | " Carnelian ".utf8 | " Carolina blue ".utf8 |
+										" Carrot orange ".utf8 | " Castleton green ".utf8 | " Catawba ".utf8 | " Cedar Chest ".utf8 | " Celadon ".utf8 | " Celadon blue ".utf8 | " Celadon green ".utf8 | 
+										" Celeste ".utf8 | " Celtic blue ".utf8 | " Cerise ".utf8 | " Cerulean ".utf8 | " Cerulean blue ".utf8 | " Cerulean frost ".utf8 | " Cerulean Crayola ".utf8 | 
+										" CG blue ".utf8 | " CG red ".utf8 | " Champagne ".utf8 | " Champagne pink ".utf8 | " Charcoal ".utf8 | " Charleston green ".utf8 | " Charm pink ".utf8 | 
+										" Chartreuse traditional ".utf8 | " Chartreuse web ".utf8 | " Cherry blossom pink ".utf8 | " Chestnut ".utf8 | " Chili red ".utf8 | " China pink ".utf8 | 
+										" China rose ".utf8 | " Chinese red ".utf8 | " Chinese violet ".utf8 | " Chinese yellow ".utf8 | " Chocolate traditional ".utf8 | " Chocolate web ".utf8 | 
+										" Chocolate Cosmos ".utf8 | " Chrome yellow ".utf8 | " Cinereous ".utf8 | " Cinnabar ".utf8 | " Cinnamon Satin ".utf8 | " Citrine ".utf8 | " Citron ".utf8 | 
+										" Claret ".utf8 | " Cobalt blue ".utf8 | " Cocoa brown ".utf8 | " Coffee ".utf8 | " Columbia Blue ".utf8 | " Congo pink ".utf8 | " Cool grey ".utf8 | " Copper ".utf8 | 
+										" Copper Crayola ".utf8 | " Copper penny ".utf8 | " Copper red ".utf8 | " Copper rose ".utf8 | " Coquelicot ".utf8 | " Coral ".utf8 | " Coral pink ".utf8 | " Cordovan ".utf8 | 
+										" Corn ".utf8 | " Cornell red ".utf8 | " Cornflower blue ".utf8 | " Cornsilk ".utf8 | " Cosmic cobalt ".utf8 | " Cosmic latte ".utf8 | " Coyote brown ".utf8 | " Cotton candy ".utf8 |
+										" Cream ".utf8 | " Crimson ".utf8 | " Crimson UA ".utf8 | " Crystal ".utf8 | " Cultured ".utf8 | " Cyan ".utf8 | " Cyan process ".utf8 | " Cyber grape ".utf8 | " Cyber yellow ".utf8 | 
+										" Cyclamen ".utf8 | " Dark blue-gray ".utf8 | " Dark brown ".utf8 | " Dark byzantium ".utf8 | " Dark cornflower blue ".utf8 | " Dark cyan ".utf8 | " Dark electric blue ".utf8 | 
+										" Dark goldenrod ".utf8 | " Dark green ".utf8 | " Dark green X11 ".utf8 | " Dark jungle green ".utf8 | " Dark khaki ".utf8 | " Dark lava ".utf8 | " Dark liver ".utf8 | 
+										" Dark liver horses ".utf8 | " Dark magenta ".utf8 | " Dark moss green ".utf8 | " Dark olive green ".utf8 | " Dark orange ".utf8 | " Dark orchid ".utf8 | " Dark pastel green ".utf8 | 
+										" Dark purple ".utf8 | " Dark red ".utf8 | " Dark salmon ".utf8 | " Dark sea green ".utf8 | " Dark sienna ".utf8 | " Dark sky blue ".utf8 | " Dark slate blue ".utf8 | " Dark slate gray ".utf8 | 
+										" Dark spring green ".utf8 | " Dark turquoise ".utf8 | " Dark violet ".utf8 | " Dartmouth green ".utf8 | " Davy's grey ".utf8 | " Deep cerise ".utf8 | " Deep champagne ".utf8 | 
+										" Deep chestnut ".utf8 | " Deep jungle green ".utf8 | " Deep pink ".utf8 | " Deep saffron ".utf8 | " Deep sky blue ".utf8 | " Deep Space Sparkle ".utf8 | " Deep taupe ".utf8 | 
+										" Denim ".utf8 | " Denim blue ".utf8 | " Desert ".utf8 | " Desert sand ".utf8 | " Dim gray ".utf8 | " Dodger blue ".utf8 | " Dogwood rose ".utf8 | " Drab ".utf8 | " Duke blue ".utf8 | 
+										" Dutch white ".utf8 | " Earth yellow ".utf8 | " Ebony ".utf8 | " Ecru ".utf8 | " Eerie black ".utf8 | " Eggplant ".utf8 | " Eggshell ".utf8 | " Egyptian blue ".utf8 | " Eigengrau ".utf8 | 
+										" Electric blue ".utf8 | " Electric green ".utf8 | " Electric indigo ".utf8 | " Electric lime ".utf8 | " Electric purple ".utf8 | " Electric violet ".utf8 | " Emerald ".utf8 | " Eminence ".utf8 | 
+										" English green ".utf8 | " English lavender ".utf8 | " English red ".utf8 | " English vermillion ".utf8 | " English violet ".utf8 | " Erin ".utf8 | " Eton blue ".utf8 | " Fallow ".utf8 | 
+										" Falu red ".utf8 | " Fandango ".utf8 | " Fandango pink ".utf8 | " Fashion fuchsia ".utf8 | " Fawn ".utf8 | " Feldgrau ".utf8 | " Fern green ".utf8 | " Field drab ".utf8 | 
+										" Fiery rose ".utf8 | " Firebrick ".utf8 | " Fire engine red ".utf8 | " Fire opal ".utf8 | " Flame ".utf8 | " Flax ".utf8 | " Flirt ".utf8 | " Floral white ".utf8 | " Fluorescent blue ".utf8 |
+										" Forest green Crayola ".utf8 | " Forest green traditional ".utf8 | " Forest green web ".utf8 | " French beige ".utf8 | " French bistre ".utf8 | " French blue ".utf8 | " French fuchsia ".utf8 | 
+										" French lilac ".utf8 | " French lime ".utf8 | " French mauve ".utf8 | " French pink ".utf8 | " French raspberry ".utf8 | " French rose ".utf8 | " French sky blue ".utf8 | " French violet ".utf8 | 
+										" Frostbite ".utf8 | " Fuchsia ".utf8 | " Fuchsia Crayola ".utf8 | " Fuchsia purple ".utf8 | " Fuchsia rose ".utf8 | " Fulvous ".utf8 | " Fuzzy Wuzzy ".utf8] ;

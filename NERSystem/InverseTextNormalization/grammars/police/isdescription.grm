@@ -1,0 +1,10 @@
+
+
+
+export ISDESCRIPTION = Optimize[" <TRAIT> " (" tatooed ".utf8 | " blad ".utf8 | " blonde ".utf8 | " asian ".utf8| " malay ".utf8| 	
+													" chinese ".utf8| " indian ".utf8| " angmo ".utf8| " western ".utf8| " chubby ".utf8| " rounded ".utf8| 
+													" fat ".utf8| " curvy ".utf8| " fit ".utf8| " large ".utf8| " muscular ".utf8 | " obese ".utf8| " plain ".utf8|
+													" oridnary ".utf8| " homeless ".utf8| " scruffy ".utf8| " short ".utf8| " skinny ".utf8| " slender ".utf8| 
+													" tall ".utf8| " thin ".utf8| " unkept ".utf8| " well-build ".utf8| " dark ".utf8| " light ".utf8| " fair ".utf8| 
+													" rosy ".utf8 | " pale ".utf8| " pasty ".utf8| " tan ".utf8| " pimply ".utf8| " receding ".utf8| " muscular ".utf8| 
+													" small ".utf8| " petite ".utf8| " big ".utf8| " huge ".utf8| " overweight ".utf8| " athletic ".utf8 )" </TRAIT> "] ;

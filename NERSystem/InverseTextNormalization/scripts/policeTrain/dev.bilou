@@ -1,0 +1,7155 @@
+-DOCSTART- O
+
+she O
+is O
+having O
+stress U-INJURY
+
+-DOCSTART- O
+
+person O
+has O
+slow B-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+there O
+is O
+a O
+hot B-INJURY
+oil I-INJURY
+splash L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+breathing U-CONDITION
+
+-DOCSTART- O
+
+he O
+is O
+diagnosed O
+other B-INJURY
+burns L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+not B-CONDITION
+even I-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+person O
+is O
+diagnosed O
+with O
+anaphylaxis U-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+having O
+multiple B-INJURY
+surface I-INJURY
+wounds I-INJURY
+and I-INJURY
+bruises L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+finger B-INJURY
+amputated L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+right B-INJURY
+arm I-INJURY
+fractured L-INJURY
+
+-DOCSTART- O
+
+he O
+is O
+having O
+noxious U-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+diagnosed O
+with O
+burns B-INJURY
+and I-INJURY
+corrosions L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+not B-CONDITION
+even I-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+person O
+is O
+diagnosed O
+with O
+cuts B-INJURY
+and I-INJURY
+abrasions I-INJURY
+or I-INJURY
+bruises L-INJURY
+
+-DOCSTART- O
+
+patient O
+is O
+having O
+burns B-INJURY
+and I-INJURY
+smoke I-INJURY
+inhalation L-INJURY
+
+-DOCSTART- O
+
+i O
+think O
+he O
+looks O
+around O
+twelve B-AGE
+months I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+patient O
+is O
+having O
+second B-INJURY
+degree I-INJURY
+heat I-INJURY
+burns L-INJURY
+
+-DOCSTART- O
+
+i O
+think O
+he O
+looks O
+around O
+two B-AGE
+months I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+person O
+is O
+finger B-INJURY
+amputated L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+very I-CONDITION
+fast L-CONDITION
+
+-DOCSTART- O
+
+person O
+has O
+chest B-CONDITION
+pain L-CONDITION
+
+-DOCSTART- O
+
+she O
+is O
+having O
+asphyxiations U-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+diagnosed O
+with O
+caisson B-INJURY
+disease L-INJURY
+
+-DOCSTART- O
+
+myocardial B-INJURY
+infarction L-INJURY
+on O
+left B-BODYLOCATION
+navel L-BODYLOCATION
+
+-DOCSTART- O
+
+person O
+is O
+arms B-INJURY
+are I-INJURY
+blue L-INJURY
+
+-DOCSTART- O
+
+he O
+is O
+having O
+cuts U-INJURY
+
+-DOCSTART- O
+
+he O
+is O
+diagnosed O
+sprains B-INJURY
+and I-INJURY
+cuts L-INJURY
+
+-DOCSTART- O
+
+burns B-INJURY
+and I-INJURY
+other I-INJURY
+injuries L-INJURY
+on O
+left B-BODYLOCATION
+glands L-BODYLOCATION
+
+-DOCSTART- O
+
+she O
+is O
+having O
+concussions U-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+is I-CONDITION
+a I-CONDITION
+bit I-CONDITION
+slow L-CONDITION
+
+-DOCSTART- O
+
+person O
+is O
+finger B-INJURY
+amputated L-INJURY
+
+-DOCSTART- O
+
+she O
+is O
+diagnosed O
+with O
+blisters U-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+diagnosed O
+with O
+fractures B-INJURY
+and I-INJURY
+concussions L-INJURY
+
+-DOCSTART- O
+
+vomiting U-INJURY
+on O
+left B-BODYLOCATION
+pituitary L-BODYLOCATION
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+okay L-CONDITION
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+is I-CONDITION
+a I-CONDITION
+bit I-CONDITION
+slow L-CONDITION
+
+-DOCSTART- O
+
+person O
+cannot B-INJURY
+pee L-INJURY
+
+-DOCSTART- O
+
+heat B-INJURY
+burns L-INJURY
+on O
+left B-BODYLOCATION
+uterus L-BODYLOCATION
+
+-DOCSTART- O
+
+person O
+has O
+difficulty B-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+person O
+is O
+not B-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+he O
+is O
+having O
+multiple B-INJURY
+sprains L-INJURY
+
+-DOCSTART- O
+
+patient O
+is O
+diagnosed O
+with O
+quadriplegia U-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+right B-INJURY
+arm I-INJURY
+fractured L-INJURY
+
+-DOCSTART- O
+
+he O
+is O
+having O
+methicillin-resistant B-INJURY
+staphylococcus I-INJURY
+aureus I-INJURY
+infection L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+finger B-INJURY
+amputated L-INJURY
+
+-DOCSTART- O
+
+person O
+slipped U-INJURY
+
+-DOCSTART- O
+
+person O
+has O
+chest B-CONDITION
+pain L-CONDITION
+
+-DOCSTART- O
+
+fractures B-INJURY
+and I-INJURY
+concussions L-INJURY
+on O
+left B-BODYLOCATION
+knee L-BODYLOCATION
+
+-DOCSTART- O
+
+patient O
+is O
+having O
+strains U-INJURY
+
+-DOCSTART- O
+
+patient O
+is O
+diagnosed O
+with O
+sprains U-INJURY
+
+-DOCSTART- O
+
+there O
+is O
+a O
+hot B-INJURY
+oil I-INJURY
+splash L-INJURY
+
+-DOCSTART- O
+
+he O
+is O
+diagnosed O
+multiple B-INJURY
+traumatic I-INJURY
+injuries I-INJURY
+to I-INJURY
+bones L-INJURY
+
+-DOCSTART- O
+
+patient O
+is O
+having O
+second B-INJURY
+degree I-INJURY
+electrical I-INJURY
+burns L-INJURY
+
+-DOCSTART- O
+
+he O
+is O
+having O
+anxiety U-INJURY
+
+-DOCSTART- O
+
+person O
+has O
+a B-CONDITION
+bit I-CONDITION
+of I-CONDITION
+difficulty I-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+he O
+is O
+diagnosed O
+asphyxiations U-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+is I-CONDITION
+a I-CONDITION
+bit I-CONDITION
+slow L-CONDITION
+
+-DOCSTART- O
+
+he O
+is O
+having O
+abrasions U-INJURY
+
+-DOCSTART- O
+
+person O
+vomit B-INJURY
+blood L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+is I-CONDITION
+normal L-CONDITION
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+is I-CONDITION
+normal L-CONDITION
+
+-DOCSTART- O
+
+he O
+is O
+diagnosed O
+second B-INJURY
+degree I-INJURY
+electrical I-INJURY
+burns L-INJURY
+
+-DOCSTART- O
+
+cuts B-INJURY
+and I-INJURY
+abrasions I-INJURY
+or I-INJURY
+bruises L-INJURY
+on O
+left B-BODYLOCATION
+tarsal L-BODYLOCATION
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+is I-CONDITION
+normal L-CONDITION
+
+-DOCSTART- O
+
+he O
+is O
+having O
+multiple B-INJURY
+sprains L-INJURY
+
+-DOCSTART- O
+
+person O
+swallowed B-INJURY
+fish I-INJURY
+bone L-INJURY
+
+-DOCSTART- O
+
+person O
+has O
+chest B-CONDITION
+pain L-CONDITION
+
+-DOCSTART- O
+
+person O
+is O
+having O
+tendons U-INJURY
+
+-DOCSTART- O
+
+i O
+think O
+he O
+looks O
+around O
+13 B-AGE
+months I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+she O
+is O
+having O
+multiple B-INJURY
+general I-INJURY
+symptoms L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+is I-CONDITION
+normal L-CONDITION
+
+-DOCSTART- O
+
+i O
+think O
+he O
+looks O
+around O
+thirteen B-AGE
+months I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+he O
+is O
+diagnosed O
+other B-INJURY
+burns L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+right B-INJURY
+arm I-INJURY
+fractured L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+is I-CONDITION
+a I-CONDITION
+bit I-CONDITION
+slow L-CONDITION
+
+-DOCSTART- O
+
+he O
+is O
+diagnosed O
+paralysis U-INJURY
+
+-DOCSTART- O
+
+patient O
+is O
+having O
+damage B-INJURY
+to I-INJURY
+prosthetic I-INJURY
+devices L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+is I-CONDITION
+normal L-CONDITION
+
+-DOCSTART- O
+
+patient O
+is O
+diagnosed O
+with O
+burns B-INJURY
+and I-INJURY
+corrosions L-INJURY
+
+-DOCSTART- O
+
+heat B-INJURY
+stroke L-INJURY
+on O
+upper B-BODYLOCATION
+larynx L-BODYLOCATION
+
+-DOCSTART- O
+
+patient O
+is O
+having O
+dizziness U-INJURY
+
+-DOCSTART- O
+
+patient O
+is O
+diagnosed O
+with O
+blisters U-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+diagnosed O
+with O
+paraplegia U-INJURY
+
+-DOCSTART- O
+
+person O
+has O
+a B-CONDITION
+bit I-CONDITION
+of I-CONDITION
+difficulty I-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+person O
+smell B-INJURY
+toxic I-INJURY
+gas L-INJURY
+
+-DOCSTART- O
+
+she O
+is O
+diagnosed O
+with O
+damage B-INJURY
+to I-INJURY
+prosthetic I-INJURY
+devices L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+diagnosed O
+with O
+multiple B-INJURY
+traumatic I-INJURY
+injuries I-INJURY
+and I-INJURY
+disorders L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+having O
+major B-INJURY
+tears I-INJURY
+to I-INJURY
+muscles L-INJURY
+
+-DOCSTART- O
+
+person O
+has O
+no B-CONDITION
+chest I-CONDITION
+pain L-CONDITION
+
+-DOCSTART- O
+
+patient O
+is O
+having O
+diverse B-INJURY
+palsy L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+having O
+intracranial B-INJURY
+injuries L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+not B-CONDITION
+even I-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+person O
+is O
+having O
+methicillin-resistant B-INJURY
+staphylococcus I-INJURY
+aureus I-INJURY
+infection L-INJURY
+
+-DOCSTART- O
+
+she O
+is O
+diagnosed O
+with O
+second B-INJURY
+degree I-INJURY
+heat I-INJURY
+burns L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+bitten B-INJURY
+on L-INJURY
+
+-DOCSTART- O
+
+she O
+is O
+diagnosed O
+with O
+other B-INJURY
+burns L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+having O
+effects B-INJURY
+of I-INJURY
+heat I-INJURY
+and I-INJURY
+light L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+bleeding U-INJURY
+
+-DOCSTART- O
+
+person O
+has O
+a B-CONDITION
+bit I-CONDITION
+of I-CONDITION
+difficulty I-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+she O
+is O
+diagnosed O
+with O
+other B-INJURY
+burns L-INJURY
+
+-DOCSTART- O
+
+person O
+slipped U-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+is I-CONDITION
+normal L-CONDITION
+
+-DOCSTART- O
+
+there O
+is O
+a O
+group B-INJURY
+of I-INJURY
+people I-INJURY
+beat I-INJURY
+up L-INJURY
+
+-DOCSTART- O
+
+ligaments U-INJURY
+on O
+upper B-BODYLOCATION
+patella L-BODYLOCATION
+
+-DOCSTART- O
+
+she O
+is O
+diagnosed O
+with O
+burns B-INJURY
+and I-INJURY
+smoke I-INJURY
+inhalation L-INJURY
+
+-DOCSTART- O
+
+patient O
+is O
+having O
+methicillin-resistant B-INJURY
+staphylococcus I-INJURY
+aureus I-INJURY
+infection L-INJURY
+
+-DOCSTART- O
+
+she O
+is O
+diagnosed O
+with O
+fractures B-INJURY
+and I-INJURY
+burns L-INJURY
+
+-DOCSTART- O
+
+she O
+is O
+diagnosed O
+with O
+first B-INJURY
+degree I-INJURY
+heat I-INJURY
+burns L-INJURY
+
+-DOCSTART- O
+
+patient O
+is O
+having O
+abdominal B-INJURY
+pain L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+stung B-INJURY
+by I-INJURY
+bee L-INJURY
+
+-DOCSTART- O
+
+person O
+has O
+chest B-CONDITION
+pain L-CONDITION
+
+-DOCSTART- O
+
+person O
+cannot B-INJURY
+feel I-INJURY
+his I-INJURY
+hands L-INJURY
+
+-DOCSTART- O
+
+patient O
+is O
+diagnosed O
+with O
+contusions U-INJURY
+
+-DOCSTART- O
+
+person O
+has O
+no B-CONDITION
+difficulty I-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+she O
+is O
+diagnosed O
+with O
+prostration U-INJURY
+
+-DOCSTART- O
+
+infections B-INJURY
+of I-INJURY
+the I-INJURY
+skin I-INJURY
+and I-INJURY
+subcutaneous I-INJURY
+tissue L-INJURY
+on O
+upper B-BODYLOCATION
+toe L-BODYLOCATION
+
+-DOCSTART- O
+
+patient O
+is O
+having O
+heat B-INJURY
+fatigue L-INJURY
+
+-DOCSTART- O
+
+she O
+is O
+diagnosed O
+with O
+first B-INJURY
+degree I-INJURY
+electrical I-INJURY
+burns L-INJURY
+
+-DOCSTART- O
+
+he O
+is O
+diagnosed O
+strains U-INJURY
+
+-DOCSTART- O
+
+person O
+swallowed B-INJURY
+fish I-INJURY
+bone L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+right B-INJURY
+arm I-INJURY
+fractured L-INJURY
+
+-DOCSTART- O
+
+person O
+has O
+chest B-CONDITION
+pain L-CONDITION
+
+-DOCSTART- O
+
+person O
+cannot B-INJURY
+pee L-INJURY
+
+-DOCSTART- O
+
+patient O
+is O
+diagnosed O
+with O
+prostration U-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+diagnosed O
+with O
+soreness U-INJURY
+
+-DOCSTART- O
+
+i O
+think O
+he O
+looks O
+around O
+seventeen B-AGE
+months I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+patient O
+is O
+having O
+effects B-INJURY
+of I-INJURY
+environmental I-INJURY
+conditions L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+diagnosed O
+with O
+burns B-INJURY
+and I-INJURY
+smoke I-INJURY
+inhalation L-INJURY
+
+-DOCSTART- O
+
+she O
+is O
+diagnosed O
+with O
+fractures B-INJURY
+and I-INJURY
+concussions L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+not B-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+i O
+think O
+he O
+looks O
+around O
+5 B-AGE
+years I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+patient O
+is O
+diagnosed O
+with O
+lightheadedness U-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+having O
+loss B-INJURY
+of I-INJURY
+consciousness L-INJURY
+
+-DOCSTART- O
+
+i O
+think O
+he O
+looks O
+around O
+6 B-AGE
+years I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+he O
+is O
+having O
+contusions U-INJURY
+
+-DOCSTART- O
+
+traumatic B-INJURY
+injuries I-INJURY
+to I-INJURY
+spinal I-INJURY
+cord L-INJURY
+on O
+upper B-BODYLOCATION
+groin L-BODYLOCATION
+
+-DOCSTART- O
+
+person O
+is O
+diagnosed O
+with O
+fractures B-INJURY
+and I-INJURY
+concussions L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+electrocuted U-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+arms B-INJURY
+are I-INJURY
+blue L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+diagnosed O
+with O
+numbness-nonspecified B-INJURY
+injury L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+very I-CONDITION
+fast L-CONDITION
+
+-DOCSTART- O
+
+there O
+is O
+a O
+hot B-INJURY
+oil I-INJURY
+splash L-INJURY
+
+-DOCSTART- O
+
+patient O
+is O
+having O
+metabolic U-INJURY
+
+-DOCSTART- O
+
+he O
+is O
+having O
+amputations U-INJURY
+
+-DOCSTART- O
+
+patient O
+is O
+diagnosed O
+with O
+irritant B-INJURY
+dermatitis-acute L-INJURY
+
+-DOCSTART- O
+
+patient O
+is O
+having O
+internal B-INJURY
+injuries L-INJURY
+
+-DOCSTART- O
+
+patient O
+is O
+diagnosed O
+with O
+multiple B-INJURY
+poisoning L-INJURY
+
+-DOCSTART- O
+
+person O
+has O
+a B-CONDITION
+bit I-CONDITION
+of I-CONDITION
+difficulty I-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+is I-CONDITION
+normal L-CONDITION
+
+-DOCSTART- O
+
+there O
+is O
+a O
+vehicle B-INJURY
+and I-INJURY
+bike I-INJURY
+accident L-INJURY
+
+-DOCSTART- O
+
+there O
+is O
+a O
+hot B-INJURY
+oil I-INJURY
+splash L-INJURY
+
+-DOCSTART- O
+
+she O
+is O
+having O
+heat B-INJURY
+fatigue L-INJURY
+
+-DOCSTART- O
+
+she O
+is O
+having O
+exposures B-INJURY
+to I-INJURY
+disease-no I-INJURY
+illness I-INJURY
+incurred L-INJURY
+
+-DOCSTART- O
+
+she O
+is O
+diagnosed O
+with O
+dislocation B-INJURY
+of I-INJURY
+joints L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+is I-CONDITION
+a I-CONDITION
+bit I-CONDITION
+slow L-CONDITION
+
+-DOCSTART- O
+
+he O
+is O
+diagnosed O
+exposures B-INJURY
+to I-INJURY
+disease-no I-INJURY
+illness I-INJURY
+incurred L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+arms B-INJURY
+are I-INJURY
+blue L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+is I-CONDITION
+normal L-CONDITION
+
+-DOCSTART- O
+
+person O
+is O
+raped U-INJURY
+
+-DOCSTART- O
+
+other B-INJURY
+burns L-INJURY
+on O
+left B-BODYLOCATION
+vein L-BODYLOCATION
+
+-DOCSTART- O
+
+person O
+is O
+having O
+amputations U-INJURY
+
+-DOCSTART- O
+
+there O
+is O
+a O
+vehicle B-INJURY
+and I-INJURY
+bike I-INJURY
+accident L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+not B-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+she O
+is O
+having O
+noxious U-INJURY
+
+-DOCSTART- O
+
+i O
+think O
+he O
+looks O
+around O
+17 B-AGE
+months I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+person O
+is O
+stung B-INJURY
+by I-INJURY
+bee L-INJURY
+
+-DOCSTART- O
+
+i O
+think O
+he O
+looks O
+around O
+17 B-AGE
+months I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+she O
+is O
+having O
+enucleations U-INJURY
+
+-DOCSTART- O
+
+he O
+is O
+diagnosed O
+effects B-INJURY
+of I-INJURY
+environmental I-INJURY
+conditions L-INJURY
+
+-DOCSTART- O
+
+there O
+is O
+a O
+vehicle B-INJURY
+over I-INJURY
+turn L-INJURY
+
+-DOCSTART- O
+
+she O
+is O
+having O
+concussions U-INJURY
+
+-DOCSTART- O
+
+she O
+is O
+having O
+quadriplegia U-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+electrocuted U-INJURY
+
+-DOCSTART- O
+
+patient O
+is O
+having O
+fractures U-INJURY
+
+-DOCSTART- O
+
+patient O
+is O
+having O
+electrical B-INJURY
+burns L-INJURY
+
+-DOCSTART- O
+
+person O
+want B-INJURY
+to I-INJURY
+give I-INJURY
+birth L-INJURY
+
+-DOCSTART- O
+
+he O
+is O
+diagnosed O
+diverse B-INJURY
+palsy L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+is I-CONDITION
+a I-CONDITION
+bit I-CONDITION
+slow L-CONDITION
+
+-DOCSTART- O
+
+person O
+is O
+right B-INJURY
+arm I-INJURY
+fractured L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+not B-CONDITION
+even I-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+she O
+is O
+diagnosed O
+with O
+cellulitis B-INJURY
+and I-INJURY
+abscess L-INJURY
+
+-DOCSTART- O
+
+patient O
+is O
+diagnosed O
+with O
+ischemic B-INJURY
+heart I-INJURY
+disease L-INJURY
+
+-DOCSTART- O
+
+patient O
+is O
+having O
+nutritional U-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+bitten B-INJURY
+by I-INJURY
+snake L-INJURY
+
+-DOCSTART- O
+
+person O
+smell B-INJURY
+toxic I-INJURY
+gas L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+having O
+influenza-novel U-INJURY
+
+-DOCSTART- O
+
+there O
+is O
+a O
+vehicle B-INJURY
+and I-INJURY
+bike I-INJURY
+accident L-INJURY
+
+-DOCSTART- O
+
+person O
+has O
+problems B-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+person O
+is O
+raped U-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+bitten B-INJURY
+on L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+having O
+inflammation U-INJURY
+
+-DOCSTART- O
+
+he O
+is O
+having O
+third B-INJURY
+or I-INJURY
+fourth I-INJURY
+degree I-INJURY
+heat I-INJURY
+burns L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+fainting U-INJURY
+
+-DOCSTART- O
+
+person O
+slipped U-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+bleeding U-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+is I-CONDITION
+a I-CONDITION
+bit I-CONDITION
+slow L-CONDITION
+
+-DOCSTART- O
+
+paraplegia U-INJURY
+on O
+right B-BODYLOCATION
+skull L-BODYLOCATION
+
+-DOCSTART- O
+
+patient O
+is O
+diagnosed O
+with O
+frostbite U-INJURY
+
+-DOCSTART- O
+
+multiple B-INJURY
+poisoning L-INJURY
+on O
+upper B-BODYLOCATION
+fingernail L-BODYLOCATION
+
+-DOCSTART- O
+
+patient O
+is O
+diagnosed O
+with O
+heat B-INJURY
+exhaustion L-INJURY
+
+-DOCSTART- O
+
+he O
+is O
+having O
+third B-INJURY
+or I-INJURY
+fourth I-INJURY
+degree I-INJURY
+heat I-INJURY
+burns L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+having O
+irritant B-INJURY
+dermatitis-acute L-INJURY
+
+-DOCSTART- O
+
+burns B-INJURY
+and I-INJURY
+corrosions L-INJURY
+on O
+left B-BODYLOCATION
+vein L-BODYLOCATION
+
+-DOCSTART- O
+
+person O
+is O
+bitten B-INJURY
+by I-INJURY
+dog L-INJURY
+
+-DOCSTART- O
+
+i O
+think O
+he O
+looks O
+around O
+19 B-AGE
+years I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+she O
+is O
+diagnosed O
+with O
+multiple B-INJURY
+injuries I-INJURY
+and I-INJURY
+disorders L-INJURY
+
+-DOCSTART- O
+
+patient O
+is O
+having O
+intracranial B-INJURY
+injuries L-INJURY
+
+-DOCSTART- O
+
+patient O
+is O
+having O
+myocardial B-INJURY
+infarction L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+diagnosed O
+with O
+cerebral B-INJURY
+and I-INJURY
+other I-INJURY
+intracranial I-INJURY
+hemorrhages L-INJURY
+
+-DOCSTART- O
+
+she O
+is O
+diagnosed O
+with O
+cerebral B-INJURY
+and I-INJURY
+other I-INJURY
+intracranial I-INJURY
+hemorrhages L-INJURY
+
+-DOCSTART- O
+
+he O
+is O
+diagnosed O
+allergic B-INJURY
+dermatitis-acute L-INJURY
+
+-DOCSTART- O
+
+traumatic B-INJURY
+injuries I-INJURY
+to I-INJURY
+bones L-INJURY
+on O
+right B-BODYLOCATION
+toenail L-BODYLOCATION
+
+-DOCSTART- O
+
+person O
+is O
+diagnosed O
+with O
+anaphylactic B-INJURY
+shock L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+finger B-INJURY
+amputated L-INJURY
+
+-DOCSTART- O
+
+he O
+is O
+having O
+fractures B-INJURY
+and I-INJURY
+burns L-INJURY
+
+-DOCSTART- O
+
+she O
+is O
+diagnosed O
+with O
+multiple B-INJURY
+types I-INJURY
+of I-INJURY
+open I-INJURY
+wounds L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+bleeding B-INJURY
+on I-INJURY
+arms I-INJURY
+and I-INJURY
+legs L-INJURY
+
+-DOCSTART- O
+
+person O
+fall B-INJURY
+in I-INJURY
+bathroom L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+diagnosed O
+with O
+multiple B-INJURY
+poisoning L-INJURY
+
+-DOCSTART- O
+
+patient O
+is O
+diagnosed O
+with O
+ischemic B-INJURY
+heart I-INJURY
+disease L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+having O
+sprains U-INJURY
+
+-DOCSTART- O
+
+person O
+swallowed B-INJURY
+fish I-INJURY
+bone L-INJURY
+
+-DOCSTART- O
+
+patient O
+is O
+having O
+endocrine U-INJURY
+
+-DOCSTART- O
+
+she O
+is O
+having O
+diverse B-INJURY
+palsy L-INJURY
+
+-DOCSTART- O
+
+she O
+is O
+having O
+burns B-INJURY
+and I-INJURY
+other I-INJURY
+injuries L-INJURY
+
+-DOCSTART- O
+
+he O
+is O
+having O
+major B-INJURY
+tears I-INJURY
+to I-INJURY
+muscles L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+fainting U-INJURY
+
+-DOCSTART- O
+
+he O
+is O
+having O
+suffocations U-INJURY
+
+-DOCSTART- O
+
+person O
+cannot B-INJURY
+pee L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+arms B-INJURY
+are I-INJURY
+blue L-INJURY
+
+-DOCSTART- O
+
+person O
+cannot B-INJURY
+pee L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+not B-CONDITION
+even I-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+okay L-CONDITION
+
+-DOCSTART- O
+
+i O
+think O
+he O
+looks O
+around O
+fifteen B-AGE
+months I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+is I-CONDITION
+normal L-CONDITION
+
+-DOCSTART- O
+
+she O
+is O
+diagnosed O
+with O
+sprains B-INJURY
+and I-INJURY
+bruises L-INJURY
+
+-DOCSTART- O
+
+he O
+is O
+having O
+fractures B-INJURY
+and I-INJURY
+other I-INJURY
+injuries L-INJURY
+
+-DOCSTART- O
+
+anaphylaxis U-INJURY
+on O
+lower B-BODYLOCATION
+facial L-BODYLOCATION
+
+-DOCSTART- O
+
+person O
+is O
+right B-INJURY
+arm I-INJURY
+fractured L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+not B-CONDITION
+even I-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+i O
+think O
+he O
+looks O
+around O
+seven B-AGE
+years I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+person O
+is O
+having O
+burns B-INJURY
+and I-INJURY
+corrosions L-INJURY
+
+-DOCSTART- O
+
+person O
+swallowed B-INJURY
+fish I-INJURY
+bone L-INJURY
+
+-DOCSTART- O
+
+person O
+has O
+a B-CONDITION
+bit I-CONDITION
+of I-CONDITION
+difficulty I-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+person O
+is O
+having O
+spinal B-INJURY
+cord L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+is I-CONDITION
+normal L-CONDITION
+
+-DOCSTART- O
+
+person O
+has O
+no B-CONDITION
+difficulty I-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+he O
+is O
+diagnosed O
+open B-INJURY
+wounds L-INJURY
+
+-DOCSTART- O
+
+he O
+is O
+having O
+avulsions U-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+lying B-INJURY
+on I-INJURY
+ground L-INJURY
+
+-DOCSTART- O
+
+there O
+is O
+a O
+vehicle B-INJURY
+roll I-INJURY
+over L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+diagnosed O
+with O
+embolism U-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+fainting U-INJURY
+
+-DOCSTART- O
+
+she O
+is O
+diagnosed O
+with O
+cartilage B-INJURY
+fractures I-INJURY
+and I-INJURY
+tears L-INJURY
+
+-DOCSTART- O
+
+person O
+has O
+no B-CONDITION
+difficulty I-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+he O
+is O
+having O
+seizures U-INJURY
+
+-DOCSTART- O
+
+person O
+swallowed B-INJURY
+fish I-INJURY
+bone L-INJURY
+
+-DOCSTART- O
+
+she O
+is O
+having O
+puncture B-INJURY
+wounds L-INJURY
+
+-DOCSTART- O
+
+he O
+is O
+having O
+heat B-INJURY
+stroke L-INJURY
+
+-DOCSTART- O
+
+other B-INJURY
+burns L-INJURY
+on O
+right B-BODYLOCATION
+cheek L-BODYLOCATION
+
+-DOCSTART- O
+
+person O
+is O
+raped U-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+is I-CONDITION
+normal L-CONDITION
+
+-DOCSTART- O
+
+there O
+is O
+a O
+vehicle B-INJURY
+and I-INJURY
+bike I-INJURY
+accident L-INJURY
+
+-DOCSTART- O
+
+person O
+has O
+chest B-CONDITION
+pain L-CONDITION
+
+-DOCSTART- O
+
+person O
+swallowed B-INJURY
+fish I-INJURY
+bone L-INJURY
+
+-DOCSTART- O
+
+there O
+is O
+a O
+group B-INJURY
+of I-INJURY
+people I-INJURY
+beat I-INJURY
+up L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+electrocuted U-INJURY
+
+-DOCSTART- O
+
+other B-INJURY
+burns L-INJURY
+on O
+left B-BODYLOCATION
+vein L-BODYLOCATION
+
+-DOCSTART- O
+
+person O
+is O
+having O
+contusions U-INJURY
+
+-DOCSTART- O
+
+there O
+is O
+a O
+vehicle B-INJURY
+and I-INJURY
+bike I-INJURY
+accident L-INJURY
+
+-DOCSTART- O
+
+he O
+is O
+having O
+sprains U-INJURY
+
+-DOCSTART- O
+
+damage B-INJURY
+to I-INJURY
+prosthetic I-INJURY
+devices L-INJURY
+on O
+left B-BODYLOCATION
+abdomen L-BODYLOCATION
+
+-DOCSTART- O
+
+person O
+swallowed B-INJURY
+fish I-INJURY
+bone L-INJURY
+
+-DOCSTART- O
+
+person O
+want B-INJURY
+to I-INJURY
+give I-INJURY
+birth L-INJURY
+
+-DOCSTART- O
+
+patient O
+is O
+having O
+anxiety U-INJURY
+
+-DOCSTART- O
+
+he O
+is O
+diagnosed O
+first B-INJURY
+degree I-INJURY
+chemical I-INJURY
+burns I-INJURY
+and I-INJURY
+corrosions L-INJURY
+
+-DOCSTART- O
+
+there O
+is O
+a O
+vehicle B-INJURY
+and I-INJURY
+bike I-INJURY
+accident L-INJURY
+
+-DOCSTART- O
+
+she O
+is O
+diagnosed O
+with O
+internal B-INJURY
+injuries L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+having B-CONDITION
+some I-CONDITION
+problems I-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+is I-CONDITION
+a I-CONDITION
+bit I-CONDITION
+slow L-CONDITION
+
+-DOCSTART- O
+
+there O
+is O
+a O
+vehicle B-INJURY
+roll I-INJURY
+over L-INJURY
+
+-DOCSTART- O
+
+patient O
+is O
+having O
+heat B-INJURY
+stroke L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+right B-INJURY
+arm I-INJURY
+fractured L-INJURY
+
+-DOCSTART- O
+
+i O
+think O
+he O
+looks O
+around O
+thirteen B-AGE
+months I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+person O
+smell B-INJURY
+toxic I-INJURY
+gas L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+diagnosed O
+with O
+tears U-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+is I-CONDITION
+a I-CONDITION
+bit I-CONDITION
+slow L-CONDITION
+
+-DOCSTART- O
+
+second B-INJURY
+degree L-INJURY
+on O
+left B-BODYLOCATION
+pituitary L-BODYLOCATION
+
+-DOCSTART- O
+
+person O
+is O
+diagnosed O
+with O
+bursitis U-INJURY
+
+-DOCSTART- O
+
+heat B-INJURY
+syncope L-INJURY
+on O
+right B-BODYLOCATION
+respiratory L-BODYLOCATION
+
+-DOCSTART- O
+
+she O
+is O
+diagnosed O
+with O
+puncture B-INJURY
+wounds L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+diagnosed O
+with O
+fractures B-INJURY
+and I-INJURY
+concussions L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+diagnosed O
+with O
+anxiety U-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+having O
+hyperventilation U-INJURY
+
+-DOCSTART- O
+
+she O
+is O
+diagnosed O
+with O
+effects B-INJURY
+of I-INJURY
+heat I-INJURY
+and I-INJURY
+light L-INJURY
+
+-DOCSTART- O
+
+person O
+has O
+slow B-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+person O
+is O
+having O
+paralysis U-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+having O
+vomiting U-INJURY
+
+-DOCSTART- O
+
+he O
+is O
+having O
+major B-INJURY
+tears I-INJURY
+to I-INJURY
+muscles L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+having O
+surface B-INJURY
+wounds I-INJURY
+and I-INJURY
+bruises L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+diagnosed O
+with O
+asphyxiations U-INJURY
+
+-DOCSTART- O
+
+there O
+is O
+a O
+vehicle B-INJURY
+roll I-INJURY
+over L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+diagnosed O
+with O
+abdominal B-INJURY
+pain L-INJURY
+
+-DOCSTART- O
+
+fractures B-INJURY
+and I-INJURY
+concussions L-INJURY
+on O
+right B-BODYLOCATION
+metatarsal L-BODYLOCATION
+
+-DOCSTART- O
+
+person O
+want B-INJURY
+to I-INJURY
+give I-INJURY
+birth L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+diagnosed O
+with O
+transient B-INJURY
+ischemia I-INJURY
+attacks L-INJURY
+
+-DOCSTART- O
+
+he O
+is O
+having O
+crushing B-INJURY
+injuries L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+not B-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+person O
+has O
+difficulty B-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+person O
+is O
+finger B-INJURY
+amputated L-INJURY
+
+-DOCSTART- O
+
+she O
+is O
+diagnosed O
+with O
+ligaments U-INJURY
+
+-DOCSTART- O
+
+patient O
+is O
+diagnosed O
+with O
+crushing B-INJURY
+injuries L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+is I-CONDITION
+a I-CONDITION
+bit I-CONDITION
+slow L-CONDITION
+
+-DOCSTART- O
+
+person O
+is O
+right B-INJURY
+arm I-INJURY
+fractured L-INJURY
+
+-DOCSTART- O
+
+patient O
+is O
+diagnosed O
+with O
+stress U-INJURY
+
+-DOCSTART- O
+
+there O
+is O
+a O
+vehicle B-INJURY
+over I-INJURY
+turn L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+fainting U-INJURY
+
+-DOCSTART- O
+
+patient O
+is O
+having O
+internal B-INJURY
+injuries I-INJURY
+to I-INJURY
+organs I-INJURY
+and I-INJURY
+blood I-INJURY
+vessels I-INJURY
+of I-INJURY
+the I-INJURY
+trunk L-INJURY
+
+-DOCSTART- O
+
+patient O
+is O
+having O
+tears U-INJURY
+
+-DOCSTART- O
+
+tears U-INJURY
+on O
+right B-BODYLOCATION
+respiratory L-BODYLOCATION
+
+-DOCSTART- O
+
+person O
+is O
+bitten B-INJURY
+by I-INJURY
+snake L-INJURY
+
+-DOCSTART- O
+
+there O
+is O
+a O
+vehicle B-INJURY
+over I-INJURY
+turn L-INJURY
+
+-DOCSTART- O
+
+patient O
+is O
+diagnosed O
+with O
+surface B-INJURY
+wounds I-INJURY
+and I-INJURY
+bruises L-INJURY
+
+-DOCSTART- O
+
+person O
+smell B-INJURY
+toxic I-INJURY
+gas L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+is I-CONDITION
+normal L-CONDITION
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+very I-CONDITION
+fast L-CONDITION
+
+-DOCSTART- O
+
+person O
+is O
+diagnosed O
+with O
+tendons U-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+having O
+multiple B-INJURY
+traumatic I-INJURY
+injuries I-INJURY
+to I-INJURY
+muscles L-INJURY
+
+-DOCSTART- O
+
+i O
+think O
+he O
+looks O
+around O
+nineteen B-AGE
+months I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+i O
+think O
+he O
+looks O
+around O
+17 B-AGE
+years I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+he O
+is O
+having O
+asphyxiations U-INJURY
+
+-DOCSTART- O
+
+crushing B-INJURY
+injuries L-INJURY
+on O
+right B-BODYLOCATION
+kidney L-BODYLOCATION
+
+-DOCSTART- O
+
+i O
+think O
+he O
+looks O
+around O
+17 B-AGE
+years I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+i O
+think O
+he O
+looks O
+around O
+11 B-AGE
+months I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+person O
+is O
+finger B-INJURY
+amputated L-INJURY
+
+-DOCSTART- O
+
+i O
+think O
+he O
+looks O
+around O
+nine B-AGE
+months I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+person O
+is O
+diagnosed O
+with O
+anaphylactic B-INJURY
+shock L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+having O
+pinched B-INJURY
+nerve L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+diagnosed O
+with O
+irritation-nonspecified B-INJURY
+injury L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+having O
+fractures B-INJURY
+and I-INJURY
+burns L-INJURY
+
+-DOCSTART- O
+
+there O
+is O
+a O
+group B-INJURY
+of I-INJURY
+people I-INJURY
+beat I-INJURY
+up L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+having O
+nutritional U-INJURY
+
+-DOCSTART- O
+
+i O
+think O
+he O
+looks O
+around O
+4 B-AGE
+years I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+he O
+is O
+diagnosed O
+first B-INJURY
+degree I-INJURY
+chemical I-INJURY
+burns I-INJURY
+and I-INJURY
+corrosions L-INJURY
+
+-DOCSTART- O
+
+she O
+is O
+diagnosed O
+with O
+sprains U-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+is I-CONDITION
+normal L-CONDITION
+
+-DOCSTART- O
+
+he O
+is O
+having O
+first B-INJURY
+degree I-INJURY
+heat I-INJURY
+burns L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+having B-CONDITION
+some I-CONDITION
+problems I-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+person O
+has O
+a B-CONDITION
+bit I-CONDITION
+of I-CONDITION
+difficulty I-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+he O
+is O
+diagnosed O
+bends U-INJURY
+
+-DOCSTART- O
+
+he O
+is O
+diagnosed O
+headache-toxic U-INJURY
+
+-DOCSTART- O
+
+she O
+is O
+diagnosed O
+with O
+blisters U-INJURY
+
+-DOCSTART- O
+
+multiple B-INJURY
+injuries I-INJURY
+and I-INJURY
+disorders L-INJURY
+on O
+lower B-BODYLOCATION
+coccyx L-BODYLOCATION
+
+-DOCSTART- O
+
+person O
+has O
+difficulty B-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+is I-CONDITION
+normal L-CONDITION
+
+-DOCSTART- O
+
+patient O
+is O
+diagnosed O
+with O
+second B-INJURY
+degree I-INJURY
+chemical I-INJURY
+burns I-INJURY
+and I-INJURY
+corrosions L-INJURY
+
+-DOCSTART- O
+
+he O
+is O
+having O
+lightheadedness U-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+breathing U-CONDITION
+
+-DOCSTART- O
+
+he O
+is O
+diagnosed O
+sprains B-INJURY
+and I-INJURY
+cuts L-INJURY
+
+-DOCSTART- O
+
+he O
+is O
+diagnosed O
+methicillin-resistant B-INJURY
+staphylococcus I-INJURY
+aureus I-INJURY
+infection L-INJURY
+
+-DOCSTART- O
+
+person O
+has O
+a B-CONDITION
+bit I-CONDITION
+of I-CONDITION
+difficulty I-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+person O
+has O
+slow B-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+traumatic B-INJURY
+injuries I-INJURY
+to I-INJURY
+muscles I-INJURY
+joints L-INJURY
+on O
+upper B-BODYLOCATION
+boobs L-BODYLOCATION
+
+-DOCSTART- O
+
+she O
+is O
+diagnosed O
+with O
+strains U-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+not B-CONDITION
+even I-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+patient O
+is O
+diagnosed O
+with O
+fractures B-INJURY
+and I-INJURY
+concussions L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+bitten B-INJURY
+on L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+very I-CONDITION
+fast L-CONDITION
+
+-DOCSTART- O
+
+person O
+is O
+diagnosed O
+with O
+frostbite U-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+arms B-INJURY
+are I-INJURY
+blue L-INJURY
+
+-DOCSTART- O
+
+she O
+is O
+diagnosed O
+with O
+fractures B-INJURY
+and I-INJURY
+dislocations L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+is I-CONDITION
+normal L-CONDITION
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+is I-CONDITION
+a I-CONDITION
+bit I-CONDITION
+slow L-CONDITION
+
+-DOCSTART- O
+
+person O
+swallowed B-INJURY
+fish I-INJURY
+bone L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+drowning U-INJURY
+
+-DOCSTART- O
+
+person O
+has O
+chest B-CONDITION
+pain L-CONDITION
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+okay L-CONDITION
+
+-DOCSTART- O
+
+he O
+is O
+diagnosed O
+bursitis U-INJURY
+
+-DOCSTART- O
+
+there O
+is O
+a O
+vehicle B-INJURY
+roll I-INJURY
+over L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+finger B-INJURY
+amputated L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+is I-CONDITION
+normal L-CONDITION
+
+-DOCSTART- O
+
+patient O
+is O
+having O
+stroke U-INJURY
+
+-DOCSTART- O
+
+i O
+think O
+he O
+looks O
+around O
+four B-AGE
+years I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+is I-CONDITION
+a I-CONDITION
+bit I-CONDITION
+slow L-CONDITION
+
+-DOCSTART- O
+
+person O
+is O
+diagnosed O
+with O
+effects B-INJURY
+of I-INJURY
+heat I-INJURY
+and I-INJURY
+light L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+not B-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+she O
+is O
+diagnosed O
+with O
+headache-toxic U-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+diagnosed O
+with O
+puncture B-INJURY
+wounds L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+bitten B-INJURY
+on L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+is I-CONDITION
+a I-CONDITION
+bit I-CONDITION
+slow L-CONDITION
+
+-DOCSTART- O
+
+person O
+has O
+a B-CONDITION
+bit I-CONDITION
+of I-CONDITION
+difficulty I-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+she O
+is O
+having O
+fractures B-INJURY
+and I-INJURY
+dislocations L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+diagnosed O
+with O
+internal B-INJURY
+injuries I-INJURY
+to I-INJURY
+organs I-INJURY
+and I-INJURY
+blood I-INJURY
+vessels I-INJURY
+of I-INJURY
+the I-INJURY
+trunk L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+having O
+open B-INJURY
+wounds L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+having O
+third B-INJURY
+or I-INJURY
+fourth I-INJURY
+degree I-INJURY
+heat I-INJURY
+burns L-INJURY
+
+-DOCSTART- O
+
+person O
+cannot B-INJURY
+feel I-INJURY
+his I-INJURY
+hands L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+having O
+anaphylaxis U-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+is I-CONDITION
+a I-CONDITION
+bit I-CONDITION
+slow L-CONDITION
+
+-DOCSTART- O
+
+person O
+has O
+problems B-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+person O
+fall B-INJURY
+in I-INJURY
+bathroom L-INJURY
+
+-DOCSTART- O
+
+i O
+think O
+he O
+looks O
+around O
+3 B-AGE
+years I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+he O
+is O
+having O
+multiple B-INJURY
+traumatic I-INJURY
+injuries I-INJURY
+to I-INJURY
+bones L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+having O
+toxic U-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+okay L-CONDITION
+
+-DOCSTART- O
+
+she O
+is O
+having O
+multiple B-INJURY
+injuries I-INJURY
+and I-INJURY
+disorders L-INJURY
+
+-DOCSTART- O
+
+patient O
+is O
+having O
+electrocutions U-INJURY
+
+-DOCSTART- O
+
+patient O
+is O
+having O
+blindness U-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+bitten B-INJURY
+by I-INJURY
+dog L-INJURY
+
+-DOCSTART- O
+
+there O
+is O
+a O
+vehicle B-INJURY
+and I-INJURY
+bike I-INJURY
+accident L-INJURY
+
+-DOCSTART- O
+
+he O
+is O
+diagnosed O
+gunshot B-INJURY
+wounds L-INJURY
+
+-DOCSTART- O
+
+he O
+is O
+diagnosed O
+sprains B-INJURY
+and I-INJURY
+cuts L-INJURY
+
+-DOCSTART- O
+
+there O
+is O
+a O
+vehicle B-INJURY
+roll I-INJURY
+over L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+finger B-INJURY
+amputated L-INJURY
+
+-DOCSTART- O
+
+patient O
+is O
+diagnosed O
+with O
+paralysis U-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+is I-CONDITION
+normal L-CONDITION
+
+-DOCSTART- O
+
+person O
+is O
+diagnosed O
+with O
+ischemic B-INJURY
+heart I-INJURY
+disease L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+is I-CONDITION
+a I-CONDITION
+bit I-CONDITION
+slow L-CONDITION
+
+-DOCSTART- O
+
+person O
+is O
+breathing U-CONDITION
+
+-DOCSTART- O
+
+i O
+think O
+he O
+looks O
+around O
+10 B-AGE
+months I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+i O
+think O
+he O
+looks O
+around O
+five B-AGE
+years I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+she O
+is O
+diagnosed O
+with O
+heat B-INJURY
+stroke L-INJURY
+
+-DOCSTART- O
+
+person O
+fell B-INJURY
+from I-INJURY
+a I-INJURY
+height L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+having O
+heat B-INJURY
+stroke L-INJURY
+
+-DOCSTART- O
+
+i O
+think O
+he O
+looks O
+around O
+6 B-AGE
+years I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+skull B-INJURY
+fracture I-INJURY
+and I-INJURY
+intracranial I-INJURY
+injury L-INJURY
+on O
+upper B-BODYLOCATION
+uvula L-BODYLOCATION
+
+-DOCSTART- O
+
+there O
+is O
+a O
+hot B-INJURY
+oil I-INJURY
+splash L-INJURY
+
+-DOCSTART- O
+
+person O
+has O
+chest B-CONDITION
+pain L-CONDITION
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+is I-CONDITION
+normal L-CONDITION
+
+-DOCSTART- O
+
+person O
+vomit B-INJURY
+blood L-INJURY
+
+-DOCSTART- O
+
+patient O
+is O
+diagnosed O
+with O
+pinched B-INJURY
+nerve L-INJURY
+
+-DOCSTART- O
+
+patient O
+is O
+having O
+anaphylaxis U-INJURY
+
+-DOCSTART- O
+
+she O
+is O
+diagnosed O
+with O
+cuts U-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+is I-CONDITION
+a I-CONDITION
+bit I-CONDITION
+slow L-CONDITION
+
+-DOCSTART- O
+
+person O
+is O
+having O
+third B-INJURY
+or I-INJURY
+fourth I-INJURY
+degree I-INJURY
+electrical I-INJURY
+burns L-INJURY
+
+-DOCSTART- O
+
+patient O
+is O
+having O
+traumatic B-INJURY
+injuries I-INJURY
+and I-INJURY
+disorders L-INJURY
+
+-DOCSTART- O
+
+patient O
+is O
+having O
+symptoms B-INJURY
+involving I-INJURY
+respiratory I-INJURY
+system I-INJURY
+and I-INJURY
+chest L-INJURY
+
+-DOCSTART- O
+
+there O
+is O
+a O
+hot B-INJURY
+oil I-INJURY
+splash L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+bitten B-INJURY
+by I-INJURY
+snake L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+is I-CONDITION
+a I-CONDITION
+bit I-CONDITION
+slow L-CONDITION
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+is I-CONDITION
+normal L-CONDITION
+
+-DOCSTART- O
+
+person O
+is O
+diagnosed O
+with O
+traumatic B-INJURY
+injuries I-INJURY
+to I-INJURY
+muscles I-INJURY
+joints L-INJURY
+
+-DOCSTART- O
+
+patient O
+is O
+diagnosed O
+with O
+hypothermia U-INJURY
+
+-DOCSTART- O
+
+patient O
+is O
+diagnosed O
+with O
+other B-INJURY
+burns L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+finger B-INJURY
+amputated L-INJURY
+
+-DOCSTART- O
+
+there O
+is O
+a O
+vehicle B-INJURY
+over I-INJURY
+turn L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+having O
+blisters U-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+okay L-CONDITION
+
+-DOCSTART- O
+
+person O
+is O
+diagnosed O
+with O
+nutritional U-INJURY
+
+-DOCSTART- O
+
+he O
+is O
+having O
+surface B-INJURY
+wounds I-INJURY
+and I-INJURY
+bruises L-INJURY
+
+-DOCSTART- O
+
+person O
+vomit B-INJURY
+blood L-INJURY
+
+-DOCSTART- O
+
+there O
+is O
+a O
+hot B-INJURY
+oil I-INJURY
+splash L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+diagnosed O
+with O
+electrocutions U-INJURY
+
+-DOCSTART- O
+
+patient O
+is O
+diagnosed O
+with O
+intracranial B-INJURY
+injuries I-INJURY
+and I-INJURY
+injuries I-INJURY
+to I-INJURY
+internal I-INJURY
+organs L-INJURY
+
+-DOCSTART- O
+
+she O
+is O
+having O
+multiple B-INJURY
+poisoning L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+okay L-CONDITION
+
+-DOCSTART- O
+
+person O
+want B-INJURY
+to I-INJURY
+give I-INJURY
+birth L-INJURY
+
+-DOCSTART- O
+
+he O
+is O
+diagnosed O
+tendons U-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+having B-CONDITION
+some I-CONDITION
+problems I-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+patient O
+is O
+having O
+ischemic B-INJURY
+heart I-INJURY
+disease L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+is I-CONDITION
+a I-CONDITION
+bit I-CONDITION
+slow L-CONDITION
+
+-DOCSTART- O
+
+she O
+is O
+having O
+crushing B-INJURY
+injuries L-INJURY
+
+-DOCSTART- O
+
+patient O
+is O
+having O
+fractures B-INJURY
+and I-INJURY
+other I-INJURY
+injuries L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+is I-CONDITION
+a I-CONDITION
+bit I-CONDITION
+slow L-CONDITION
+
+-DOCSTART- O
+
+person O
+is O
+having O
+dislocations U-INJURY
+
+-DOCSTART- O
+
+toxic U-INJURY
+on O
+left B-BODYLOCATION
+thyroid L-BODYLOCATION
+
+-DOCSTART- O
+
+person O
+is O
+having O
+puncture B-INJURY
+wounds L-INJURY
+
+-DOCSTART- O
+
+she O
+is O
+diagnosed O
+with O
+dizziness U-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+diagnosed O
+with O
+cellulitis B-INJURY
+and I-INJURY
+abscess L-INJURY
+
+-DOCSTART- O
+
+he O
+is O
+having O
+endocrine U-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+breathing U-CONDITION
+
+-DOCSTART- O
+
+person O
+fell B-INJURY
+from I-INJURY
+a I-INJURY
+height L-INJURY
+
+-DOCSTART- O
+
+person O
+cannot B-INJURY
+pee L-INJURY
+
+-DOCSTART- O
+
+person O
+has O
+slow B-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+person O
+is O
+itchy U-INJURY
+
+-DOCSTART- O
+
+she O
+is O
+diagnosed O
+with O
+crushing B-INJURY
+injuries L-INJURY
+
+-DOCSTART- O
+
+she O
+is O
+having O
+poisoning U-INJURY
+
+-DOCSTART- O
+
+person O
+has O
+problems B-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+i O
+think O
+he O
+looks O
+around O
+4 B-AGE
+years I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+patient O
+is O
+diagnosed O
+with O
+toxic U-INJURY
+
+-DOCSTART- O
+
+person O
+has O
+slow B-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+she O
+is O
+diagnosed O
+with O
+burns B-INJURY
+and I-INJURY
+smoke I-INJURY
+inhalation L-INJURY
+
+-DOCSTART- O
+
+person O
+has O
+no B-CONDITION
+difficulty I-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+he O
+is O
+diagnosed O
+poisoning U-INJURY
+
+-DOCSTART- O
+
+i O
+think O
+he O
+looks O
+around O
+three B-AGE
+years I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+patient O
+is O
+diagnosed O
+with O
+cerebral B-INJURY
+and I-INJURY
+other I-INJURY
+intracranial I-INJURY
+hemorrhages L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+okay L-CONDITION
+
+-DOCSTART- O
+
+person O
+is O
+breathing U-CONDITION
+
+-DOCSTART- O
+
+patient O
+is O
+diagnosed O
+with O
+second B-INJURY
+degree I-INJURY
+chemical I-INJURY
+burns I-INJURY
+and I-INJURY
+corrosions L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+diagnosed O
+with O
+effects B-INJURY
+of I-INJURY
+heat I-INJURY
+and I-INJURY
+light L-INJURY
+
+-DOCSTART- O
+
+surface B-INJURY
+wounds I-INJURY
+and I-INJURY
+bruises L-INJURY
+on O
+lower B-BODYLOCATION
+lobe L-BODYLOCATION
+
+-DOCSTART- O
+
+i O
+think O
+he O
+looks O
+around O
+thirteen B-AGE
+months I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+heat B-INJURY
+fatigue L-INJURY
+on O
+right B-BODYLOCATION
+pinky L-BODYLOCATION
+
+-DOCSTART- O
+
+patient O
+is O
+having O
+vomiting U-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+having O
+second B-INJURY
+degree I-INJURY
+heat I-INJURY
+burns L-INJURY
+
+-DOCSTART- O
+
+she O
+is O
+diagnosed O
+with O
+electrical B-INJURY
+burns L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+diagnosed O
+with O
+low B-INJURY
+vision L-INJURY
+
+-DOCSTART- O
+
+heat B-INJURY
+syncope L-INJURY
+on O
+upper B-BODYLOCATION
+urethra L-BODYLOCATION
+
+-DOCSTART- O
+
+person O
+slipped U-INJURY
+
+-DOCSTART- O
+
+there O
+is O
+a O
+vehicle B-INJURY
+roll I-INJURY
+over L-INJURY
+
+-DOCSTART- O
+
+person O
+want B-INJURY
+to I-INJURY
+give I-INJURY
+birth L-INJURY
+
+-DOCSTART- O
+
+person O
+fell B-INJURY
+from I-INJURY
+a I-INJURY
+height L-INJURY
+
+-DOCSTART- O
+
+he O
+is O
+diagnosed O
+pinched B-INJURY
+nerve L-INJURY
+
+-DOCSTART- O
+
+patient O
+is O
+diagnosed O
+with O
+hernias B-INJURY
+due I-INJURY
+to I-INJURY
+traumatic I-INJURY
+incidents L-INJURY
+
+-DOCSTART- O
+
+patient O
+is O
+having O
+concussions U-INJURY
+
+-DOCSTART- O
+
+he O
+is O
+having O
+numbness-nonspecified B-INJURY
+injury L-INJURY
+
+-DOCSTART- O
+
+she O
+is O
+diagnosed O
+with O
+influenza-common U-INJURY
+
+-DOCSTART- O
+
+patient O
+is O
+having O
+bends U-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+diagnosed O
+with O
+crushing B-INJURY
+injuries L-INJURY
+
+-DOCSTART- O
+
+person O
+has O
+no B-CONDITION
+chest I-CONDITION
+pain L-CONDITION
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+is I-CONDITION
+normal L-CONDITION
+
+-DOCSTART- O
+
+person O
+fall B-INJURY
+in I-INJURY
+bathroom L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+is I-CONDITION
+normal L-CONDITION
+
+-DOCSTART- O
+
+surface B-INJURY
+wounds I-INJURY
+and I-INJURY
+bruises L-INJURY
+on O
+lower B-BODYLOCATION
+lobe L-BODYLOCATION
+
+-DOCSTART- O
+
+there O
+is O
+a O
+vehicle B-INJURY
+and I-INJURY
+bike I-INJURY
+accident L-INJURY
+
+-DOCSTART- O
+
+i O
+think O
+he O
+looks O
+around O
+four B-AGE
+years I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+she O
+is O
+having O
+burns B-INJURY
+and I-INJURY
+smoke I-INJURY
+inhalation L-INJURY
+
+-DOCSTART- O
+
+person O
+slipped U-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+not B-CONDITION
+even I-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+person O
+is O
+arms B-INJURY
+are I-INJURY
+blue L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+arms B-INJURY
+are I-INJURY
+blue L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+breathing U-CONDITION
+
+-DOCSTART- O
+
+person O
+has O
+no B-CONDITION
+chest I-CONDITION
+pain L-CONDITION
+
+-DOCSTART- O
+
+patient O
+is O
+having O
+traumatic B-INJURY
+injuries I-INJURY
+to I-INJURY
+nerves L-INJURY
+
+-DOCSTART- O
+
+patient O
+is O
+having O
+cerebral B-INJURY
+and I-INJURY
+other I-INJURY
+intracranial I-INJURY
+hemorrhages L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+bitten B-INJURY
+by I-INJURY
+dog L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+not B-CONDITION
+even I-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+person O
+is O
+bitten B-INJURY
+by I-INJURY
+snake L-INJURY
+
+-DOCSTART- O
+
+he O
+is O
+diagnosed O
+symptoms B-INJURY
+involving I-INJURY
+respiratory I-INJURY
+system I-INJURY
+and I-INJURY
+chest L-INJURY
+
+-DOCSTART- O
+
+he O
+is O
+diagnosed O
+heat B-INJURY
+burns L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+very I-CONDITION
+fast L-CONDITION
+
+-DOCSTART- O
+
+patient O
+is O
+having O
+other B-INJURY
+burns L-INJURY
+
+-DOCSTART- O
+
+patient O
+is O
+having O
+ischemic B-INJURY
+heart I-INJURY
+disease L-INJURY
+
+-DOCSTART- O
+
+intracranial B-INJURY
+injuries I-INJURY
+and I-INJURY
+injuries I-INJURY
+to I-INJURY
+internal I-INJURY
+organs L-INJURY
+on O
+lower B-BODYLOCATION
+lobe L-BODYLOCATION
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+is I-CONDITION
+normal L-CONDITION
+
+-DOCSTART- O
+
+patient O
+is O
+having O
+burns B-INJURY
+and I-INJURY
+smoke I-INJURY
+inhalation L-INJURY
+
+-DOCSTART- O
+
+there O
+is O
+a O
+vehicle B-INJURY
+roll I-INJURY
+over L-INJURY
+
+-DOCSTART- O
+
+there O
+is O
+a O
+hot B-INJURY
+oil I-INJURY
+splash L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+diagnosed O
+with O
+bursitis U-INJURY
+
+-DOCSTART- O
+
+i O
+think O
+he O
+looks O
+around O
+fifteen B-AGE
+months I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+there O
+is O
+a O
+group B-INJURY
+of I-INJURY
+people I-INJURY
+beat I-INJURY
+up L-INJURY
+
+-DOCSTART- O
+
+he O
+is O
+having O
+stress U-INJURY
+
+-DOCSTART- O
+
+she O
+is O
+having O
+endocrine U-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+lying B-INJURY
+on I-INJURY
+ground L-INJURY
+
+-DOCSTART- O
+
+patient O
+is O
+having O
+low B-INJURY
+vision L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+arms B-INJURY
+are I-INJURY
+blue L-INJURY
+
+-DOCSTART- O
+
+patient O
+is O
+having O
+other B-INJURY
+traumatic I-INJURY
+injuries I-INJURY
+and I-INJURY
+disorders L-INJURY
+
+-DOCSTART- O
+
+i O
+think O
+he O
+looks O
+around O
+four B-AGE
+months I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+he O
+is O
+having O
+paraplegia U-INJURY
+
+-DOCSTART- O
+
+scratches U-INJURY
+on O
+lower B-BODYLOCATION
+belly L-BODYLOCATION
+
+-DOCSTART- O
+
+person O
+is O
+arms B-INJURY
+are I-INJURY
+blue L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+right B-INJURY
+arm I-INJURY
+fractured L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+having O
+suffocations U-INJURY
+
+-DOCSTART- O
+
+patient O
+is O
+diagnosed O
+with O
+myocardial B-INJURY
+infarction L-INJURY
+
+-DOCSTART- O
+
+person O
+has O
+problems B-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+person O
+fell B-INJURY
+from I-INJURY
+a I-INJURY
+height L-INJURY
+
+-DOCSTART- O
+
+patient O
+is O
+having O
+bends U-INJURY
+
+-DOCSTART- O
+
+patient O
+is O
+diagnosed O
+with O
+multiple B-INJURY
+injuries I-INJURY
+and I-INJURY
+disorders L-INJURY
+
+-DOCSTART- O
+
+there O
+is O
+a O
+vehicle B-INJURY
+and I-INJURY
+bike I-INJURY
+accident L-INJURY
+
+-DOCSTART- O
+
+she O
+is O
+diagnosed O
+with O
+poisoning U-INJURY
+
+-DOCSTART- O
+
+she O
+is O
+having O
+open B-INJURY
+wounds L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+having O
+third B-INJURY
+or I-INJURY
+fourth I-INJURY
+degree I-INJURY
+heat I-INJURY
+burns L-INJURY
+
+-DOCSTART- O
+
+person O
+smell B-INJURY
+toxic I-INJURY
+gas L-INJURY
+
+-DOCSTART- O
+
+patient O
+is O
+having O
+traumatic B-INJURY
+injuries I-INJURY
+and I-INJURY
+disorders L-INJURY
+
+-DOCSTART- O
+
+she O
+is O
+having O
+nutritional U-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+having O
+lightheadedness U-INJURY
+
+-DOCSTART- O
+
+i O
+think O
+he O
+looks O
+around O
+3 B-AGE
+years I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+person O
+slipped U-INJURY
+
+-DOCSTART- O
+
+she O
+is O
+diagnosed O
+with O
+traumatic B-INJURY
+injuries I-INJURY
+to I-INJURY
+muscles I-INJURY
+joints L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+not B-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+he O
+is O
+diagnosed O
+loss B-INJURY
+of I-INJURY
+consciousness L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+is I-CONDITION
+a I-CONDITION
+bit I-CONDITION
+slow L-CONDITION
+
+-DOCSTART- O
+
+patient O
+is O
+having O
+nausea U-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+diagnosed O
+with O
+cellulitis B-INJURY
+and I-INJURY
+abscess L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+is I-CONDITION
+a I-CONDITION
+bit I-CONDITION
+slow L-CONDITION
+
+-DOCSTART- O
+
+person O
+is O
+right B-INJURY
+arm I-INJURY
+fractured L-INJURY
+
+-DOCSTART- O
+
+person O
+cannot B-INJURY
+feel I-INJURY
+his I-INJURY
+hands L-INJURY
+
+-DOCSTART- O
+
+hypothermia U-INJURY
+on O
+left B-BODYLOCATION
+rectum L-BODYLOCATION
+
+-DOCSTART- O
+
+i O
+think O
+he O
+looks O
+around O
+5 B-AGE
+years I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+she O
+is O
+diagnosed O
+with O
+quadriplegia U-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+bitten B-INJURY
+on L-INJURY
+
+-DOCSTART- O
+
+person O
+vomit B-INJURY
+blood L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+arms B-INJURY
+are I-INJURY
+blue L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+right B-INJURY
+arm I-INJURY
+fractured L-INJURY
+
+-DOCSTART- O
+
+cerebral B-INJURY
+and I-INJURY
+other I-INJURY
+intracranial I-INJURY
+hemorrhages L-INJURY
+on O
+lower B-BODYLOCATION
+nostril L-BODYLOCATION
+
+-DOCSTART- O
+
+effects B-INJURY
+of I-INJURY
+environmental I-INJURY
+conditions L-INJURY
+on O
+upper B-BODYLOCATION
+skull L-BODYLOCATION
+
+-DOCSTART- O
+
+he O
+is O
+diagnosed O
+gunshot B-INJURY
+wounds L-INJURY
+
+-DOCSTART- O
+
+heat B-INJURY
+exhaustion L-INJURY
+on O
+upper B-BODYLOCATION
+wrist L-BODYLOCATION
+
+-DOCSTART- O
+
+person O
+is O
+breathing U-CONDITION
+
+-DOCSTART- O
+
+she O
+is O
+diagnosed O
+with O
+multiple B-INJURY
+intracranial I-INJURY
+injuries L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+having O
+symptoms B-INJURY
+involving I-INJURY
+respiratory I-INJURY
+system I-INJURY
+and I-INJURY
+chest L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+vomiting U-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+is I-CONDITION
+a I-CONDITION
+bit I-CONDITION
+slow L-CONDITION
+
+-DOCSTART- O
+
+he O
+is O
+diagnosed O
+pneumonia U-INJURY
+
+-DOCSTART- O
+
+open B-INJURY
+wounds L-INJURY
+on O
+left B-BODYLOCATION
+pituitary L-BODYLOCATION
+
+-DOCSTART- O
+
+intracranial B-INJURY
+injuries I-INJURY
+and I-INJURY
+injuries I-INJURY
+to I-INJURY
+internal I-INJURY
+organs L-INJURY
+on O
+right B-BODYLOCATION
+scalp L-BODYLOCATION
+
+-DOCSTART- O
+
+person O
+is O
+right B-INJURY
+arm I-INJURY
+fractured L-INJURY
+
+-DOCSTART- O
+
+she O
+is O
+having O
+effects B-INJURY
+of I-INJURY
+heat I-INJURY
+and I-INJURY
+light L-INJURY
+
+-DOCSTART- O
+
+patient O
+is O
+diagnosed O
+with O
+irritation-nonspecified B-INJURY
+injury L-INJURY
+
+-DOCSTART- O
+
+i O
+think O
+he O
+looks O
+around O
+14 B-AGE
+months I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+person O
+cannot B-INJURY
+pee L-INJURY
+
+-DOCSTART- O
+
+she O
+is O
+diagnosed O
+with O
+toxic U-INJURY
+
+-DOCSTART- O
+
+patient O
+is O
+diagnosed O
+with O
+fractures U-INJURY
+
+-DOCSTART- O
+
+patient O
+is O
+having O
+damage B-INJURY
+to I-INJURY
+prosthetic I-INJURY
+devices L-INJURY
+
+-DOCSTART- O
+
+person O
+cannot B-INJURY
+pee L-INJURY
+
+-DOCSTART- O
+
+patient O
+is O
+diagnosed O
+with O
+third B-INJURY
+or I-INJURY
+fourth I-INJURY
+degree I-INJURY
+electrical I-INJURY
+burns L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+having O
+first B-INJURY
+degree I-INJURY
+electrical I-INJURY
+burns L-INJURY
+
+-DOCSTART- O
+
+he O
+is O
+having O
+dizziness U-INJURY
+
+-DOCSTART- O
+
+person O
+swallowed B-INJURY
+fish I-INJURY
+bone L-INJURY
+
+-DOCSTART- O
+
+fractures B-INJURY
+and I-INJURY
+burns L-INJURY
+on O
+lower B-BODYLOCATION
+throat L-BODYLOCATION
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+okay L-CONDITION
+
+-DOCSTART- O
+
+she O
+is O
+diagnosed O
+with O
+multiple B-INJURY
+poisoning L-INJURY
+
+-DOCSTART- O
+
+metabolic U-INJURY
+on O
+left B-BODYLOCATION
+adenoids L-BODYLOCATION
+
+-DOCSTART- O
+
+person O
+is O
+arms B-INJURY
+are I-INJURY
+blue L-INJURY
+
+-DOCSTART- O
+
+i O
+think O
+he O
+looks O
+around O
+one B-AGE
+years I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+person O
+has O
+difficulty B-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+he O
+is O
+having O
+toxic U-INJURY
+
+-DOCSTART- O
+
+she O
+is O
+diagnosed O
+with O
+low B-INJURY
+vision L-INJURY
+
+-DOCSTART- O
+
+there O
+is O
+a O
+group B-INJURY
+of I-INJURY
+people I-INJURY
+beat I-INJURY
+up L-INJURY
+
+-DOCSTART- O
+
+person O
+has O
+no B-CONDITION
+chest I-CONDITION
+pain L-CONDITION
+
+-DOCSTART- O
+
+he O
+is O
+having O
+transient B-INJURY
+ischemia I-INJURY
+attacks L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+having B-CONDITION
+some I-CONDITION
+problems I-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+i O
+think O
+he O
+looks O
+around O
+3 B-AGE
+months I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+person O
+is O
+fainting U-INJURY
+
+-DOCSTART- O
+
+person O
+has O
+a B-CONDITION
+bit I-CONDITION
+of I-CONDITION
+difficulty I-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+person O
+is O
+raped U-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+is I-CONDITION
+normal L-CONDITION
+
+-DOCSTART- O
+
+he O
+is O
+diagnosed O
+tears U-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+bitten B-INJURY
+by I-INJURY
+snake L-INJURY
+
+-DOCSTART- O
+
+person O
+has O
+no B-CONDITION
+difficulty I-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+she O
+is O
+having O
+multiple B-INJURY
+traumatic I-INJURY
+injuries I-INJURY
+to I-INJURY
+bones L-INJURY
+
+-DOCSTART- O
+
+she O
+is O
+diagnosed O
+with O
+multiple B-INJURY
+intracranial I-INJURY
+injuries L-INJURY
+
+-DOCSTART- O
+
+effects B-INJURY
+of I-INJURY
+heat I-INJURY
+and I-INJURY
+light L-INJURY
+on O
+right B-BODYLOCATION
+ear L-BODYLOCATION
+
+-DOCSTART- O
+
+person O
+is O
+breathing U-CONDITION
+
+-DOCSTART- O
+
+patient O
+is O
+diagnosed O
+with O
+coughing B-INJURY
+and I-INJURY
+throat I-INJURY
+irritation- I-INJURY
+toxic L-INJURY
+
+-DOCSTART- O
+
+person O
+vomit B-INJURY
+blood L-INJURY
+
+-DOCSTART- O
+
+i O
+think O
+he O
+looks O
+around O
+zero B-AGE
+months I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+he O
+is O
+having O
+skull B-INJURY
+fracture I-INJURY
+and I-INJURY
+intracranial I-INJURY
+injury L-INJURY
+
+-DOCSTART- O
+
+irritation-nonspecified B-INJURY
+injury L-INJURY
+on O
+left B-BODYLOCATION
+body L-BODYLOCATION
+
+-DOCSTART- O
+
+person O
+is O
+diagnosed O
+with O
+noxious U-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+having O
+fractures B-INJURY
+and I-INJURY
+dislocations L-INJURY
+
+-DOCSTART- O
+
+exposures B-INJURY
+to I-INJURY
+disease-no I-INJURY
+illness I-INJURY
+incurred L-INJURY
+on O
+lower B-BODYLOCATION
+arch L-BODYLOCATION
+
+-DOCSTART- O
+
+person O
+is O
+having O
+influenza-novel U-INJURY
+
+-DOCSTART- O
+
+patient O
+is O
+diagnosed O
+with O
+poisoning U-INJURY
+
+-DOCSTART- O
+
+person O
+fall B-INJURY
+in I-INJURY
+bathroom L-INJURY
+
+-DOCSTART- O
+
+patient O
+is O
+diagnosed O
+with O
+toxic U-INJURY
+
+-DOCSTART- O
+
+patient O
+is O
+diagnosed O
+with O
+electrocutions U-INJURY
+
+-DOCSTART- O
+
+patient O
+is O
+having O
+dermatitis B-INJURY
+and I-INJURY
+reactions I-INJURY
+affecting I-INJURY
+the I-INJURY
+skin-acute L-INJURY
+
+-DOCSTART- O
+
+multiple B-INJURY
+traumatic I-INJURY
+injuries I-INJURY
+to I-INJURY
+bones L-INJURY
+on O
+right B-BODYLOCATION
+skin L-BODYLOCATION
+
+-DOCSTART- O
+
+she O
+is O
+having O
+headache-toxic U-INJURY
+
+-DOCSTART- O
+
+person O
+has O
+no B-CONDITION
+chest I-CONDITION
+pain L-CONDITION
+
+-DOCSTART- O
+
+person O
+fell B-INJURY
+from I-INJURY
+a I-INJURY
+height L-INJURY
+
+-DOCSTART- O
+
+there O
+is O
+a O
+vehicle B-INJURY
+roll I-INJURY
+over L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+diagnosed O
+with O
+gunshot B-INJURY
+wounds L-INJURY
+
+-DOCSTART- O
+
+i O
+think O
+he O
+looks O
+around O
+9 B-AGE
+months I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+is I-CONDITION
+a I-CONDITION
+bit I-CONDITION
+slow L-CONDITION
+
+-DOCSTART- O
+
+person O
+is O
+bitten B-INJURY
+on I-INJURY
+arms L-INJURY
+
+-DOCSTART- O
+
+person O
+slipped U-INJURY
+
+-DOCSTART- O
+
+she O
+is O
+having O
+tears U-INJURY
+
+-DOCSTART- O
+
+he O
+is O
+having O
+herniated B-INJURY
+discs L-INJURY
+
+-DOCSTART- O
+
+there O
+is O
+a O
+group B-INJURY
+of I-INJURY
+people I-INJURY
+beat I-INJURY
+up L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+right B-INJURY
+arm I-INJURY
+fractured L-INJURY
+
+-DOCSTART- O
+
+patient O
+is O
+diagnosed O
+with O
+hernias B-INJURY
+due I-INJURY
+to I-INJURY
+traumatic I-INJURY
+incidents L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+having O
+other B-INJURY
+traumatic I-INJURY
+injuries I-INJURY
+and I-INJURY
+disorders L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+is I-CONDITION
+a I-CONDITION
+bit I-CONDITION
+slow L-CONDITION
+
+-DOCSTART- O
+
+person O
+is O
+diagnosed O
+with O
+multiple B-INJURY
+traumatic I-INJURY
+injuries I-INJURY
+and I-INJURY
+disorders L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+very I-CONDITION
+fast L-CONDITION
+
+-DOCSTART- O
+
+he O
+is O
+diagnosed O
+intracranial B-INJURY
+injuries I-INJURY
+and I-INJURY
+injuries I-INJURY
+to I-INJURY
+internal I-INJURY
+organs L-INJURY
+
+-DOCSTART- O
+
+he O
+is O
+diagnosed O
+traumatic B-INJURY
+injuries I-INJURY
+to I-INJURY
+muscles I-INJURY
+joints L-INJURY
+
+-DOCSTART- O
+
+i O
+think O
+he O
+looks O
+around O
+1 B-AGE
+years I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+i O
+think O
+he O
+looks O
+around O
+seventeen B-AGE
+years I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+patient O
+is O
+having O
+hyperventilation U-INJURY
+
+-DOCSTART- O
+
+he O
+is O
+having O
+surface B-INJURY
+wounds I-INJURY
+and I-INJURY
+bruises L-INJURY
+
+-DOCSTART- O
+
+he O
+is O
+having O
+quadriplegia U-INJURY
+
+-DOCSTART- O
+
+she O
+is O
+diagnosed O
+with O
+irritant B-INJURY
+dermatitis-acute L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+breathing U-CONDITION
+
+-DOCSTART- O
+
+she O
+is O
+having O
+influenza-common U-INJURY
+
+-DOCSTART- O
+
+i O
+think O
+he O
+looks O
+around O
+12 B-AGE
+months I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+person O
+vomit B-INJURY
+blood L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+okay L-CONDITION
+
+-DOCSTART- O
+
+person O
+cannot B-INJURY
+feel I-INJURY
+his I-INJURY
+hands L-INJURY
+
+-DOCSTART- O
+
+she O
+is O
+diagnosed O
+with O
+other B-INJURY
+burns L-INJURY
+
+-DOCSTART- O
+
+person O
+has O
+slow B-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+she O
+is O
+having O
+traumatic B-INJURY
+injuries I-INJURY
+to I-INJURY
+spinal I-INJURY
+cord L-INJURY
+
+-DOCSTART- O
+
+person O
+cannot B-INJURY
+pee L-INJURY
+
+-DOCSTART- O
+
+she O
+is O
+having O
+effects B-INJURY
+of I-INJURY
+environmental I-INJURY
+conditions L-INJURY
+
+-DOCSTART- O
+
+patient O
+is O
+having O
+symptoms B-INJURY
+involving I-INJURY
+respiratory I-INJURY
+system I-INJURY
+and I-INJURY
+chest L-INJURY
+
+-DOCSTART- O
+
+i O
+think O
+he O
+looks O
+around O
+six B-AGE
+years I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+she O
+is O
+having O
+toxic U-INJURY
+
+-DOCSTART- O
+
+he O
+is O
+having O
+multiple B-INJURY
+sprains L-INJURY
+
+-DOCSTART- O
+
+there O
+is O
+a O
+vehicle B-INJURY
+and I-INJURY
+bike I-INJURY
+accident L-INJURY
+
+-DOCSTART- O
+
+there O
+is O
+a O
+hot B-INJURY
+oil I-INJURY
+splash L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+collapse U-INJURY
+
+-DOCSTART- O
+
+patient O
+is O
+diagnosed O
+with O
+sprains B-INJURY
+and I-INJURY
+other I-INJURY
+injuries L-INJURY
+
+-DOCSTART- O
+
+person O
+has O
+problems B-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+person O
+is O
+having O
+loss B-INJURY
+of I-INJURY
+consciousness L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+having O
+myocardial B-INJURY
+infarction L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+bitten B-INJURY
+by I-INJURY
+snake L-INJURY
+
+-DOCSTART- O
+
+she O
+is O
+diagnosed O
+with O
+electric B-INJURY
+shocks L-INJURY
+
+-DOCSTART- O
+
+there O
+is O
+a O
+vehicle B-INJURY
+and I-INJURY
+bike I-INJURY
+accident L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+very I-CONDITION
+fast L-CONDITION
+
+-DOCSTART- O
+
+internal B-INJURY
+injuries L-INJURY
+on O
+upper B-BODYLOCATION
+eyes L-BODYLOCATION
+
+-DOCSTART- O
+
+patient O
+is O
+having O
+dislocation B-INJURY
+of I-INJURY
+joints L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+bitten B-INJURY
+by I-INJURY
+snake L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+diagnosed O
+with O
+convulsions U-INJURY
+
+-DOCSTART- O
+
+patient O
+is O
+having O
+blindness U-INJURY
+
+-DOCSTART- O
+
+he O
+is O
+having O
+electric B-INJURY
+shocks L-INJURY
+
+-DOCSTART- O
+
+she O
+is O
+having O
+nerves U-INJURY
+
+-DOCSTART- O
+
+person O
+swallowed B-INJURY
+fish I-INJURY
+bone L-INJURY
+
+-DOCSTART- O
+
+chest B-INJURY
+pain L-INJURY
+on O
+left B-BODYLOCATION
+lungs L-BODYLOCATION
+
+-DOCSTART- O
+
+person O
+is O
+not B-CONDITION
+even I-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+he O
+is O
+diagnosed O
+lightheadedness U-INJURY
+
+-DOCSTART- O
+
+she O
+is O
+having O
+spinal B-INJURY
+cord L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+having O
+dizziness U-INJURY
+
+-DOCSTART- O
+
+he O
+is O
+having O
+seizures U-INJURY
+
+-DOCSTART- O
+
+she O
+is O
+having O
+swelling U-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+diagnosed O
+with O
+nerves U-INJURY
+
+-DOCSTART- O
+
+person O
+cannot B-INJURY
+pee L-INJURY
+
+-DOCSTART- O
+
+there O
+is O
+a O
+vehicle B-INJURY
+over I-INJURY
+turn L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+having B-CONDITION
+some I-CONDITION
+problems I-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+i O
+think O
+he O
+looks O
+around O
+11 B-AGE
+years I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+he O
+is O
+diagnosed O
+hernias B-INJURY
+due I-INJURY
+to I-INJURY
+traumatic I-INJURY
+incidents L-INJURY
+
+-DOCSTART- O
+
+she O
+is O
+diagnosed O
+with O
+effects B-INJURY
+of I-INJURY
+environmental I-INJURY
+conditions L-INJURY
+
+-DOCSTART- O
+
+patient O
+is O
+having O
+multiple B-INJURY
+poisoning L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+finger B-INJURY
+amputated L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+lying B-INJURY
+on I-INJURY
+ground L-INJURY
+
+-DOCSTART- O
+
+he O
+is O
+having O
+chest B-INJURY
+pain L-INJURY
+
+-DOCSTART- O
+
+he O
+is O
+diagnosed O
+enucleations U-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+is I-CONDITION
+normal L-CONDITION
+
+-DOCSTART- O
+
+patient O
+is O
+diagnosed O
+with O
+nausea U-INJURY
+
+-DOCSTART- O
+
+i O
+think O
+he O
+looks O
+around O
+five B-AGE
+months I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+is I-CONDITION
+normal L-CONDITION
+
+-DOCSTART- O
+
+patient O
+is O
+having O
+stroke U-INJURY
+
+-DOCSTART- O
+
+person O
+slipped U-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+having B-CONDITION
+some I-CONDITION
+problems I-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+person O
+is O
+bleeding U-INJURY
+
+-DOCSTART- O
+
+hernias B-INJURY
+due I-INJURY
+to I-INJURY
+traumatic I-INJURY
+incidents L-INJURY
+on O
+upper B-BODYLOCATION
+white I-BODYLOCATION
+blood I-BODYLOCATION
+cells L-BODYLOCATION
+
+-DOCSTART- O
+
+person O
+is O
+not B-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+person O
+is O
+having O
+multiple B-INJURY
+traumatic I-INJURY
+injuries I-INJURY
+and I-INJURY
+disorders L-INJURY
+
+-DOCSTART- O
+
+patient O
+is O
+having O
+dizziness U-INJURY
+
+-DOCSTART- O
+
+person O
+has O
+problems B-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+patient O
+is O
+diagnosed O
+with O
+reactions U-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+having O
+puncture B-INJURY
+wounds L-INJURY
+
+-DOCSTART- O
+
+she O
+is O
+having O
+tears U-INJURY
+
+-DOCSTART- O
+
+i O
+think O
+he O
+looks O
+around O
+17 B-AGE
+months I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+person O
+is O
+diagnosed O
+with O
+caisson B-INJURY
+disease L-INJURY
+
+-DOCSTART- O
+
+patient O
+is O
+diagnosed O
+with O
+effects B-INJURY
+of I-INJURY
+heat I-INJURY
+and I-INJURY
+light L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+having O
+traumatic B-INJURY
+injuries I-INJURY
+to I-INJURY
+spinal I-INJURY
+cord L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+right B-INJURY
+arm I-INJURY
+fractured L-INJURY
+
+-DOCSTART- O
+
+patient O
+is O
+having O
+influenza-novel U-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+having O
+general B-INJURY
+symptoms L-INJURY
+
+-DOCSTART- O
+
+he O
+is O
+diagnosed O
+asphyxiations U-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+having O
+frostbite U-INJURY
+
+-DOCSTART- O
+
+person O
+has O
+problems B-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+she O
+is O
+diagnosed O
+with O
+heat B-INJURY
+burns L-INJURY
+
+-DOCSTART- O
+
+person O
+has O
+problems B-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+person O
+is O
+hanging U-INJURY
+
+-DOCSTART- O
+
+person O
+has O
+a B-CONDITION
+bit I-CONDITION
+of I-CONDITION
+difficulty I-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+person O
+is O
+having O
+multiple B-INJURY
+types I-INJURY
+of I-INJURY
+open I-INJURY
+wounds L-INJURY
+
+-DOCSTART- O
+
+he O
+is O
+diagnosed O
+herniated B-INJURY
+discs L-INJURY
+
+-DOCSTART- O
+
+i O
+think O
+he O
+looks O
+around O
+0 B-AGE
+months I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+patient O
+is O
+diagnosed O
+with O
+asphyxiations U-INJURY
+
+-DOCSTART- O
+
+person O
+has O
+a B-CONDITION
+bit I-CONDITION
+of I-CONDITION
+difficulty I-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+i O
+think O
+he O
+looks O
+around O
+12 B-AGE
+years I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+person O
+is O
+having B-CONDITION
+some I-CONDITION
+problems I-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+she O
+is O
+having O
+symptoms B-INJURY
+involving I-INJURY
+respiratory I-INJURY
+system I-INJURY
+and I-INJURY
+chest L-INJURY
+
+-DOCSTART- O
+
+she O
+is O
+having O
+paraplegia U-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+having B-CONDITION
+some I-CONDITION
+problems I-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+person O
+is O
+arms B-INJURY
+are I-INJURY
+blue L-INJURY
+
+-DOCSTART- O
+
+patient O
+is O
+diagnosed O
+with O
+strangulations U-INJURY
+
+-DOCSTART- O
+
+patient O
+is O
+diagnosed O
+with O
+fractures U-INJURY
+
+-DOCSTART- O
+
+patient O
+is O
+diagnosed O
+with O
+exposures B-INJURY
+to I-INJURY
+disease-no I-INJURY
+illness I-INJURY
+incurred L-INJURY
+
+-DOCSTART- O
+
+patient O
+is O
+diagnosed O
+with O
+second B-INJURY
+degree I-INJURY
+chemical I-INJURY
+burns I-INJURY
+and I-INJURY
+corrosions L-INJURY
+
+-DOCSTART- O
+
+she O
+is O
+having O
+loss B-INJURY
+of I-INJURY
+consciousness L-INJURY
+
+-DOCSTART- O
+
+person O
+has O
+problems B-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+is I-CONDITION
+a I-CONDITION
+bit I-CONDITION
+slow L-CONDITION
+
+-DOCSTART- O
+
+patient O
+is O
+diagnosed O
+with O
+skull B-INJURY
+fracture I-INJURY
+and I-INJURY
+intracranial I-INJURY
+injury L-INJURY
+
+-DOCSTART- O
+
+person O
+fell B-INJURY
+from I-INJURY
+a I-INJURY
+height L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+having O
+third B-INJURY
+or I-INJURY
+fourth I-INJURY
+degree I-INJURY
+heat I-INJURY
+burns L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+not B-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+person O
+is O
+stung B-INJURY
+by I-INJURY
+bee L-INJURY
+
+-DOCSTART- O
+
+she O
+is O
+having O
+numbness-nonspecified B-INJURY
+injury L-INJURY
+
+-DOCSTART- O
+
+he O
+is O
+having O
+second B-INJURY
+degree I-INJURY
+electrical I-INJURY
+burns L-INJURY
+
+-DOCSTART- O
+
+she O
+is O
+diagnosed O
+with O
+open B-INJURY
+wounds L-INJURY
+
+-DOCSTART- O
+
+he O
+is O
+having O
+abdominal B-INJURY
+pain L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+stung B-INJURY
+by I-INJURY
+bee L-INJURY
+
+-DOCSTART- O
+
+there O
+is O
+a O
+vehicle B-INJURY
+roll I-INJURY
+over L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+having O
+myocardial B-INJURY
+infarction L-INJURY
+
+-DOCSTART- O
+
+person O
+has O
+no B-CONDITION
+chest I-CONDITION
+pain L-CONDITION
+
+-DOCSTART- O
+
+patient O
+is O
+having O
+strains U-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+diagnosed O
+with O
+first B-INJURY
+degree I-INJURY
+heat I-INJURY
+burns L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+having O
+dizziness U-INJURY
+
+-DOCSTART- O
+
+she O
+is O
+having O
+surface B-INJURY
+wounds I-INJURY
+and I-INJURY
+bruises L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+fainting U-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+collapse U-INJURY
+
+-DOCSTART- O
+
+he O
+is O
+diagnosed O
+hernias B-INJURY
+due I-INJURY
+to I-INJURY
+traumatic I-INJURY
+incidents L-INJURY
+
+-DOCSTART- O
+
+person O
+cannot B-INJURY
+pee L-INJURY
+
+-DOCSTART- O
+
+she O
+is O
+diagnosed O
+with O
+other B-INJURY
+burns L-INJURY
+
+-DOCSTART- O
+
+he O
+is O
+diagnosed O
+second B-INJURY
+degree I-INJURY
+electrical I-INJURY
+burns L-INJURY
+
+-DOCSTART- O
+
+he O
+is O
+having O
+sprains B-INJURY
+and I-INJURY
+bruises L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+diagnosed O
+with O
+poisoning U-INJURY
+
+-DOCSTART- O
+
+he O
+is O
+diagnosed O
+enucleations U-INJURY
+
+-DOCSTART- O
+
+he O
+is O
+diagnosed O
+burns B-INJURY
+and I-INJURY
+corrosions L-INJURY
+
+-DOCSTART- O
+
+multiple B-INJURY
+injuries I-INJURY
+and I-INJURY
+disorders L-INJURY
+on O
+right B-BODYLOCATION
+bone L-BODYLOCATION
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+is I-CONDITION
+normal L-CONDITION
+
+-DOCSTART- O
+
+he O
+is O
+diagnosed O
+convulsions U-INJURY
+
+-DOCSTART- O
+
+person O
+has O
+slow B-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+i O
+think O
+he O
+looks O
+around O
+18 B-AGE
+years I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+he O
+is O
+having O
+infections B-INJURY
+of I-INJURY
+the I-INJURY
+skin I-INJURY
+and I-INJURY
+subcutaneous I-INJURY
+tissue L-INJURY
+
+-DOCSTART- O
+
+person O
+has O
+chest B-CONDITION
+pain L-CONDITION
+
+-DOCSTART- O
+
+person O
+is O
+vomiting U-INJURY
+
+-DOCSTART- O
+
+patient O
+is O
+having O
+sprains B-INJURY
+and I-INJURY
+other I-INJURY
+injuries L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+is I-CONDITION
+normal L-CONDITION
+
+-DOCSTART- O
+
+person O
+has O
+slow B-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+person O
+fell B-INJURY
+from I-INJURY
+a I-INJURY
+height L-INJURY
+
+-DOCSTART- O
+
+person O
+has O
+a B-CONDITION
+bit I-CONDITION
+of I-CONDITION
+difficulty I-CONDITION
+breathing L-CONDITION
+
+-DOCSTART- O
+
+person O
+is O
+shivering U-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+bitten B-INJURY
+on L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+bitten B-INJURY
+by I-INJURY
+dog L-INJURY
+
+-DOCSTART- O
+
+patient O
+is O
+having O
+first B-INJURY
+degree I-INJURY
+heat I-INJURY
+burns L-INJURY
+
+-DOCSTART- O
+
+he O
+is O
+diagnosed O
+multiple B-INJURY
+injuries I-INJURY
+and I-INJURY
+disorders L-INJURY
+
+-DOCSTART- O
+
+person O
+cannot B-INJURY
+feel I-INJURY
+his I-INJURY
+hands L-INJURY
+
+-DOCSTART- O
+
+i O
+think O
+he O
+looks O
+around O
+15 B-AGE
+years I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+is I-CONDITION
+normal L-CONDITION
+
+-DOCSTART- O
+
+person O
+is O
+finger B-INJURY
+amputated L-INJURY
+
+-DOCSTART- O
+
+he O
+is O
+diagnosed O
+poisoning U-INJURY
+
+-DOCSTART- O
+
+he O
+is O
+having O
+multiple B-INJURY
+injuries I-INJURY
+and I-INJURY
+disorders L-INJURY
+
+-DOCSTART- O
+
+paraplegia U-INJURY
+on O
+lower B-BODYLOCATION
+ear I-BODYLOCATION
+lobe L-BODYLOCATION
+
+-DOCSTART- O
+
+she O
+is O
+diagnosed O
+with O
+asphyxiations U-INJURY
+
+-DOCSTART- O
+
+i O
+think O
+he O
+looks O
+around O
+3 B-AGE
+months I-AGE
+old L-AGE
+
+-DOCSTART- O
+
+person O
+is O
+drowning U-INJURY
+
+-DOCSTART- O
+
+person O
+swallowed B-INJURY
+fish I-INJURY
+bone L-INJURY
+
+-DOCSTART- O
+
+person O
+is O
+breathing B-CONDITION
+is I-CONDITION
+a I-CONDITION
+bit I-CONDITION
+slow L-CONDITION
+

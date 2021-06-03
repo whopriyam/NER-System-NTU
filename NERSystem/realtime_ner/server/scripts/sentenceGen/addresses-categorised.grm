@@ -1,0 +1,57 @@
+import 'numbers.grm' as numbers;
+import 'example.grm' as tk;
+
+
+numbers_to_999 = Optimize[numbers.numbers_to_100 | numbers.numbers_101_to_999_dig_by_dig];
+
+ADDRESS_OPEN_TAG = "<Address> ".utf8 ;
+ADDRESS_CLOSE_TAG = "</Address> ".utf8 ;
+
+
+BLOCK = "<Addr-Block> " ("Blk ": "block ") numbers_to_999 " </Addr-Block> ";
+BUILDING_NO = "<Addr-Building-Number> " numbers_to_999 " </Addr-Building-Number> ";
+
+
+STREETS = StringFile['resources/roads_and_streets.txt'];
+STREET_REWRITTEN = Optimize[STREETS @ tk.TOKENIZER];
+STREET_NAME = "<Addr-Street> " STREET_REWRITTEN " </Addr-Street> ";
+
+BUSINESS_NAME = StringFile['resources/venues-filtered.txt'] ;
+
+BUSINESS_REWRITTEN = Optimize[BUSINESS_NAME @ tk.TOKENIZER];
+
+BUILDING_NAME = " <Addr-Building-Name> " BUSINESS_REWRITTEN "</Addr-Building-Name> ";
+
+UNIT_NO = "<Addr-UnitNo> "  ("#" : "hash ") (("B" : "b ") | "") (numbers.units_with_zero | numbers.teens | ("20": "twenty")) (("-" : " " ) | ("-" : " dash " )) numbers.numbers_to_999 " </Addr-UnitNo> ";
+
+REGION = StringFile['resources/regions.txt'] ;
+
+REGION_REWRITTEN = Optimize[REGION @ tk.TOKENIZER];
+
+POSTALCODE = "<PostCode> " (("S" : "S ") | ("S" : "singapore post code ") | ("" : ""))  (numbers.units_with_zero_trailing_spaces numbers.units_with_zero_trailing_spaces numbers.units_with_zero_trailing_spaces numbers.units_with_zero_trailing_spaces numbers.units_with_zero_trailing_spaces numbers.units_with_zero_trailing_spaces) " </PostCode> ";
+PHONENO= (numbers.units_with_zero_trailing_spaces numbers.units_with_zero_trailing_spaces numbers.units_with_zero_trailing_spaces numbers.units_with_zero_trailing_spaces numbers.units_with_zero_trailing_spaces numbers.units_with_zero_trailing_spaces numbers.units_with_zero_trailing_spaces numbers.units_with_zero_trailing_spaces numbers.units_with_zero_trailing_spaces )
+
+AREA = "<Addr-Region> " (REGION_REWRITTEN)  " </Addr-Region> " ;
+
+LANDMARKS = "Cafes ".utf8 | "Restaurants ".utf8 | "Gyms ".utf8 | "Hospitals ".utf8 | "Schools ".utf8 | "Spas ".utf8 | "Malls ".utf8;
+EMERGENCY_TYPE = "Fire ".utf8 | "Accident ".utf8 | "Motor Accident ".utf8 | "Kidnapping ".utf8 | "Death ".utf8 | "Robbery ".utf8;
+
+export PUBLIC_HOUSING = (BLOCK | "") STREET_NAME UNIT_NO POSTALCODE ("<Addr-city> Singapore </Addr-city>" | "");
+export OFFICE_BUILDING = BUILDING_NO BUILDING_NAME STREET_NAME UNIT_NO POSTALCODE ("<Addr-city> Singapore </Addr-city>" | "");
+export CONDOMIUM_RESIDENTIAL = BUILDING_NO STREET_NAME UNIT_NO POSTALCODE ("<Addr-city> Singapore </Addr-city>" | "");
+export LANDED_RESIDENTIAL  = (BUILDING_NO | "") STREET_NAME POSTALCODE ("<Addr-city> Singapore </Addr-city>" | "");
+export FACILITY = BUILDING_NAME BUILDING_NO STREET_NAME POSTALCODE ("<Addr-city> Singapore </Addr-city>" | "");
+
+export ADDRESS = (PUBLIC_HOUSING | OFFICE_BUILDING | CONDOMIUM_RESIDENTIAL | LANDED_RESIDENTIAL | FACILITY) ;
+
+# Colloquial English
+
+export SHORTEST_ROUTE = "<O> Fetch me the shortest route to </O> " ADDRESS | "<O> Navigate To </O> " ADDRESS |  "<O> Show me the route To </O> " ADDRESS | "<O> My destination is </O> " ADDRESS | "<O> How to reach </O> " ADDRESS | "<O> Where is </O> " ADDRESS | "<O> I want to go to </O> " ADDRESS | "<O> Take me to </O> " ADDRESS | "<O> Show me how to reach </O> " ADDRESS | "<O> How do I reach </O> " ADDRESS | "<O> Let's go to </O> " ADDRESS;
+export FIND_POI = "<O> Find " LANDMARKS " near </O> " ADDRESS | "<O> What are some " LANDMARKS " close to </O> " ADDRESS | "<O> Find " LANDMARKS " close to </O> " ADDRESS | "<O> What are some " LANDMARKS " near </O> " ADDRESS | "<O> Find " LANDMARKS " around </O> " ADDRESS | "<O> I am looking for " LANDMARKS " near </O> " ADDRESS | "<O> Are there any " LANDMARKS " near </O> " ADDRESS;
+export DELIVERY = "<O> I am at </O> " + ADDRESS | "<O> Deliver the package to </O> " + ADDRESS | "<O> Send the courier to </O> " + ADDRESS | "<O> I live at </O> " + ADDRESS | "<O> My address is </O> " + ADDRESS | "<O> Make the delivery at </O> " + ADDRESS | "<O> Can you deliver to </O> " + ADDRESS;
+export EMERGENCY = ("<O> " EMERGENCY_TYPE " reported at </O> " + ADDRESS) | ("<O> I want to report " EMERGENCY_TYPE  " at </O> " + ADDRESS) | ("<O> " EMERGENCY_TYPE  " occured at </O> " + ADDRESS);
+
+export random_sentence = SHORTEST_ROUTE |
+                         FIND_POI |
+                         DELIVERY |
+                         EMERGENCY;

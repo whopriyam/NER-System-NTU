@@ -1,0 +1,1 @@
+from atc_model.predictors.atc_entity_tagger import AtcEntityTaggerPredictor
