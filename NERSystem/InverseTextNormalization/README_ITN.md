@@ -48,7 +48,7 @@ ws.onmessage = (e) => {
 ws.send("singapore one two cleared for takeoff");
 ```
 
-###Just to run the file files individually, run the command `conda install -c conda-forge thrax` to install thrax compiler.
+### Just to run the file files individually, run the command `conda install -c conda-forge thrax` to install thrax compiler.
 
 ## Grammar generation(Generation of sentence at CombineTextHighlighter\NERSystem\InverseTextNormalization\grammars )
 
