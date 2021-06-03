@@ -54,7 +54,9 @@ ws.send("singapore one two cleared for takeoff");
 
 ## Run these commands to generate the sentences
 1)thraxmakedep police.grm
+
 2)make
+
 3)thraxrandom-generator --far=domain.far --rule=random_sentence --noutput = 1000000 > emergencysen.txt
 
 ##itn_entity_tagger.py
