@@ -47,12 +47,17 @@ ws.onmessage = (e) => {
 // Using `send` method, send message to server
 ws.send("singapore one two cleared for takeoff");
 ```
+
+### Just to run the file files individually, run the command `conda install -c conda-forge thrax` to install thrax compiler.
+
 ## Grammar generation(Generation of sentence at CombineTextHighlighter\NERSystem\InverseTextNormalization\grammars )
 
-##make
+## Run these commands to generate the sentences
 1)thraxmakedep police.grm
+
 2)make
-3)thraxrandom-generator --far=police.far --rule=random_sentence --noutput = 1000000 > emergencysen.txt
+
+3)thraxrandom-generator --far=domain.far --rule=random_sentence --noutput = 1000000 > emergencysen.txt
 
 ##itn_entity_tagger.py
 this contains the spacy pipeline component(adds all the valid tags)
