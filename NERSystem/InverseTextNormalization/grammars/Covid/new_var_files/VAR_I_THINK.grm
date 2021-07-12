@@ -1,0 +1,1 @@
+export VAR_I_THINK = Optimize[ "I think I should get a Covid test done because I have a ".utf8 | "I think I should get a Covid test done because I have symptoms like ".utf8];

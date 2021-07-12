@@ -1,0 +1,147 @@
+import 'example.grm' as tk;
+import 'exclamation.grm' as exclamation;
+import 'numbers.grm' as numbers;
+
+import 'variable_grm_files/VAR1.grm' as VAR1;
+import 'variable_grm_files/VAR2.grm' as VAR2;
+import 'variable_grm_files/VAR3.grm' as VAR3;
+import 'variable_grm_files/VAR4.grm' as VAR4;
+import 'variable_grm_files/VAR5.grm' as VAR5;
+import 'variable_grm_files/VAR6.grm' as VAR6;
+import 'variable_grm_files/VAR7.grm' as VAR7;
+import 'variable_grm_files/VAR8.grm' as VAR8;
+import 'variable_grm_files/VAR9.grm' as VAR9;
+import 'variable_grm_files/VAR10.grm' as VAR10;
+import 'variable_grm_files/VAR11.grm' as VAR11;
+import 'variable_grm_files/VAR12.grm' as VAR12;
+import 'variable_grm_files/VAR13.grm' as VAR13;
+import 'variable_grm_files/VAR14.grm' as VAR14;
+
+
+FIRST_NAMES = StringFile['txt_resource_files/chinesefirstnames.txt'];
+FIRST_NAMES_REWRITTEN = Optimize[FIRST_NAMES @ tk.TOKENIZER];
+FIRST_NAME = FIRST_NAMES_REWRITTEN;
+
+LAST_NAMES = StringFile['txt_resource_files/chineselastnames.txt'];
+LAST_NAMES_REWRITTEN = Optimize[LAST_NAMES @ tk.TOKENIZER];
+LAST_NAME = LAST_NAMES_REWRITTEN;
+
+SYMPTOMS= StringFile['txt_resource_files/symptom.txt'];
+SYMPTOM_REWRITTEN = Optimize[SYMPTOMS @ tk.TOKENIZER];
+SYMPTOM=  SYMPTOM_REWRITTEN;
+
+
+EXCLAMATION = exclamation.EXCLAMATION;
+
+VAR1 = VAR1.VAR1;
+VAR2 = VAR2.VAR2;
+VAR3 = VAR3.VAR3;
+VAR4 = VAR4.VAR4;
+VAR5 = VAR5.VAR5;
+VAR6 = VAR6.VAR6;
+VAR7 = VAR7.VAR7;
+VAR8 = VAR8.VAR8;
+VAR9 = VAR9.VAR9;
+VAR10 = VAR10.VAR10;
+VAR11 = VAR11.VAR11;
+VAR12 = VAR12.VAR12;
+VAR13 = VAR13.VAR13;
+VAR14 = VAR14.VAR14;
+VAR_I_Have = VAR10
+
+export SYMPTOMSENT =  ("Do you have "  SYMPTOM ) |
+												("Did you have "  SYMPTOM ) |
+												("Do you have any Covid symptoms like "  SYMPTOM " and " SYMPTOM ) |
+												("Are you sure you have "  SYMPTOM ) |
+												
+												(VAR5 " "  SYMPTOM "and " SYMPTOM) |
+												(VAR5 " recently developed "  SYMPTOM ) |
+												(VAR5 " developed "  SYMPTOM ) |
+												("I developed "  SYMPTOM ) |
+												(VAR6 " "  SYMPTOM ) |
+												(VAR6 " "  SYMPTOM " and " SYMPTOM ) |
+												("I am feeling sick because of "  SYMPTOM ) |
+												("I am worried because I recently developed "  SYMPTOM " and I think I might have Covid ") |
+												
+												(VAR10 " "  SYMPTOM " since yesterday " ) |
+												(VAR10 " "  SYMPTOM "or " SYMPTOM " since yesterday " ) |
+												
+												(VAR3 " "  SYMPTOM " since yesterday ") |
+												(VAR3 " "  SYMPTOM " since last night ") |
+												(VAR3 " "  SYMPTOM " for a few hours  ") |
+												
+												(VAR10 " "  SYMPTOM " since this morning " ) |
+												(VAR3 " "  SYMPTOM " since this morning ") |
+												
+												(VAR11 " "  SYMPTOM ) |
+												(VAR11 " "  SYMPTOM " and " SYMPTOM ) |
+												(VAR4 " start having "  SYMPTOM ) |
+												(VAR4 " develop "  SYMPTOM " and " SYMPTOM ) |
+												(VAR4 " develop "  SYMPTOM ) |
+												(VAR4 " have "  SYMPTOM ) |
+												(VAR4 " start having "  SYMPTOM " and " SYMPTOM ) |
+												(VAR7 " "  SYMPTOM ) |
+												(VAR7 " "  SYMPTOM " and " SYMPTOM ) |
+												("Since last night, I've been down with "  SYMPTOM ) |
+												("Since yesterday, I've been down with "  SYMPTOM ) |
+												
+												(VAR5 " had "  SYMPTOM " for the past few days ") |
+												(VAR5 " had "  SYMPTOM " for quite some time now ") |
+												("Is "  SYMPTOM " a symptom of Covid because I think I might be have it ") |
+												(VAR8 " " VAR5  " a "  SYMPTOM ) |
+												(VAR8 " " VAR5  " symptoms like "  SYMPTOM " and " SYMPTOM) |
+												(EXCLAMATION " Can you recommend me a good doctor, I think " VAR5  " " SYMPTOM ) |
+												(EXCLAMATION " Can you recommend me a good doctor, " VAR5 " " SYMPTOM " and think that I might have Covid" ) |
+												(VAR5 " "  SYMPTOM " what are the chances that I actually have Covid ") |
+												
+												("Have you contacted any doctor regarding your " SYMPTOM ) |
+												("Have you asked any doctor about your " SYMPTOM ) |
+												
+												("I think I should contact a doctor because " VAR3 " " SYMPTOM " for quite some time now ") |
+												
+												(VAR13 " suffering from "  SYMPTOM ) |
+												(VAR13 " having "  SYMPTOM ) |
+												(VAR14 " suffering from "  SYMPTOM ) |
+												(VAR14 " having "  SYMPTOM ) |
+												
+												("I am not meeting people right now ever since I got "  SYMPTOM " which might be indicative of Covid ") |
+												("I did not meet " FIRST_NAME " " LAST_NAME " yesterday because " VAR5  " "  SYMPTOM " which might be indicative of Covid ") |
+												("Is your "  SYMPTOM " severe " ) |
+												("Is your "  SYMPTOM " really bad " ) |
+												
+												(VAR12 " " VAR5  " severe "  SYMPTOM ) |
+												(VAR12 " my "  SYMPTOM " is quite severe " ) |
+												(VAR12 " my "  SYMPTOM " is very serious " ) |
+												
+												
+
+
+												
+
+
+												(VAR9 " doing") |
+												(VAR9 " doing there") |
+												(VAR9 " travelling ") |
+												("Why were you roaming outside your house")
+												("Why had you gone there") |
+
+												(VAR1 " parents") |
+												(VAR1 " cousins") |
+												(VAR1 " brother") |
+												(VAR1 " sister") |
+												(VAR1 " friends") |
+												(VAR1 " friend " FIRST_NAME " " LAST_NAME) |
+												(VAR2 " to see the doctor") |
+												("I went for a health checkup") |
+
+												(VAR2 " to the bank") |
+												(VAR2 " to withdraw some money from the ATM") |
+												(VAR2 " to work") |
+												(VAR2 " for some personal reason") |
+												(VAR2 " to deliver groceries to my parents' house") |
+												(VAR2 " to buy groceries") |
+												(VAR2 " to buy food") |
+												(VAR2 " to buy some house supplies") |
+												(VAR2 " out to get some medicine") |
+												(VAR2 " to get vaccinated") |
+												("I went to get the vaccine");

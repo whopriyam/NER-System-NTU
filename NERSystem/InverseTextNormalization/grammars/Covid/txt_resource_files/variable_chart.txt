@@ -1,0 +1,14 @@
+VAR1 - I had gone to meet my
+VAR2 - I had gone
+VAR3 - I have been having
+VAR4 - When did you
+VAR5 - I have
+VAR6 - I have come down with the symptom of
+VAR7 - How long have you been suffering from
+VAR8 - I think I should get a Covid test done because
+VAR9 - What were you
+VAR10 - Have you had
+VAR11 - Since when do you have
+VAR12 - Yes I think
+VAR13 - Have you met anyone since you started
+VAR14 - Have you contacted anyone since you started

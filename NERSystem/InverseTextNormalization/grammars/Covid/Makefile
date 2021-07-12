@@ -1,7 +1,7 @@
-covid.far: covid.grm covid_symptoms.far place_country.far local_address.far activity.far
+covid.far: covid.grm covid_symptoms3.far place_country.far local_address.far activity.far
 	thraxcompiler --input_grammar=$< --output_far=$@
 
-covid_symptoms.far: covid_symptoms.grm example.far exclamation.far numbers.far txt_resource_files/chinesefirstnames.txt txt_resource_files/chineselastnames.txt txt_resource_files/symptom.txt
+covid_symptoms3.far: covid_symptoms3.grm example.far exclamation.far numbers.far new_var_files/VAR_DO_HAVE_YOU.far new_var_files/VAR_I_HAVE.far new_var_files/VAR_WHEN.far new_var_files/VAR_WHAT_WHY.far new_var_files/VAR_CHORES.far new_var_files/VAR_I_THINK.far txt_resource_files/chinesefirstnames.txt txt_resource_files/chineselastnames.txt txt_resource_files/symptom.txt txt_resource_files/people.txt txt_resource_files/timeframe.txt
 	thraxcompiler --input_grammar=$< --output_far=$@
 
 example.far: example.grm byte.far numbers.far
@@ -16,6 +16,24 @@ numbers.far: numbers.grm byte.far
 exclamation.far: exclamation.grm 
 	thraxcompiler --input_grammar=$< --output_far=$@
 
+new_var_files/VAR_DO_HAVE_YOU.far: new_var_files/VAR_DO_HAVE_YOU.grm 
+	thraxcompiler --input_grammar=$< --output_far=$@
+
+new_var_files/VAR_I_HAVE.far: new_var_files/VAR_I_HAVE.grm 
+	thraxcompiler --input_grammar=$< --output_far=$@
+
+new_var_files/VAR_WHEN.far: new_var_files/VAR_WHEN.grm 
+	thraxcompiler --input_grammar=$< --output_far=$@
+
+new_var_files/VAR_WHAT_WHY.far: new_var_files/VAR_WHAT_WHY.grm 
+	thraxcompiler --input_grammar=$< --output_far=$@
+
+new_var_files/VAR_CHORES.far: new_var_files/VAR_CHORES.grm 
+	thraxcompiler --input_grammar=$< --output_far=$@
+
+new_var_files/VAR_I_THINK.far: new_var_files/VAR_I_THINK.grm 
+	thraxcompiler --input_grammar=$< --output_far=$@
+
 place_country.far: place_country.grm example.far numbers.far txt_resource_files/businesses_and_places.txt txt_resource_files/dates.txt txt_resource_files/time.txt txt_resource_files/countries.txt
 	thraxcompiler --input_grammar=$< --output_far=$@
 
@@ -26,4 +44,4 @@ activity.far: activity.grm example.far numbers.far txt_resource_files/chinesefir
 	thraxcompiler --input_grammar=$< --output_far=$@
 
 clean:
-	rm -f covid_symptoms.far place_country.far local_address.far activity.far example.far exclamation.far numbers.far byte.far
+	rm -f covid_symptoms3.far place_country.far local_address.far activity.far example.far exclamation.far numbers.far new_var_files/VAR_DO_HAVE_YOU.far new_var_files/VAR_I_HAVE.far new_var_files/VAR_WHEN.far new_var_files/VAR_WHAT_WHY.far new_var_files/VAR_CHORES.far new_var_files/VAR_I_THINK.far byte.far

@@ -1,4 +1,4 @@
-import 'covid_symptoms.grm' as covid_symptoms;
+import 'covid_symptoms3.grm' as covid_symptoms;
 import 'place_country.grm' as place_country;
 import 'local_address.grm' as local_address;
 import 'activity.grm' as activity;

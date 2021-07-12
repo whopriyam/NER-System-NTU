@@ -1,0 +1,1 @@
+export VAR_WHAT_WHY = Optimize[ "What were you doing ".utf8 | "What were you doing there ".utf8 | "What were you travelling ".utf8 | "Why were you roaming outside your house ".utf8 | "Why had you gone there ".utf8];

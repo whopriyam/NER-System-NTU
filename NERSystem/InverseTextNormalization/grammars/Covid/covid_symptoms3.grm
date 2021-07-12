@@ -1,0 +1,91 @@
+import 'example.grm' as tk;
+import 'exclamation.grm' as exclamation;
+import 'numbers.grm' as numbers;
+
+import 'new_var_files/VAR_DO_HAVE_YOU.grm' as VAR_DO_HAVE_YOU;
+import 'new_var_files/VAR_I_HAVE.grm' as VAR_I_HAVE;
+import 'new_var_files/VAR_WHEN.grm' as VAR_WHEN;
+import 'new_var_files/VAR_WHAT_WHY.grm' as VAR_WHAT_WHY;
+import 'new_var_files/VAR_CHORES.grm' as VAR_CHORES;
+import 'new_var_files/VAR_I_THINK.grm' as VAR_I_THINK;
+
+FIRST_NAMES = StringFile['txt_resource_files/chinesefirstnames.txt'];
+FIRST_NAMES_REWRITTEN = Optimize[FIRST_NAMES @ tk.TOKENIZER];
+FIRST_NAME = FIRST_NAMES_REWRITTEN;
+
+LAST_NAMES = StringFile['txt_resource_files/chineselastnames.txt'];
+LAST_NAMES_REWRITTEN = Optimize[LAST_NAMES @ tk.TOKENIZER];
+LAST_NAME = LAST_NAMES_REWRITTEN;
+
+SYMPTOMS= StringFile['txt_resource_files/symptom.txt'];
+SYMPTOM_REWRITTEN = Optimize[SYMPTOMS @ tk.TOKENIZER];
+SYMPTOM=  SYMPTOM_REWRITTEN;
+
+PEOPLES= StringFile['txt_resource_files/people.txt'];
+PEOPLE_REWRITTEN = Optimize[PEOPLES @ tk.TOKENIZER];
+PEOPLE=  PEOPLE_REWRITTEN;
+
+TIMEFRAMES= StringFile['txt_resource_files/timeframe.txt'];
+TIMEFRAME_REWRITTEN = Optimize[TIMEFRAMES @ tk.TOKENIZER];
+TIMEFRAME=  TIMEFRAME_REWRITTEN;
+
+
+EXCLAMATION = exclamation.EXCLAMATION;
+
+VAR_DO_HAVE_YOU = VAR_DO_HAVE_YOU.VAR_DO_HAVE_YOU;
+VAR_I_HAVE = VAR_I_HAVE.VAR_I_HAVE;
+VAR_WHEN = VAR_WHEN.VAR_WHEN;
+VAR_WHAT_WHY = VAR_WHAT_WHY.VAR_WHAT_WHY;
+VAR_CHORES = VAR_CHORES.VAR_CHORES;
+VAR_I_THINK = VAR_I_THINK.VAR_I_THINK;
+
+export SYMPTOMSENT =  ("Do you have "  SYMPTOM ) |
+												(VAR_DO_HAVE_YOU  SYMPTOM ) |
+												(VAR_DO_HAVE_YOU  SYMPTOM " and " SYMPTOM ) |
+												
+												(VAR_I_HAVE  SYMPTOM "and " SYMPTOM) |
+												(VAR_I_HAVE  SYMPTOM ) |
+												(VAR_I_HAVE  SYMPTOM " and I think I might have Covid ") |
+												("I am not meeting people right now ever since I got "  SYMPTOM " which might be indicative of Covid ") |
+												("I did not meet " FIRST_NAME " " LAST_NAME " yesterday because I have "  SYMPTOM " which might be indicative of Covid ") |
+												("I think I should contact a doctor because I have been having " SYMPTOM " for quite some time now ") |
+												
+
+												("Have you had "  SYMPTOM " since " TIMEFRAME) |
+												("Have you had "  SYMPTOM "or " SYMPTOM " since " TIMEFRAME) |
+												
+												(VAR_I_HAVE  SYMPTOM " since " TIMEFRAME) |
+												(VAR_I_HAVE  SYMPTOM " for a few hours  ") |
+												
+
+												("Have you had "  SYMPTOM " since " TIMEFRAME) |
+												(VAR_I_HAVE  SYMPTOM " since " TIMEFRAME) |
+												
+
+												(VAR_WHEN  SYMPTOM ) |
+												(VAR_WHEN  SYMPTOM " and " SYMPTOM ) |
+												
+												("Since " TIMEFRAME " I've been down with "  SYMPTOM ) |
+												(VAR_I_HAVE  SYMPTOM " for the past few days ") |
+												(VAR_I_HAVE  SYMPTOM " for quite some time now ") |
+												("Is "  SYMPTOM " a symptom of Covid because I think I might be have it ") |
+												(VAR_I_THINK  SYMPTOM ) |
+												(VAR_I_THINK  SYMPTOM " and " SYMPTOM) |
+
+												(EXCLAMATION " Can you recommend me a good doctor, I think I have " SYMPTOM ) |
+												(EXCLAMATION " Can you recommend me a good doctor, I have " SYMPTOM " and think that I might have Covid" ) |
+												("I have "  SYMPTOM " what are the chances that I actually have Covid ") |
+												
+												
+												("Is your "  SYMPTOM " severe " ) |
+												("Is your "  SYMPTOM " really bad " ) |
+												
+												("Yes I think I have severe "  SYMPTOM ) |
+												("Yes I think my "  SYMPTOM " is quite severe " ) |
+												
+												(VAR_WHAT_WHY) |
+
+												("I had gone to meet my " PEOPLE) |
+												("I had gone to meet my friend " FIRST_NAME " " LAST_NAME) |
+												
+												VAR_CHORES;

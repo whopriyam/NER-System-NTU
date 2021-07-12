@@ -1,0 +1,1 @@
+export VAR_WHEN = Optimize[ "Since when do you have ".utf8 | "When did you start having ".utf8 | "When did you develop ".utf8 | "When did you have ".utf8 | "How long have you been suffering from ".utf8 | "Since last night, I've been down with ".utf8];
