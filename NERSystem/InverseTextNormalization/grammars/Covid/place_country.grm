@@ -1,6 +1,10 @@
 import 'example.grm' as tk;
 import 'numbers.grm' as numbers;
 
+import 'new_var_files/place_country_variables/VAR_WHERE_WHICH.grm' as VAR_WHERE_WHICH;
+import 'new_var_files/place_country_variables/VAR_I_WENT.grm' as VAR_I_WENT;
+import 'new_var_files/place_country_variables/VAR_I_CAME.grm' as VAR_I_CAME;
+
 PLACES= StringFile['txt_resource_files/businesses_and_places.txt'];
 PLACE_REWRITTEN = Optimize[PLACES @ tk.TOKENIZER];
 PLACE= PLACE_REWRITTEN;
@@ -17,43 +21,38 @@ COUNTRIES= StringFile['txt_resource_files/countries.txt'];
 COUNTRY_REWRITTEN = Optimize[COUNTRIES @ tk.TOKENIZER];
 COUNTRY= COUNTRY_REWRITTEN;
 
-export PLACE_COUNTRY_SENT = ("Which places did you visit last week ") |
-																	("Which places did you come from last week ") |
-																	("Where did you visit last week ") |
-																	("Where did you come from last week ") |
-																	("Which countries did you visit ") |
-																	("Which country did you come from last week ") |
-																	("Which country did you last visit ") |
-																	("Which place did you visit ") |
+TIMEFRAMES= StringFile['txt_resource_files/timeframe.txt'];
+TIMEFRAME_REWRITTEN = Optimize[TIMEFRAMES @ tk.TOKENIZER];
+TIMEFRAME=  TIMEFRAME_REWRITTEN;
+
+
+VAR_WHERE_WHICH = VAR_WHERE_WHICH.VAR_WHERE_WHICH;
+VAR_I_WENT = VAR_I_WENT.VAR_I_WENT;
+VAR_I_CAME = VAR_I_CAME.VAR_I_CAME;
+
+export PLACE_COUNTRY_SENT = VAR_WHERE_WHICH |
 																	
-																	("I went to "  PLACE ) |
-																	("I went to "  COUNTRY ) |
+																	(VAR_I_WENT PLACE ) |
+																	(VAR_I_WENT  COUNTRY ) |
+
+																	(VAR_I_WENT  PLACE " " TIMEFRAME) |																	
+																	(VAR_I_WENT  COUNTRY " " TIMEFRAME) |
 																	
-																	("I had gone to "  PLACE ) |
-																	("I had gone to "  COUNTRY ) |
+																	(VAR_I_WENT  COUNTRY " on " DATE ) |
+																	(VAR_I_WENT  PLACE " on " DATE ) |
 																	
-																	("I have come from "  PLACE " last week ") |
-																	("I have come from "  COUNTRY " last week ") |
-																	("I have come from "  PLACE " last month ") |
-																	("I have come from "  COUNTRY " last month ") |
-																	("I went to "  PLACE " last week ") |
-																	("I had gone to "  PLACE " yesterday ") |
+																	(VAR_I_WENT  COUNTRY " on " DATE " at " TIME) |
+																	(VAR_I_WENT  PLACE " on " DATE " at " TIME) |
+																	(VAR_I_WENT  COUNTRY " from " DATE " " TIME " to " DATE " " TIME ) |
+																	(VAR_I_WENT  PLACE " from " DATE " " TIME " to " DATE " " TIME) |
+										
+																	(VAR_I_CAME  PLACE " " TIMEFRAME) |
+																	(VAR_I_CAME  COUNTRY " " TIMEFRAME) |
 																	
-																	("I went to "  COUNTRY " last week ") |
-																	("I went to "  PLACE " last month ") |
-																	("I went to "  COUNTRY " last month ") |
+																	(VAR_I_CAME  COUNTRY " on " DATE ) |
+																	(VAR_I_CAME  PLACE " on " DATE ) |
 																	
-																	("I visited "  COUNTRY " on " DATE ) |
-																	("I visited "  PLACE " on " DATE ) |
-																	
-																	("I had visited "  COUNTRY " on " DATE " at " TIME) |
-																	("I had visited "  PLACE " on " DATE " at " TIME) |
-																	("I had visited "  COUNTRY " from " DATE " " TIME " to " DATE " " TIME ) |
-																	("I had visited "  PLACE " from " DATE " " TIME " to " DATE " " TIME) |
-																	
-																	("I was at "  COUNTRY " from " DATE " " TIME " to " DATE " " TIME ) |
+																	("I was in "  COUNTRY " from " DATE " " TIME " to " DATE " " TIME ) |
 																	("I was at "  PLACE  " from " DATE " " TIME " to " DATE " " TIME) |
 																	
-																	("I came back from "  COUNTRY " on " DATE ) |
-																	("I came back from "  PLACE " on " DATE ) |
 																	("I flew back from "  COUNTRY " on " DATE );

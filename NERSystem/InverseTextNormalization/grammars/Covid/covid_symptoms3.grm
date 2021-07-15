@@ -2,12 +2,12 @@ import 'example.grm' as tk;
 import 'exclamation.grm' as exclamation;
 import 'numbers.grm' as numbers;
 
-import 'new_var_files/VAR_DO_HAVE_YOU.grm' as VAR_DO_HAVE_YOU;
-import 'new_var_files/VAR_I_HAVE.grm' as VAR_I_HAVE;
-import 'new_var_files/VAR_WHEN.grm' as VAR_WHEN;
-import 'new_var_files/VAR_WHAT_WHY.grm' as VAR_WHAT_WHY;
-import 'new_var_files/VAR_CHORES.grm' as VAR_CHORES;
-import 'new_var_files/VAR_I_THINK.grm' as VAR_I_THINK;
+import 'new_var_files/covid_symptoms_variables/VAR_DO_HAVE_YOU.grm' as VAR_DO_HAVE_YOU;
+import 'new_var_files/covid_symptoms_variables/VAR_I_HAVE.grm' as VAR_I_HAVE;
+import 'new_var_files/covid_symptoms_variables/VAR_WHEN.grm' as VAR_WHEN;
+import 'new_var_files/covid_symptoms_variables/VAR_WHAT_WHY.grm' as VAR_WHAT_WHY;
+import 'new_var_files/covid_symptoms_variables/VAR_CHORES.grm' as VAR_CHORES;
+import 'new_var_files/covid_symptoms_variables/VAR_I_THINK.grm' as VAR_I_THINK;
 
 FIRST_NAMES = StringFile['txt_resource_files/chinesefirstnames.txt'];
 FIRST_NAMES_REWRITTEN = Optimize[FIRST_NAMES @ tk.TOKENIZER];
@@ -58,7 +58,6 @@ export SYMPTOMSENT =  ("Do you have "  SYMPTOM ) |
 												(VAR_I_HAVE  SYMPTOM " for a few hours  ") |
 												
 
-												("Have you had "  SYMPTOM " since " TIMEFRAME) |
 												(VAR_I_HAVE  SYMPTOM " since " TIMEFRAME) |
 												
 
@@ -88,4 +87,4 @@ export SYMPTOMSENT =  ("Do you have "  SYMPTOM ) |
 												("I had gone to meet my " PEOPLE) |
 												("I had gone to meet my friend " FIRST_NAME " " LAST_NAME) |
 												
-												VAR_CHORES;
+												(VAR_CHORES);
