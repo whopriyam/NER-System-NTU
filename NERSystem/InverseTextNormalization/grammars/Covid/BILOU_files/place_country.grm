@@ -7,28 +7,28 @@ import 'new_var_files/place_country_variables/VAR_I_CAME.grm' as VAR_I_CAME;
 
 PLACES= StringFile['txt_resource_files/businesses_and_places.txt'];
 PLACE_REWRITTEN = Optimize[PLACES @ tk.TOKENIZER];
-PLACE= PLACE_REWRITTEN;
+PLACE= " <place> " PLACE_REWRITTEN " </place> ";
 
 DATES= StringFile['txt_resource_files/dates.txt'];
 DATE_REWRITTEN = Optimize[DATES @ tk.TOKENIZER];
-DATE= DATE_REWRITTEN;
+DATE= " <date> " DATE_REWRITTEN " </date> ";
 
 TIMES= StringFile['txt_resource_files/time.txt'];
 TIME_REWRITTEN = Optimize[TIMES @ tk.TOKENIZER];
-TIME= TIME_REWRITTEN;
+TIME= " <time> " TIME_REWRITTEN " </time> ";
 
 COUNTRIES= StringFile['txt_resource_files/countries.txt'];
 COUNTRY_REWRITTEN = Optimize[COUNTRIES @ tk.TOKENIZER];
-COUNTRY= COUNTRY_REWRITTEN;
+COUNTRY= " <country> " COUNTRY_REWRITTEN " </country> ";
 
 TIMEFRAMES= StringFile['txt_resource_files/timeframe.txt'];
 TIMEFRAME_REWRITTEN = Optimize[TIMEFRAMES @ tk.TOKENIZER];
-TIMEFRAME=  TIMEFRAME_REWRITTEN;
+TIMEFRAME=  " <timeframe> " TIMEFRAME_REWRITTEN " </timeframe> ";
 
 
-VAR_WHERE_WHICH = VAR_WHERE_WHICH.VAR_WHERE_WHICH;
-VAR_I_WENT = VAR_I_WENT.VAR_I_WENT;
-VAR_I_CAME = VAR_I_CAME.VAR_I_CAME;
+VAR_WHERE_WHICH = " <O> " VAR_WHERE_WHICH.VAR_WHERE_WHICH " </O> ";
+VAR_I_WENT = " <O> " VAR_I_WENT.VAR_I_WENT " </O> ";
+VAR_I_CAME = " <O> " VAR_I_CAME.VAR_I_CAME " </O> ";
 
 export PLACE_COUNTRY_SENT = VAR_WHERE_WHICH |
 																	
@@ -38,21 +38,21 @@ export PLACE_COUNTRY_SENT = VAR_WHERE_WHICH |
 																	(VAR_I_WENT  PLACE " " TIMEFRAME) |																	
 																	(VAR_I_WENT  COUNTRY " " TIMEFRAME) |
 																	
-																	(VAR_I_WENT  COUNTRY " on " DATE ) |
-																	(VAR_I_WENT  PLACE " on " DATE ) |
+																	(VAR_I_WENT  COUNTRY " <O> on </O> " DATE ) |
+																	(VAR_I_WENT  PLACE " <O> on </O> " DATE ) |
 																	
-																	(VAR_I_WENT  COUNTRY " on " DATE " at " TIME) |
-																	(VAR_I_WENT  PLACE " on " DATE " at " TIME) |
-																	(VAR_I_WENT  COUNTRY " from " DATE " " TIME " to " DATE " " TIME ) |
-																	(VAR_I_WENT  PLACE " from " DATE " " TIME " to " DATE " " TIME) |
+																	(VAR_I_WENT  COUNTRY " <O> on </O> " DATE " <O> at </O> " TIME) |
+																	(VAR_I_WENT  PLACE " <O> on </O> " DATE " <O> at </O> " TIME) |
+																	(VAR_I_WENT  COUNTRY " <O> from </O> " DATE " " TIME " <O> to </O> " DATE " " TIME ) |
+																	(VAR_I_WENT  PLACE " <O> from </O> " DATE " " TIME " <O> to </O> " DATE " " TIME) |
 										
 																	(VAR_I_CAME  PLACE " " TIMEFRAME) |
 																	(VAR_I_CAME  COUNTRY " " TIMEFRAME) |
 																	
-																	(VAR_I_CAME  COUNTRY " on " DATE ) |
-																	(VAR_I_CAME  PLACE " on " DATE ) |
+																	(VAR_I_CAME  COUNTRY " <O> on </O> " DATE ) |
+																	(VAR_I_CAME  PLACE " <O> on </O> " DATE ) |
 																	
-																	("I was in "  COUNTRY " from " DATE " " TIME " to " DATE " " TIME ) |
-																	("I was at "  PLACE  " from " DATE " " TIME " to " DATE " " TIME) |
+																	(" <O> I was in </O> "  COUNTRY " <O> from </O> " DATE " " TIME " <O> to </O> " DATE " " TIME ) |
+																	(" <O> I was at </O> "  PLACE  " <O> from </O> " DATE " " TIME " <O> to </O> " DATE " " TIME) |
 																	
-																	("I flew back from "  COUNTRY " on " DATE );
+																	("<O> I flew back from </O> "  COUNTRY " <O> on </O> " DATE );
