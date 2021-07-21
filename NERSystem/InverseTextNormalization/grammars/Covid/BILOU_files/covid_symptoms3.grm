@@ -1,0 +1,90 @@
+import 'example.grm' as tk;
+import 'exclamation.grm' as exclamation;
+import 'numbers.grm' as numbers;
+
+import 'new_var_files/covid_symptoms_variables/VAR_DO_HAVE_YOU.grm' as VAR_DO_HAVE_YOU;
+import 'new_var_files/covid_symptoms_variables/VAR_I_HAVE.grm' as VAR_I_HAVE;
+import 'new_var_files/covid_symptoms_variables/VAR_WHEN.grm' as VAR_WHEN;
+import 'new_var_files/covid_symptoms_variables/VAR_WHAT_WHY.grm' as VAR_WHAT_WHY;
+import 'new_var_files/covid_symptoms_variables/VAR_CHORES.grm' as VAR_CHORES;
+import 'new_var_files/covid_symptoms_variables/VAR_I_THINK.grm' as VAR_I_THINK;
+
+FIRST_NAMES = StringFile['txt_resource_files/chinesefirstnames.txt'];
+FIRST_NAMES_REWRITTEN = Optimize[FIRST_NAMES @ tk.TOKENIZER];
+FIRST_NAME = " <first-name> " FIRST_NAMES_REWRITTEN " </first-name> ";
+
+LAST_NAMES = StringFile['txt_resource_files/chineselastnames.txt'];
+LAST_NAMES_REWRITTEN = Optimize[LAST_NAMES @ tk.TOKENIZER];
+LAST_NAME = " <last-name> " LAST_NAMES_REWRITTEN " </last-name> ";
+
+SYMPTOMS= StringFile['txt_resource_files/symptom.txt'];
+SYMPTOM_REWRITTEN = Optimize[SYMPTOMS @ tk.TOKENIZER];
+SYMPTOM=  " <symptom> " SYMPTOM_REWRITTEN " </symptom> ";
+
+PEOPLES= StringFile['txt_resource_files/people.txt'];
+PEOPLE_REWRITTEN = Optimize[PEOPLES @ tk.TOKENIZER];
+PEOPLE=  " <people> " PEOPLE_REWRITTEN " </people> " ;
+
+TIMEFRAMES= StringFile['txt_resource_files/timeframe.txt'];
+TIMEFRAME_REWRITTEN = Optimize[TIMEFRAMES @ tk.TOKENIZER];
+TIMEFRAME=  " <timeframe> " TIMEFRAME_REWRITTEN " </timeframe> ";
+
+
+EXCLAMATION = " <exclamation> " exclamation.EXCLAMATION " </exclamation> ";
+
+VAR_DO_HAVE_YOU = " <O> " VAR_DO_HAVE_YOU.VAR_DO_HAVE_YOU " </O> ";
+VAR_I_HAVE = " <O> " VAR_I_HAVE.VAR_I_HAVE " </O> ";
+VAR_WHEN = " <O> " VAR_WHEN.VAR_WHEN " </O> ";
+VAR_WHAT_WHY = " <O> " VAR_WHAT_WHY.VAR_WHAT_WHY " </O> ";
+VAR_CHORES = " <O> " VAR_CHORES.VAR_CHORES " </O> ";
+VAR_I_THINK = " <O> " VAR_I_THINK.VAR_I_THINK " </O> ";
+
+export SYMPTOMSENT =  ("Do you have "  SYMPTOM ) |
+												(VAR_DO_HAVE_YOU  SYMPTOM ) |
+												(VAR_DO_HAVE_YOU  SYMPTOM " <O> and </O> " SYMPTOM ) |
+												
+												(VAR_I_HAVE  SYMPTOM " <O> and </O> " SYMPTOM) |
+												(VAR_I_HAVE  SYMPTOM ) |
+												(VAR_I_HAVE  SYMPTOM " <O> and I think I might have Covid </O> ") |
+												(" <O> I am not meeting people right now since I got </O> "  SYMPTOM " <O> which might be indicative of Covid </O> ") |
+												(" <O> I did not meet  </O> " FIRST_NAME " " LAST_NAME " <O> yesterday because I have </O> "  SYMPTOM " <O> which might be indicative of Covid </O> ") |
+												(" <O> I think I should contact a doctor because I have been having </O> " SYMPTOM " <O> for quite some time now </O> ") |
+												
+
+												(" <O> Have you had </O> "  SYMPTOM " <O> since </O> " TIMEFRAME) |
+												(" <O> Have you had </O> "  SYMPTOM " <O> or </O> " SYMPTOM " <O> since </O> " TIMEFRAME) |
+												
+												(VAR_I_HAVE  SYMPTOM " <O> since </O> " TIMEFRAME) |
+												(VAR_I_HAVE  SYMPTOM " <O> for a few hours </O> ") |
+												
+
+												(VAR_I_HAVE  SYMPTOM " <O> since </O> " TIMEFRAME) |
+												
+
+												(VAR_WHEN  SYMPTOM ) |
+												(VAR_WHEN  SYMPTOM " <O> and </O> " SYMPTOM ) |
+												
+												(" <O> Since </O> " TIMEFRAME " <O> I've been down with </O> "  SYMPTOM ) |
+												(VAR_I_HAVE  SYMPTOM " <O> for the past few days </O> ") |
+												(VAR_I_HAVE  SYMPTOM " <O> for quite some time now </O> ") |
+												(" <O> Is </O> "  SYMPTOM " <O> a symptom of Covid because I think I might be have it </O> ") |
+												(VAR_I_THINK  SYMPTOM ) |
+												(VAR_I_THINK  SYMPTOM " <O> and </O> " SYMPTOM) |
+
+												(EXCLAMATION " <O> Can you recommend me a good doctor, I think I have </O> " SYMPTOM ) |
+												(EXCLAMATION " <O> Can you recommend me a good doctor, I have </O> " SYMPTOM " <O> and think that I might have Covid </O> " ) |
+												(" <O> I have </O> "  SYMPTOM " <O> what are the chances that I actually have Covid </O> ") |
+												
+												
+												(" <O> Is your </O> "  SYMPTOM " <O> severe </O> " ) |
+												(" <O> Is your </O> "  SYMPTOM " <O> really bad </O> " ) |
+												
+												(" <O> Yes I think I have severe </O> "  SYMPTOM ) |
+												(" <O> Yes I think my </O> "  SYMPTOM " <O> is quite severe </O> " ) |
+												
+												(VAR_WHAT_WHY) |
+
+												(" <O> I had gone to meet my </O> " PEOPLE) |
+												(" <O> I had gone to meet my friend </O> " FIRST_NAME " " LAST_NAME) |
+												
+												(VAR_CHORES);

@@ -1,0 +1,94 @@
+import 'example.grm' as tk;
+import 'numbers.grm' as numbers;
+
+import 'new_var_files/local_addresses_variables/VAR_WHERE_WHICH.grm' as VAR_WHERE_WHICH;
+import 'new_var_files/local_addresses_variables/VAR_I_WENT.grm' as VAR_I_WENT;
+
+DATES= StringFile['txt_resource_files/dates.txt'];
+DATE_REWRITTEN = Optimize[DATES @ tk.TOKENIZER];
+DATE= DATE_REWRITTEN;
+
+TIMES= StringFile['txt_resource_files/time.txt'];
+TIME_REWRITTEN = Optimize[TIMES @ tk.TOKENIZER];
+TIME= TIME_REWRITTEN;
+
+TIMEFRAMES= StringFile['txt_resource_files/timeframe.txt'];
+TIMEFRAME_REWRITTEN = Optimize[TIMEFRAMES @ tk.TOKENIZER];
+TIMEFRAME=  TIMEFRAME_REWRITTEN;
+
+VAR_WHERE_WHICH = VAR_WHERE_WHICH.VAR_WHERE_WHICH;
+VAR_I_WENT = VAR_I_WENT.VAR_I_WENT;
+
+export numbers_to_999 = Optimize[numbers.numbers_to_100 | numbers.numbers_101_to_999_dig_by_dig];
+
+
+export BLOCK = ("Blk ": "block ") numbers_to_999;
+export BUILDING_NO = numbers_to_999;
+
+
+STREETS = StringFile['txt_resource_files/roads_and_streets.txt'];
+STREET_REWRITTEN = Optimize[STREETS @ tk.TOKENIZER];
+STREET_NAME = STREET_REWRITTEN;
+
+
+BUSINESS_NAME = StringFile['txt_resource_files/venues-filtered.txt'] ;
+BUSINESS_REWRITTEN = Optimize[BUSINESS_NAME @ tk.TOKENIZER];
+
+
+
+BUILDING_NAME = BUSINESS_REWRITTEN;
+UNIT_NO =("#" : "hash ") (("B" : "b ") | "") (numbers.units_with_zero | numbers.teens | ("20": "twenty")) (("-" : " " ) | ("-" : " dash " )) numbers.numbers_to_999;
+
+
+REGION = StringFile['txt_resource_files/regions.txt'] ;
+REGION_REWRITTEN = Optimize[REGION @ tk.TOKENIZER];
+
+
+POSTALCODE = (("S" : "s ") | ("S" : "singapore post code ") | ("" : ""))  (numbers.units_with_zero_trailing_spaces numbers.units_with_zero_trailing_spaces numbers.units_with_zero_trailing_spaces numbers.units_with_zero_trailing_spaces numbers.units_with_zero_trailing_spaces numbers.units_with_zero_trailing_spaces);
+
+
+export LOCAL_ADDRESS_SENT = VAR_WHERE_WHICH |
+																	
+																	(VAR_I_WENT  STREET_NAME ) |
+																	(VAR_I_WENT  REGION_REWRITTEN ) |
+																	(VAR_I_WENT  BUILDING_NAME ) |
+																	(VAR_I_WENT  BUSINESS_REWRITTEN ) |
+																	
+																	(VAR_I_WENT  STREET_NAME " " TIMEFRAME) |
+																	(VAR_I_WENT  REGION_REWRITTEN " " TIMEFRAME) |
+																	(VAR_I_WENT  BUILDING_NAME " " TIMEFRAME) |
+																	(VAR_I_WENT  BUSINESS_REWRITTEN " " TIMEFRAME) |
+																	
+																	(VAR_I_WENT  STREET_NAME " on " DATE ) |
+																	(VAR_I_WENT  REGION_REWRITTEN " on " DATE ) |
+																	(VAR_I_WENT  BUILDING_NAME " on " DATE ) |
+																	(VAR_I_WENT  BUSINESS_REWRITTEN " on " DATE ) |
+																	
+																	(VAR_I_WENT  STREET_NAME " on " DATE " at " TIME) |
+																	(VAR_I_WENT  REGION_REWRITTEN " on " DATE " at " TIME) |
+																	(VAR_I_WENT  BUILDING_NAME " on " DATE " at " TIME) |
+																	(VAR_I_WENT  BUSINESS_REWRITTEN " on " DATE " at " TIME) |
+																	
+																	(VAR_I_WENT  STREET_NAME " on " DATE " " TIME " and " DATE " " TIME ) |
+																	(VAR_I_WENT  REGION_REWRITTEN " on " DATE " " TIME " and " DATE " " TIME) |
+																	(VAR_I_WENT  BUILDING_NAME " on " DATE " " TIME " and " DATE " " TIME) |
+																	(VAR_I_WENT  BUSINESS_REWRITTEN " on " DATE " " TIME " and " DATE " " TIME) |
+																							
+																	("I live at " STREET_NAME " and my building number is " BUILDING_NO) |
+																	("My building number is " BUILDING_NO " and my block is " BLOCK) |
+																	("I live at " BUILDING_NAME) |
+																	("I live in " REGION_REWRITTEN) |
+																	
+																	("I stay at " STREET_NAME) |
+																	("I stay at " BUILDING_NAME) |
+																	("I stay in " REGION_REWRITTEN) |
+																	
+																	("My area of residence is " STREET_NAME) |
+																	("My area of residence is " BUILDING_NAME) |
+																	("My area of residence is " REGION_REWRITTEN) |
+																	
+																	
+																	("My area of work is " BUSINESS_REWRITTEN) |
+																	("My place of work is " BUSINESS_REWRITTEN) |
+																	("I work at " BUSINESS_REWRITTEN) |
+																	("My office is at " BUSINESS_REWRITTEN);

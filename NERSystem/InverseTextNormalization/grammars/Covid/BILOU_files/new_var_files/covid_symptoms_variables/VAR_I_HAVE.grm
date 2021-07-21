@@ -1,0 +1,1 @@
+export VAR_I_HAVE = Optimize[ "I have ".utf8 | "I have recently developed ".utf8 | "I have developed ".utf8 | "I developed ".utf8 | "I have come down with the symptom of ".utf8 | "I am feeling sick because of ".utf8 | "I am worried because I recently developed ".utf8 | "I have been having ".utf8 | "I have had ".utf8];

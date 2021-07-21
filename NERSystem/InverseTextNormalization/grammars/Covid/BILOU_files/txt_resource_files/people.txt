@@ -1,0 +1,11 @@
+parents
+cousins
+brother
+sister
+uncle
+aunt
+grandmother
+grandfather
+relatives
+friends
+doctor
