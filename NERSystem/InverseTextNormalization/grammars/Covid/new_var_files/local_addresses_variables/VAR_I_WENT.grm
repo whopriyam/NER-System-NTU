@@ -1,0 +1,1 @@
+export VAR_I_WENT = Optimize[ "I went to ".utf8 | "I had gone to ".utf8 | "I have come from ".utf8 | "I visited ".utf8 | "I had visited ".utf8 | "I was at ".utf8];

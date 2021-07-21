@@ -1,6 +1,9 @@
 import 'example.grm' as tk;
 import 'numbers.grm' as numbers;
 
+import 'new_var_files/local_addresses_variables/VAR_WHERE_WHICH.grm' as VAR_WHERE_WHICH;
+import 'new_var_files/local_addresses_variables/VAR_I_WENT.grm' as VAR_I_WENT;
+
 DATES= StringFile['txt_resource_files/dates.txt'];
 DATE_REWRITTEN = Optimize[DATES @ tk.TOKENIZER];
 DATE= DATE_REWRITTEN;
@@ -8,6 +11,13 @@ DATE= DATE_REWRITTEN;
 TIMES= StringFile['txt_resource_files/time.txt'];
 TIME_REWRITTEN = Optimize[TIMES @ tk.TOKENIZER];
 TIME= TIME_REWRITTEN;
+
+TIMEFRAMES= StringFile['txt_resource_files/timeframe.txt'];
+TIMEFRAME_REWRITTEN = Optimize[TIMEFRAMES @ tk.TOKENIZER];
+TIMEFRAME=  TIMEFRAME_REWRITTEN;
+
+VAR_WHERE_WHICH = VAR_WHERE_WHICH.VAR_WHERE_WHICH;
+VAR_I_WENT = VAR_I_WENT.VAR_I_WENT;
 
 export numbers_to_999 = Optimize[numbers.numbers_to_100 | numbers.numbers_101_to_999_dig_by_dig];
 
@@ -37,72 +47,33 @@ REGION_REWRITTEN = Optimize[REGION @ tk.TOKENIZER];
 POSTALCODE = (("S" : "s ") | ("S" : "singapore post code ") | ("" : ""))  (numbers.units_with_zero_trailing_spaces numbers.units_with_zero_trailing_spaces numbers.units_with_zero_trailing_spaces numbers.units_with_zero_trailing_spaces numbers.units_with_zero_trailing_spaces numbers.units_with_zero_trailing_spaces);
 
 
-export LOCAL_ADDRESS_SENT = ("Which place did you visit last week ") |
-																	("Which building did you visit last week ") |
-																	("Where did you visit last week ") |
-																	("Where did you come from last week ") |
-																	("Which address did you visit ") |
-																	("Which address did you come from ") |
-																	("Which building did you visit ") |
-																	("Which street did you visit ") |
-																	("Which street did you come from ") |
-																	("Which place did you visit ") |
+export LOCAL_ADDRESS_SENT = VAR_WHERE_WHICH |
 																	
-																	("I went to "  STREET_NAME ) |
-																	("I went to "  REGION_REWRITTEN ) |
-																	("I went to "  BUILDING_NAME ) |
-																	("I went to "  BUSINESS_REWRITTEN ) |
+																	(VAR_I_WENT  STREET_NAME ) |
+																	(VAR_I_WENT  REGION_REWRITTEN ) |
+																	(VAR_I_WENT  BUILDING_NAME ) |
+																	(VAR_I_WENT  BUSINESS_REWRITTEN ) |
 																	
-																	("I had gone to "  STREET_NAME ) |
-																	("I had gone to "  REGION_REWRITTEN ) |
-																	("I had gone to "  BUILDING_NAME ) |
-																	("I had gone to "  BUSINESS_REWRITTEN ) |
+																	(VAR_I_WENT  STREET_NAME " " TIMEFRAME) |
+																	(VAR_I_WENT  REGION_REWRITTEN " " TIMEFRAME) |
+																	(VAR_I_WENT  BUILDING_NAME " " TIMEFRAME) |
+																	(VAR_I_WENT  BUSINESS_REWRITTEN " " TIMEFRAME) |
 																	
-																	("I have come from "  STREET_NAME ) |
-																	("I have come from "  REGION_REWRITTEN ) |
-																	("I have come from "  BUILDING_NAME ) |
-																	("I have come from "  BUSINESS_REWRITTEN ) |
+																	(VAR_I_WENT  STREET_NAME " on " DATE ) |
+																	(VAR_I_WENT  REGION_REWRITTEN " on " DATE ) |
+																	(VAR_I_WENT  BUILDING_NAME " on " DATE ) |
+																	(VAR_I_WENT  BUSINESS_REWRITTEN " on " DATE ) |
 																	
-																	("I went to "  STREET_NAME " last week ") |
-																	("I went to "  REGION_REWRITTEN " last week ") |
-																	("I went to "  BUILDING_NAME " last week ") |
-																	("I went to "  BUSINESS_REWRITTEN " last week ") |
+																	(VAR_I_WENT  STREET_NAME " on " DATE " at " TIME) |
+																	(VAR_I_WENT  REGION_REWRITTEN " on " DATE " at " TIME) |
+																	(VAR_I_WENT  BUILDING_NAME " on " DATE " at " TIME) |
+																	(VAR_I_WENT  BUSINESS_REWRITTEN " on " DATE " at " TIME) |
 																	
-																	("I had gone to "  STREET_NAME " yesterday ") |
-																	("I had gone to "  REGION_REWRITTEN " yesterday ") |
-																	("I had gone to "  BUILDING_NAME " yesterday ") |
-																	("I had gone to "  BUILDING_NAME " yesterday ") |
-																	
-																	("I went to "  STREET_NAME " last month ") |
-																	("I went to "  REGION_REWRITTEN " last month ") |
-																	("I went to "  BUILDING_NAME " last month ") |
-																	("I went to "  BUSINESS_REWRITTEN " last month ") |
-																	
-																	("I visited "  STREET_NAME " on " DATE ) |
-																	("I visited "  REGION_REWRITTEN " on " DATE ) |
-																	("I visited "  BUILDING_NAME " on " DATE ) |
-																	("I visited "  BUSINESS_REWRITTEN " on " DATE ) |
-																	
-																	("I had visited "  STREET_NAME " on " DATE " at " TIME) |
-																	("I had visited "  REGION_REWRITTEN " on " DATE " at " TIME) |
-																	("I had visited "  BUILDING_NAME " on " DATE " at " TIME) |
-																	("I had visited "  BUSINESS_REWRITTEN " on " DATE " at " TIME) |
-																	
-																	("I had visited "  STREET_NAME " on " DATE " " TIME " and " DATE " " TIME ) |
-																	("I had visited "  REGION_REWRITTEN " on " DATE " " TIME " and " DATE " " TIME) |
-																	("I had visited "  BUILDING_NAME " on " DATE " " TIME " and " DATE " " TIME) |
-																	("I had visited "  BUSINESS_REWRITTEN " on " DATE " " TIME " and " DATE " " TIME) |
-																	
-																	("I was at "  STREET_NAME " on " DATE " " TIME " and " DATE " " TIME ) |
-																	("I was at "  REGION_REWRITTEN  " on " DATE " " TIME " and " DATE " " TIME) |
-																	("I was at "  BUILDING_NAME  " on " DATE " " TIME " and " DATE " " TIME) |
-																	("I was at "  BUSINESS_REWRITTEN  " on " DATE " " TIME " and " DATE " " TIME) |
-																	
-																	("What is your area of residence ") |
-																	("Where do you stay ") |
-																	("Where do you live ") |
-																	("Where do you reside ") |
-																	
+																	(VAR_I_WENT  STREET_NAME " on " DATE " " TIME " and " DATE " " TIME ) |
+																	(VAR_I_WENT  REGION_REWRITTEN " on " DATE " " TIME " and " DATE " " TIME) |
+																	(VAR_I_WENT  BUILDING_NAME " on " DATE " " TIME " and " DATE " " TIME) |
+																	(VAR_I_WENT  BUSINESS_REWRITTEN " on " DATE " " TIME " and " DATE " " TIME) |
+																							
 																	("I live at " STREET_NAME " and my building number is " BUILDING_NO) |
 																	("My building number is " BUILDING_NO " and my block is " BLOCK) |
 																	("I live at " BUILDING_NAME) |
@@ -116,10 +87,6 @@ export LOCAL_ADDRESS_SENT = ("Which place did you visit last week ") |
 																	("My area of residence is " BUILDING_NAME) |
 																	("My area of residence is " REGION_REWRITTEN) |
 																	
-																	("Where is your area of work ") |
-																	("Where do you work ") |
-																	("Where is your office ") |
-																	("Where is your place of work ") |
 																	
 																	("My area of work is " BUSINESS_REWRITTEN) |
 																	("My place of work is " BUSINESS_REWRITTEN) |

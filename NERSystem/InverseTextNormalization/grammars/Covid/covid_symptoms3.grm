@@ -46,7 +46,7 @@ export SYMPTOMSENT =  ("Do you have "  SYMPTOM ) |
 												(VAR_I_HAVE  SYMPTOM "and " SYMPTOM) |
 												(VAR_I_HAVE  SYMPTOM ) |
 												(VAR_I_HAVE  SYMPTOM " and I think I might have Covid ") |
-												("I am not meeting people right now ever since I got "  SYMPTOM " which might be indicative of Covid ") |
+												("I am not meeting people right now since I got "  SYMPTOM " which might be indicative of Covid ") |
 												("I did not meet " FIRST_NAME " " LAST_NAME " yesterday because I have "  SYMPTOM " which might be indicative of Covid ") |
 												("I think I should contact a doctor because I have been having " SYMPTOM " for quite some time now ") |
 												
