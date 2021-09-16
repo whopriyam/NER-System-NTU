@@ -1,0 +1,4 @@
+import 'Navy_commands.grm' as navy;
+
+export random_sentence = navy.NAVYSENT;
+

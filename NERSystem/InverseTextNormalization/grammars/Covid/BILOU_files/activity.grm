@@ -17,7 +17,7 @@ PEOPLE=  " <people> " PEOPLE_REWRITTEN " </people> ";
 
 VAR_CHORES = " <O> " VAR_CHORES.VAR_CHORES " </O> ";
 
-export ACTIVITYSENT = ("What were you doing") |
+export ACTIVITYSENT = (" <O> What were you doing </O>") |
 												(" <O> What were you doing there </O> ") |
 												(" <O> What were you travelling for </O> ") |
 												(" <O> Why were you roaming outside your house </O> ")

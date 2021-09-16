@@ -1,0 +1,56 @@
+import 'example.grm' as tk;
+import 'exclamation.grm' as exclamation;
+import 'numbers.grm' as numbers;
+
+
+TRIPLES= StringFile['txt_files/triple_num.txt'];
+TRIPLE = Optimize[TRIPLES @ tk.TOKENIZER];
+
+THIRTYS= StringFile['txt_files/thirty_num.txt'];
+THIRTY = Optimize[THIRTYS @ tk.TOKENIZER];
+
+THRUSTERS= StringFile['txt_files/thruster_num.txt'];
+THRUSTER = Optimize[THRUSTERS @ tk.TOKENIZER];
+
+SINGS= StringFile['txt_files/sing_num.txt'];
+SING = Optimize[SINGS @ tk.TOKENIZER];
+
+PSS= StringFile['txt_files/ps.txt'];
+PS = Optimize[PSS @ tk.TOKENIZER];
+
+AAS= StringFile['txt_files/aa.txt'];
+AA = Optimize[AAS @ tk.TOKENIZER];
+
+POSITIONS= StringFile['txt_files/position.txt'];
+POSITION = Optimize[POSITIONS @ tk.TOKENIZER];
+
+OMS= StringFile['txt_files/om.txt'];
+OM = Optimize[OMS @ tk.TOKENIZER];
+
+ELS= StringFile['txt_files/el.txt'];
+EL = Optimize[ELS @ tk.TOKENIZER];
+
+NUM_ALPHAS= StringFile['txt_files/num_alpha.txt'];
+NUM_ALPHA = Optimize[NUM_ALPHAS @ tk.TOKENIZER];
+
+EXCLAMATION = exclamation.EXCLAMATION;
+
+export NAVYSENT =  ("Alter course "  TRIPLE ) |
+												("Set Heading "  TRIPLE ) |
+												("Set Speed "  THIRTY ) |
+												( PS " " AA " " SING ) |
+												("Stop both " ) |
+												("Bow Thrusters plus "  THRUSTER ) |
+												("Bow Thrusters minus "  THRUSTER ) |
+												("Position Verified By "  POSITION " Fix" ) |
+												("Select " OM " Mode") |
+												(PS " Watch to Defence Stations") |
+												(PS " Watch Fall out from Action Stations") |
+												(PS " Watch " EL " close up. " NUM_ALPHA " " NUM_ALPHA ".") |
+												(PS " Watch " EL " Fall out " NUM_ALPHA " " NUM_ALPHA ".") |
+												(PS " Watch Prep For Flying Station") |
+												("Hands Watch Prep For Flying Station") |
+												(PS " to Emergency Flying Stations. " NUM_ALPHA " " NUM_ALPHA ".") |
+												("Hands to Emergency Flying Stations. " NUM_ALPHA " " NUM_ALPHA ".") |
+												("SSD & Berthing Party Close Up") |
+												("SSS & MFT team close up. " NUM_ALPHA " " NUM_ALPHA ".");

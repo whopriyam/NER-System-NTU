@@ -15,8 +15,8 @@ DEPARTMENT_REWRITTEN = Optimize[DEPARTMENTS @ tk.TOKENIZER];
 DEPARTMENT= " <department> "  DEPARTMENT_REWRITTEN  " </department>  ";
 
 
-EXCLAMATION = " <exclamation>" exclamation.EXCLAMATION "</exclamation> ";
-DESIGNATION = " <designation>"  designation.DESIGNATION  "</designation> ";
+EXCLAMATION = " <exclamation> " exclamation.EXCLAMATION " </exclamation> ";
+DESIGNATION = " <designation> "  designation.DESIGNATION  " </designation> ";
 
 
 export DEPARTMENTSENT =    ("<O> You just put me to </O>"  DEPARTMENT "<O> other day reservation </O>") |
