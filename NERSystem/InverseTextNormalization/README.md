@@ -21,27 +21,25 @@ python -m spacy download en_core_web_sm
 
 ## Grammar generation(Generation of sentence at CombineTextHighlighter\NERSystem\InverseTextNormalization\grammars )
 
-## Run these commands to generate the sentences
-1)thraxmakedep covid.grm
+## Run these commands to generate the sentences and perform NER
+1) Navigate to /grammars/covid.
 
-2)make
+2)thraxmakedep covid.grm
 
-3)thraxrandom-generator --far=covid.far --rule=random_sentence --noutput=10000 > covid.txt
+3)make
 
-4) Run fix_txt.py to generate covid_cleaned.txt (make sure before running this covid.txt should be the only txt file in the currect directory).
+4)thraxrandom-generator --far=covid.far --rule=random_sentence --noutput=10000 > covid.txt
 
-5) Run parser.ipynb to generate symptoms_ner.csv.
+5) Run covid/fix_txt.py to generate covid_cleaned.txt (make sure before running this covid.txt should be the only txt file in the currect directory).
 
-6) Go to /Transformer_NER and uncomment the corresponding model you want to use for NER.
+6) Run scripts/parser.ipynb to generate symptoms_ner.csv.
 
-##Parser
-Parser is to convert the sentences into a BILOU format and to clean up the file 
+7) Go to /Transformer_NER and uncomment the corresponding model you want to use for NER.
 
-##training
-To train with the BILOU file
-1) copy the BILOU file to CombineTextHighlighter\NERSystem\InverseTextNormalization\scripts
-2) put the BILOU file into the "police"Train\Train or corrosponding folder
-3) run the "build_dataset.py"(this will split the ration into 8(train):1(test):1(dev)
+## Run these commands to perform text augmentation
+1) Once you generate the covid_cleaned.txt file, run the /Pegasus_Augmentation/Pegasus_covid.ipynb file on it and get the augmented csv file.
+
+2) Run the remove_duplicates.ipynb file to remove duplicate augmentations and get the final output.
 
 
 
