@@ -27,7 +27,7 @@ pip3 install simpletransformers
 ## Grammar generation(Generation of sentence at CombineTextHighlighter\NERSystem\InverseTextNormalization\grammars )
 
 ## Run these commands to generate the sentences and perform NER
-1) Navigate to /grammars/covid.
+1) Navigate to /grammars/BILOU_files/covid.
 
 2)thraxmakedep covid.grm
 
