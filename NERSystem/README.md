@@ -1,1 +1,1 @@
-GO to InverseTextNormalisation for Text generation and NER
+GO to InverseTextNormalization for Text generation and NER
