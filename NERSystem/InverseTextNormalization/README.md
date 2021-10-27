@@ -16,6 +16,11 @@ conda install -c conda-forge pyyaml
 pip install allennlp==1.1.0
 pip install allennlp-models==1.1.0
 python -m spacy download en_core_web_sm
+pip install sentence-splitter
+pip install transformers
+pip install SentencePiece
+pip3 install num2words
+pip3 install simpletransformers
 ```
 ### Just to run the file files individually, run the command `conda install -c conda-forge thrax` to install thrax compiler.
 
