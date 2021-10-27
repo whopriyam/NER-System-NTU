@@ -26,11 +26,13 @@ python -m spacy download en_core_web_sm
 
 2)make
 
-3)thraxrandom-generator --far=covid.far --rule=random_sentence --noutput=10000 > emergencysen.txt
+3)thraxrandom-generator --far=covid.far --rule=random_sentence --noutput=10000 > covid.txt
 
-##Web socket ENDPOINTS
-CombineTextHighligher\NERSystem\realtime_ner\frountend\data.json
-This file contains the list of examples and the NER websocket end points new end points can be simply add here.
+4) Run fix_txt.py to generate covid_cleaned.txt (make sure before running this covid.txt should be the only txt file in the currect directory).
+
+5) Run parser.ipynb to generate symptoms_ner.csv.
+
+6) Go to /Transformer_NER and uncomment the corresponding model you want to use for NER.
 
 ##Parser
 Parser is to convert the sentences into a BILOU format and to clean up the file 
