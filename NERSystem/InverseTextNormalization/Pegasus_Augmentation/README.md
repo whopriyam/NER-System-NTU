@@ -1,4 +1,4 @@
-#Installing dependencies
+# Installing dependencies
 
 `pip install sentence-splitter`
 
