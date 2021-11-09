@@ -1,10 +1,11 @@
-#! /usr/bin/python3
-
 import re
 from sys import argv, exit
 
+file = "../grammars/Covid/BILOU_files/symptoms_bilou_cleaned.txt"
+outfile = "../grammars/Covid/BILOU_files/symptoms_train.bilou"
 
 def get_tagpairs(sentence):
+    sentence = sentence.strip()
     wordlist = re.split(r'(?<=>)(.+?)(?=<)', sentence)
     raw_taglist = wordlist[::4]
 
@@ -26,7 +27,10 @@ def tag_items(tag, phrase):
 
     if tag == 'O':
         return [[x, 'O'] for x in words]
-
+    
+    if len(words) == 0:
+        return [[x, 'O'] for x in words]
+    
     if len(words) == 1:
         return [[words[0], SINGLE], ]
 
@@ -42,26 +46,32 @@ def tag_items(tag, phrase):
 
     return result
 
-
-try:
-    with open(argv[1]) as f:
+with open(file) as f:
         data = f.read()
-except IndexError:
-    print('Usage: {} <input file>'.format(argv[0]))
-    exit(-1)
 
 ldata = [x for x in data.split('\n') if x]
 
 final = []
 for x in ldata:
+    if x[0] != "<":
+        continue
     raw_processed = sum(get_tagpairs(x), [])
     processed = [' '.join(x) for x in raw_processed]
     final.append(processed)
 
-DELIMITER = '\n\n-DOCSTART- O\n\n'
-final = ['\n'.join(x) for x in final]
 
-final_output = DELIMITER[2:] + DELIMITER.join(final) + '\n'
+import pandas as pd
 
-with open(argv[1].split('.')[0] + '.bilou', 'w') as f:
-    f.write(final_output)
+df = pd.DataFrame(columns = ["Sentence_Num","Word","Tag"])
+c = 0
+for i in range(0,len(final)):
+    for item in (final[i]):
+        df.at[c,"Sentence_Num"] = "Sentence: " + str(i)
+        #print (item)
+        temp_list = item.split(" ")
+        df.at[c,"Word"] = temp_list[0]
+        df.at[c,"Tag"] = temp_list[1]
+        c = c+1
+    #print (i)
+
+df.to_csv("../grammars/Covid/BILOU_files/symptoms_ner.csv")
